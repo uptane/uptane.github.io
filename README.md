@@ -1,4 +1,4 @@
 theupdateframework.github.io
 ============================
 
-GitHub Pages for theupdateframework organization
+GitHub Pages for TUF

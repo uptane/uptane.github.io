@@ -1,0 +1,131 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>The Update Framework (TUF) by theupdateframework</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/respond.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/theupdateframework">View On GitHub</a></li>
+        </nav>
+      </div><!-- end header -->
+
+    <div class="wrapper">
+
+      <section>
+        <div id="title">
+          <h1>The Update Framework (TUF)</h1>
+          <p>Like the S in HTTPS, a plug-and-play secure updater for your software</p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/theupdateframework">theupdateframework</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+        </div>
+
+        <h1>
+<a name="a-framework-for-securing-software-update-systems" class="anchor" href="#a-framework-for-securing-software-update-systems"><span class="octicon octicon-link"></span></a>A Framework for Securing Software Update Systems</h1>
+
+<p>The Update Framework (TUF) helps developers secure their new or existing software update systems. Software update systems are vulnerable to many known attacks, including those that can result in clients being compromised or crashed. TUF helps solve this problem by providing a flexible security framework that can be added to software updaters.</p>
+
+<h2>
+<a name="what-is-a-software-update-system" class="anchor" href="#what-is-a-software-update-system"><span class="octicon octicon-link"></span></a>What Is a software update system?</h2>
+
+<p>Generally, a software update system is an application (or part of an application) running on a client system that obtains and installs software. This can include updates to software that is already installed or even completely new software.</p>
+
+<p>Three major classes of software update systems are:</p>
+
+<ul>
+<li>
+<strong>Application updaters</strong> which are used by applications use to update themselves. For example, Firefox updates itself through its own application updater.</li>
+<li>
+<strong>Library package managers</strong> such as those offered by many programming languages for installing additional libraries. These are systems such as Python's pip/easy_install + PyPI, Perl's CPAN, Ruby's Gems, and PHP's PEAR.</li>
+<li>
+<strong>System package managers</strong> used by operating systems to update and install all of the software on a client system. Debian's APT, Red Hat's YUM, and openSUSE's YaST are examples of these.</li>
+</ul><h2>
+<a name="our-approach" class="anchor" href="#our-approach"><span class="octicon octicon-link"></span></a>Our approach</h2>
+
+<p>There are literally thousands of different software update systems in common use today. (In fact the average Windows user has about two dozen different software updaters on their machine!)</p>
+
+<p>We are building a library that can be universally (and in most cases transparently) used to secure software update systems. </p>
+
+<h2>
+<a name="where-to-start" class="anchor" href="#where-to-start"><span class="octicon octicon-link"></span></a>Where to start</h2>
+
+<p>Want to know more? Try the following:</p>
+
+<ul>
+<li>Papers
+
+<ul>
+<li><a href="https://isis.poly.edu/%7Ejcappos/papers/cappos_mirror_ccs_08.pdf">​A Look in the Mirror: Attacks on Package Managers</a></li>
+<li><a href="https://isis.poly.edu/%7Ejcappos/papers/cappos_pmsec_tr08-02.pdf">Package Management Security</a></li>
+<li><a href="https://isis.poly.edu/%7Ejcappos/papers/samuel_tuf_ccs_2010.pdf">Survivable Key Compromise in Software Update Systems</a></li>
+</ul>
+</li>
+<li>Documentation
+
+<ul>
+<li><a href="https://github.com/theupdateframework/tuf/blob/develop/docs/tuf-spec.txt">General specification</a></li>
+<li><a href="https://github.com/theupdateframework/tuf/blob/develop/docs/tuf-server-spec.pdf?raw=true">Server specification</a></li>
+<li><a href="https://github.com/theupdateframework/tuf/blob/develop/docs/tuf-client-spec.pdf?raw=true">Client specification</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/theupdateframework/tuf">Source code</a></li>
+<li><a href="https://groups.google.com/forum/?fromgroups#%21forum/theupdateframework">Mailing list</a></li>
+</ul><h3>
+<a name="securing-python-package-management" class="anchor" href="#securing-python-package-management"><span class="octicon octicon-link"></span></a>Securing Python package management</h3>
+
+<ul>
+<li>
+<a href="https://www.youtube.com/watch?v=2sx1lS6cT3g">PyCon 2013 lightning talk</a>
+
+<ul>
+<li><a href="https://docs.google.com/presentation/d/1FMptD5sMH41BTgS3-PN0-7j5Zqvs_zZZ3ntsD_4u-7w/edit?usp=sharing">​Slides</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/theupdateframework/pep-on-pypi-with-tuf">PEP 458: Surviving a Compromise of PyPI</a></li>
+<li><a href="https://github.com/theupdateframework/pip/wiki/pip-over-TUF">Test pip with TUF</a></li>
+<li><a href="https://github.com/theupdateframework/pypi.updateframework.com">​Automation for creating, updating and destroying a TUF-secured PyPI mirror</a></li>
+<li>
+<a href="https://github.com/theupdateframework/pip/tree/tuf-master">​Source code of pip with TUF</a>
+
+<ul>
+<li><a href="https://github.com/theupdateframework/pip/compare/pypa:master...tuf-master">Little is required to integrate pip with TUF</a></li>
+</ul>
+</li>
+</ul><h3>
+<a name="securing-ruby-package-management" class="anchor" href="#securing-ruby-package-management"><span class="octicon octicon-link"></span></a>Securing Ruby package management</h3>
+
+<ul>
+<li><a href="https://groups.google.com/forum/#%21topic/rubygems-tuf/vCxUSX51bbo">Developers from Square have demonstrated an initial implementation of TUF for RubyGems</a></li>
+</ul>
+      </section>
+
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-47156304-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+  </body>
+</html>

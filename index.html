@@ -2,9 +2,9 @@
 <html>
 
   <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="The Update Framework (TUF) : Like the S in HTTPS, a plug-and-play secure updater for your software" />
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="The Update Framework (TUF) : Like the S in HTTPS, a plug-and-play library for securing a software updater">
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
@@ -28,12 +28,12 @@
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
         <h1>
-<a name="a-framework-for-securing-software-update-systems" class="anchor" href="#a-framework-for-securing-software-update-systems"><span class="octicon octicon-link"></span></a>A Framework for Securing Software Update Systems</h1>
+<a id="a-framework-for-securing-software-update-systems" class="anchor" href="#a-framework-for-securing-software-update-systems" aria-hidden="true"><span class="octicon octicon-link"></span></a>A Framework for Securing Software Update Systems</h1>
 
 <p>The Update Framework (TUF) helps developers secure their new or existing software update systems. Software update systems are vulnerable to many known attacks, including those that can result in clients being compromised or crashed. TUF helps solve this problem by providing a flexible security framework that can be added to software updaters.</p>
 
 <h2>
-<a name="what-is-a-software-update-system" class="anchor" href="#what-is-a-software-update-system"><span class="octicon octicon-link"></span></a>What is a software update system?</h2>
+<a id="what-is-a-software-update-system" class="anchor" href="#what-is-a-software-update-system" aria-hidden="true"><span class="octicon octicon-link"></span></a>What is a software update system?</h2>
 
 <p>Generally, a software update system is an application (or part of an application) running on a client system that obtains and installs software. This can include updates to software that is already installed or even completely new software.</p>
 
@@ -46,17 +46,19 @@
 <strong>Library package managers</strong> such as those offered by many programming languages for installing additional libraries. These are systems such as Python's pip/easy_install + PyPI, Perl's CPAN, Ruby's Gems, and PHP's PEAR.</li>
 <li>
 <strong>System package managers</strong> used by operating systems to update and install all of the software on a client system. Debian's APT, Red Hat's YUM, and openSUSE's YaST are examples of these.</li>
-</ul><h2>
-<a name="our-approach" class="anchor" href="#our-approach"><span class="octicon octicon-link"></span></a>Our approach</h2>
+</ul>
+
+<h2>
+<a id="our-approach" class="anchor" href="#our-approach" aria-hidden="true"><span class="octicon octicon-link"></span></a>Our approach</h2>
 
 <p>There are literally thousands of different software update systems in common use today. (In fact the average Windows user has about two dozen different software updaters on their machine!)</p>
 
 <p>We are building a library that can be universally (and in most cases transparently) used to secure software update systems. </p>
 
 <h2>
-<a name="where-to-start" class="anchor" href="#where-to-start"><span class="octicon octicon-link"></span></a>How do I learn more?</h2>
+<a id="how-do-i-learn-more" class="anchor" href="#how-do-i-learn-more" aria-hidden="true"><span class="octicon octicon-link"></span></a>How do I learn more?</h2>
 
-<p>For more information look at the following:</p>
+<p>For more information, look at the following:</p>
 
 <ul>
 <li>Papers
@@ -70,8 +72,10 @@
 <li><a href="https://github.com/theupdateframework/tuf/blob/develop/docs/tuf-spec.txt">General specification</a></li>
 <li><a href="https://github.com/theupdateframework/tuf">Source code</a></li>
 <li><a href="https://groups.google.com/forum/?fromgroups#%21forum/theupdateframework">Mailing list</a></li>
-</ul><h3>
-<a name="securing-python-package-management" class="anchor" href="#securing-python-package-management"><span class="octicon octicon-link"></span></a>Securing Python package management</h3>
+</ul>
+
+<h3>
+<a id="securing-python-package-management" class="anchor" href="#securing-python-package-management" aria-hidden="true"><span class="octicon octicon-link"></span></a>Securing Python package management</h3>
 
 <ul>
 <li><a href="https://github.com/theupdateframework/pep-on-pypi-with-tuf">PEP 458: Surviving a Compromise of PyPI</a></li>
@@ -87,8 +91,10 @@
 <li><a href="https://github.com/theupdateframework/pip/compare/pypa:master...tuf-master">Little is required to integrate pip with TUF</a></li>
 </ul>
 </li>
-</ul><h3>
-<a name="securing-ruby-package-management" class="anchor" href="#securing-ruby-package-management"><span class="octicon octicon-link"></span></a>Securing Ruby package management</h3>
+</ul>
+
+<h3>
+<a id="securing-ruby-package-management" class="anchor" href="#securing-ruby-package-management" aria-hidden="true"><span class="octicon octicon-link"></span></a>Securing Ruby package management</h3>
 
 <ul>
 <li><a href="https://groups.google.com/forum/#%21topic/rubygems-tuf/vCxUSX51bbo">Developers from Square have demonstrated an initial implementation of TUF for RubyGems</a></li>
@@ -96,13 +102,18 @@
 <li><a href="http://corner.squareup.com/2013/12/securing-rubygems-with-tuf-part-1.html">Securing RubyGems with TUF, Part 1</a></li>
 <li><a href="http://corner.squareup.com/2013/12/securing-rubygems-with-tuf-part-2.html">Securing RubyGems with TUF, Part 2</a></li>
 <li><a href="http://corner.squareup.com/2013/12/securing-rubygems-with-tuf-part-3.html">Securing RubyGems with TUF, Part 3</a></li>
-</ul><h3>
-<a name="press" class="anchor" href="#press"><span class="octicon octicon-link"></span></a>Press</h3>
+</ul>
+
+<h3>
+<a id="press" class="anchor" href="#press" aria-hidden="true"><span class="octicon octicon-link"></span></a>Press</h3>
 
 <ul>
 <li><a href="http://vimeo.com/88774074">Promotional materials on TUF (The Update Framework) w/ Justin Cappos and Trishank Kuppusamy</a></li>
-</ul><h3>
-<a name="acknowledgements" class="anchor" href="#acknowledgements"><span class="octicon octicon-link"></span></a>Acknowledgements</h3>
+<li><a href="https://news.ycombinator.com/item?id=8780369">Hacker News: Incremental Plans to Improve Python Packaging</a></li>
+</ul>
+
+<h3>
+<a id="acknowledgements" class="anchor" href="#acknowledgements" aria-hidden="true"><span class="octicon octicon-link"></span></a>Acknowledgements</h3>
 
 <p>This material is based upon work supported by the National Science Foundation under Grant No. CNS-1345049 and CNS-0959138.  Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.</p>
       </section>

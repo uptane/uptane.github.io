@@ -12,19 +12,21 @@ Uptane is a collaboration between the New York University Tandon School of Engin
 
 # Papers for academics and security researchers
 
-* [Uptane: Securing Software Updates for Automobiles (escar europe 2016)](https://isis.poly.edu/~jcappos/papers/kuppusamy_escar_16.pdf) [(Video)](https://www.youtube.com/watch?v=nDghHNxRGHA) [(Slides)](https://docs.google.com/presentation/d/17bl_-y3U78xbhaTbsZDu_Uv0zI9UAKZ8v78dj55yC3k/edit?usp=sharing)
+* Uptane: Securing Software Updates for Automobiles ([PDF](https://isis.poly.edu/~jcappos/papers/kuppusamy_escar_16.pdf) | [Video](https://www.youtube.com/watch?v=nDghHNxRGHA) | [Slides](https://docs.google.com/presentation/d/17bl_-y3U78xbhaTbsZDu_Uv0zI9UAKZ8v78dj55yC3k/edit?usp=sharing)). Published in the proceedings of the 15th escar europe (2016).
 
 # Documents for OEMs and suppliers
 
 * [Design Overview](https://docs.google.com/document/d/13XXQZ6KXCK_MiZj_Q84PQyMDmBiHnhEfgJgj8drKWRI/edit?usp=sharing)
 * [Implementation Specification](https://docs.google.com/document/d/1noDyg2t5jB6y3R5-Y3TXXj1tocv_y24NjmOw8rAcaAc/edit?usp=sharing)
-* Uptane Deployment Considerations (coming soon)
+* Deployment Considerations (coming soon)
 
 # Source code for OEMs and suppliers
 
 * [Reference Implementation](https://github.com/uptane/uptane)
 
 # Slides from workshops
+
+_NOTE: These information may be slightly outdated by now._
 
 * [SOTA Workshop #3: Strawman design](https://docs.google.com/presentation/d/1z-IMQQz_2dJ3oeXWM4ky7023KrgTIhMtaHS8GpO4jF8/edit?usp=sharing)
 * [SOTA Workshop #3: Uptane design features](https://docs.google.com/presentation/d/1FRGEQM7_zX7m7xAzakf_vlDRWeZFRc5Flieol1OwUk4/edit?usp=sharing)

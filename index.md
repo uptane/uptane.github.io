@@ -16,8 +16,8 @@ Uptane is a collaboration between the New York University Tandon School of Engin
 
 # Documents for OEMs and suppliers
 
-* [Uptane Design Overview](https://docs.google.com/document/d/13XXQZ6KXCK_MiZj_Q84PQyMDmBiHnhEfgJgj8drKWRI/edit?usp=sharing)
-* [Uptane Implementation Specification](https://docs.google.com/document/d/1noDyg2t5jB6y3R5-Y3TXXj1tocv_y24NjmOw8rAcaAc/edit?usp=sharing)
+* [Design Overview](https://docs.google.com/document/d/13XXQZ6KXCK_MiZj_Q84PQyMDmBiHnhEfgJgj8drKWRI/edit?usp=sharing)
+* [Implementation Specification](https://docs.google.com/document/d/1noDyg2t5jB6y3R5-Y3TXXj1tocv_y24NjmOw8rAcaAc/edit?usp=sharing)
 * Uptane Deployment Considerations (coming soon)
 
 # Source code for OEMs and suppliers

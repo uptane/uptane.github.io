@@ -10,23 +10,25 @@ In a future demonstration, we will show various attack scenarios, and how the at
 
 Uptane is a collaboration between the New York University Tandon School of Engineering (NYU), the University of Michigan's Transport Research Institute (UMTRI), and the Southwest Research Institute (SWRI).
 
-# Slides
+# Papers for academics and security researchers
 
-* [SOTA Workshop #3: Strawman design](https://docs.google.com/presentation/d/1z-IMQQz_2dJ3oeXWM4ky7023KrgTIhMtaHS8GpO4jF8/edit?usp=sharing)
-* [SOTA Workshop #3: Uptane design features](https://docs.google.com/presentation/d/1FRGEQM7_zX7m7xAzakf_vlDRWeZFRc5Flieol1OwUk4/edit?usp=sharing)
-* [SOTA Workshop #3: Uptane workflow, examples, and next steps](https://docs.google.com/presentation/d/1pFgOdK_GGPmwrh6yyaNB1b3Y_yPbS4jvAmq7yJS5bck/edit?usp=sharing)
-* [Uptane: Securing Software Updates for Automobiles (escar europe 2016)](https://docs.google.com/presentation/d/17bl_-y3U78xbhaTbsZDu_Uv0zI9UAKZ8v78dj55yC3k/edit?usp=sharing)
+* [Uptane: Securing Software Updates for Automobiles (escar europe 2016)](https://isis.poly.edu/~jcappos/papers/kuppusamy_escar_16.pdf) [(Video)](https://www.youtube.com/watch?v=nDghHNxRGHA) [(Slides)](https://docs.google.com/presentation/d/17bl_-y3U78xbhaTbsZDu_Uv0zI9UAKZ8v78dj55yC3k/edit?usp=sharing)
 
-# Documents
+# Documents for OEMs and suppliers
 
-* [Uptane: Securing Software Updates for Automobiles (escar europe 2016)](https://isis.poly.edu/~jcappos/papers/kuppusamy_escar_16.pdf)
 * [Uptane Design Overview](https://docs.google.com/document/d/13XXQZ6KXCK_MiZj_Q84PQyMDmBiHnhEfgJgj8drKWRI/edit?usp=sharing)
 * [Uptane Implementation Specification](https://docs.google.com/document/d/1noDyg2t5jB6y3R5-Y3TXXj1tocv_y24NjmOw8rAcaAc/edit?usp=sharing)
 * Uptane Deployment Considerations (coming soon)
 
-# Source code
+# Source code for OEMs and suppliers
 
 * [Reference Implementation](https://github.com/uptane/uptane)
+
+# Slides from workshops
+
+* [SOTA Workshop #3: Strawman design](https://docs.google.com/presentation/d/1z-IMQQz_2dJ3oeXWM4ky7023KrgTIhMtaHS8GpO4jF8/edit?usp=sharing)
+* [SOTA Workshop #3: Uptane design features](https://docs.google.com/presentation/d/1FRGEQM7_zX7m7xAzakf_vlDRWeZFRc5Flieol1OwUk4/edit?usp=sharing)
+* [SOTA Workshop #3: Uptane workflow, examples, and next steps](https://docs.google.com/presentation/d/1pFgOdK_GGPmwrh6yyaNB1b3Y_yPbS4jvAmq7yJS5bck/edit?usp=sharing)
 
 # Participation
 

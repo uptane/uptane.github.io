@@ -10,8 +10,9 @@ In a future demonstration, we will show various attack scenarios, and how the at
 
 Uptane is a collaboration between the New York University Tandon School of Engineering (NYU), the University of Michigan's Transport Research Institute (UMTRI), and the Southwest Research Institute (SWRI).
 
-# Papers for academics and security researchers
+# Documents for academics and security researchers
 
+* [Design Overview](https://docs.google.com/document/d/13XXQZ6KXCK_MiZj_Q84PQyMDmBiHnhEfgJgj8drKWRI/edit?usp=sharing)
 * Uptane: Securing Software Updates for Automobiles ([PDF](https://isis.poly.edu/~jcappos/papers/kuppusamy_escar_16.pdf) / [Video](https://www.youtube.com/watch?v=nDghHNxRGHA) / [Slides](https://docs.google.com/presentation/d/17bl_-y3U78xbhaTbsZDu_Uv0zI9UAKZ8v78dj55yC3k/edit?usp=sharing)). Published in the proceedings of the 15th escar europe (2016).
 
 # Documents for OEMs and suppliers
@@ -22,15 +23,6 @@ Uptane is a collaboration between the New York University Tandon School of Engin
 # Source code for OEMs and suppliers
 
 * [Reference Implementation](https://github.com/uptane/uptane)
-
-# Documents & slides from workshops
-
-_NOTE: These information may be slightly outdated by now._
-
-* [Design Overview](https://docs.google.com/document/d/13XXQZ6KXCK_MiZj_Q84PQyMDmBiHnhEfgJgj8drKWRI/edit?usp=sharing)
-* [SOTA Workshop #3: Strawman design](https://docs.google.com/presentation/d/1z-IMQQz_2dJ3oeXWM4ky7023KrgTIhMtaHS8GpO4jF8/edit?usp=sharing)
-* [SOTA Workshop #3: Uptane design features](https://docs.google.com/presentation/d/1FRGEQM7_zX7m7xAzakf_vlDRWeZFRc5Flieol1OwUk4/edit?usp=sharing)
-* [SOTA Workshop #3: Uptane workflow, examples, and next steps](https://docs.google.com/presentation/d/1pFgOdK_GGPmwrh6yyaNB1b3Y_yPbS4jvAmq7yJS5bck/edit?usp=sharing)
 
 # Participation
 

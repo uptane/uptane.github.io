@@ -16,7 +16,6 @@ Uptane is a collaboration between the New York University Tandon School of Engin
 
 # Documents for OEMs and suppliers
 
-* [Design Overview](https://docs.google.com/document/d/13XXQZ6KXCK_MiZj_Q84PQyMDmBiHnhEfgJgj8drKWRI/edit?usp=sharing)
 * [Implementation Specification](https://docs.google.com/document/d/1noDyg2t5jB6y3R5-Y3TXXj1tocv_y24NjmOw8rAcaAc/edit?usp=sharing)
 * Deployment Considerations (coming soon)
 
@@ -24,10 +23,11 @@ Uptane is a collaboration between the New York University Tandon School of Engin
 
 * [Reference Implementation](https://github.com/uptane/uptane)
 
-# Slides from workshops
+# Documents & slides from workshops
 
 _NOTE: These information may be slightly outdated by now._
 
+* [Design Overview](https://docs.google.com/document/d/13XXQZ6KXCK_MiZj_Q84PQyMDmBiHnhEfgJgj8drKWRI/edit?usp=sharing)
 * [SOTA Workshop #3: Strawman design](https://docs.google.com/presentation/d/1z-IMQQz_2dJ3oeXWM4ky7023KrgTIhMtaHS8GpO4jF8/edit?usp=sharing)
 * [SOTA Workshop #3: Uptane design features](https://docs.google.com/presentation/d/1FRGEQM7_zX7m7xAzakf_vlDRWeZFRc5Flieol1OwUk4/edit?usp=sharing)
 * [SOTA Workshop #3: Uptane workflow, examples, and next steps](https://docs.google.com/presentation/d/1pFgOdK_GGPmwrh6yyaNB1b3Y_yPbS4jvAmq7yJS5bck/edit?usp=sharing)

@@ -10,6 +10,20 @@ In a future demonstration, we will show various attack scenarios, and how the at
 
 Uptane is a collaboration between the New York University Tandon School of Engineering (NYU), the University of Michigan's Transport Research Institute (UMTRI), and the Southwest Research Institute (SWRI).
 
+# Open call for security review
+
+We invite all security researchers and academics to perform a security review of Uptane.
+
+We want to hear from you about ways that you could exploit Uptane. 
+For instance, you may find a way that an attacker could replay old images to ECUs because the message signature doesn't cover the right content.
+You can help to fix security issues before hackers use them to exploit  millions of cars!
+
+Please send us your questions, comments, and findings to the [public mailing list](https://groups.google.com/forum/#!forum/uptane-discussion).
+
+We are also interested in hearing about security problems in our Reference Implementation (to be publicly released on Jan 18 2017).
+While we do not expect cars  to use this code directly, errors in this software may be  duplicated by production implementations.
+Please report these using our GitHub issue tracker (to be publicly released on Jan 18 2017).
+
 # Academic publications
 
 * Uptane: Securing Software Updates for Automobiles ([PDF](https://isis.poly.edu/~jcappos/papers/kuppusamy_escar_16.pdf) / [Video](https://www.youtube.com/watch?v=nDghHNxRGHA) / [Slides](https://docs.google.com/presentation/d/17bl_-y3U78xbhaTbsZDu_Uv0zI9UAKZ8v78dj55yC3k/edit?usp=sharing)). Published in the proceedings of the 14th escar europe (2016).

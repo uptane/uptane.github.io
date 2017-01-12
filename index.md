@@ -10,11 +10,11 @@ In a future demonstration, we will show various attack scenarios, and how the at
 
 Uptane is a collaboration between the New York University Tandon School of Engineering (NYU), the University of Michigan's Transport Research Institute (UMTRI), and the Southwest Research Institute (SWRI).
 
-# For academics and security researchers
+# Academic publications
 
 * Uptane: Securing Software Updates for Automobiles ([PDF](https://isis.poly.edu/~jcappos/papers/kuppusamy_escar_16.pdf) / [Video](https://www.youtube.com/watch?v=nDghHNxRGHA) / [Slides](https://docs.google.com/presentation/d/17bl_-y3U78xbhaTbsZDu_Uv0zI9UAKZ8v78dj55yC3k/edit?usp=sharing)). Published in the proceedings of the 14th escar europe (2016).
 
-# For OEMs and suppliers
+# Technical documents
 
 * Design Overview (to be publicly released on Jan 18 2017)
 * Implementation Specification (to be publicly released on Jan 18 2017)
@@ -23,7 +23,8 @@ Uptane is a collaboration between the New York University Tandon School of Engin
 
 # Participation
 
-* [Discussion forum (invite-only)](https://uptane.umtri.umich.edu/forum/)
+* [Public discussion forum](https://groups.google.com/forum/#!forum/uptane-discussion)
+* [Private discussion forum for OEMs and suppliers (by invitation only)](https://uptane.umtri.umich.edu/forum/)
 
 # Acknowledgements
 

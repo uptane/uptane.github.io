@@ -20,20 +20,20 @@ You can help to fix security issues before hackers use them to exploit  millions
 
 Please send us your questions, comments, and findings to the [public mailing list](https://groups.google.com/forum/#!forum/uptane-discussion).
 
-We are also interested in hearing about security problems in our Reference Implementation (to be publicly released on Jan 18 2017).
+We are also interested in hearing about security problems in our Reference Implementation.
 While we do not expect cars  to use this code directly, errors in this software may be  duplicated by production implementations.
-Please report these using our GitHub issue tracker (to be publicly released on Jan 18 2017).
+Please report these using our GitHub issue tracker.
 
 # Academic publications
 
 * Uptane: Securing Software Updates for Automobiles ([PDF](https://isis.poly.edu/~jcappos/papers/kuppusamy_escar_16.pdf) / [Video](https://www.youtube.com/watch?v=nDghHNxRGHA) / [Slides](https://docs.google.com/presentation/d/17bl_-y3U78xbhaTbsZDu_Uv0zI9UAKZ8v78dj55yC3k/edit?usp=sharing)). Published in the proceedings of the 14th escar europe (2016).
 
-# Technical documents
+# Technical documents and source code
 
-* Design Overview (to be publicly released on Jan 18 2017)
-* Implementation Specification (to be publicly released on Jan 18 2017)
-* Deployment Considerations (to be publicly released on Jan 18 2017)
-* Reference Implementation (to be publicly released on Jan 18 2017)
+* [Design Overview](https://docs.google.com/document/d/1pBK--40BCg_ofww4GES0weYFB6tZRedAjUy6PJ4Rgzk/edit?usp=sharing)
+* [Implementation Specification](https://docs.google.com/document/d/1wjg3hl0iDLNh7jIRaHl3IXhwm0ssOtDje5NemyTBcaw/edit?usp=sharing)
+* [Deployment Considerations](https://docs.google.com/document/d/17wOs-T7mugwte5_Dt-KLGMsp-3_yAARejpFmrAMefSE/edit?usp=sharing)
+* [Reference Implementation](https://github.com/uptane/uptane)
 
 # Participation
 

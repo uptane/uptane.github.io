@@ -35,6 +35,12 @@ Please report these using our GitHub issue tracker.
 * [Deployment Considerations](https://docs.google.com/document/d/17wOs-T7mugwte5_Dt-KLGMsp-3_yAARejpFmrAMefSE/edit?usp=sharing)
 * [Reference Implementation](https://github.com/uptane/uptane)
 
+# Slides from last workshop
+
+* [SOTA #4: Design Overview](https://docs.google.com/presentation/d/1YiN5AKbjDZjnu0L1NpNLLroIkRuyuClA2UNYOLkT5oc/edit?usp=sharing)
+* [SOTA #4: Implementation Specification](https://docs.google.com/presentation/d/1f3DdpXvU3oT8zygTfrlJeaNDjdbBHHz49lKYHAUF3PQ/edit?usp=sharing)
+* [SOTA #4: Deployment Considerations](https://docs.google.com/presentation/d/1vwPHl1RtMM9y1GfRbkML8AHWbThkIOCPMbO006JEIYk/edit?usp=sharing)
+
 # Participation
 
 * [Public mailing list](https://groups.google.com/forum/#!forum/uptane-discussion)

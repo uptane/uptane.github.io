@@ -48,9 +48,8 @@ Please report these using our GitHub issue tracker.
 
 # Press
 
-* [CALL ISSUED TO WHITE HAT HACKERS: FIND THE FLAWS IN NEW AUTOMOTIVE SOFTWARE UPDATER](http://engineering.nyu.edu/press-releases/2017/01/18/call-issued-white-hat-hackers-find-flaws-new-automotive-software-updater)
-* [Call Issued to White Hat Hackers: Find the Flaws in New Automotive Software Updater](https://www.yahoo.com/tech/call-issued-white-hat-hackers-flaws-automotive-software-050100383.html)
-* [Call Issued to White Hat Hackers: Find the Flaws in New Automotive Software Updater](http://www.news9.com/story/34283886/call-issued-to-white-hat-hackers-find-the-flaws-in-new-automotive-software-updater)
+* [Are software updates key to stopping criminal car hacks?](http://www.csmonitor.com/World/Passcode/2017/0118/Are-software-updates-key-to-stopping-criminal-car-hacks) [[Yahoo!]](https://www.yahoo.com/news/software-updates-key-stopping-criminal-car-hacks-174510573.html)
+* [Call Issued to White Hat Hackers: Find the Flaws in New Automotive Software Updater](http://engineering.nyu.edu/press-releases/2017/01/18/call-issued-white-hat-hackers-find-flaws-new-automotive-software-updater) [[Yahoo!]](https://www.yahoo.com/tech/call-issued-white-hat-hackers-flaws-automotive-software-050100383.html) [[News9]](http://www.news9.com/story/34283886/call-issued-to-white-hat-hackers-find-the-flaws-in-new-automotive-software-updater)
 
 # Acknowledgements
 

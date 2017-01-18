@@ -46,6 +46,10 @@ Please report these using our GitHub issue tracker.
 * [Public mailing list](https://groups.google.com/forum/#!forum/uptane-discussion)
 * [Private discussion forum for OEMs and suppliers (by invitation only)](https://uptane.umtri.umich.edu/forum/)
 
+# Press
+
+* [Call Issued to White Hat Hackers: Find the Flaws in New Automotive Software Updater](https://www.yahoo.com/tech/call-issued-white-hat-hackers-flaws-automotive-software-050100383.html)
+
 # Acknowledgements
 
 Uptane is supported by U.S. Department of Homeland Security grants D15PC00239 and D15PC00302.

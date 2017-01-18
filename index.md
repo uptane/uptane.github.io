@@ -37,7 +37,7 @@ Please report these using our GitHub issue tracker.
 
 # Participation
 
-* [Public discussion forum](https://groups.google.com/forum/#!forum/uptane-discussion)
+* [Public mailing list](https://groups.google.com/forum/#!forum/uptane-discussion)
 * [Private discussion forum for OEMs and suppliers (by invitation only)](https://uptane.umtri.umich.edu/forum/)
 
 # Acknowledgements

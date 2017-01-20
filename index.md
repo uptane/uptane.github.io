@@ -48,6 +48,7 @@ Please report these using our GitHub issue tracker.
 
 # Press
 
+* [Uptane Will Protect Your Connected Car From Hackers](http://www.forbes.com/sites/leemathews/2017/01/19/uptane-will-protect-your-connected-car-from-hackers/)
 * [NYU Tandon prof unveils Homeland Security–funded framework for software security in cars](https://technical.ly/brooklyn/2017/01/19/nyu-tandon-justin-cappos-car-security-uptane/)
 * [How Uptane Can Protect Your Car From Hackers](https://www.facebook.com/Reuters/videos/1364617036891982/)
 * [Are software updates key to stopping criminal car hacks?](http://www.csmonitor.com/World/Passcode/2017/0118/Are-software-updates-key-to-stopping-criminal-car-hacks) [[Yahoo!]](https://www.yahoo.com/news/software-updates-key-stopping-criminal-car-hacks-174510573.html)

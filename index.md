@@ -48,6 +48,7 @@ Please report these using our GitHub issue tracker.
 
 # Press
 
+* [A Future Car May Be Protected From Hacking By Software Developed In San Antonio](http://tpr.org/post/future-car-may-be-protected-hacking-software-developed-san-antonio#stream/0)
 * [Automotive ECU Updates: Keeping the Hackers Out](http://www.eetimes.com/document.asp?doc_id=1331232)
 * [Uptane Will Protect Your Connected Car From Hackers](http://www.forbes.com/sites/leemathews/2017/01/19/uptane-will-protect-your-connected-car-from-hackers/)
 * [NYU Tandon prof unveils Homeland Security–funded framework for software security in cars](https://technical.ly/brooklyn/2017/01/19/nyu-tandon-justin-cappos-car-security-uptane/)

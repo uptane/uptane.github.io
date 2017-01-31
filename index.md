@@ -48,6 +48,7 @@ Please report these using our GitHub issue tracker.
 
 # Press
 
+* [SA researchers developing anti-hacking software for cars](http://foxsanantonio.com/news/local/sa-researchers-developing-anti-hacking-software-for-cars-01-28-2017)
 * [A Future Car May Be Protected From Hacking By Software Developed In San Antonio](http://tpr.org/post/future-car-may-be-protected-hacking-software-developed-san-antonio#stream/0)
 * [Automotive ECU Updates: Keeping the Hackers Out](http://www.eetimes.com/document.asp?doc_id=1331232)
 * [Uptane Will Protect Your Connected Car From Hackers](http://www.forbes.com/sites/leemathews/2017/01/19/uptane-will-protect-your-connected-car-from-hackers/)

@@ -48,6 +48,7 @@ Please report these using our GitHub issue tracker.
 
 # Press
 
+* [Wanted: White hat hackers to break new automotive software updater code](http://www.techrepublic.com/article/wanted-white-hat-hackers-to-break-new-automotive-software-updater-code/)
 * [SA researchers developing anti-hacking software for cars](http://foxsanantonio.com/news/local/sa-researchers-developing-anti-hacking-software-for-cars-01-28-2017)
 * [A Future Car May Be Protected From Hacking By Software Developed In San Antonio](http://tpr.org/post/future-car-may-be-protected-hacking-software-developed-san-antonio#stream/0)
 * [Automotive ECU Updates: Keeping the Hackers Out](http://www.eetimes.com/document.asp?doc_id=1331232)

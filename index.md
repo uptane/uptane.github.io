@@ -127,7 +127,9 @@ Papers:
 
 **Signing the OPAM Repository: TUF Meets Git**
 
-* [Proposal to secure the distribution of OCaml packages](https://opam.ocaml.org/blog/Signing-the-opam-repository/)
+* [Conex release announcement](https://hannes.nqsb.io/Posts/Conex)
+* [Implementation of conex](https://github.com/hannesm/conex)
+* [Initial proposal to secure the distribution of OCaml packages](https://opam.ocaml.org/blog/Signing-the-opam-repository/)
 
 **Other implementations**
 

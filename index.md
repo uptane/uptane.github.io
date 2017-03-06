@@ -48,6 +48,7 @@ Please report these using our GitHub issue tracker.
 
 # Press
 
+* [Call Issued to White Hat Hackers: Find the Flaws in New Automotive Software Updater](http://trueviralnews.com/call-issued-to-white-hat-hackers-find-the-flaws-in-new-automotive-software-updater/)
 * [Automotive cyber security: Keeping hackers out of cars](http://www.lowellsun.com/latestnews/ci_30802407/automotive-cyber-security-keeping-hackers-out-cars)
 * [Wanted: White hat hackers to break new automotive software updater code](http://www.techrepublic.com/article/wanted-white-hat-hackers-to-break-new-automotive-software-updater-code/)
 * [SA researchers developing anti-hacking software for cars](http://foxsanantonio.com/news/local/sa-researchers-developing-anti-hacking-software-for-cars-01-28-2017)

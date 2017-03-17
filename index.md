@@ -2,13 +2,14 @@
 
 # Description
 
-Software update systems for automobiles promise huge benefits at the cost of potential security vulnerabilities. No existing solution considers more advanced security objectives such as resilience against a repository compromise, selective blocking of update traffic by a MITM, or compromise at a supplier’s site.
+Uptane is the first compromise-resilient software update security system for automotives.
+Unlike other software update security systems (e.g., SSL / TLS, or signing updates with a single offline GPG / RSA key), it addresses a comprehensive threat model.
+It is designed to make it extremely difficult for attackers to be able to install malware on all vehicles maintained by a manufacturer, even if attackers have compromised a repository used to serve updates.
+At the same time, Uptane has been designed to be extremely flexible, so as to accommodate a wide variety of deployment scenarios, and allows on-demand customization of updates installed on vehicles.
 
-To address this, we designed Uptane, a software update framework for automobiles that counters a comprehensive array of security attacks and that is resilient to partial compromises. Uptane addresses automotive specific vulnerabilities and limitations. Uptane is flexible and easy to adopt for industry stakeholders. Design details were developed together with the main automotive industry stakeholders in the USA.
-
-In a future demonstration, we will show various attack scenarios, and how the attacks are prevented by Uptane.
-
-Uptane is a collaboration between the New York University Tandon School of Engineering (NYU), the University of Michigan's Transport Research Institute (UMTRI), and the Southwest Research Institute (SWRI).
+Uptane is already being adopted by several tier-1 suppliers.
+It was designed in collaboration with major vehicle manufacturers and suppliers responsible for 78% of vehicles on U.S. roads, as well as government regulators.
+It was developed by the New York University Tandon School of Engineering (NYU), the University of Michigan Transportation Research Institute (UMTRI), and the Southwest Research Institute (SWRI).
 
 # Open call for security review
 
@@ -58,6 +59,4 @@ Please report these using our GitHub issue tracker.
 
 # Acknowledgements and disclaimers
 
-Uptane is the result of collaboration by the New York University Tandon School of Engineering, the University of Michigan Transportation Research Institute, and the Southwest Research Institute. It is supported by U.S. Department of Homeland Security grants D15PC00239 and D15PC00302.
-
-The views and conclusions contained herein are the authors’ and should not be interpreted as necessarily representing the official policies or endorsements, either expressed or implied, of the U.S. Department of Homeland Security (DHS) or the U.S. government.
+Uptane is supported by U.S. Department of Homeland Security grants D15PC00239 and D15PC00302. The views and conclusions contained herein are the authors’ and should not be interpreted as necessarily representing the official policies or endorsements, either expressed or implied, of the U.S. Department of Homeland Security (DHS) or the U.S. government.

@@ -24,6 +24,16 @@ We are also interested in hearing about security problems in our Reference Imple
 While we do not expect cars  to use this code directly, errors in this software may be  duplicated by production implementations.
 Please report these using our GitHub issue tracker.
 
+# Press
+
+* [Forbes](http://www.forbes.com/sites/leemathews/2017/01/19/uptane-will-protect-your-connected-car-from-hackers/#6203ff834b25)
+* [NPR](http://www.wbur.org/hereandnow/2017/03/17/researchers-software-car-hacking)
+* [The Christian Science Monitor](http://www.csmonitor.com/World/Passcode/2017/0118/Are-software-updates-key-to-stopping-criminal-car-hacks)
+* [Business Insider](http://www.businessinsider.com/driverless-cars-hacking-ricks-2016-12)
+* [Yahoo!](https://www.yahoo.com/tech/call-issued-white-hat-hackers-flaws-automotive-software-050100383.html)
+* [Reuters](https://www.facebook.com/Reuters/videos/1364617036891982/)
+* [More...](https://ssl.engineering.nyu.edu/press)
+
 # Academic publications
 
 * Uptane: Securing Software Updates for Automobiles ([PDF](https://isis.poly.edu/~jcappos/papers/kuppusamy_escar_16.pdf) / [Video](https://www.youtube.com/watch?v=nDghHNxRGHA) / [Slides](https://docs.google.com/presentation/d/17bl_-y3U78xbhaTbsZDu_Uv0zI9UAKZ8v78dj55yC3k/edit?usp=sharing)). Published in the proceedings of the 14th escar europe (2016).
@@ -46,16 +56,8 @@ Please report these using our GitHub issue tracker.
 * [Public mailing list](https://groups.google.com/forum/#!forum/uptane-discussion)
 * [Private discussion forum for OEMs and suppliers (by invitation only)](https://uptane.umtri.umich.edu/forum/)
 
-# Press
-
-| [![Business Insider](bi_logo.png)](http://www.businessinsider.com/driverless-cars-hacking-ricks-2016-12) | [![Yahoo!](yahoo_logo.png)](https://www.yahoo.com/tech/call-issued-white-hat-hackers-flaws-automotive-software-050100383.html) | [![Christian Science Monitor](csm_logo.jpg)](http://www.csmonitor.com/World/Passcode/2017/0118/Are-software-updates-key-to-stopping-criminal-car-hacks) |
-| --- | --- | --- |
-
 # Acknowledgements and disclaimers
 
 Uptane is the result of collaboration by the New York University Tandon School of Engineering, the University of Michigan Transportation Research Institute, and the Southwest Research Institute. It is supported by U.S. Department of Homeland Security grants D15PC00239 and D15PC00302.
 
 The views and conclusions contained herein are the authors’ and should not be interpreted as necessarily representing the official policies or endorsements, either expressed or implied, of the U.S. Department of Homeland Security (DHS) or the U.S. government.
-
-| ![NYU](nyu_logo.jpg) | ![UMTRI](umtri_logo.jpg) | ![SWRI](swri_logo.jpg) |
-| --- | --- | --- |

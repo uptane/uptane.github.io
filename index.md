@@ -61,10 +61,8 @@ Please report these using our GitHub issue tracker.
 * [Are software updates key to stopping criminal car hacks?](http://www.csmonitor.com/World/Passcode/2017/0118/Are-software-updates-key-to-stopping-criminal-car-hacks) [[Yahoo!]](https://www.yahoo.com/news/software-updates-key-stopping-criminal-car-hacks-174510573.html)
 * [Call Issued to White Hat Hackers: Find the Flaws in New Automotive Software Updater](http://engineering.nyu.edu/press-releases/2017/01/18/call-issued-white-hat-hackers-find-flaws-new-automotive-software-updater) [[Yahoo!]](https://www.yahoo.com/tech/call-issued-white-hat-hackers-flaws-automotive-software-050100383.html) [[News9]](http://www.news9.com/story/34283886/call-issued-to-white-hat-hackers-find-the-flaws-in-new-automotive-software-updater) [[SC Magazine]](https://www.scmagazine.com/researchers-called-to-test-free-open-source-automotive-security-platform/article/632218/) [[Phys.org]](https://phys.org/news/2017-01-issued-white-hat-hackersfind-flaws.html) [[helpnetsecurity]](https://www.helpnetsecurity.com/2017/01/18/automotive-cybersecurity-framework/) [[ITS International]](http://www.itsinternational.com/categories/location-based-systems/news/automotive-software-developers-call-on-hackers-to-find-its-flaws/) [[iMasters]](http://imasters.com.br/noticia/framework-open-source-de-ciberseguranca-para-industria-automotiva-e-criado/)
 
-# Acknowledgements
+# Acknowledgements and disclaimers
 
-Uptane is supported by U.S. Department of Homeland Security grants D15PC00239 and D15PC00302.
+Uptane is the result of collaboration by the New York University Tandon School of Engineering, the University of Michigan Transportation Research Institute, and the Southwest Research Institute. It is supported by U.S. Department of Homeland Security grants D15PC00239 and D15PC00302.
 
-# Disclaimer
-
-The views and conclusions contained herein are the authors’ and should not be interpreted as necessarily representing the official policies or endorsements, either expressed or implied, of the US Department of Homeland Security (DHS) or the US government.
+The views and conclusions contained herein are the authors’ and should not be interpreted as necessarily representing the official policies or endorsements, either expressed or implied, of the U.S. Department of Homeland Security (DHS) or the U.S. government.

@@ -48,8 +48,8 @@ Please report these using our GitHub issue tracker.
 
 # Press
 
-[![Business Insider](bi_logo.png)](http://www.businessinsider.com/driverless-cars-hacking-ricks-2016-12) | [![Yahoo!](yahoo_logo.png)](https://www.yahoo.com/tech/call-issued-white-hat-hackers-flaws-automotive-software-050100383.html) | [![Christian Science Monitor](csm_logo.jpg)](http://www.csmonitor.com/World/Passcode/2017/0118/Are-software-updates-key-to-stopping-criminal-car-hacks)
--------------------------------- | ------------------------- | ------------------------------------------
+| [![Business Insider](bi_logo.png)](http://www.businessinsider.com/driverless-cars-hacking-ricks-2016-12) | [![Yahoo!](yahoo_logo.png)](https://www.yahoo.com/tech/call-issued-white-hat-hackers-flaws-automotive-software-050100383.html) | [![Christian Science Monitor](csm_logo.jpg)](http://www.csmonitor.com/World/Passcode/2017/0118/Are-software-updates-key-to-stopping-criminal-car-hacks) |
+| --- | --- | --- |
 
 # Acknowledgements and disclaimers
 
@@ -57,5 +57,5 @@ Uptane is the result of collaboration by the New York University Tandon School o
 
 The views and conclusions contained herein are the authors’ and should not be interpreted as necessarily representing the official policies or endorsements, either expressed or implied, of the U.S. Department of Homeland Security (DHS) or the U.S. government.
 
-![NYU](nyu_logo.jpg) | ![UMTRI](umtri_logo.jpg) | ![SWRI](swri_logo.jpg)
--------------------- | ------------------------ | ----------------------
+| ![NYU](nyu_logo.jpg) | ![UMTRI](umtri_logo.jpg) | ![SWRI](swri_logo.jpg) |
+| --- | --- | --- |

@@ -48,18 +48,8 @@ Please report these using our GitHub issue tracker.
 
 # Press
 
-* [Call Issued to White Hat Hackers: Find the Flaws in New Automotive Software Updater](http://trueviralnews.com/call-issued-to-white-hat-hackers-find-the-flaws-in-new-automotive-software-updater/)
-* [Automotive cyber security: Keeping hackers out of cars](http://www.lowellsun.com/latestnews/ci_30802407/automotive-cyber-security-keeping-hackers-out-cars)
-* [Wanted: White hat hackers to break new automotive software updater code](http://www.techrepublic.com/article/wanted-white-hat-hackers-to-break-new-automotive-software-updater-code/)
-* [SA researchers developing anti-hacking software for cars](http://foxsanantonio.com/news/local/sa-researchers-developing-anti-hacking-software-for-cars-01-28-2017)
-* [A Future Car May Be Protected From Hacking By Software Developed In San Antonio](http://tpr.org/post/future-car-may-be-protected-hacking-software-developed-san-antonio#stream/0)
-* [Automotive ECU Updates: Keeping the Hackers Out](http://www.eetimes.com/document.asp?doc_id=1331232)
-* [Uptane Will Protect Your Connected Car From Hackers](http://www.forbes.com/sites/leemathews/2017/01/19/uptane-will-protect-your-connected-car-from-hackers/)
-* [NYU Tandon prof unveils Homeland Security–funded framework for software security in cars](https://technical.ly/brooklyn/2017/01/19/nyu-tandon-justin-cappos-car-security-uptane/)
-* [White hackers to seek errors in open-source cybersecurity framework for cars](https://hotforsecurity.bitdefender.com/blog/white-hackers-to-seek-errors-in-open-source-cybersecurity-framework-for-cars-17550.html)
-* [How Uptane Can Protect Your Car From Hackers](https://www.facebook.com/Reuters/videos/1364617036891982/)
-* [Are software updates key to stopping criminal car hacks?](http://www.csmonitor.com/World/Passcode/2017/0118/Are-software-updates-key-to-stopping-criminal-car-hacks) [[Yahoo!]](https://www.yahoo.com/news/software-updates-key-stopping-criminal-car-hacks-174510573.html)
-* [Call Issued to White Hat Hackers: Find the Flaws in New Automotive Software Updater](http://engineering.nyu.edu/press-releases/2017/01/18/call-issued-white-hat-hackers-find-flaws-new-automotive-software-updater) [[Yahoo!]](https://www.yahoo.com/tech/call-issued-white-hat-hackers-flaws-automotive-software-050100383.html) [[News9]](http://www.news9.com/story/34283886/call-issued-to-white-hat-hackers-find-the-flaws-in-new-automotive-software-updater) [[SC Magazine]](https://www.scmagazine.com/researchers-called-to-test-free-open-source-automotive-security-platform/article/632218/) [[Phys.org]](https://phys.org/news/2017-01-issued-white-hat-hackersfind-flaws.html) [[helpnetsecurity]](https://www.helpnetsecurity.com/2017/01/18/automotive-cybersecurity-framework/) [[ITS International]](http://www.itsinternational.com/categories/location-based-systems/news/automotive-software-developers-call-on-hackers-to-find-its-flaws/) [[iMasters]](http://imasters.com.br/noticia/framework-open-source-de-ciberseguranca-para-industria-automotiva-e-criado/)
+[![Business Insider](bi_logo.png)](http://www.businessinsider.com/driverless-cars-hacking-ricks-2016-12) | [![Yahoo!](yahoo_logo.png)](https://www.yahoo.com/tech/call-issued-white-hat-hackers-flaws-automotive-software-050100383.html) | [![Christian Science Monitor](csm_logo.jpg)](http://www.csmonitor.com/World/Passcode/2017/0118/Are-software-updates-key-to-stopping-criminal-car-hacks)
+-------------------------------- | ------------------------- | ------------------------------------------
 
 # Acknowledgements and disclaimers
 

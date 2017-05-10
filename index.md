@@ -22,6 +22,11 @@ We built a [specification](https://github.com/theupdateframework/tuf/blob/develo
 
 ## News
 
+**May 10, 2017**
+
+>
+Justin Cappos gave a [talk](https://ssl.engineering.nyu.edu/blog/2017-04-24-DockerCon) on TUF, [Uptane](https://uptane.github.io), and [in-toto](https://in-toto.io/) at DockerCon 2017.
+
 **October 10, 2016**
 
 >

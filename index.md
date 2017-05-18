@@ -81,7 +81,9 @@ Papers:
 
 ## Integrations
 
-**Docker Distribution**
+**Rust**
+
+* [Advanced Telematic Systems is working on a Rust implementation of TUF to secure over-the-air software updates in automobiles](https://crates.io/crates/tuf)
 
 * [Docker Content Trust: Image Signing and Verification using The Update Framework (TUF)](https://blog.docker.com/2015/08/content-trust-docker-1-8/)
 

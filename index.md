@@ -27,6 +27,10 @@ We are also interested in hearing about security problems in our Reference Imple
 While we do not expect cars  to use this code directly, errors in this software may be  duplicated by production implementations.
 Please report these using our GitHub issue tracker.
 
+# News
+
+* June 13 2017: [ATS is integrating the Uptane security framework for over-the-air software updates to connected vehicles](https://advancedtelematic.com/en/press-releases/ats-is-integrating-the-uptane-security-framework-for-over-the-air-software-updates-to-connected-vehicles.html)
+
 # Press
 
 * [Forbes](http://www.forbes.com/sites/leemathews/2017/01/19/uptane-will-protect-your-connected-car-from-hackers/#6203ff834b25)

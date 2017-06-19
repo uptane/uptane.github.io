@@ -54,9 +54,9 @@ Please report these using our GitHub issue tracker.
 
 # Slides from last workshop
 
-* [SOTA #4: Design Overview](https://docs.google.com/presentation/d/1YiN5AKbjDZjnu0L1NpNLLroIkRuyuClA2UNYOLkT5oc/edit?usp=sharing)
-* [SOTA #4: Implementation Specification](https://docs.google.com/presentation/d/1f3DdpXvU3oT8zygTfrlJeaNDjdbBHHz49lKYHAUF3PQ/edit?usp=sharing)
-* [SOTA #4: Deployment Considerations](https://docs.google.com/presentation/d/1vwPHl1RtMM9y1GfRbkML8AHWbThkIOCPMbO006JEIYk/edit?usp=sharing)
+* [SOTA #5: Design Overview](https://docs.google.com/presentation/d/1R3jSDcqbqUIwJgbOLOKwHReoy2wnj8GrXlKCdcLNXAA/edit?usp=sharing)
+* [SOTA #5: Implementation Specification](https://docs.google.com/presentation/d/1ugct4oARxdzd-PRHi6KdGnllqYxy1jJDDd4w9Pdaq-g/edit?usp=sharing)
+* [SOTA #5: Deployment Considerations](https://docs.google.com/presentation/d/1luFNyWGxwzWBNThg5ziKWrHUmH_Cqr9Pb9EfO3t0Clo/edit?usp=sharing)
 
 # Participation
 

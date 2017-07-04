@@ -2,11 +2,27 @@
 
 # A Framework for Securing Software Update Systems
 
-The Update Framework (TUF) helps developers to secure new or existing software update systems, which are often found to be vulnerable to many known attacks. TUF addresses this widespread problem by providing a comprehensive, flexible security framework that developers can integrate with any software update system. The framework can be easily integrated (or implemented in the native programming languages of these update systems) due to its concise, self-contained architecture and specification.  Developers have so far implemented the framework in the [Python](https://github.com/theupdateframework/tuf), [Go](https://github.com/flynn/go-tuf), [Ruby](https://corner.squareup.com/2013/12/securing-rubygems-with-tuf-part-1.html), and [Haskell](https://www.well-typed.com/blog/2015/07/hackage-security-alpha/) programming languages.
+The Update Framework (TUF) helps developers to secure new or existing
+software update systems, which are often found to be vulnerable to many
+known attacks. TUF addresses this widespread problem by providing a
+comprehensive, flexible security framework that developers can integrate
+with any software update system. The framework can be easily integrated (or
+implemented in the native programming languages of these update systems)
+due to its concise, self-contained architecture and specification.
+Developers have so far implemented the framework in the
+[Python](https://github.com/theupdateframework/tuf),
+[Go](https://github.com/flynn/go-tuf),
+[Ruby](https://corner.squareup.com/2013/12/securing-rubygems-with-tuf-part-1.html),
+and
+[Haskell](https://www.well-typed.com/blog/2015/07/hackage-security-alpha/)
+programming languages.
 
 ## What is a software update system?
 
-Generally, a software update system is an application (or part of an application) running on a client system that obtains and installs software. This can include updates to software that is already installed or even completely new software.
+Generally, a software update system is an application (or part of an
+application) running on a client system that obtains and installs software.
+This can include updates to software that is already installed or even
+completely new software.
 
 Three major classes of software update systems are:
 
@@ -16,9 +32,15 @@ Three major classes of software update systems are:
 
 ## Our approach
 
-There are literally thousands of different software update systems in common use today. (In fact the average Windows user has about two dozen different software updaters on their machine!)
+There are literally thousands of different software update systems in
+common use today. (In fact the average Windows user has about two dozen
+different software updaters on their machine!)
 
-We built a [specification](https://github.com/theupdateframework/tuf/blob/develop/docs/tuf-spec.txt) and [library](https://github.com/theupdateframework/tuf) that can be universally (and in most cases transparently) used to secure software update systems.
+We built a
+[specification](https://github.com/theupdateframework/tuf/blob/develop/docs/tuf-spec.txt)
+and [library](https://github.com/theupdateframework/tuf) that can be
+universally (and in most cases transparently) used to secure software
+update systems.
 
 ## News
 
@@ -76,7 +98,7 @@ Papers:
 
 * [Diplomat: Using Delegations to Protect Community Repositories](https://isis.poly.edu/~jcappos/papers/kuppusamy_nsdi_16.pdf)
 * [Survivable Key Compromise in Software Update Systems](https://isis.poly.edu/~jcappos/papers/samuel_tuf_ccs_2010.pdf)
-* [​A Look in the Mirror: Attacks on Package Managers](https://isis.poly.edu/~jcappos/papers/cappos_mirror_ccs_08.pdf)
+* [A Look in the Mirror: Attacks on Package Managers](https://isis.poly.edu/~jcappos/papers/cappos_mirror_ccs_08.pdf)
 * [Package Management Security](https://isis.poly.edu/~jcappos/papers/cappos_pmsec_tr08-02.pdf)
 
 ## Integrations
@@ -110,11 +132,11 @@ Papers:
 
 * [PEP 458: Securing the Link from PyPI to the End User](https://github.com/theupdateframework/pep-on-pypi-with-tuf)
 * [PEP 480: Surviving a Compromise of PyPI](https://github.com/theupdateframework/pep-maximum-security-model)
-* [PyCon 2013 lightning talk](https://www.youtube.com/watch?v=2sx1lS6cT3g) [(​Slides)](https://docs.google.com/presentation/d/1FMptD5sMH41BTgS3-PN0-7j5Zqvs_zZZ3ntsD_4u-7w/edit?usp=sharing)
+* [PyCon 2013 lightning talk](https://www.youtube.com/watch?v=2sx1lS6cT3g) [(Slides)](https://docs.google.com/presentation/d/1FMptD5sMH41BTgS3-PN0-7j5Zqvs_zZZ3ntsD_4u-7w/edit?usp=sharing)
 * [PyCon US 2011 talk](https://pyvideo.org/video/412/pycon-2011--tuf--secure-software-updates-in-pytho)
 * [Test pip with TUF](https://github.com/theupdateframework/pip/wiki/pip-over-TUF)
-* [​Automation for creating, updating and destroying a TUF-secured PyPI mirror](https://github.com/theupdateframework/pypi.updateframework.com)
-* [​Source code of pip with TUF](https://github.com/theupdateframework/pip/tree/tuf-master)
+* [Automation for creating, updating and destroying a TUF-secured PyPI mirror](https://github.com/theupdateframework/pypi.updateframework.com)
+* [Source code of pip with TUF](https://github.com/theupdateframework/pip/tree/tuf-master)
     * [Little is required to integrate pip with TUF](https://github.com/theupdateframework/pip/compare/pypa:master...tuf-master)
 
 **Securing Ruby package management**
@@ -160,4 +182,8 @@ Papers:
 
 ## Acknowledgements
 
-This material is based upon work supported by the National Science Foundation under Grant No. CNS-1345049 and CNS-0959138.  Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.
+This material is based upon work supported by the National Science
+Foundation under Grant No. CNS-1345049 and CNS-0959138.  Any opinions,
+findings, and conclusions or recommendations expressed in this material are
+those of the author(s) and do not necessarily reflect the views of the
+National Science Foundation.

@@ -44,6 +44,14 @@ update systems.
 
 ## News
 
+**July 3, 2017**
+
+>
+Dr. Trishank Karthik Kuppusamy defended his dissertation on TUF and 
+[Uptane](https://uptane.github.io), and [in-toto](https://in-toto.io/).  
+Congratulations!  Work on these projects will continue as Sebastien, Vlad, 
+Justin, and others move forward!
+
 **May 10, 2017**
 
 >

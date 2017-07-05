@@ -44,6 +44,14 @@ update systems.
 
 ## News
 
+**July 5, 2017**
+
+>
+TUF will be featured in DebConf17, an "annual conference for Debian contributors and
+users interested in improving Debian."  The conference will take place in Montreal,
+Canada, August 6 - 12, 2017.
+https://debconf17.debconf.org/talks/153/
+
 **July 3, 2017**
 
 >

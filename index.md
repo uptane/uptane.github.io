@@ -37,7 +37,7 @@ common use today. (In fact the average Windows user has about two dozen
 different software updaters on their machine!)
 
 We built a
-[specification](https://github.com/theupdateframework/tuf/blob/develop/docs/tuf-spec.txt)
+[specification](https://github.com/theupdateframework/tuf/blob/develop/docs/tuf-spec.md)
 and [library](https://github.com/theupdateframework/tuf) that can be
 universally (and in most cases transparently) used to secure software
 update systems.
@@ -104,7 +104,7 @@ https://blog.docker.com/2015/08/content-trust-docker-1-8/
 
 For more information, look at the following:
 
-* [The Update Framework Specification](https://github.com/theupdateframework/tuf/blob/develop/docs/tuf-spec.txt)
+* [The Update Framework Specification](https://github.com/theupdateframework/tuf/blob/develop/docs/tuf-spec.md)
 * [Source code](https://github.com/theupdateframework/tuf)
 * [TUF Augmentation Proposals (TAPS)](https://github.com/theupdateframework/taps)
 * [Mailing list](https://groups.google.com/forum/?fromgroups#%21forum/theupdateframework)

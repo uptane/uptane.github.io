@@ -111,6 +111,7 @@ For more information, look at the following:
 
 Papers:
 
+* [Mercury: Bandwidth-Effective Prevention of Rollback Attacks Against Community Repositories](https://github.com/theupdateframework/tuf/tree/develop/docs/papers/prevention-rollback-attacks-atc2017.pdf?raw=true)
 * [Diplomat: Using Delegations to Protect Community Repositories](https://isis.poly.edu/~jcappos/papers/kuppusamy_nsdi_16.pdf)
 * [Survivable Key Compromise in Software Update Systems](https://isis.poly.edu/~jcappos/papers/samuel_tuf_ccs_2010.pdf)
 * [A Look in the Mirror: Attacks on Package Managers](https://isis.poly.edu/~jcappos/papers/cappos_mirror_ccs_08.pdf)

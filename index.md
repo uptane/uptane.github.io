@@ -43,6 +43,14 @@ universally (and in most cases transparently) used to secure software
 update systems.
 
 ## News
+** September 8, 2017**
+
+>
+Cloudfare releases PAL, a container identity bootstrapping tool.  It is open
+source and uses Notary, Docker’s implementation of TUF.  PAL "confirms that
+a specific container hash maps to specific metadata like a container’s name
+and label."
+https://blog.cloudflare.com/pal-a-container-identity-bootstrapping-tool/
 
 **July 5, 2017**
 

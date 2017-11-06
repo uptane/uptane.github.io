@@ -43,7 +43,16 @@ universally (and in most cases transparently) used to secure software
 update systems.
 
 ## News
-** September 8, 2017**
+
+**October 24, 2017**
+
+>
+The Cloud Native Computing Foundation announces at Open Source Summit
+Europe that it was adding TUF as its 14th hosted project. Notary, Docker's
+implementation of TUF, was also added at that time.
+https://www.cncf.io/announcement/2017/10/24/cncf-host-two-security-projects-notary-tuf-specification/
+
+**September 8, 2017**
 
 >
 Cloudfare releases PAL, a container identity bootstrapping tool.  It is open
@@ -63,8 +72,8 @@ https://debconf17.debconf.org/talks/153/
 **July 3, 2017**
 
 >
-Dr. Trishank Karthik Kuppusamy defended his dissertation on TUF and 
-[Uptane](https://uptane.github.io).  Congratulations!  Work on these 
+Dr. Trishank Karthik Kuppusamy defended his dissertation on TUF and
+[Uptane](https://uptane.github.io).  Congratulations!  Work on these
 projects will continue as Sebastien, Vlad, Justin, and others move forward!
 
 **May 10, 2017**
@@ -87,7 +96,7 @@ TUF now welcomes proposals to extend the specification! For more information, pl
 >
 Riyaz Faizullabhoy from Docker gave a [talk](https://lcccna2016.sched.org/event/7JWU/when-the-going-gets-tough-get-tuf-going-riyaz-faizullabhoy-docker) on TUF and Notary at LinuxCon North America.  Slides of his talk are available here:
 https://events.linuxfoundation.org/events/linuxcon-north-america/program/slides
- 
+
 **February 22, 2016**
 
 >
@@ -96,7 +105,7 @@ of their presentation is: [When the going gets tough, get TUF going](https://us.
 
 **February 19, 2016**
 
-> 
+>
 The Update Framework now has a logo to call its own.  Thanks is given to Maria Jose Barrera (https://twitter.com/joseemari) for creating the logo, and to Santiago Torres for making it happen.
 
 **February 18, 2016**
@@ -191,6 +200,14 @@ Papers:
 
 ## Press
 
+* [The Cloud Native Computing Foundation adds two security projects to its open
+source stable](https://techcrunch.com/2017/10/24/the-cloud-native-computing-foundation-adds-two-security-projects-to-its-open-source-stable/)
+* [CNCF Adds 2 Projects to better secure containers](https://containerjournal.com/2017/10/24/cncf-adds-projects-better-secure-containers/)
+* [Cloud Native Computing Foundation Adopts 2 Security Projects](http://www.enterprisecloudnews.com/author.asp?section_id=571&doc_id=737560)
+* [CNCF Brings Security to the Cloud Native Stack with Notary, TUF adoption](https://thenewstack.io/cncf-brings-security-cloud-native-stack-notary-tuf-adoption/)
+* [Justin Cappos delivers a talk about TUF at DockerCon 17](http://www.eweek.com/security/how-the-update-framework-improves-security-of-software-updates)
+* [Python's Podcast._init_ runs a segment called
+ "Securing your Software Updates with Justin Cappos-Episode 99"](https://www.podcastinit.com/episode-99-the-update-framework-with-justin-cappos/)
 * [Justin Cappos presented TUF (and ongoing work in securing software updates in automobiles and the software supply chain) at Docker's Distributed Systems Summit 2016 ](https://www.youtube.com/watch?v=Aryr0O6H_2U&list=PLkA60AVN3hh8oPas3cq2VA9xB7WazcIgs&index=9)
 * [Secure Software Distribution in an Adversarial World - Duo Tech Talk](https://www.youtube.com/watch?v=OW8NPkSq-3k)
 * [Docker: With Content Trust, You Can Run Containers on Untrusted Networks](https://thenewstack.io/docker-content-trust-can-run-containers-untrusted-networks/)

@@ -157,6 +157,9 @@ Papers:
 
 * [Notarized Git Tags](https://github.com/docker/global-hack-day-3/tree/master/docker-bdx)
 
+* [Kolide's updater](https://github.com/kolide/updater) securely handles automated software updates with Notary.  NCC Group
+performs a [security assessment of the library](https://www.nccgroup.trust/globalassets/our-research/us/public-reports/2017/ncc-group-kolide-the-update-framework-security-assessment.pdf).
+
 **dtuf**
 
 * [Docker registry bindings](https://github.com/davedoesdev/dtuf) for The Update Framework in Python. Uses [dxf](https://github.com/davedoesdev/dxf) to store TUF metadata and target files in a Docker registry.

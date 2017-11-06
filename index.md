@@ -204,7 +204,7 @@ Papers:
 source stable](https://techcrunch.com/2017/10/24/the-cloud-native-computing-foundation-adds-two-security-projects-to-its-open-source-stable/)
 * [CNCF Adds 2 Projects to better secure containers](https://containerjournal.com/2017/10/24/cncf-adds-projects-better-secure-containers/)
 * [Cloud Native Computing Foundation Adopts 2 Security Projects](http://www.enterprisecloudnews.com/author.asp?section_id=571&doc_id=737560)
-* [CNCF Brings Security to the Cloud Native Stack with Notary, TUF adoption] (https://thenewstack.io/cncf-brings-security-cloud-native-stack-notary-tuf-adoption/)
+* [CNCF Brings Security to the Cloud Native Stack with Notary, TUF adoption](https://thenewstack.io/cncf-brings-security-cloud-native-stack-notary-tuf-adoption/)
 * [Justin Cappos delivers a talk about TUF at DockerCon 17](http://www.eweek.com/security/how-the-update-framework-improves-security-of-software-updates)
 * [Python's Podcast._init_ runs a segment called
  "Securing your Software Updates with Justin Cappos-Episode 99"](https://www.podcastinit.com/episode-99-the-update-framework-with-justin-cappos/)

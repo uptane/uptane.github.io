@@ -2,7 +2,7 @@
 
 # Description
 
-Uptane is the first compromise-resilient software update security system for automotives.
+Uptane is the first compromise-resilient software update security system for the automotive industry.
 
 Unlike other software update security systems (e.g., SSL / TLS, or signing updates with a single offline GPG / RSA key), it addresses a comprehensive threat model.
 It is designed to make it extremely difficult for attackers to be able to install malware on all vehicles maintained by a manufacturer, even if attackers have compromised some keys used to sign updates.
@@ -17,14 +17,14 @@ It was developed by the New York University Tandon School of Engineering (NYU), 
 
 We invite all security researchers and academics to perform a security review of Uptane.
 
-We want to hear from you about ways that you could exploit Uptane. 
+We want to hear from you about ways that you could exploit Uptane.
 For instance, you may find a way that an attacker could replay old images to ECUs because the message signature doesn't cover the right content.
-You can help to fix security issues before hackers use them to exploit  millions of cars!
+You can help to fix security issues before hackers use them to exploit millions of cars!
 
 Please send us your questions, comments, and findings to the [public mailing list](https://groups.google.com/forum/#!forum/uptane-discussion).
 
 We are also interested in hearing about security problems in our Reference Implementation.
-While we do not expect cars  to use this code directly, errors in this software may be  duplicated by production implementations.
+While we do not expect cars to use this code directly, errors in this software may be duplicated by production implementations.
 Please report these using our GitHub issue tracker.
 
 # News
@@ -50,7 +50,7 @@ Please report these using our GitHub issue tracker.
 * [Design Overview](https://docs.google.com/document/d/1pBK--40BCg_ofww4GES0weYFB6tZRedAjUy6PJ4Rgzk/edit?usp=sharing)
 * [Implementation Specification](https://docs.google.com/document/d/1wjg3hl0iDLNh7jIRaHl3IXhwm0ssOtDje5NemyTBcaw/edit?usp=sharing)
 * [Deployment Considerations](https://docs.google.com/document/d/17wOs-T7mugwte5_Dt-KLGMsp-3_yAARejpFmrAMefSE/edit?usp=sharing)
-* [Reference Implementation](https://github.com/uptane/uptane)
+* [Reference Implementation and Demonstration Code](https://github.com/uptane/uptane)
 
 # Slides from last workshop
 
@@ -63,6 +63,6 @@ Please report these using our GitHub issue tracker.
 * [Public mailing list](https://groups.google.com/forum/#!forum/uptane-discussion)
 * [Private discussion forum for OEMs and suppliers (by invitation only)](https://uptane.umtri.umich.edu/forum/)
 
-# Acknowledgements and disclaimers
+# Acknowledgments and disclaimers
 
 Uptane is supported by U.S. Department of Homeland Security grants D15PC00239 and D15PC00302. The views and conclusions contained herein are the authors’ and should not be interpreted as necessarily representing the official policies or endorsements, either expressed or implied, of the U.S. Department of Homeland Security (DHS) or the U.S. government.

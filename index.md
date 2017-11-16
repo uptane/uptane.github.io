@@ -30,6 +30,7 @@ Please report these using our GitHub issue tracker.
 # News
 
 * June 13 2017: [ATS is integrating the Uptane security framework for over-the-air software updates to connected vehicles](https://advancedtelematic.com/en/press-releases/ats-is-integrating-the-uptane-security-framework-for-over-the-air-software-updates-to-connected-vehicles.html)
+* October 17 2017: [Popular Science selects Uptane as one of the top security innovations of 2017](https://www.popsci.com/top-security-innovations-2017#page-2)
 
 # Press
 
@@ -61,7 +62,7 @@ Please report these using our GitHub issue tracker.
 # Participation
 
 * [Public mailing list](https://groups.google.com/forum/#!forum/uptane-discussion)
-* [Private discussion forum for OEMs and suppliers (by invitation only)](https://uptane.umtri.umich.edu/forum/)
+* [Private discussion forum for OEMs and suppliers (by invitation only)](https://groups.google.com/forum/#!forum/uptane-forum)
 
 # Acknowledgments and disclaimers
 

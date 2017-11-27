@@ -10,12 +10,14 @@ with any software update system. The framework can be easily integrated (or
 implemented in the native programming languages of these update systems)
 due to its concise, self-contained architecture and specification.
 Developers have so far implemented the framework in the
-[Python](https://github.com/theupdateframework/tuf),
 [Go](https://github.com/flynn/go-tuf),
+[Haskell](https://www.well-typed.com/blog/2015/07/hackage-security-alpha/),
+[Python](https://github.com/theupdateframework/tuf),
 [Ruby](https://corner.squareup.com/2013/12/securing-rubygems-with-tuf-part-1.html),
-and
-[Haskell](https://www.well-typed.com/blog/2015/07/hackage-security-alpha/)
-programming languages.
+and [Rust](https://github.com/heartsucker/rust-tuf) programming languages.
+
+TUF is hosted by the [Cloud Native Computing Foundation](https://www.cncf.io/) (CNCF)
+and follows the [CNCF Code of Conduct](https://github.com/cncf/foundation/blob/master/code-of-conduct.md).
 
 ## What is a software update system?
 

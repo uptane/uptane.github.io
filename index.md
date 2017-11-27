@@ -61,7 +61,7 @@ Please report these using our GitHub issue tracker.
 
 # Participation
 
-* Send questions or requests to uptane-private@googlegroups.com
+* Send questions or requests to uptane@googlegroups.com
 * [Private discussion forum for OEMs and suppliers (by invitation only)](https://groups.google.com/forum/#!forum/uptane-forum)
 * Pull Requests to the [repository for the reference implementation and demo code](https://github.com/uptane/uptane) are appreciated.
 

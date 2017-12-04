@@ -62,11 +62,19 @@ Please report such issues using our GitHub issue tracker.
 * [SOTA #5: Implementation Specification](https://docs.google.com/presentation/d/1ugct4oARxdzd-PRHi6KdGnllqYxy1jJDDd4w9Pdaq-g/edit?usp=sharing)
 * [SOTA #5: Deployment Considerations](https://docs.google.com/presentation/d/1luFNyWGxwzWBNThg5ziKWrHUmH_Cqr9Pb9EfO3t0Clo/edit?usp=sharing)
 
-# Participation
+# Participation and Advisement
 
-* Send questions or requests to uptane@googlegroups.com
+* Please  questions or requests to uptane@googlegroups.com
 * [Private discussion forum for OEMs and suppliers (by invitation only)](https://groups.google.com/forum/#!forum/uptane-forum)
 * Pull Requests to the [repository for the reference implementation and demo code](https://github.com/uptane/uptane) are appreciated.
+* Six industry insiders have stepped up to serve as advisors for Uptane:
+  * Andre Weimerskirch of Lear Corporation and University of Michigan Transportation Research Institute
+  * Arthur Taylor, of Advanced Telematic Systems
+  * Cameron R Mott, of Southwest Research Institute
+  * Ira McDonald of Fiat Chrysler Automobiles
+  * Philip Lapcynski, of Renesas
+  * Tom Forest, of General Motors
+
 
 # Acknowledgments and disclaimers
 

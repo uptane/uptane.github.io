@@ -23,9 +23,11 @@ You can help to fix security issues before hackers use them to exploit millions 
 
 Please send us your questions, comments, and findings to the [public mailing list](https://groups.google.com/forum/#!forum/uptane-discussion).
 
-We are also interested in hearing about security problems in our Reference Implementation.
-While we do not expect cars to use this code directly, errors in this software may be duplicated by production implementations.
-Please report these using our GitHub issue tracker.
+We are also interested in hearing about security problems in our Reference
+Implementation. While cars are unlikely to use the reference code directly,
+reporting any problems users identify in the code can help prevent their
+duplications in production implementations.
+Please report such issues using our GitHub issue tracker.
 
 # News
 

@@ -67,13 +67,7 @@ Please report such issues using our GitHub issue tracker.
 * Please  questions or requests to uptane@googlegroups.com
 * [Private discussion forum for OEMs and suppliers (by invitation only)](https://groups.google.com/forum/#!forum/uptane-forum)
 * Pull Requests to the [repository for the reference implementation and demo code](https://github.com/uptane/uptane) are appreciated.
-* Six industry insiders have stepped up to serve as advisors for Uptane:
-  * Andre Weimerskirch of Lear Corporation and University of Michigan Transportation Research Institute
-  * Arthur Taylor, of Advanced Telematic Systems
-  * Cameron R Mott, of Southwest Research Institute
-  * Ira McDonald of Fiat Chrysler Automobiles
-  * Philip Lapcynski, of Renesas
-  * Tom Forest, of General Motors
+* [Six industry insiders have stepped up to serve as advisors for Uptane](advisors.md).
 
 
 # Acknowledgments and disclaimers

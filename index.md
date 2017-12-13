@@ -67,7 +67,7 @@ Please report such issues using our GitHub issue tracker.
 * Please  questions or requests to uptane@googlegroups.com
 * [Private discussion forum for OEMs and suppliers (by invitation only)](https://groups.google.com/forum/#!forum/uptane-forum)
 * Pull Requests to the [repository for the reference implementation and demo code](https://github.com/uptane/uptane) are appreciated.
-* [Six industry insiders have stepped up to serve as advisors for Uptane](advisors.md).
+* [Industry insiders have stepped up to serve as advisors for Uptane](advisors.md).
 
 
 # Acknowledgments and disclaimers

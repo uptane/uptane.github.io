@@ -8,3 +8,4 @@ Six industry insiders have stepped up to serve as advisors for Uptane:
 * Ira McDonald of Fiat Chrysler Automobiles
 * Philip Lapcynski, of Renesas
 * Tom Forest, of General Motors
+* Trishank Karthik Kuppusamy, of Datadog and New York University

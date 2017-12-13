@@ -9,7 +9,8 @@ It is designed to make it extremely difficult for attackers to be able to instal
 
 At the same time, Uptane has been designed to be extremely flexible, so as to accommodate a wide variety of deployment scenarios, and allows on-demand customization of updates installed on vehicles.
 
-Uptane is already being adopted by several tier-1 suppliers.
+Uptane is already being adopted by several suppliers. Among the public adopters
+are Lear Corporation and Advanced Telematic Systems / HERE Technologies.
 It was designed in collaboration with major vehicle manufacturers and suppliers responsible for 78% of vehicles on U.S. roads, as well as government regulators.
 It was developed by the New York University Tandon School of Engineering (NYU), the University of Michigan Transportation Research Institute (UMTRI), and the Southwest Research Institute (SWRI).
 
@@ -61,11 +62,13 @@ Please report such issues using our GitHub issue tracker.
 * [SOTA #5: Implementation Specification](https://docs.google.com/presentation/d/1ugct4oARxdzd-PRHi6KdGnllqYxy1jJDDd4w9Pdaq-g/edit?usp=sharing)
 * [SOTA #5: Deployment Considerations](https://docs.google.com/presentation/d/1luFNyWGxwzWBNThg5ziKWrHUmH_Cqr9Pb9EfO3t0Clo/edit?usp=sharing)
 
-# Participation
+# Participation and Advisement
 
-* Send questions or requests to uptane@googlegroups.com
+* Please  questions or requests to uptane@googlegroups.com
 * [Private discussion forum for OEMs and suppliers (by invitation only)](https://groups.google.com/forum/#!forum/uptane-forum)
 * Pull Requests to the [repository for the reference implementation and demo code](https://github.com/uptane/uptane) are appreciated.
+* [Six industry insiders have stepped up to serve as advisors for Uptane](advisors.md).
+
 
 # Acknowledgments and disclaimers
 

@@ -22,7 +22,7 @@ We want to hear from you about ways that you could exploit Uptane.
 For instance, you may find a way that an attacker could replay old images to ECUs because the message signature doesn't cover the right content.
 You can help to fix security issues before hackers use them to exploit millions of cars!
 
-Please send us your questions, comments, and findings to the [public mailing list](https://groups.google.com/forum/#!forum/uptane-discussion).
+Please send your questions, comments, and findings to the [mailing list](https://groups.google.com/forum/#!forum/uptane-discussion). If necessary, sensitive communications can be sent encrypted to the maintainers listed [here](https://github.com/uptane/uptane/blob/develop/PROJECT.md#maintainers).
 
 We are also interested in hearing about security problems in our Reference
 Implementation. While cars are unlikely to use the reference code directly,
@@ -64,7 +64,7 @@ Please report such issues using our GitHub issue tracker.
 
 # Participation and Advisement
 
-* Please  questions or requests to uptane@googlegroups.com
+* Please send questions or requests to uptane@googlegroups.com
 * [Private discussion forum for OEMs and suppliers (by invitation only)](https://groups.google.com/forum/#!forum/uptane-forum)
 * Pull Requests to the [repository for the reference implementation and demo code](https://github.com/uptane/uptane) are appreciated.
 * [Industry insiders have stepped up to serve as advisors for Uptane](advisors.md).

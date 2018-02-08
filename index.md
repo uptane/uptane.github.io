@@ -39,7 +39,7 @@ common use today. (In fact the average Windows user has about two dozen
 different software updaters on their machine!)
 
 We built a
-[specification](https://github.com/theupdateframework/tuf/blob/develop/docs/tuf-spec.md)
+[specification](https://github.com/theupdateframework/specification/blob/master/tuf-spec.md)
 and [library](https://github.com/theupdateframework/tuf) that can be
 universally (and in most cases transparently) used to secure software
 update systems.

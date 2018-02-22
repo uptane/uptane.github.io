@@ -1,0 +1,90 @@
+/* Inspired by https://codepen.io/andornagy/pen/RNeydj */
+
+/* Reset list defaults */
+nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: relative;
+}
+
+/* Display top-nav items inline */
+nav > ul > li {
+  display: inline-block;
+}
+
+/* Common style for top-nav and sub-nav items */
+nav label, nav a {
+  padding: 14px 20px;
+  font-size: 0.9em;
+  display: block;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* Style for top-nav items */
+nav label, nav > ul > li > a {
+  color: white;
+  text-shadow: #111 0px 0px 10px;
+}
+
+/* Style for sub-nav items */
+nav a {
+  color: black;
+  img {
+    vertical-align: middle;
+    height: 18px;
+    margin-left: 5px;
+  }
+}
+
+nav label:hover, nav a:hover,
+nav label.active, nav a.active {
+  text-decoration: underline;
+}
+
+nav label:hover, nav label.active {
+  text-decoration-style: dotted;
+}
+
+/* Sub-nav (dropdowns) styles, hidden per default ... */
+nav ul ul {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  z-index: 1;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  border-top: 1px solid #111;
+}
+
+/* ... but show as on hover. */
+nav ul li:hover ul {
+  display: inherit;
+}
+
+/* Checkboxes toggle the visibility of sub-navs on small screens,
+they are checked and un-checked using the respective labels. */
+nav input[type='checkbox'] {
+  display: none;
+}
+
+@media only screen and (max-width: 768px){
+  /* Top-nav items on small screens are not inline */
+  nav ul li {
+    display: block;
+    text-align: center;
+    border-bottom: 1pt ;
+  }
+
+  /* Sub-navs are not displayed as dropdown but beneath the
+  correspondinp top-nav item, if clicked */
+  nav input[type='checkbox']:checked + ul {
+    display: inherit;
+    position: relative;
+  }
+
+  /* Disable dropdown toggle on hover  */
+  nav ul li:hover > ul {
+    display: none;
+  }
+}

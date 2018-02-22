@@ -5,6 +5,13 @@ css_id: news
 
 ### News
 
+**October 24, 2017**
+
+>
+[TUF joins the Cloud Native Computing
+Foundation](https://www.cncf.io/announcement/2017/10/24/cncf-host-two-security-projects-notary-tuf-specification/)
+as the 14th hosted project!
+
 **July 5, 2017**
 
 >

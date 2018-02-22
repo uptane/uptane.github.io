@@ -1,0 +1,55 @@
+- text: About
+  sub:
+    - text: Overview
+      url: /overview.html
+
+    - text: History
+      url: /history.html
+
+    - text: Timeline
+      url: /timeline.html
+
+    - text: People
+      url: /people.html
+
+- text: Getting started
+  sub:
+    - text: Security
+      url: /security.html
+
+    - text: Metadata
+      url: /metadata.html
+
+    - text: Specification
+      url: https://github.com/theupdateframework/specification/blob/master/tuf-spec.md#the-update-framework-specification
+      external: true
+
+    - text: Videos
+      url: /videos.html
+
+- text: Community
+  sub:
+    - text: Integrations
+      url: /integrations.html
+
+    - text: Reporting issues
+      url: /reporting.html
+
+    - text: Frequently asked questions
+      url: /faq.html
+
+    - text: Enhancement proposals
+      url: /taps.html
+
+    - text: Contribute
+      url: https://github.com/theupdateframework/tuf
+      external: true
+
+- text: Press
+  url: /press.html
+
+- text: News
+  url: /news.html
+
+- text: Contact
+  url: /contact.html

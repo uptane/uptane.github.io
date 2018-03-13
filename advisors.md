@@ -8,3 +8,4 @@ Several industry insiders have stepped up to serve as advisors for Uptane:
 * Philip Lapczynski of Renesas
 * Tom Forest of General Motors
 * Trishank Karthik Kuppusamy of Datadog and New York University
+* Russ Bielawski of Secure Embedded Systems

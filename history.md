@@ -3,23 +3,19 @@ layout: default
 css_id: history_timeline
 ---
 
-### History
+### History and Core Principles
 
 The basic technology behind TUF was developed at the University of Washington
-in 2009 by Justin Samuel and Justin Cappos, and its principles were first
-discussed in a paper Samuel and Cappos coauthored with Nick Mathewson and Roger
+in 2009 by Justin Samuel and Justin Cappos, and presented
+in a paper Samuel and Cappos coauthored with Nick Mathewson and Roger
 Dingledine, researchers from [The Tor Project,
 Inc](https://www.torproject.org/).  Since 2011, TUF has been based at [New York
 University Tandon School of Engineering](http://engineering.nyu.edu/), where
-Cappos, working with a team of graduate students and developers, continues to
-supervise its development and integration initiatives.
-
-Cappos continued to develop and expand TUF technology when he joined the
-faculty of the NYU Tandon School of Engineering in Brooklyn, NY in 2011.
-Now a tenured associate professor of computer science and engineering at the
-school, he has been assisted in this work by a number of  Ph.D. students,
-including Trishank Karthik Kuppusamy, who graduated in 2017, and developers,
-including Vladimir Diaz and Sebastien Awwad.
+Cappos is a tenured associate professor of computer science and engineering.
+There he works with a team of Ph.D. students, including Trishank Karthik Kuppusamy,
+who graduated in 2017, and developers,
+including Vladimir Diaz and Sebastien Awwad, to supervise the development of
+TUF and its adoption and integration by open source non-profits and tech companies.
 
 Though TUF technologies have been customized to meet end-user specifications,
 four core principles continue to be central to its design.
@@ -27,9 +23,9 @@ four core principles continue to be central to its design.
 * The first is separation of responsibilities for signing metadata, which means
 one compromised key does not automatically compromise all repository users.
 
-* The second principle specifies a fixed number of signatures, agreeing to what
-is present in the metadata that accompanies an update, before the server will
-download it.
+* The second specifies a fixed number of signatures agreeing to the authenticity
+of what is presented in the metadata that accompanies an update before the
+server will download it.
 
 * A third principle works to help a repository to recover quickly from a
 compromise by providing an automatic way to revoke signing keys. By doing so,

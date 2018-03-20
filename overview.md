@@ -4,81 +4,86 @@ css_id: overview
 ---
 
 ## Overview
+A quick look at what TUF does and how it works
 
-Generally, a software update system is an application (or part of an
-application) running on a client system that obtains and installs software.
-These systems typically update the applications installed on client systems to
-introduce new features, enhancements, and security fixes.
-
-Three major classes of software update systems are:
-
-* **Application updaters** which are used by applications to update
-   themselves. For example, Firefox updates itself through its own application
-   updater.
-
-* **Library package managers** such as those offered by many
-   programming languages for installing additional libraries. These are systems
-   such as Python's pip/easy_install + PyPI, Perl's CPAN, Ruby's RubyGems, and
-   PHP's Composer.
-
-* **System package managers** used by operating systems to update and
-   install all of the software on a client system. Debian's APT, Red Hat's YUM,
-   and openSUSE's YaST are examples of these.
-
-### Our approach ###
+### Purpose, or Why Get TUF? ###
 
 There are literally thousands of different software update systems in common
 use today. (In fact the average Windows user has about [two
 dozen](http://secunia.com/gfx/pdf/Secunia_RSA_Software_Portfolio_Security_Exposure.pdf)
 different software updaters on their machine!)
 
-We are building a library that can be universally (and in most cases
-transparently) used to secure software update systems.
+What these very different systems have in common is that they all identify,
+locate, and download updates for software that can add new functionalities or
+address old vulnerabilities. Software is rarely ever static, and some repositories
+receive updates on software or project metadata [every few minutes](https://ssl.engineering.nyu.edu/papers/kuppusamy_nsdi_16.pdf). This
+growing flow of updates has also created a need for better
+ways to protect the systems that manage them. Though a number of strategies have
+been introduced and used over the last decade or so to enhance the
+authenticity—and by extension, the security of update systems—most have drawbacks
+that have left update files and the repositories that host them.
+vulnerable to a number of attacks.
 
-### Overview ###
+TUF was launched almost a decade ago as a way to build system resilience against
+key compromises and other attacks that can spread malware or compromise a repository.
+The primary goals behind its design are:
 
-On the surface, the update procedure followed by a software update system can
-be regarded as straightforward.  Obtaining and installing an update just means:
+* to provide a framework (a set of libraries, file formats, and utilities)
+that can be used to secure new and existing software update systems.
+
+* to provide the means to minimize the impact of key compromise
+
+* to be flexible enough to meet the needs of a wide variety of software update systems.
+
+* to be easy to integrate with existing software update systems.
+
+### Software Updates 101###
+A software update system is an application (or part of an
+application) running on a client system that identifies, obtains, and
+installs software.
+
+There are three major classes of software update systems:
+
+* **Application updaters** internal updaters that allow an application to update
+   itself. For example, Firefox updates itself through its own application
+   updater.
+
+* **Library package managers** offered by many
+   programming languages for installing additional libraries. Examples include Python's pip/easy_install + PyPI, Perl's CPAN,
+   Ruby's RubyGems, and PHP's Composer.
+
+* **System package managers** used by operating systems to update and
+   install software on a client system. Examples include Debian's APT,
+   Red Hat's YUM and openSUSE's YaST are examples of these.
+
+While these systems may vary in how they work, most follow a similar update
+procedure. Obtaining and installing an update simply means:
 
 * Knowing when an update exists.
 * Downloading the update.
 * Applying the changes introduced by the update.
 
-The problem with this view is that it is only straightforward when there are no
-malicious parties involved throughout the update procedure. If an attacker is
-trying to interfere with these seemingly simple steps, there is plenty that
-they can do.
-
-TUF is designed to perform the first two steps of the above update procedure,
-while guarding against the majority of attacks that malicious actors have at
-their disposal; especially those attacks that are overlooked by
-security-conscious developers.
-
-### Background ###
-
-Let's assume you take the approach that most systems do (at least, the ones
-that even try to be secure). You download both the file you want and a
-cryptographic signature of the file. You already know which key you trust to
-make the signature. You check that the signature is correct and was made by
-this trusted key. All seems well, right? Wrong. You are still at risk in many
-ways, including:
+TUF is designed to perform the first two steps of this procedure,
+while guarding against the majority of attacks that can occur during or
+after the update.
+These include threats that other software security strategies may not take into
+account, such as when:
 
 * An attacker keeps giving you the same file, so you never realize
   there is an update.
 
 * An attacker gives you an older, insecure version of a file that you
-  already have, so you download that one and blindly use it thinking it's
+  already have, so you download it and blindly use it thinking it's
   newer.
 
-* An attacker gives you a newer version of a file you have but it's not
+* An attacker gives you a newer version of a file you have but it's still not
   the newest one. It's newer to you, but it may be insecure and
   exploitable by the attacker.
 
 * An attacker compromises the key used to sign these files and now you
-  download a malicious file that is properly signed.
+  download a file that is still malicious file, even if it is properly signed.  
 
-These are just some of the attacks software update systems are vulnerable to
-when only using signed files. See [Security](/security.md) for a full list of
+The [Security](/security.md) section offers a full list of the
 attacks and updater weaknesses TUF is designed to prevent.
 
 The following papers provide detailed information on securing software updater
@@ -101,20 +106,19 @@ and package management security:
 * [Package Management
   Security](papers/attacks-on-package-managers-ccs2008.pdf?raw=true)
 
-### What TUF does ###
+### How does TUF secure updates? ###
 
-In order to securely download and verify target files, TUF requires a few extra
-files to exist on a repository. These are called metadata files. TUF metadata
-files contain additional information, including information about which keys
-are trusted, the cryptographic hashes of files, signatures on the metadata,
+In a sense, TUF enhances security by adding verifiable records about the state
+of a repository or application. By adding metadata containing
+information about which signing keys are trusted, the cryptographic hashes of
+files, signatures on the metadata,
 metadata version numbers, and the date after which the metadata should be
-considered expired.
+considered expired, it creates a record that can be checked to verify the
+authenticity of update files.
 
-When a software update system using TUF wants to check for updates, it asks TUF
-to do the work. That is, your software update system never has to deal with
-this additional metadata or understand what's going on underneath. If TUF
-reports back that there are updates available, your software update system can
-then ask TUF to download these files. TUF downloads them and checks them
-against the TUF metadata that it also downloads from the repository. If the
+Your software update system never has to deal with
+this additional metadata or understand what's going on underneath. TUF
+identifies the  updates, downloads them, and checks them
+against the metadata that it also downloads from the repository. If the
 downloaded target files are trustworthy, TUF hands them over to your software
 update system. See [metadata](/metadata.html) for more information and examples.

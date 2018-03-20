@@ -7,13 +7,27 @@ css_id: news
 
 (The [press](/press.html) page contains a full listing of news coverage.)
 
-**July 5, 2017**
+**December 7, 2017**
 
 >
-TUF will be featured in DebConf17, an "annual conference for Debian
-contributors and users interested in improving Debian."  The conference will
-take place in Montreal, Canada, August 6 - 12, 2017.
-https://debconf17.debconf.org/talks/153/
+Justin Cappos and David Lawrence, senior security engineer at Docker, jointly
+chaired the TUF/Notary Salon at [KubeCon + CloudNativeCon North America](http://events17.linuxfoundation.org/events/kubecon-and-cloudnativecon-north-america/program/schedule). The flagship conference of the Cloud Native Computing Foundation
+was held in Austin, Texas, December 6-8, 2017.
+
+**October 24, 2017**
+
+>
+[The Linux Foundation](http://www.linuxfoundation.org/) announced at Open Source
+Summit Europe that TUF would become the [latest hosted project](https://www.linuxfoundation.org/cloud-containers-virtualization/cncf-host-two-security-projects-notary-tuf-specification/) of the Cloud Native Computing Foundation.
+TUF and Notary are the first security projects to be adopted by CNCF.
+
+
+**August 10, 2017**
+
+>
+Lukas Pühringer presented the talk "Rough Times? TUF Shines" at [DebConf17](https://debconf17.debconf.org/talks/153/), an "annual conference for Debian contributors, and users interested in improving Debian."  
+The conference took place in Montreal, Canada, August 6-12, 2017.
+
 
 **July 3, 2017**
 

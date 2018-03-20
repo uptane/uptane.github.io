@@ -10,17 +10,16 @@ Cappos](https://ssl.engineering.nyu.edu/personalpages/jcappos/) at [New York
 University](https://ssl.engineering.nyu.edu/)'s [Secure Systems
 Lab](https://ssl.engineering.nyu.edu/).  Many people have contributed to the
 project since its inception, including academics, professional developers, and
-contributors from the open-source community.
+contributors from the open-source community. We especially acknowledge
+the individuals from the open-source community who have
+[contributed](https://github.com/theupdateframework/tuf/blob/develop/docs/AUTHORS.txt)
+to the TUF project over the years.
 
 Please visit the [governance
 page](https://github.com/theupdateframework/tuf/blob/develop/docs/GOVERNANCE.md#tuf-governance)
-to learn how project decisions are made, and an explanation of the project
-roles used below.
+to learn how project decisions are made, and for a more detailed explanation
+of the project roles used below.
 
-Special gratitude is given to the individuals from the open-source community
-who have
-[contributed](https://github.com/theupdateframework/tuf/blob/develop/docs/AUTHORS.txt)
-to the TUF project over the years.
 
 **Consensus Builder**:
 
@@ -50,7 +49,7 @@ to the TUF project over the years.
 
     PGP fingerprint: C2FB 9C91 0758 B682 7BC4  3233 BC0C 6DED D5E5 CC03
 
-  *Lukas Püehringer*
+  *Lukas Pühringer*
 
     Email: lukas.puehringer@nyu.edu
 

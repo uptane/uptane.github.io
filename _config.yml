@@ -1,8 +1,8 @@
-title: The Update Framework (TUF)
-description: Like the S in HTTPS, a plug-and-play library for securing a software updater
-google_analytics: 
-show_downloads: false
-theme: jekyll-theme-cayman
-
-gems:
-  - jekyll-mentions
+# You can access these variables using jekyll template language and the
+# `site` variable, e.g.: {{site.title}}
+# Look at layouts/default.html to see how they are used
+title: The Update Framework
+description: A framework for securing software update systems
+logo_url: /assets/images/logo.svg
+google_analytics: false
+exclude: ["LICENSE", "README.md"]

@@ -86,26 +86,6 @@ account, such as when:
 The [Security](/security.md) section offers a full list of the
 attacks and updater weaknesses TUF is designed to prevent.
 
-The following papers provide detailed information on securing software updater
-systems, TUF's design and implementation details, attacks on package managers,
-and package management security:
-
-* [Mercury: Bandwidth-Effective Prevention of Rollback Attacks Against
-  Community
-  Repositories](papers/prevention-rollback-attacks-atc2017.pdf?raw=true)
-
-* [Diplomat: Using Delegations to Protect Community
-  Repositories](papers/protect-community-repositories-nsdi2016.pdf?raw=true)
-
-* [Survivable Key Compromise in Software Update
-  Systems](papers/survivable-key-compromise-ccs2010.pdf?raw=true)
-
-* [A Look In the Mirror: Attacks on Package
-  Managers](papers/package-management-security-tr08-02.pdf?raw=true)
-
-* [Package Management
-  Security](papers/attacks-on-package-managers-ccs2008.pdf?raw=true)
-
 ### How does TUF secure updates? ###
 
 In a sense, TUF enhances security by adding verifiable records about the state

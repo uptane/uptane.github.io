@@ -4,7 +4,7 @@ css_id: overview
 ---
 
 ## Overview
-A quick look at what TUF does and how it works
+A quick look at what TUF does and how it works.
 
 ### Purpose, or Why Get TUF? ###
 
@@ -81,7 +81,7 @@ account, such as when:
   exploitable by the attacker.
 
 * An attacker compromises the key used to sign these files and now you
-  download a file that is still malicious file, even if it is properly signed.  
+  download a file that is still malicious file, even if it is properly signed.
 
 The [Security](/security.md) section offers a full list of the
 attacks and updater weaknesses TUF is designed to prevent.

@@ -27,9 +27,6 @@
       url: https://github.com/theupdateframework/specification/blob/master/tuf-spec.md#the-update-framework-specification
       external: true
 
-    - text: Frequently asked questions
-      url: /faq.html
-
     - text: Videos
       url: /videos.html
 

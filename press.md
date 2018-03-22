@@ -5,8 +5,6 @@ css_id: press
 
 ### Press
 
-**[Lois, this page is not up to date.  Can you please add missing entries?]**
-
 * [Airbiquity.com-January 2018: Airbiquity OTAmatic Named 2017 New Product Of The Year By Business Intelligence Group](https://www.airbiquity.com/news/press-releases/airbiquity-otamatic-named-2017-new-product-year-business-intelligence-group)
 
 * [TechCrunch-October 2017: The Cloud Native Computing Foundation Adds Two Security Projects to its Open Source Stable](https://beta.techcrunch.com/2017/10/24/the-cloud-native-computing-foundation-adds-two-security-projects-to-its-open-source-stable/)

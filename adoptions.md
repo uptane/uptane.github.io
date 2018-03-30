@@ -5,7 +5,8 @@ css_id: adoptions
 
 ### Adoptions
 
-(Many of the images below link to articles that cover the TUF adoption.)
+By clicking of the images below, you can link to articles that cover the TUF
+adoption, or repositories containing the relevant code.
 
 
 <a href="https://blog.docker.com/2015/08/content-trust-docker-1-8/" rel="docker

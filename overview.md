@@ -6,12 +6,12 @@ css_id: overview
 ## Overview
 A quick look at what TUF does and how it works.
 
-### Purpose, or Why Get TUF? ###
+### Purpose, or Why Get TUF? 
 
 There are literally thousands of different software update systems in common
-use today. (In fact the average Windows user has about [two
+use today. (In fact the computer of an average Windows user probably contains about [two
 dozen](http://secunia.com/gfx/pdf/Secunia_RSA_Software_Portfolio_Security_Exposure.pdf)
-different software updaters on their machine!)
+different software updaters!)
 
 What these very different systems have in common is that they all identify,
 locate, and download updates for software that can add new functionalities or
@@ -21,8 +21,7 @@ growing flow of updates has also created a need for better
 ways to protect the systems that manage them. Though a number of strategies have
 been introduced and used over the last decade or so to enhance the
 authenticity—and by extension, the security of update systems—most have drawbacks
-that have left update files and the repositories that host them.
-vulnerable to a number of attacks.
+that have left update files and the repositories that host them s,vulnerable to a number of attacks.
 
 TUF was launched almost a decade ago as a way to build system resilience against
 key compromises and other attacks that can spread malware or compromise a repository.
@@ -31,7 +30,7 @@ The primary goals behind its design are:
 * to provide a framework (a set of libraries, file formats, and utilities)
 that can be used to secure new and existing software update systems.
 
-* to provide the means to minimize the impact of key compromise
+* to provide the means to minimize the impact of key compromises.
 
 * to be flexible enough to meet the needs of a wide variety of software update systems.
 
@@ -54,7 +53,7 @@ There are three major classes of software update systems:
 
 * **System package managers** used by operating systems to update and
    install software on a client system. Examples include Debian's APT,
-   Red Hat's YUM and openSUSE's YaST are examples of these.
+   Red Hat's YUM and openSUSE's YaST.
 
 While these systems may vary in how they work, most follow a similar update
 procedure. Obtaining and installing an update simply means:
@@ -73,18 +72,18 @@ account, such as when:
   there is an update.
 
 * An attacker gives you an older, insecure version of a file that you
-  already have, so you download it and blindly use it thinking it's
-  newer.
+  already have and tricks you into thinking it's
+  newer. You download it an dblindly use it.
 
 * An attacker gives you a newer version of a file you have but it's still not
-  the newest one. It's newer to you, but it may be insecure and
+  the *newest* one. It's newer to you, but it may be insecure and
   exploitable by the attacker.
 
-* An attacker compromises the key used to sign these files and now you
-  download a file that is still malicious file, even if it is properly signed.
+* An attacker compromises the key used to sign these files. Now you
+  download a file that is properly signed, but is still malicious. 
 
 The [Security](/security.md) section offers a full list of the
-attacks and updater weaknesses TUF is designed to prevent.
+attacks and updater weaknesses that TUF is designed to defend against.
 
 ### How does TUF secure updates? ###
 

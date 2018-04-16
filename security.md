@@ -5,11 +5,12 @@ css_id: security
 
 # Security
 
-We can think of a software update system as secure if it knows about the latest
-available updates in a timely manner, if any files it downloads are the correct
-files, and if no harm results from checking or downloading files. Making this
-happen can be complicated by a number of potential attacks
-against software update systems.
+We can think of a software update system as "secure" if:
+* it knows about the latest available updates in a timely manner
+* any files it downloads are the correct files, and,
+* no harm results from checking or downloading files.
+
+Making this happen requires workable preventive strategies against a number of potential attacks.
 
 ## Attacks and Weaknesses
 
@@ -20,56 +21,56 @@ strategies to defend against them must be specified.
 Some of these issues are, or can be, related, depending on the design and
 implementation of the given software update system.
 
-* **Arbitrary software installation**. An attacker installs anything he wants
-on the client system. That is, an attacker can provide arbitrary files in
-response to download requests and the files will not be detected as illegitimate.
+* **Arbitrary software installation**. An attacker can provide arbitrary files in
+response to download requests and install anything he wants
+on the client system, yet none will be detected as illegitimate.
 
-* **Rollback attacks**. An attacker presents files older
-than those the client has already seen to a software update system. With no way
+* **Rollback attacks**. An attacker presents files to a software update system
+that are older than those the client has already seen. With no way
 to tell it is an obsolete version that may contain vulnerabilities, the user
-will install the software. Later on, the vulnerabilities can be exploited by
+installs the software. Later on, the vulnerabilities can be exploited by
 attackers.
 
 * **Fast-forward attacks**.  An attacker arbitrarily increases the version
 numbers of project metadata files in the snapshot
 metadata well beyond the current value, thus tricking a software update system
-into thinking any subsequent updates are trying
+into thinking that any subsequent updates are trying
 to rollback the package to a previous, out-of-date version.
 In some situations, such as those where there is a maximum possible
 version number, the perpetrator could use a number so high that the system
 would never be able to match it with the one in the
 snapshot metadata, and thus new updates could never be downloaded.
 
-* **Indefinite freeze attacks**. An attacker continues to present a software
- update system files the client has already seen. As a result, the client is
- kept unaware of new files.
+* **Indefinite freeze attacks**. An attacker continues to present files to
+a software update system files that the client has already seen. As a result, 
+the client is kept unaware of new files.
 
 * **Endless data attacks**. An attacker responds to a file download request
  with an endless stream of data, causing harm to clients (e.g. a disk partition
 filling up or memory exhaustion).
 
 * **Slow retrieval attacks**. An attacker responds to clients with a very
-slow stream of data that essentially results in the client never continuing
+slow stream of data that essentially results in the client never completing
 the update process.
 
-* **Extraneous dependencies attacks**. An attacker indicates to clients that
- in order to install the software they wanted, they also need to install
- unrelated software. This unrelated software can be from a trusted source
- but may have known vulnerabilities that are exploitable by the attacker.
+* **Extraneous dependencies attacks**. An attacker indicates to clients that,
+ in order to install the software they want, they also need to install
+ unrelated software. This extra software may be from a trusted source,
+ but could still have known vulnerabilities that are exploitable by the attacker.
 
 * **Mix-and-match attacks**. An attacker presents clients with a view of a
-repository that includes files that did not exist together on the repository
-at the same time. This can result in, for example, outdated versions of
-dependencies being installed.
+repository that includes files that did not exist there together at the same time.
+This can result in outdated versions of
+dependencies being installed, and other complications.
 
 * **Wrong software installation**. An attacker provides a client with a
- trusted file that is not the one the client wanted.
+ trusted file that is just not the one the client wanted.
 
-* **Malicious mirrors preventing updates**. An attacker in control of one
-repository mirror is able to prevent users from obtaining updates from other,
-good mirrors.
+* **Malicious mirrors preventing updates**. An attacker controls one
+repository mirror and is able to use it to prevent clients from obtaining updates from other,
+non-malicious mirrors.
 
-* **Vulnerability to key compromises**. An attacker who can compromises the one key
+* **Vulnerability to key compromises**. An attacker who can compromise the one key
 in a single key system, or less than a given threshold of keys, can compromise
 clients. These attacks can occur whether the client relies on a single online
 key (if only being protected by SSL) or a single offline key (if protected by
@@ -90,8 +91,8 @@ in a secure software update system are:
 
 * Trust should not be granted forever. Trust should expire if it is not renewed.
 * Trust should not be granted equally to all parties. This type of compartmentalized
-trust means a party is only to be trusted for files that it is supposed to provide,
-as stipulated by the root role.
+trust means a party is only to be trusted for the files that the root role stipulates it is
+to provide.
 
 ### Mitigating Key Risk (Compromise-Resilience)
 
@@ -100,7 +101,7 @@ system. The safety of the keys used to create these signatures directly affects 
 security of the clients the system protects. Rather than naively assume
 that private keys are always safe from compromise, a secure software update
 system must anticipate how to keep clients as safe as possible when a compromise
-occurs. This is the basic principle of compromise resilience
+of those keys occurs. This is the basic principle of compromise resilience.
 
 Keeping clients safe despite a key compromise involves:
 

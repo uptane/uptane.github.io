@@ -66,32 +66,33 @@ please see [TUF Augmentation Proposals
 Riyaz Faizullabhoy from Docker gave a
 [talk](https://lcccna2016.sched.org/event/7JWU/when-the-going-gets-tough-get-tuf-going-riyaz-faizullabhoy-docker)
 on TUF and Notary at LinuxCon North America.  Slides of his talk are available
-here:
-https://events.linuxfoundation.org/events/linuxcon-north-america/program/slides
+[here](https://events.linuxfoundation.org/events/linuxcon-north-america/program/slides).
+
+**March 18, 2016**
+
+>
+Trishank Kuppusamy presents "Diplomat: Using Delegations to Protect Community
+Repositories" at [NSDI 2016](https://www.usenix.org/conference/nsdi16). Presentation
+[slides and audio](https://www.usenix.org/node/194973) of the talk are also available
+
 
 **February 22, 2016**
 
 >
-David Lawrence and Ying Li from Docker are scheduled to present at PyCon 2016.  The title
-of their presentation is: [When the going gets tough, get TUF going](https://us.pycon.org/2016/schedule/presentation/2187/)
+David Lawrence and Ying Li from Docker present at PyCon 2016.  The title
+of their talk is: [When the going gets tough, get TUF going](https://us.pycon.org/2016/schedule/presentation/2187/)
 
 **February 19, 2016**
 
 >
-The Update Framework now has a logo to call its own.  Thanks is given to Maria
-Jose Barrera (https://twitter.com/joseemari) for creating the logo, and to
-Santiago Torres for making it happen.
+The Update Framework acquires a logo to call its own, thanks to Maria
+Jose Barrera (https://twitter.com/joseemari) who created the logo, and
+Santiago Torres who found Barrerra.
 
-**February 18, 2016**
-
-> The camera-ready version of "Diplomat: Using Delegations to Protect Community
-> Repositories" was recently submitted to [NSDI
-> 2016](https://www.usenix.org/conference/nsdi16).  The paper is freely
-> available here on our website.
 
 **August 12, 2015**
 
-> In TUF adoption news... the Docker team announced Docker Content Trust, which
+> The Docker team announces Docker Content Trust, which
 > integrates TUF via [Notary](https://github.com/docker/notary).  Docker
 > Content Trust will be available starting with Docker 1.8, and supports image
 > signing and verification.  For more information on the Docker + TUF

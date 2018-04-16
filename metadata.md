@@ -53,11 +53,11 @@ the software updates they are trying to obtain. The targets.json metadata
 file lists hashes and sizes of target files.
 
 This file can optionally define other roles to which it delegates trust,
-or specifies that another role is trusted for some or all of the target files
+or specify that another role is to be trusted for some or all of the target files
 available from the repository. When delegated roles are specified, it is done
 so in a way similar to how the Root role specifies the top-level roles: by giving
 the trusted keys and signature threshold for each role. Additionally, one or more
-[glob patterns](https://en.wikipedia.org/wiki/Glob_(programming)) are specified to indicate the target file paths for which clients should trust each delegated role.
+[glob patterns](https://en.wikipedia.org/wiki/Glob_(programming)) will be specified to indicate the target file paths for which clients should trust each delegated role.
 
 See [example](https://raw.githubusercontent.com/theupdateframework/tuf/develop/tests/repository_data/repository/metadata/targets.json) of Targets metadata.
 
@@ -65,10 +65,10 @@ See [example](https://raw.githubusercontent.com/theupdateframework/tuf/develop/t
 
 Signed by: A delegated targets role.
 
-A metadata file provided by a delegated targets role will follow exactly the same
+A metadata file provided by a Delegated Targets role will follow exactly the same
 format as one provided by the top-level Targets role.
 
-When the targets role delegates trust to other roles, each delegated role will
+When the Targets role delegates trust to other roles, each delegated role will
 provide one signed metadata file.  As is the
 case with the directory structure of top-level metadata, the delegated files are
 relative to the base URL of metadata available from a given repository mirror.
@@ -93,7 +93,7 @@ Signed by: Snapshot role.
 
 The snapshot.json metadata file lists version numbers of all metadata files
 other than timestamp.json. This file ensures that clients will see a consistent
-view of all files on the repository. That is, metadata files (and thus target
+view of all files on the repository. That is, metadata files (and thus Target
 files) that existed on the repository at different times cannot be combined
 and presented to clients by an attacker.
 

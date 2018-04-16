@@ -7,7 +7,8 @@ css_id: history_timeline
 
 The basic technology behind TUF was developed at the University of Washington
 in 2009 by Justin Samuel and Justin Cappos, and presented
-in a paper Samuel and Cappos coauthored with Nick Mathewson and Roger
+in a [paper](https://theupdateframework.github.io/papers/survivable-key-compromise-ccs2010.pdf?raw=true) 
+Samuel and Cappos coauthored with Nick Mathewson and Roger
 Dingledine, researchers from [The Tor Project,
 Inc](https://www.torproject.org/).  Since 2011, TUF has been based at [New York
 University Tandon School of Engineering](http://engineering.nyu.edu/), where

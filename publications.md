@@ -20,7 +20,7 @@ security:
   Systems](papers/survivable-key-compromise-ccs2010.pdf?raw=true)
 
 * [A Look In the Mirror: Attacks on Package
-  Managers](papers/package-management-security-tr08-02.pdf?raw=true)
+  Managers](papers/attacks-on-package-managers-ccs2008.pdf?raw=true)
 
 * [Package Management
-  Security](papers/attacks-on-package-managers-ccs2008.pdf?raw=true)
+  Security](papers/package-management-security-tr08-02.pdf?raw=true)

@@ -6,7 +6,7 @@ css_id: overview
 ## Overview
 A quick look at what TUF does and how it works.
 
-### Purpose, or Why Get TUF? 
+### Purpose, or Why Get TUF?
 
 There are literally thousands of different software update systems in common
 use today. (In fact the computer of an average Windows user probably contains about [two
@@ -20,8 +20,8 @@ receive updates on software or project metadata [every few minutes](https://ssl.
 growing flow of updates has also created a need for better
 ways to protect the systems that manage them. Though a number of strategies have
 been introduced and used over the last decade or so to enhance the
-authenticity—and by extension, the security of update systems—most have drawbacks
-that have left update files and the repositories that host them s,vulnerable to a number of attacks.
+authenticity of update files—and by extension, the security of update systems—most have drawbacks
+that have left repositories vulnerable to a number of attacks.
 
 TUF was launched almost a decade ago as a way to build system resilience against
 key compromises and other attacks that can spread malware or compromise a repository.
@@ -48,7 +48,8 @@ There are three major classes of software update systems:
    updater.
 
 * **Library package managers** offered by many
-   programming languages for installing additional libraries. Examples include Python's pip/easy_install + PyPI, Perl's CPAN,
+   programming languages for installing additional libraries. Examples include
+   Python's pip/easy_install + PyPI, Perl's CPAN,
    Ruby's RubyGems, and PHP's Composer.
 
 * **System package managers** used by operating systems to update and
@@ -73,14 +74,14 @@ account, such as when:
 
 * An attacker gives you an older, insecure version of a file that you
   already have and tricks you into thinking it's
-  newer. You download it an dblindly use it.
+  newer. You download it and blindly use it.
 
 * An attacker gives you a newer version of a file you have but it's still not
   the *newest* one. It's newer to you, but it may be insecure and
   exploitable by the attacker.
 
 * An attacker compromises the key used to sign these files. Now you
-  download a file that is properly signed, but is still malicious. 
+  download a file that is properly signed, but is still malicious.
 
 The [Security](/security.md) section offers a full list of the
 attacks and updater weaknesses that TUF is designed to defend against.

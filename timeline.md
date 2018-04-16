@@ -17,14 +17,16 @@ accepts a post as an assistant professor at the Brooklyn, NY, school.
 into adapting and improving TUF for Python, Ruby, and other environments used
 for cloud computing.
 
-**2013**: The first of two Python Enhancement Proposals (PEP 458)
-dealing with TUF is published. "Surviving a Compromise of PyPI" details
-the integration of TUF into PyPI, the Python package manager.
+**2013**: [PEP 458](https://www.python.org/dev/peps/pep-0458/), the first of
+two Python Enhancement Proposals dealing with TUF is published.
+"Surviving a Compromise of PyPI" details
+the integration of TUF into the Python package manager.
 
 **2014**: Flynn becomes the first tech organization to adopt TUF when
 it independently implements the program in its Go programming language.
 
-**2014**: PEP 480, a maximum security version of PEP 458, is published.
+**2014**: [PEP 480](https://www.python.org/dev/peps/pep-0480/), a
+ maximum security version of PEP 458, is published.
 
 **2015**: Docker launches Notary, an implementation of TUF
 used to publish and manage trusted collections of content. It also launches

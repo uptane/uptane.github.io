@@ -70,9 +70,10 @@ on TUF and Notary at LinuxCon North America.  Slides of his talk are available
 
 **March 18, 2016**
 
-> 
+>
 Trishank Kuppusamy presents "Diplomat: Using Delegations to Protect Community
-Repositories" at [NSDI 2016](https://www.usenix.org/conference/nsdi16).
+Repositories" at [NSDI 2016](https://www.usenix.org/conference/nsdi16). Presentation
+[slides and audio](https://www.usenix.org/node/194973) of the talk are also available
 
 
 **February 22, 2016**
@@ -85,7 +86,7 @@ of their talk is: [When the going gets tough, get TUF going](https://us.pycon.or
 
 >
 The Update Framework acquires a logo to call its own, thanks to Maria
-Jose Barrera (https://twitter.com/joseemari) who created the logo, and 
+Jose Barrera (https://twitter.com/joseemari) who created the logo, and
 Santiago Torres who found Barrerra.
 
 

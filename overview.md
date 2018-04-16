@@ -3,10 +3,10 @@ layout: default
 css_id: overview
 ---
 
-## Overview
+## Overview ##
 A quick look at what TUF does and how it works.
 
-### Purpose, or Why Get TUF?
+### Purpose, or Why Get TUF? ###
 
 There are literally thousands of different software update systems in common
 use today. (In fact the computer of an average Windows user probably contains about [two
@@ -36,7 +36,7 @@ that can be used to secure new and existing software update systems.
 
 * to be easy to integrate with existing software update systems.
 
-### Software Updates 101###
+### Software Updates 101 ###
 A software update system is an application (or part of an
 application) running on a client system that identifies, obtains, and
 installs software.

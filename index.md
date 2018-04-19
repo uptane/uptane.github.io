@@ -4,23 +4,18 @@
 
 Uptane is the first compromise-resilient software update security system for the automotive industry.
 
-Unlike other software update security systems (e.g., SSL / TLS, or signing updates with a single offline GPG / RSA key), it addresses a comprehensive threat model.
+Unlike other software update security systems (e.g., OMA-DM, SSL / TLS, signing updates with a single offline GPG / RSA key, etc.), Uptane addresses a comprehensive threat model.
 It is designed to make it extremely difficult for attackers to be able to install malware on all vehicles maintained by a manufacturer, even if attackers have compromised some keys used to sign updates.
 
 At the same time, Uptane has been designed to be extremely flexible, so as to accommodate a wide variety of deployment scenarios, and allows on-demand customization of updates installed on vehicles.
 
-Uptane is already being adopted by several suppliers. Among the public adopters
-are Lear Corporation and Advanced Telematic Systems / HERE Technologies.
-It was designed in collaboration with major vehicle manufacturers and suppliers responsible for 78% of vehicles on U.S. roads, as well as government regulators.
+Uptane is already being adopted by several automakers. 
+It was designed using support from DHS and with feedback from major vehicle manufacturers and suppliers responsible for 78% of vehicles on U.S. roads, as well as government regulators.
 It was developed by the New York University Tandon School of Engineering (NYU), the University of Michigan Transportation Research Institute (UMTRI), and the Southwest Research Institute (SWRI).
 
 # Open call for security review
 
-We invite all security researchers and academics to perform a security review of Uptane.
-
-We want to hear from you about ways that you could exploit Uptane.
-For instance, you may find a way that an attacker could replay old images to ECUs because the message signature doesn't cover the right content.
-You can help to fix security issues before hackers use them to exploit millions of cars!
+Uptane has been security audited by several different groups.  We welcome further audits from the community.  You can help to fix security issues before hackers use them to exploit millions of cars!
 
 Please send your questions, comments, and findings to the [mailing list](https://groups.google.com/forum/#!forum/uptane-discussion). If necessary, sensitive communications can be sent encrypted to the maintainers listed [here](https://github.com/uptane/uptane/blob/develop/PROJECT.md#maintainers).
 

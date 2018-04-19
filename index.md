@@ -9,8 +9,7 @@ It is designed to make it extremely difficult for attackers to be able to instal
 
 At the same time, Uptane has been designed to be extremely flexible, so as to accommodate a wide variety of deployment scenarios, and allows on-demand customization of updates installed on vehicles.
 
-Uptane is already being adopted by several automakers. 
-It was designed using support from DHS and with feedback from major vehicle manufacturers and suppliers responsible for 78% of vehicles on U.S. roads, as well as government regulators.
+Uptane is already being adopted by automakers. It was designed using support from DHS and with feedback from major vehicle manufacturers and suppliers responsible for 78% of vehicles on U.S. roads, as well as government regulators.
 It was developed by the New York University Tandon School of Engineering (NYU), the University of Michigan Transportation Research Institute (UMTRI), and the Southwest Research Institute (SWRI).
 
 # Open call for security review

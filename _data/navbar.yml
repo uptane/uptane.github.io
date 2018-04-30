@@ -29,6 +29,7 @@
 
     - text: Reference Implementation
       url: https://github.com/theupdateframework/tuf/blob/develop/docs/GETTING_STARTED.rst#getting-started
+
     - text: Videos
       url: /videos.html
 

@@ -43,7 +43,7 @@ rel="Kolide logo"><img src="/assets/images/kolide_logo.png"
 width="200" height="150"></a>
 <a href="https://www.airbiquity.com/news/press-releases/airbiquity-unveils-new-otamatictm-release-further-strengthening-over-air-ota-software-and-data-management-offering-automotive"
 rel="Airbiquity logo"><img src="/assets/images/airbiquity.png"
-width="200" height="150"></a>
+width="200" height="100"></a>
 
 
 ### Ongoing

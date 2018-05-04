@@ -35,6 +35,10 @@ width="200"></a> <a
 href="https://blog.cloudflare.com/pal-a-container-identity-bootstrapping-tool/"
 rel="Cloudfare logo"><img src="/assets/images/cloudfare_logo.png"
 width="200"></a> <a
+href="http://docs.automotivelinux.org/docs/architecture/en/dev/reference/security/05-platform-security.html#agl-platform-software-update"
+rel="AGL logo"><img src="/assets/images/agl.png"
+width="200"></a>
+<a
 href="https://github.com/kolide/updater"
 rel="Kolide logo"><img src="/assets/images/kolide_logo.png"
 width="200"></a>

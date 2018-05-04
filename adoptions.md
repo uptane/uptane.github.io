@@ -11,39 +11,39 @@ containing the relevant code.
 
 
 <a href="https://blog.docker.com/2015/08/content-trust-docker-1-8/" rel="docker
-logo"><img src="/assets/images/docker_logo.png" width="200"></a> <a href="https://flynn.io/docs/development#the-update-framework-%28tuf%29" rel="Flynn
-logo"><img src="/assets/images/flynn_logo.png" width="200"></a> <a
+logo"><img src="/assets/images/docker_logo.png" width="200" height="150"></a> <a href="https://flynn.io/docs/development#the-update-framework-%28tuf%29" rel="Flynn
+logo"><img src="/assets/images/flynn_logo.png" width="200" height="50"></a> <a
 href="https://advancedtelematic.com/en/press-releases/ats-is-integrating-the-uptane-security-framework-for-over-the-air-software-updates-to-connected-vehicles.html"
-rel="ATS logo"><img src="/assets/images/ats_logo.png" width="200"></a>
+rel="ATS logo"><img src="/assets/images/ats_logo.png" width="200" height="100"></a>
 
 <a
 href="https://github.com/theupdateframework/notary"
 rel="Notary logo"><img src="/assets/images/notary_logo.png"
-width="200"></a> <a
+width="200" height="50"></a> <a
 href="https://leap.se/en/2014/darkest-night"
 rel="LEAP logo"><img src="/assets/images/leap_logo.png"
-width="200"></a> <a
+width="200" height="150"></a> <a
 href="https://www.youtube.com/watch?v=2ZIu9XTvsC0"
 rel="VMware logo"><img src="/assets/images/vmware_logo.png"
-width="200"></a> <a
+width="200" height="50"></a> <a
 href="https://www.youtube.com/watch?v=ofXHmfOTLyA"
 rel="Quay logo"><img src="/assets/images/quay_logo.png"
-width="200"></a> <a
+width="200" height="150"></a> <a
 href="https://github.com/digitalocean/do-agent"
 rel="DigitalOcean logo"><img src="/assets/images/digitalocean_logo.png"
-width="200"></a> <a
+width="200" height="150"></a> <a
 href="https://blog.cloudflare.com/pal-a-container-identity-bootstrapping-tool/"
-rel="Cloudfare logo"><img src="/assets/images/cloudfare_logo.png"
-width="200"></a> <a
+rel="Cloudflare logo"><img src="/assets/images/cloudfare_logo.png"
+width="200" height="50"></a> <a
 href="http://docs.automotivelinux.org/docs/architecture/en/dev/reference/security/05-platform-security.html#agl-platform-software-update"
 rel="AGL logo"><img src="/assets/images/agl.png"
-width="200"></a>
+width="200" height="150"></a>
 <a href="https://github.com/kolide/updater"
 rel="Kolide logo"><img src="/assets/images/kolide_logo.png"
-width="200"></a>
+width="200" height="150"></a>
 <a href="https://www.airbiquity.com/news/press-releases/airbiquity-unveils-new-otamatictm-release-further-strengthening-over-air-ota-software-and-data-management-offering-automotive"
 rel="Airbiquity logo"><img src="/assets/images/airbiquity.png"
-width="200"></a>
+width="200" height="150"></a>
 
 
 ### Ongoing

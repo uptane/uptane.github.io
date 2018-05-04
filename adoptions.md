@@ -6,7 +6,8 @@ css_id: adoptions
 ### Adoptions
 
 By clicking on the images below, you will be linked either to articles that
-cover the TUF adoption, or to repositories containing the relevant code.
+cover the TUF adoption, presentations on the adoption, or to repositories
+containing the relevant code.
 
 
 <a href="https://blog.docker.com/2015/08/content-trust-docker-1-8/" rel="docker
@@ -22,13 +23,13 @@ width="200"></a> <a
 href="https://leap.se/en/2014/darkest-night"
 rel="LEAP logo"><img src="/assets/images/leap_logo.png"
 width="200"></a> <a
-href="https://www.vmware.com/"
+href="https://www.youtube.com/watch?v=2ZIu9XTvsC0"
 rel="VMware logo"><img src="/assets/images/vmware_logo.png"
 width="200"></a> <a
-href="https://quay.io/"
+href="https://www.youtube.com/watch?v=ofXHmfOTLyA"
 rel="Quay logo"><img src="/assets/images/quay_logo.png"
 width="200"></a> <a
-href="https://www.digitalocean.com/"
+href="https://github.com/digitalocean/do-agent"
 rel="DigitalOcean logo"><img src="/assets/images/digitalocean_logo.png"
 width="200"></a> <a
 href="https://blog.cloudflare.com/pal-a-container-identity-bootstrapping-tool/"
@@ -56,4 +57,4 @@ logo"><img src="/assets/images/opam_logo.png" width="200"></a>
 ### Others
 [Docker registry bindings](https://github.com/davedoesdev/dtuf)
 
-[A Rust implementation](https://crates.io/crates/tuf)
+[A Rust implementation](https://github.com/heartsucker/rust-tuf)

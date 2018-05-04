@@ -38,10 +38,13 @@ width="200"></a> <a
 href="http://docs.automotivelinux.org/docs/architecture/en/dev/reference/security/05-platform-security.html#agl-platform-software-update"
 rel="AGL logo"><img src="/assets/images/agl.png"
 width="200"></a>
-<a
-href="https://github.com/kolide/updater"
+<a href="https://github.com/kolide/updater"
 rel="Kolide logo"><img src="/assets/images/kolide_logo.png"
 width="200"></a>
+<a href="https://www.airbiquity.com/news/press-releases/airbiquity-unveils-new-otamatictm-release-further-strengthening-over-air-ota-software-and-data-management-offering-automotive"
+rel="Airbiquity logo"><img src="/assets/images/airbiquity.png"
+width="200"></a>
+
 
 ### Ongoing
 

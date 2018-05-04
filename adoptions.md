@@ -33,7 +33,7 @@ href="https://github.com/digitalocean/do-agent"
 rel="DigitalOcean logo"><img src="/assets/images/digitalocean_logo.png"
 width="200" height="150"></a> <a
 href="https://blog.cloudflare.com/pal-a-container-identity-bootstrapping-tool/"
-rel="Cloudflare logo"><img src="/assets/images/cloudfare_logo.png"
+rel="Cloudflare logo"><img src="/assets/images/cloudflare_logo.png"
 width="200" height="50"></a> <a
 href="http://docs.automotivelinux.org/docs/architecture/en/dev/reference/security/05-platform-security.html#agl-platform-software-update"
 rel="AGL logo"><img src="/assets/images/agl.png"

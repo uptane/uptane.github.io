@@ -8,13 +8,22 @@ nav ul {
   position: relative;
 }
 
-/* Display top-nav items inline */
+/* Display top-nav elements inline */
 nav > ul > li {
   display: inline-block;
 }
 
-/* Common style for top-nav and sub-nav items */
-nav label, nav a {
+/* Style for top-nav elements. */
+nav label {
+  padding: 14px 20px;
+  font-size: 0.9em;
+  display: block;
+  cursor: default;
+  text-decoration: none;
+}
+
+/* Style for sub-nav elements. */
+nav a {
   padding: 14px 20px;
   font-size: 0.9em;
   display: block;
@@ -22,13 +31,13 @@ nav label, nav a {
   text-decoration: none;
 }
 
-/* Style for top-nav items */
+/* Style for top-nav elements. */
 nav label, nav > ul > li > a {
   color: white;
-  text-shadow: #111 0px 0px 10px;
+  text-shadow: none;
 }
 
-/* Style for sub-nav items */
+/* Style for sub-nav elements. */
 nav a {
   color: black;
   img {
@@ -38,20 +47,25 @@ nav a {
   }
 }
 
-nav label:hover, nav a:hover,
-nav label.active, nav a.active {
-  text-decoration: underline;
+/* Behavior of top-nav elements when cursor hovers over them. */
+nav label:hover {
+  text-decoration: none;
+  background-color: #d2e1dd;
+  color: black;
 }
 
-nav label:hover, nav label.active {
-  text-decoration-style: dotted;
+/* Behavior of sub-nav elements when cursor hovers over them. */
+nav a:hover {
+  text-decoration: underline;
+  background-color: #d2e1dd;
+  color: black;
 }
 
 /* Sub-nav (dropdowns) styles, hidden per default ... */
 nav ul ul {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: #d2e1dd;
   z-index: 1;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   border-top: 1px solid #111;
@@ -77,7 +91,7 @@ nav input[type='checkbox'] {
   }
 
   /* Sub-navs are not displayed as dropdown but beneath the
-  correspondinp top-nav item, if clicked */
+  corresponding top-nav item, if clicked */
   nav input[type='checkbox']:checked + ul {
     display: inherit;
     position: relative;

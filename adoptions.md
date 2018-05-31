@@ -4,6 +4,7 @@ css_id: adoptions
 ---
 
 ### Adoptions
+-------------
 
 By clicking on the images below, you will be linked either to articles that
 cover the TUF adoption, presentations on the adoption, or to repositories
@@ -47,6 +48,7 @@ width="200"></a>
 
 
 ### Ongoing
+-----------
 
 <a
 href="https://github.com/pypa/interoperability-peps/blob/master/pep-0458-tuf-online-keys.rst"
@@ -62,6 +64,8 @@ href="https://opam.ocaml.org/blog/Signing-the-opam-repository/" rel="OPAM
 logo"><img src="/assets/images/opam_logo.png" width="200"></a>
 
 ### Others
+----------
+
 [Docker registry bindings](https://github.com/davedoesdev/dtuf)
 
 [A Rust implementation](https://github.com/heartsucker/rust-tuf)

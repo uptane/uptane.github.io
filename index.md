@@ -26,8 +26,9 @@ Please report such issues using our GitHub issue tracker.
 
 # News
 
-* June 13 2017: [ATS is integrating the Uptane security framework for over-the-air software updates to connected vehicles](https://advancedtelematic.com/en/press-releases/ats-is-integrating-the-uptane-security-framework-for-over-the-air-software-updates-to-connected-vehicles.html)
+* January 25 2018: [Airbiquity OTAmatic w/ Uptane: product of the year](https://www.airbiquity.com/news/press-releases/airbiquity-otamatic-named-2017-new-product-year-business-intelligence-group)
 * October 17 2017: [Popular Science selects Uptane as one of the top security innovations of 2017](https://www.popsci.com/top-security-innovations-2017#page-2)
+* June 13 2017: [ATS is integrating the Uptane security framework for over-the-air software updates to connected vehicles](https://advancedtelematic.com/en/press-releases/ats-is-integrating-the-uptane-security-framework-for-over-the-air-software-updates-to-connected-vehicles.html)
 
 # Press
 
@@ -52,14 +53,16 @@ Please report such issues using our GitHub issue tracker.
 
 # Workshop slides
 
-* [SOTA #5: Design Overview](https://docs.google.com/presentation/d/1R3jSDcqbqUIwJgbOLOKwHReoy2wnj8GrXlKCdcLNXAA/edit?usp=sharing)
-* [SOTA #5: Implementation Specification](https://docs.google.com/presentation/d/1ugct4oARxdzd-PRHi6KdGnllqYxy1jJDDd4w9Pdaq-g/edit?usp=sharing)
-* [SOTA #5: Deployment Considerations](https://docs.google.com/presentation/d/1luFNyWGxwzWBNThg5ziKWrHUmH_Cqr9Pb9EfO3t0Clo/edit?usp=sharing)
+* [Workshop #9 (2018 June) Slides](https://docs.google.com/presentation/d/17ixIQfy3GSBbVr3bc4_1u003qe5oG2obUIy0XGsEzt8/edit?usp=sharing)
+* [Workshop #5: Design Overview](https://docs.google.com/presentation/d/1R3jSDcqbqUIwJgbOLOKwHReoy2wnj8GrXlKCdcLNXAA/edit?usp=sharing)
+* [Workshop #5: Implementation Specification](https://docs.google.com/presentation/d/1ugct4oARxdzd-PRHi6KdGnllqYxy1jJDDd4w9Pdaq-g/edit?usp=sharing)
+* [Workshop #5: Deployment Considerations](https://docs.google.com/presentation/d/1luFNyWGxwzWBNThg5ziKWrHUmH_Cqr9Pb9EfO3t0Clo/edit?usp=sharing)
+
 
 # Participation and Advisement
 
 * Please send questions or requests to uptane@googlegroups.com
-* [Private discussion forum for OEMs and suppliers (by invitation only)](https://groups.google.com/forum/#!forum/uptane-forum)
+* [Private discussion forum for OEMs and suppliers (invitation only)](https://groups.google.com/forum/#!forum/uptane-forum)
 * Pull Requests to the [repository for the reference implementation and demo code](https://github.com/uptane/uptane) are appreciated.
 * [Industry insiders have stepped up to serve as advisors for Uptane](advisors.md).
 

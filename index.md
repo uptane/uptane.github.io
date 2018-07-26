@@ -1,4 +1,4 @@
-![Uptane logo](logos/Uptane Logo Basic.png)
+![Uptane logo](logos/Uptane Logo Basic.png | width=300)
 
 # Description
 

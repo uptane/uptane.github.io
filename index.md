@@ -1,4 +1,4 @@
-![Uptane logo]("logo.png")
+![Uptane logo](logo.png)
 
 # Description
 

@@ -1,4 +1,4 @@
-![Uptane logo](logos/Uptane Logo Basic.png | width=300)
+<img src="logos/Uptane Logo Basic.png" alt="Uptane logo" width="300">
 
 # Description
 

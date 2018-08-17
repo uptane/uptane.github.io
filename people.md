@@ -33,14 +33,6 @@ of the project roles used below.
 
 **Maintainers**:
 
-  *Vladimir Diaz*
-
-    Email: vladimir.diaz@nyu.edu
-
-    GitHub username: @vladimir-v-diaz
-
-    PGP fingerprint: 3E87 BB33 9378 BC7B 3DD0  E5B2 5DEE 9B97 B0E2 289A
-
   *Sebastien Awwad*
 
     Email: sebastien.awwad@nyu.edu
@@ -49,10 +41,3 @@ of the project roles used below.
 
     PGP fingerprint: C2FB 9C91 0758 B682 7BC4  3233 BC0C 6DED D5E5 CC03
 
-  *Lukas Pühringer*
-
-    Email: lukas.puehringer@nyu.edu
-
-    GitHub username: @lukpueh
-
-    PGP fingerprint: 8BA6 9B87 D43B E294 F23E  8120 89A2 AD3C 07D9 62E8

@@ -1,59 +1,53 @@
-- text: About
+- text: Overview
   sub:
     - text: Overview
       url: /overview.html
 
-    - text: History
-      url: /history.html
+    - text: Risks and Benefits of SOTA
+      url: /sota.html
+
+    - text: Potential Attacks
+      url: /attacks.html
+
+    - text: Uptane Design
+      url: /design.html
 
     - text: Timeline
       url: /timeline.html
 
-    - text: Publications
-      url: /publications.html
-
-    - text: People
-      url: /people.html
-
-- text: Getting started
+- text: Design Documents
   sub:
-    - text: Security
-      url: /security.html
+    - text: Design Overview
+      url:
 
-    - text: Roles & metadata
-      url: /metadata.html
+    - text: Implementation Specification
+      url: /
 
-    - text: Specification
-      url: https://github.com/theupdateframework/specification/blob/master/tuf-spec.md#the-update-framework-specification
+    - text: Deployment Consideration
+      url: 
       external: true
 
-    - text: Implementation
-      url: https://github.com/theupdateframework/tuf/blob/develop/docs/GETTING_STARTED.rst#getting-started
+    - text: Publications
+      url: 
       external: true
 
     - text: Videos
-      url: /videos.html
-
-- text: Community
-  sub:
-    - text: Adoptions
-      url: /adoptions.html
-
-    - text: Reporting issues
-      url: /reporting.html
-
-    - text: Security audits
-      url: /audits.html
-
-    - text: Enhancement proposals
-      url: /taps.html
-
-    - text: Contribute
-      url: https://github.com/theupdateframework/tuf
+      url: 
       external: true
 
-- text: News
-  url: /news.html
+- text: Implementations and Deployments
+  sub:
+    - text: Reference Implementation and Demonstration Code
+      url: http:https://github.com/uptane/uptane
 
-- text: Contact
+    - text: Integrations and Adoptions
+      url: /integrations.html
+
+    - text: Demo on YouTube
+      url: /audits.html
+
+- text: Press
+  url: /press.html
+
+- text: Get Involved
   url: /contact.html

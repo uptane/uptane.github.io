@@ -3,24 +3,12 @@ layout: default
 css_id: publications
 ---
 
-## Publications
+## Conference and Journal Publications
 
-The following papers provide detailed information on securing software updater
-systems, TUF's design, attacks on package managers, and package management
-security:
+* [Uptane: Securing Software Updates for Automobiles](https://isis.poly.edu/~jcappos/papers/kuppusamy_escar_16.pdf)
 
-* [Mercury: Bandwidth-Effective Prevention of Rollback Attacks Against
-  Community
-  Repositories](papers/prevention-rollback-attacks-atc2017.pdf?raw=true)
+* [Video of Escar 16 presentation](https://www.youtube.com/watch?v=nDghHNxRGHA)
 
-* [Diplomat: Using Delegations to Protect Community
-  Repositories](papers/protect-community-repositories-nsdi2016.pdf?raw=true)
+* [Securing Software Updates for Automotives Using Uptane](https://ssl.engineering.nyu.edu/papers/kuppusamy_login_2017.pdf)
 
-* [Survivable Key Compromise in Software Update
-  Systems](papers/survivable-key-compromise-ccs2010.pdf?raw=true)
-
-* [A Look In the Mirror: Attacks on Package
-  Managers](papers/attacks-on-package-managers-ccs2008.pdf?raw=true)
-
-* [Package Management
-  Security](papers/package-management-security-tr08-02.pdf?raw=true)
+* [Uptane: Security and Customizability of Software Updates for Vehicles](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8278174&tag=1)

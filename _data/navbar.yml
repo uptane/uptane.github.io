@@ -18,33 +18,33 @@
 - text: Design Documents
   sub:
     - text: Design Overview
-      url:
+      url: https://docs.google.com/document/d/1pBK--40BCg_ofww4GES0weYFB6tZRedAjUy6PJ4Rgzk/edit#heading=h.ertrftdz3oms
+      external: true
 
     - text: Implementation Specification
-      url: /
+      url: https://docs.google.com/document/d/1wjg3hl0iDLNh7jIRaHl3IXhwm0ssOtDje5NemyTBcaw/edit
+      external: true
 
     - text: Deployment Consideration
-      url: 
+      url: https://docs.google.com/document/d/17wOs-T7mugwte5_Dt-KLGMsp-3_yAARejpFmrAMefSE/edit#heading=h.6t6kk53v3scx
       external: true
 
-    - text: Publications
-      url: 
-      external: true
+    - text: Journal and Conference Publications
+      url: /publications.html
 
-    - text: Videos
-      url: 
-      external: true
 
 - text: Implementations and Deployments
   sub:
     - text: Reference Implementation and Demonstration Code
-      url: http:https://github.com/uptane/uptane
+      url: https://github.com/uptane/uptane
+      external: true
 
     - text: Integrations and Adoptions
       url: /integrations.html
 
     - text: Demo on YouTube
-      url: /audits.html
+      url: https://www.youtube.com/watch?v=Iz1l7IK_y2c&t=3s
+      external: true
 
 - text: Press
   url: /press.html

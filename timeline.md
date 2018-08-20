@@ -7,44 +7,33 @@ css_id: timeline
 
 **2010**: Improving upon the Thandy software updater for the Tor private
 browser, Justin Samuel and Justin Cappos collaborate to design and publish an
-academic research paper on The Update Framework (TUF).
+academic research paper on The Update Framework (TUF), the framework that will form the basis of Uptane.
 
-**2011**: TUF Project moves to New York University Polytechnic School of
+**2011**: The TUF Project moves to New York University Polytechnic School of
 Engineering (later NYU Tandon School of Engineering) when Justin Cappos
 accepts a post as an assistant professor at the Brooklyn, NY, school.
 
 **2013**: Justin Cappos, Trishank Kuppusamy, and Vladimir Diaz begin research
 into adapting and improving TUF for Python, Ruby, and other environments used
-for cloud computing.
-
-**2013**: [PEP 458](https://www.python.org/dev/peps/pep-0458/), the first of
-two Python Enhancement Proposals dealing with TUF is published.
-"Surviving a Compromise of PyPI" details
-the integration of TUF into the Python package manager.
+for cloud computing.  Kuppusamy, a Ph.D. student at the time, will later 
+become the lead developer on the Uptane project.
 
 **2014**: Flynn becomes the first tech organization to adopt TUF when
-it independently implements the program in its Go programming language.
+it independently implements the program in its Go programming language. This
+affirmed that the technology could be adapted to new applications.
 
-**2014**: [PEP 480](https://www.python.org/dev/peps/pep-0480/), a
- maximum security version of PEP 458, is published.
+**2015**: The U.S.Department of Homeland Security awards a grant of $1.2 
+million to the University of Michigan to fund a project called “Secure 
+Software Update Over-the-Air for Ground Vehicles Specification and Prototype.”
 
-**2015**: Docker launches Notary, an implementation of TUF
-used to publish and manage trusted collections of content. It also launches
-Docker Content Trust, which uses Notary to sign and verify container images.
-
-**2016**: *Diplomat: Using Delegations to Protect Community Repositories*
-is presented at NSDI 2016. The subject of the paper, Diplomat, is the first of several
-TUF adaptations developed to address a specific identified problem in practice.
-In this case,
-the problem was the need for faster registration of new projects on community
-repositories without sacrificing security. It also introduced the concept
-of delegation of trust.
-
-**2016**: A consortium including NYU Tandon (Cappos, Kuppusamy, Diaz, Awwad),
-the University of Michigan Transportation Research Institute (UMTRI), and the
-Southwest Research Institute (SWRI), begin developing Uptane, another evolution of
-TUF designed to protect updates for vehicles from being easily compromised by rogue
-nation-state attackers.
+**2016**: A consortium including the University of Michigan Transportation Research
+Institute (UMTRI), NYU Tandon (Cappos, Kuppusamy, Diaz, along with Sebastien Awwad),
+and the Southwest Research Institute (SWRI), begin developing Uptane. The researchers
+used the basic TUF design as a starting point for the framework. They also 
+launched a series of workshops at which OEMs (original equipment manufacturers, 
+ie. the auto companies), suppliers, and representatives of government agencies
+would review and comment on the work in progress to insure alignment with
+the intended market.
 
 **2016**: *Uptane: Securing Software Updates for Automobiles* is presented at
 escar 16.
@@ -52,18 +41,22 @@ escar 16.
 **2017**: Uptane is officially introduced at press events in Ann Arbor, MI, and
 Brooklyn, NY.
 
-**2017**: *Mercury: Bandwidth-Effective Prevention of Rollback Attacks Against
-Community Repositories* is presented at USENIX ATC 2017. Mercury is another TUF
-adaptation, and was developed to protect against rollback attacks on community repositories at
-a reasonable bandwidth cost.
+**2017**: Advanced Telematic Systems (ATS) becomes one of the first suppliers
+to publicly acknowledge adoption of Uptane when it integrates the framework 
+into two ofits OTA solutions, OTA Plus and ATS Garage.
 
 **2017**: Uptane is named one of the year's most important innovations in
 security by *Popular Science*.
 
-**2017**: The Linux Foundation announces at Open Source Summit
-Europe that it was adding TUF as the 14th hosted project for its Cloud Native
-Computing Foundation.
-
 **2018**: Airbiquity receives a BIG Award for Business in the 2017 New Product of
 the Year Award category for its OTAmatic over-the-air software and data management
 solution, which incorporates Uptane to secure its software updates.
+
+**2018**: A C++ implementation of Uptane called aktualizr is integrated into 
+Automotive Grade Linux (AGL), a collaborative open source project in which
+automakers, suppliers and technology companies work together to advance the
+development and adoption of a fully open software stack for the connected car.
+
+**2018** NYU Tandon School of Engineering becomes an associate member of the
+Linux Foundation and a Bronze member of AGL on the strength of the Foundation’s
+adoption of Uptane and TUF projects.

@@ -93,8 +93,8 @@ see LICENSE and LICENSE-MIT.
 This project is managed by Prof. Justin Cappos and other members of the [Secure
 Systems Lab](https://ssl.engineering.nyu.edu/) at NYU.
 
-This material is based upon work supported by the National Science Foundation
-under Grant Nos. CNS-1345049 and CNS-0959138. Any opinions, findings, and
-conclusions or recommendations expressed in this material are those of the
-author(s) and do not necessarily reflect the views of the National Science
-Foundation.
+Uptane is supported by U.S. Department of Homeland Security grants D15PC00239 and
+D15PC00302. The views and conclusions contained herein are the authors’ and should
+not be interpreted as necessarily representing the official policies or endorsements,
+either expressed or implied, of the U.S. Department of Homeland Security (DHS)
+or the U.S. government.

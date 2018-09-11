@@ -4,8 +4,8 @@
 
 Uptane is the first compromise-resilient software update security system for the automotive industry.
 
-Unlike other software update security systems (e.g., OMA-DM, SSL / TLS, signing updates with a single offline GPG / RSA key, etc.), Uptane addresses a comprehensive threat model.
-It is designed to make it extremely difficult for attackers to be able to install malware on all vehicles maintained by a manufacturer, even if attackers have compromised some keys used to sign updates.
+Uptane addresses a comprehensive threat model.  The addition of Uptane adds strong security guarantees no matter how you obtain software updates for your environment (e.g., OMA-DM, SSL / TLS, signing updates with a single offline GPG / RSA key, etc.). 
+Uptane is designed to make it extremely difficult for attackers to be able to install malware on all vehicles maintained by a manufacturer, even if attackers have compromised some keys used to sign updates.
 
 At the same time, Uptane has been designed to be extremely flexible, so as to accommodate a wide variety of deployment scenarios, and allows on-demand customization of updates installed on vehicles.
 

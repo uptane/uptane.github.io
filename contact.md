@@ -5,11 +5,14 @@ css_id: contact
 
 ### Contact
 
-Please contact us via our [mailing
-list](https://groups.google.com/forum/?fromgroups#!forum/theupdateframework).
+We welcome questions, feedback, and suggestions on any aspect of this project.
+Send them to the [group email](uptane@googlegroups.com).
 
-Questions, feedback, and suggestions are welcomed on this low volume mailing
-list.  We strive to make the specification easy to implement, so if you come
-across any inconsistencies or experience any difficulty, do let us know by
-sending an email, or by reporting an issue in the [specification
-repo](https://github.com/theupdateframework/specification/issues).
+We are also interested in hearing about security problems in our Reference
+Implementation. While cars are unlikely to use the reference code directly,
+reporting any problems users identify in the code can help prevent their
+duplications in production implementations. Please report such issues
+using our GitHub [issue tracker](https://github.com/uptane/uptane/issues).
+
+Click here for a full list of ways you can [contribute](https://github.com/uptane/uptane/blob/develop/PROJECT.md#maintainers)
+to the Uptane project. 

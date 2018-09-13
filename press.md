@@ -9,7 +9,7 @@ css_id: press
 
 * [PBS/WLIW Ch.21-March 26, 2018: SciTech Now, Episode 420](https://www.scitechnow.org/videos/scitech-now-episode-420/)
 
-* [Airbiquity.com-January 2018: Airbiquity OTAmatic Named 2017 New Product Of The Year By Business Intelligence Group](https://www.airbiquity.com/news/press-releases/airbiquity-otamatic-named-2017-new-product-year-business-intelligence-group)
+* [Airbiquity.com-January 2018: Airbiquity OTAmatic Named 2017 New Product of the Year By Business Intelligence Group](https://www.airbiquity.com/news/press-releases/airbiquity-otamatic-named-2017-new-product-year-business-intelligence-group)
 
 * [Automotive World—November 28, 2017: HERE to Acquire ATS to Power Highly Secure Software Updates for Connected and Autonomous Cars](https://www.automotiveworld.com/news-releases/acquire-ats-power-highly-secure-software-updates-connected-autonomous-cars/)
 
@@ -23,4 +23,3 @@ css_id: press
 Criminal Car Hacks?](https://www.csmonitor.com/World/Passcode/2017/0118/Are-software-updates-key-to-stopping-criminal-car-hacks)
 
 * [YouTube-October 2016: Justin Cappos presents TUF and ongoing work in securing software updates in automobiles and the software supply chain at Docker's Distributed Systems Summit 2016 ](https://www.youtube.com/watch?v=Aryr0O6H_2U&list=PLkA60AVN3hh8oPas3cq2VA9xB7WazcIgs&index=9)
-

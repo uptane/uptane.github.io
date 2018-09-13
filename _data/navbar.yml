@@ -3,10 +3,7 @@
     - text: Overview
       url: /overview.html
 
-    - text: Risks and Benefits of SOTA
-      url: /sota.html
-
-    - text: Potential Attacks
+    - text: Why Updates are Vulnerable?
       url: /attacks.html
 
     - text: Uptane Design

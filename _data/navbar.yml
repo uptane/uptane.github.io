@@ -3,7 +3,7 @@
     - text: Overview
       url: /overview.html
 
-    - text: Why Updates are Vulnerable?
+    - text: Why are Updates Vulnerable?
       url: /attacks.html
 
     - text: Uptane Design

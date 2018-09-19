@@ -1,5 +1,5 @@
 
-#Why Updates are Vulnerable
+# Why Updates are Vulnerable
 
 Software updates are routinely performed on computing units for a [number of reasons,](https://www.scientificamerican.com/article/why-installing-software-updates-makes-us-wannacry/)
 including the addition of new functionality, and upgrades to improve productivity.
@@ -21,7 +21,7 @@ legitimate updates. The potential consequences of such attacks could be costly
 indeed, not only in terms of recalls or lost sales, but also potentially, in
 loss of life.
 
-## Potential Attacks
+### Potential Attacks
 
 The types of attacks which Uptane is designed to defend against can be organized
 into four categories, presented here in order of increasing severity.

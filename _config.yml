@@ -3,7 +3,7 @@
 # Look at layouts/default.html to see how they are used
 title: Uptane
 description: Securing Software Updates for Automobiles
-logo_url: /assets/images/logo.svg
+logo_url: /assets/images/uptane-logo.jpg
 google_analytics: false
 theme: jekyll-theme-cayman
 exclude: ["LICENSE", "README.md"]

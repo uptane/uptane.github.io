@@ -5,17 +5,17 @@ css_id: overview
 
 ## Overview ##
 
-
-Uptane provides a method to authenticate software updates on automobiles before
-they are downloaded to the connected units that control vital components, such
-as brakes and door locks. In doing so, it provides a solution to a growing threat vector
-targeting cars and trucks—malware that is introduced to connected electronic control
-units (ECUs) through software updates.
-Uptane provides this protection by checking metadata that lists lengths,
-hash function, and timestamps.An updated file is downloaded only if the
+Uptane is the first compromise-reilient software update security system for
+the automotive industry. It provides a method to authenticate software updates
+on automobiles before they are downloaded to the connected units that control
+vital components, such as brakes and door locks. In doing so, Uptane provides
+a solution to a growing threat vector targeting cars and trucks—malware
+disguised as software updates. The framework provides this protection by
+checking accompanying metadata that lists lengths,
+hash function, and timestamps. An updated file is downloaded only if the
 metadata matches the last known verified image of the repository.
 
-This software framework can be incorporated into a number of exisitng update
+The framework can be incorporated into a number of existing update
 strategies—which can range from manual operations
 using flash drives, to [automated operations](https://sbabic.github.io/swupdate/overview.html)
 using package managers. It offers particular support for the growing trend of
@@ -37,4 +37,4 @@ the security package, was awarded a [BIG Award for Business](https://www.bintell
 the 2017 New Product Category. In 2018, NYU Tandon School of
 Engineering becomes an associate member of the Linux Foundation, and a
 Bronze member of Automotive Grade Linux, in part due to the Foundation's adoption
-of Uptane technology. 
+of Uptane technology.

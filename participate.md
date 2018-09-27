@@ -44,8 +44,7 @@ PGP encryption in an email to Justin Cappos using the public key whose PGP
 fingerprint is also listed on the People page.
 
 Audits of TUF alone (which Uptane employs) should instead be submitted
-[per these
-instructions](https://github.com/theupdateframework/tuf/blob/develop/GOVERNANCE.md).
+[per these instructions](https://github.com/theupdateframework/tuf/blob/develop/GOVERNANCE.md).
 
 
 ### Design Contributions

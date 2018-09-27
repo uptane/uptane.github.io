@@ -6,17 +6,12 @@ css_id: people
 ### People
 
 The project is currently managed by [Justin
-Cappos](https://ssl.engineering.nyu.edu/personalpages/jcappos/) at [New York
-University](https://ssl.engineering.nyu.edu/)'s [Secure Systems
-Lab](https://ssl.engineering.nyu.edu/).  Many people have contributed to the
-project since its inception, including academics, professional developers, and
-contributors from the open-source community. We especially acknowledge
-the individuals from the open-source community who have
-[contributed](https://github.com/theupdateframework/tuf/blob/develop/docs/AUTHORS.txt)
-to the TUF project over the years.
+Cappos](https://ssl.engineering.nyu.edu/personalpages/jcappos/) at New York
+University's [Secure Systems
+Lab](https://ssl.engineering.nyu.edu/).
 
 Please visit the [governance
-page](https://github.com/theupdateframework/tuf/blob/develop/docs/GOVERNANCE.md#tuf-governance)
+page](https://github.com/awwad/awwad.github.io/blob/master/governance.md)
 to learn how project decisions are made, and for a more detailed explanation
 of the project roles used below.
 
@@ -41,3 +36,11 @@ of the project roles used below.
 
     PGP fingerprint: C2FB 9C91 0758 B682 7BC4  3233 BC0C 6DED D5E5 CC03
 
+
+### Project Contributors  
+
+Many people have contributed their expertise to this
+project since its inception, including original equipment manufacturers and
+third-party suppliers from the auto industry in the U.S. and Europe, representatives
+of government agencies, academics, and members of the open-source community.
+Here is a list of the primary in contributors to date, alphabetical order.

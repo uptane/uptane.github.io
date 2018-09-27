@@ -1,6 +1,6 @@
-- text: Overview
+- text: The Basics
   sub:
-    - text: Overview
+    - text: Project Overview
       url: /overview.html
 
     - text: Why are Updates Vulnerable?
@@ -11,6 +11,9 @@
 
     - text: Timeline
       url: /timeline.html
+
+    - text: People
+      url: /people.html
 
 - text: Design Documents
   sub:
@@ -47,4 +50,4 @@
   url: /press.html
 
 - text: Get Involved
-  url: /contact.html
+  url: /participate.html

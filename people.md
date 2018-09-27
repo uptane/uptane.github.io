@@ -16,7 +16,7 @@ the individuals from the open-source community who have
 to the TUF project over the years.
 
 Please visit the [governance
-page](https://github.com/theupdateframework/tuf/blob/develop/docs/GOVERNANCE.md#tuf-governance)
+page](https://github.com/awwad/awwad.github.io/blob/master/governance.md)
 to learn how project decisions are made, and for a more detailed explanation
 of the project roles used below.
 

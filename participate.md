@@ -29,7 +29,7 @@ not limited to:
 ## Code Issues, Bugs, Feature Requests
 
 If you wish to report a bug or a security issue, or introduce a new feature to
-either the reference implementation or demonstration code, please [open an issue]https://github.com/secure-systems-lab/lab-guidelines/issues/new)
+either the reference implementation or demonstration code, please [open an issue](https://github.com/secure-systems-lab/lab-guidelines/issues/new)
 on this.
 
 

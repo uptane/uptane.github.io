@@ -1,7 +1,7 @@
 # Participate
 
 We welcome questions, feedback, and suggestions on any aspect of this project.
-Send them to the [group email](uptane@googlegroups.com).
+Send them to uptane@googlegroups.com.
 
 We are also interested in hearing about security problems in our Reference
 Implementation. While cars are unlikely to use the reference code directly,
@@ -13,7 +13,7 @@ The Uptane project also welcomes the open source community, as well as represent
 from original equipment manufacturers, third-party suppliers, and government agencies
 to contribute in a number of ways.
 
-## Code Contributions
+### Code Contributions
 To make contributions to the code base of this project, either the reference
 implementation, the demonstration code, or the documentation, submit a GitHub
 pull request to this repository using
@@ -26,19 +26,18 @@ not limited to:
 * Review by one or more maintainers
 
 
-## Code Issues, Bugs, Feature Requests
+### Code Issues, Bugs, Feature Requests
 
 If you wish to report a bug or a security issue, or introduce a new feature to
 either the reference implementation or demonstration code, please [open an issue](https://github.com/secure-systems-lab/lab-guidelines/issues/new)
 on this.
 
 
-## Security Audits
+### Security Audits
 
 We welcome security audits of the Uptane design, or vulnerability reports of
 the design or the code in this repository. Please contact lab director Justin Cappos or maintainer 
-Sebastien Awwad listed on the "People" page. Uptane is defined in
-[the three documents listed here](README.md#design-documentation).
+Sebastien Awwad listed on the "People" page.
 
 Should the information be highly sensitive, auditors / reporters may employ
 PGP encryption in an email to Justin Cappos using the public key whose PGP
@@ -49,7 +48,7 @@ Audits of TUF alone (which Uptane employs) should instead be submitted
 instructions](https://github.com/theupdateframework/tuf/blob/develop/GOVERNANCE.md).
 
 
-## Design Contributions
+### Design Contributions
 
 One can propose changes to the system design by submitting comments to the
 following documents (or contacting the uptane@googlegroups.com mailing list):

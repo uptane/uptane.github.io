@@ -1,6 +1,15 @@
-# Contributions
+# Get Involved
 
-The Uptane project welcomes the open source community, as well as representatives
+We welcome questions, feedback, and suggestions on any aspect of this project.
+Send them to the [group email](uptane@googlegroups.com).
+
+We are also interested in hearing about security problems in our Reference
+Implementation. While cars are unlikely to use the reference code directly,
+reporting any problems users identify in the code can help prevent their
+duplications in production implementations. Please report such issues
+using our GitHub [issue tracker](https://github.com/uptane/uptane/issues).
+
+The Uptane project also welcomes the open source community, as well as representatives
 from original equipment manufacturers, third-party suppliers, and government agencies
 to contribute in a number of ways.
 

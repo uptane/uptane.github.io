@@ -43,19 +43,19 @@ Many people have contributed their expertise to this
 project since its inception, including original equipment manufacturers and
 third-party suppliers from the auto industry in the U.S. and Europe, representatives
 of government agencies, academics, and members of the open-source community.
-Here is a list of the primary in contributors to date, alphabetical order.
+Here is a list of the primary contributors to date, in alphabetical order.
 
 #### *Organizations*
 -------------
 * Advanced Telematic Systems
 * Automative Grade Linux
-* Department of Homeland Security (sponsor)
 * HERE Technologies
 * IEEE/ISTO
 * The Linux Foundation
 * NYU Tandon School of Engineering
 * Southwest Research Institute
 * University of Michigan Transportation Research Institute
+* U.S. Department of Homeland Security (sponsor)
 
 #### *Individuals*
 -------------
@@ -65,6 +65,7 @@ Here is a list of the primary in contributors to date, alphabetical order.
 * Akan Brown
 * Josiah Bruner
 * Justin Cappos
+* Vladimir Diaz
 * Kyusuk Han
 * Trishank Karthik Kuppusamy
 * Sam Lauzon

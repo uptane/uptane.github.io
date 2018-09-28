@@ -44,3 +44,39 @@ project since its inception, including original equipment manufacturers and
 third-party suppliers from the auto industry in the U.S. and Europe, representatives
 of government agencies, academics, and members of the open-source community.
 Here is a list of the primary in contributors to date, alphabetical order.
+
+Organizations
+-------------
+Advanced Telematic Systems
+Automative Grade Linux
+Department of Homeland Security (sponsor)
+HERE Technologies
+IEEE/ISTO
+The Linux Foundation
+NYU Tandon School of Engineering
+Southwest Research Institute
+University of Michigan Transportation Research Institute
+
+Individuals
+-------------
+Sebastien Awwad
+David Balenson
+Russ Bielawski
+Akan Brown
+Josiah Bruner
+Justin Cappos
+Gloria Danna
+Kyusuk Han
+Trishank Karthik Kuppusamy
+Sam Lauzon
+John Liming
+Ira McDonald
+Akshay Mehta
+Damon McCoy
+Cameron Mott
+Jon Oster
+Christos Papadopoulos
+Patrick Vacek
+Sam Weber
+André Weimerskirch
+David Zage

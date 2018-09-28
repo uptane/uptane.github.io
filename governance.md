@@ -1,6 +1,6 @@
 # Uptane Governance
 This document covers the project's governance and committer process. It also
-lists the individuals who serve on its Industry Advisory Group, and as the 
+lists the individuals who serve on its Industry Advisory Group, and as the
 governing body of the Uptane Alliance.
 
 
@@ -39,7 +39,7 @@ The CB supervises changes in governance.
 
 In July of 2018, Uptane was officially adopted into IEEE's Industry Standards
 and Technology Organization (ISTO) as the Uptane Alliance. Under the ISTO umbrella,
-the Uptane Alliance will have the opportunity to standardize the 
+the Uptane Alliance will have the opportunity to standardize the
 Uptane open-source software in order to better secure the way updates are handled
 within the automotive industry. It will also be able to draw on a number of other
 benefits, including non-profit status and access to IEEE resources, such as conferences

@@ -46,6 +46,9 @@
       url: https://www.youtube.com/watch?v=Iz1l7IK_y2c&t=3s
       external: true
 
+    - text: Security Audits
+      url: /audits.html
+
 - text: Press
   url: /press.html
 

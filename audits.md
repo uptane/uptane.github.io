@@ -5,10 +5,23 @@ css_id: audits
 
 #### Security Audits
 
-(Note: This list only contains publicly available audits.)
+Both Uptane and TUF, the secure framework on which it was based, have undergone
+a number of security audits. Given the proprietary nature of the automotive
+industry, links to these reports are not publicly available.
 
-* [August 7, 2018 by Cure53](https://github.com/theupdateframework/notary/blob/master/docs/resources/cure53_tuf_notary_audit_2018_08_07.pdf) covering TUF and Notary
+* **Cure53:** An audit, conducted in 2016/2017 of an Advanced Telematic
+Systems/HERE Inc. implementation of Uptane. No security issues were found related
+to the design.
 
-* [October 18, 2017 by NCC](https://www.nccgroup.trust/globalassets/our-research/us/public-reports/2017/ncc-group-kolide-the-update-framework-security-assessment.pdf) security assessment of TUF / Kolide.
+* **NCC Group:** An assessment, conducted in late 2017, of Kolide's TUF
+implementation. The study found 0 critical risk issues, 0 high risk issues,
+0 medium risk issues, 1 low risk issue, and 1 informational issue." The two
+issues identified were minor, relating to the particular implementation's
+default configuration and the way it stored backups.
 
-* [July 31, 2015 by NCC](https://github.com/theupdateframework/notary/blob/master/docs/resources/ncc_docker_notary_audit_2015_07_31.pdf) covering TUF and Notary.
+* **FASTR:** A review performed by this group in late 2017 found no security
+issues with the design.
+
+* **SWRI** Performed in 2018, this review by the Southwest Research Institute
+did find a bug in the Reference Implementation that has since been addressed, but
+found no design issues.

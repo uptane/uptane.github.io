@@ -57,7 +57,7 @@ Here is a list of the primary in contributors to date, alphabetical order.
 * Southwest Research Institute
 * University of Michigan Transportation Research Institute
 
-Individuals
+#### *Individuals*
 -------------
 * Sebastien Awwad
 * David Balenson

@@ -1,6 +1,6 @@
 # Jekyll website
 
-TUF's project website is created with [Jekyll](https://jekyllrb.com) and extends
+Uptane's project website is created with [Jekyll](https://jekyllrb.com) and extends
 the [GitHub pages slate theme](https://github.com/pages-themes/slate).
 
 The site is available at [theupdateframework.com](https://theupdateframework.com)

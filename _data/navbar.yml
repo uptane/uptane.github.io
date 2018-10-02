@@ -3,7 +3,7 @@
     - text: Project Overview
       url: /overview.html
 
-    - text: Why are Updates Vulnerable?
+    - text: Why Updates are Vulnerable
       url: /attacks.html
 
     - text: Uptane Design
@@ -11,6 +11,9 @@
 
     - text: Timeline
       url: /timeline.html
+
+    - text: Governance
+      url: /governance.html
 
     - text: People
       url: /people.html

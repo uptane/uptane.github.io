@@ -3,13 +3,12 @@ layout: default
 css_id: landing
 ---
 
-Uptane is the first compromise-resilient software update security system for the automotive industry.  
-It protects the integrity of Electronic Control Units or ECUs against a variety of attack strategies, while
-maintaining the necessary flexibility to accommodate differing deployment scenarios and update 
-customization needs. Publicly acknowledged adopters include
-[Airbiquity’s OTAmatic](https://www.airbiquity.com/jp/news-press/press-releases/airbiquity-introduces-otamatic-connected vehicle-over-air-ota-software-updates-and-data-management) 
-program and the [OTA Plus and ATS Garage](https://advancedtelematic.com/en/press-releases/ats-is-integrating-the-uptane-security-framework-for-over-the-air-software-updates-to-connected-vehicles.html)
-programs from Advanced Telematic Systems (ATS). Another ATS program, a  C++ implementation of Uptane called [aktualizr](https://github.com/advancedtelematic/aktualizr), 
-also has been integrated into [Automotive Grade Linux](https://www.automotivelinux.org/), an open source operating system and framework created under the umbrella of the Linux Foundation.
-
-
+Uptane is the first software update system designed to protect the computerized
+units of automobiles from the increasingly viable risk of remote exploitation.
+The framework is helping to secure OTA software updates for vehicles
+manufactured by one of the three major U.S. automakers. It is integrated into [Automotive Grade Linux](https://www.automotivelinux.org/),
+an open source operating system and framework that currently  used on vehicles
+from Honda and Toyota. In July 2018, the project became an IEEE/ISTO Federation
+Member,under which it will issue standards to ensure safe and efficient practices for
+the implementation and maintenance of update systems, and the deployment of
+secure fixes for any vulnerabilities exploited in an attack.

@@ -3,6 +3,24 @@ This document covers the project's governance and committer process. It also
 lists the individuals who serve on its Industry Advisory Group, and as the
 governing body of the Uptane Alliance.
 
+### Uptane Alliance
+
+In July of 2018, Uptane was officially adopted into IEEE's Industry Standards
+and Technology Organization (ISTO) as the Uptane Alliance. Under the ISTO umbrella,
+the Uptane Alliance will standardize the
+Uptane open-source software in order to ensure that manufacturers and suppliers
+follow best practices for updates within the automotive industry. As an ISTO
+organization, the Uptane ALliance will also be able to draw on a number of other
+benefits, including non-profit status, and access to IEEE resources, such as conferences
+and publications.
+
+As an ISTO alliance, Uptane has officially formed a Board of Directors and
+is governed by a set of bylines. The Board of Directors are:
+
+* Justin Cappos of NYU Tandon School of Engineering
+* Ira McDonald of High North Inc.
+* Andre Weimerskirch of Lear Corporation and University of Michigan
+Transportation Research Institute
 
 ### Maintainership and Consensus Builder
 
@@ -25,6 +43,8 @@ The CB supervises changes in governance.
 
 ### Industry Advisory Group
 
+The following industry representatives serve in an advisory capacity for Uptane.
+
 * Andre Weimerskirch of Lear Corporation and University of Michigan Transportation Research Institute
 * Arthur Taylor of HERE Technologies
 * Cameron Mott of Southwest Research Institute
@@ -34,21 +54,3 @@ The CB supervises changes in governance.
 * Russ Bielawski of Secure Embedded Systems
 * Tom Forest of General Motors
 * Trishank Karthik Kuppusamy of Datadog and New York University
-
-### Uptane Alliance
-
-In July of 2018, Uptane was officially adopted into IEEE's Industry Standards
-and Technology Organization (ISTO) as the Uptane Alliance. Under the ISTO umbrella,
-the Uptane Alliance will have the opportunity to standardize the
-Uptane open-source software in order to better secure the way updates are handled
-within the automotive industry. It will also be able to draw on a number of other
-benefits, including non-profit status and access to IEEE resources, such as conferences
-and publications.
-
-As an ISTO alliance, Uptane has officially formed a Board of Directors and will
-be producing a set of bylines. The Board of Directors are:
-
-* Justin Cappos of NYU Tandon School of Engineering
-* Ira McDonald of High North Inc.
-* Andre Weimerskirch of Lear Corporation and University of Michigan
-Transportation Research Institute

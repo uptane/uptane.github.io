@@ -13,6 +13,16 @@ The Uptane project also welcomes the open source community, as well as represent
 from original equipment manufacturers, third-party suppliers, and government agencies
 to contribute in a number of ways.
 
+### Standards Development
+The Uptane standardization initiative is under the direction of the Uptane Alliance.
+Interested companies and nonprofit organizations can join the Alliance by simply
+signing a membership application and returning it to IEEE/ISTO (see mailing
+address and other information on the Alliance page of this web site.)
+
+Individuals are welcome to participate in the Standards Initiative even if their
+organizations are not members. Please send an email to lad278@nyu.edu requesting
+to be added to the Standards mailing list.
+
 ### Code Contributions
 To make contributions to the code base of this project, either the reference
 implementation, the demonstration code, or the documentation, submit a GitHub

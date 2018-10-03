@@ -1,7 +1,7 @@
 # You can access these variables using jekyll template language and the
 # `site` variable, e.g.: {{site.title}}
 # Look at layouts/default.html to see how they are used
-title: Uptane
+title: 
 description: Securing Software Updates for Automobiles
 logo_url: /assets/images/uptane-logo.jpg
 google_analytics: false

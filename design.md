@@ -7,12 +7,12 @@ software update systems on repositories.  The basic TUF design was first
 introduced in a [2010 paper](https://ssl.engineering.nyu.edu/papers/samuel_tuf_ccs_2010.pdf)
 by Justin Samuel, Nick Mathewson, Roger Dingledine, and Justin Cappos.
 Under the direction of Cappos at NYU Tandon School of Engineering since 2011,
-TUF has been adapted to meet a number of specific security threats for
+TUF has been adapted to protect against a number of specific security threats to
 various types of software applications.
 
 A central tenet of TUF is **compromise-resilience**, or the ability to minimize the
 extent of the threat posed by any given attack. The building blocks for
-this state rest on [four design principles](https://theupdateframework.github.io/security.html ).
+this state rest on four design principles.
 
 1. **Separation of trust**: distributing responsibility for the signing
 of metadata so if one signing key is compromised, it will not affect other

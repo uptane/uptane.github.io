@@ -20,7 +20,7 @@ which has been integrated into Automotive Grade Linux (AGL), a collaborative
 open source project in which automakers, suppliers and technology companies
 work together to advance the development and adoption of a fully open software
 stack for the connected car. AGL is now currently used on vehicles manufactured
-by Honda and Toyota
+by Honda and Toyota.
 
 * Airbiquity incorporated Uptane into its OTAmatic over-the-air software
 and data management solution. The product was honored in 2017 with a

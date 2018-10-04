@@ -5,7 +5,7 @@ Software updates are routinely performed on computing units for a [number of rea
 including the addition of new functionality, and upgrades to improve productivity.
 But, the primary reason for updating software is to address existing flaws
 in the code itself. Increasingly, these updates are done using
-[“software-over-the- air”](http://blog.ihs.com/remote-software-update%3A-future-growth-business)
+[“software-over-the-air”](http://blog.ihs.com/remote-software-update%3A-future-growth-business)
 or SOTA  strategies, in which revised versions of programs are sent directly
 to computing units through broadcasts over the Internet. The strategy is growing
 in popularity because it is a much quicker and more cost-effective delivery
@@ -32,8 +32,8 @@ achieved with an Eavesdrop attack, where attackers can read unencrypted updates
 sent from the repository to the vehicles.
 
 **Deny updates**: In this group of attacks, the goal is to prevent vehicles
-from fixing software problems by denying access to updates using one of
-several attack strategies.
+from fixing software problems by using one of several attack strategies to
+deny access to updates.
 
 * **Drop-request attack**: blocks network traffic outside or inside the
 vehicle to prevent an ECU from receiving any updates.
@@ -41,7 +41,7 @@ vehicle to prevent an ECU from receiving any updates.
 security vulnerability can be exploited before a corrective patch is received.
 * **Freeze attack**: continues to send the last known update to an ECU, even if a
 newer update exists.
-* **Partial bundle installation attack**: Allows only part of the an update
+* **Partial bundle installation attack**: Allows only part of an update
  to install by dropping traffic to selected ECUs.
 
 **Deny functionality**: This grouping ups the threat ante a bit further by causing

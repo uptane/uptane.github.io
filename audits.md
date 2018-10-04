@@ -15,12 +15,10 @@ to the design.
 
 * **NCC Group:** An assessment, conducted in late 2017, of Kolide's TUF
 implementation. The study found 0 critical risk issues, 0 high risk issues,
-0 medium risk issues, 1 low risk issue, and 1 informational issue." The two
+0 medium risk issues, 1 low risk issue, and 1 informational issue. The two
 issues identified were minor, relating to the particular implementation's
 default configuration and the way it stored backups.
 
-* **FASTR:** A review performed by this group in late 2017 found no security
-issues with the design.
 
 * **SWRI** Performed in 2018, this review by the Southwest Research Institute
 did find a bug in the Reference Implementation that has since been addressed, but

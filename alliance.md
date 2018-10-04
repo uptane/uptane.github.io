@@ -9,21 +9,18 @@ providing access to resources of IEEE, including publications, meetings and conf
 and administrative support.
 
 Interested organizations can become part of the Uptane Alliance by [completing a
-membership application](/papers/UA_member_agreement_71618.pdf) and returning it to:
+membership application](papers/UA_member_agreement_71618.pdf) and returning it to:
 
 The Uptane Alliance
-
 c/o IEEE-ISTO
-
 445 Hoes Lane
-
 Piscataway, NJ  08854 USA
 
 Note that it is important to include "IEEE-ISTO" in the mailing address as
 IEEE supports another standards organization at the same address.
 
 You can learn more about the organization and governing structure of the Uptane Alliance
-by reviewing the [bylaws](/papers_UA_bylaws_71618).
+by reviewing the [bylaws](papers_UA_bylaws_71618).
 
 individuals who wish to contribute to the standardization initiative can do so,
 regardless of whether or not their organization joins the Alliance. Contact

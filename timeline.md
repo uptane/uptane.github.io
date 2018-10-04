@@ -57,8 +57,8 @@ development and adoption of a fully open software stack for the connected car.
 [Linux Foundation](https://www.linuxfoundation.org/) and a Bronze member of AGL
 on the strength of the Foundation’s adoption of Uptane and TUF projects.
 
-**2018** The Uptane Alliance, a nonprofit organization organized under the umbrella of
-IEEE's [International Standards and Technology](https://ieee-isto.org/) is formed.
+**2018** The Uptane Alliance, a nonprofit entity organized under the umbrella of
+IEEE's [International Standards and Technology Organization](https://ieee-isto.org/) is formed.
 As an ISTO supported organization, the Alliance will oversee the setting of standards
 for the implementation/deployment of Uptane, as well as the advancement and
 improvement of the technology itself.

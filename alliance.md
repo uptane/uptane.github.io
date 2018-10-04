@@ -1,11 +1,11 @@
 The Uptane Alliance was formally established in July of 2018 for the express
 purpose of standardizing the Uptane open-source software. Formed under the umbrella of
-IEEE's [International Standards and Technology Organization](https://ieee-isto.org/) the
+IEEE's [International Standards and Technology Organization](https://ieee-isto.org/), the
 Alliance is a nonprofit consortium of companies, non-profit groups, and government agencies.
 In addition to developing, disseminating and supporting the implementation of
 standards to improve the security of software updates for the automotive industry,
-the Alliance will support the continuing development and adoption of Uptane technology by
-providing access to resources of IEEE, including publications, meetings and conferences,
+the Alliance will support the continuing development and adoption of Uptane technology
+through access to the resources of IEEE, including publications, meetings and conferences,
 and administrative support.
 
 Interested organizations can become part of the Uptane Alliance by [completing a

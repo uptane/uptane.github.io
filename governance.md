@@ -10,11 +10,11 @@ and Technology Organization (ISTO) as the Uptane Alliance. Under the ISTO umbrel
 the Uptane Alliance will standardize the
 Uptane open-source software in order to ensure that manufacturers and suppliers
 follow best practices for updates within the automotive industry. As an ISTO
-organization, the Uptane ALliance will also be able to draw on a number of other
+organization, the Uptane Alliance will also be able to draw on a number of other
 benefits, including non-profit status, and access to IEEE resources, such as conferences
 and publications.
 
-As an ISTO alliance, Uptane has officially formed a Board of Directors and
+As an ISTO alliance, the Uptane Alliance has officially formed a Board of Directors and
 is governed by a set of bylines. The Board of Directors are:
 
 * Justin Cappos of NYU Tandon School of Engineering

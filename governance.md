@@ -22,25 +22,6 @@ is governed by a set of bylines. The Board of Directors are:
 * Andre Weimerskirch of Lear Corporation and University of Michigan
 Transportation Research Institute
 
-### Maintainership and Consensus Builder
-
-The project is maintained by the people indicated in
-[MAINTAINERS](MAINTAINERS.txt).  A maintainer is expected to (1) submit and
-review GitHub pull requests and (2) open issues or [submit vulnerability
-reports](https://github.com/theupdateframework/tuf#security-issues-and-bugs).
-A maintainer has the authority to approve or reject pull requests submitted by
-contributors.  The project's Consensus Builder (CB) is
-Justin Cappos <jcappos@nyu.edu, @JustinCappos>.
-
-### Changes in maintainership
-
-A contributor to the project must express interest in becoming a maintainer.
-The CB has the authority to add or remove maintainers.
-
-### Changes in governance
-
-The CB supervises changes in governance.
-
 ### Industry Advisory Group
 
 The following industry representatives serve in an advisory capacity for Uptane.
@@ -54,3 +35,31 @@ The following industry representatives serve in an advisory capacity for Uptane.
 * Russ Bielawski of Secure Embedded Systems
 * Tom Forest of General Motors
 * Trishank Karthik Kuppusamy of Datadog and New York University
+
+### Standards documents
+
+The Uptane standards documents must be approved by a majority of the
+Board of Directors.  The Board of Directors may also be changed by
+action of a majority of board members.
+
+### Maintainership and Consensus Builder (reference implementation)
+
+The reference implementation for the project is maintained by the people 
+indicated in
+[MAINTAINERS](MAINTAINERS.txt).  A maintainer is expected to (1) submit and
+review GitHub pull requests and (2) open issues or [submit vulnerability
+reports](https://github.com/theupdateframework/tuf#security-issues-and-bugs).
+A maintainer has the authority to approve or reject pull requests submitted by
+contributors.  The project's Consensus Builder (CB) is
+[Justin Cappos](jcappos@nyu.edu) (JustinCappos on github).
+
+### Changes in maintainership (reference implementation)
+
+A contributor to the project must express interest in becoming a maintainer.
+The CB has the authority to add or remove maintainers for the reference
+implementation.
+
+### Changes in governance (reference implementation)
+
+The CB supervises changes in governance for the reference implementation.
+

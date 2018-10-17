@@ -1,31 +1,36 @@
 # Participate
 
 We welcome questions, feedback, and suggestions on any aspect of this project.
-Send them to uptane@googlegroups.com.
+Feel free to email feedback to [uptane@googlegroups.com](uptane@googlegroups.com).
+One may also propose design changes or inquire about deployment 
+challenges by emailing [the mailing list](uptane@googlegroups.com).
 
-We are also interested in hearing about security problems in our Reference
-Implementation. While cars are unlikely to use the reference code directly,
-reporting any problems users identify in the code can help prevent their
-duplications in production implementations. Please report such issues
-using our GitHub [issue tracker](https://github.com/uptane/uptane/issues).
+Anyone in the automotive industry, open source community, or security community
+is welcome to join the 
+[Uptane forum](https://groups.google.com/forum/#!forum/uptane-forum).
+This is a fairly low volume mailing list (a few messages a week) and is used
+to disseminate large news items or plan in person Uptane workshops.
 
-The Uptane project also welcomes the open source community, as well as representatives
-from original equipment manufacturers, third-party suppliers, and government agencies
-to contribute in a number of ways.
 
 ### Standards Development
-The Uptane standardization initiative is under the direction of the Uptane Alliance.
-Interested companies and nonprofit organizations can join the Alliance by simply
-signing a membership application and returning it to IEEE/ISTO (see mailing
-address and other information on the Alliance page of this web site.)
+The Uptane standardization initiative is under the direction of the Uptane
+Alliance and is carried out on a 
+[mailing list specifically for this purpose](https://groups.google.com/forum/#!forum/uptane-standards).
+This mailing list is higher volume (often multiple messages a day) and is
+mainly meant to coordinate standardization effort.
 
-Individuals are welcome to participate in the Standards Initiative even if their
-organizations are not members. Please send an email to lad278@nyu.edu requesting
-to be added to the Standards mailing list.
+
+### Uptane Alliance Membership Status
+We welcome anyone to participate in either mailing list independent of their 
+organization's status in the IEEE/ISTO Uptane Alliance.  (However, if your 
+organization does wish to join the Uptane Alliance, simply fill out 
+[this form](assets/UptaneAllianceMembershipAgreement.pdf) and check the 
+Contributor Membership box.  There is no fee.)
+
 
 ### Code Contributions
-To make contributions to the code base of this project, either the reference
-implementation, the demonstration code, or the documentation, submit a GitHub
+To make contributions to the reference
+implementation or the demonstration code, please submit a GitHub
 pull request to this repository using
 [these development instructions](https://github.com/secure-systems-lab/lab-guidelines/blob/master/dev-workflow.md).
 If submitting any new software feature or change, please include unit tests.
@@ -42,6 +47,13 @@ If you wish to report a bug or a security issue, or introduce a new feature to
 either the reference implementation or demonstration code, please [open an issue](https://github.com/secure-systems-lab/lab-guidelines/issues/new)
 on this.
 
+While the main concern we have is the security of the specification, we are 
+also interested in hearing about security problems in our Reference
+Implementation. While cars are unlikely to use the reference code directly,
+reporting any problems users identify in the code can help prevent their
+duplications in production implementations. Please report such issues
+using our GitHub [issue tracker](https://github.com/uptane/uptane/issues).
+
 
 ### Security Audits
 
@@ -56,13 +68,5 @@ PGP encryption in an email to Justin Cappos using the public key whose PGP
 fingerprint is also listed on the "People" page.
 
 Audits of TUF alone (which Uptane employs) should instead be submitted
-[per these instructions](https://github.com/theupdateframework/tuf/blob/develop/docs/GOVERNANCE.md#tuf-governance).
+[per these instructions](https://github.com/theupdateframework/tuf/blob/develop/docs/GOVERNANCE.md#tuf-governance) to the TUF project team.
 
-
-### Design Contributions
-
-One can propose changes to the system design by submitting comments to the
-following documents (or contacting the uptane@googlegroups.com mailing list):
-- [Uptane Design](https://docs.google.com/document/d/1pBK--40BCg_ofww4GES0weYFB6tZRedAjUy6PJ4Rgzk)
-- [Uptane Implementation Specification](https://docs.google.com/document/d/1wjg3hl0iDLNh7jIRaHl3IXhwm0ssOtDje5NemyTBcaw)
-- [Uptane Deployment Considerations](https://docs.google.com/document/d/17wOs-T7mugwte5_Dt-KLGMsp-3_yAARejpFmrAMefSE)

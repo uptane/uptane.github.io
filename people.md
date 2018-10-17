@@ -3,9 +3,32 @@ layout: default
 css_id: people
 ---
 
-### People
+### Uptane Alliance Board Members
 
-The project is currently managed by [Justin
+As an ISTO alliance, the Uptane Alliance has officially formed a Board of Directors and
+is governed by a set of bylines. The Board of Directors are:
+
+* Justin Cappos of NYU Tandon School of Engineering
+* Ira McDonald of High North Inc.
+* Andre Weimerskirch of Lear Corporation and University of Michigan
+Transportation Research Institute
+
+
+### Uptane Advisory Group
+
+The following representatives serve in an advisory capacity for Uptane.
+
+* Arthur Taylor of HERE Technologies
+* Cameron Mott of Southwest Research Institute
+* Gloria Danna of General Telecom Systems
+* Philip Lapczynski of Renesas
+* Russ Bielawski of Secure Embedded Systems
+* Tom Forest of General Motors
+* Trishank Karthik Kuppusamy of Datadog and New York University
+
+### Reference Implementation Personnel
+
+The reference implementation for Uptane is currently managed by [Justin
 Cappos](https://ssl.engineering.nyu.edu/personalpages/jcappos/) at New York
 University's [Secure Systems
 Lab](https://ssl.engineering.nyu.edu/).
@@ -41,18 +64,23 @@ of the project roles used below.
 
 Many people have contributed their expertise to this
 project since its inception, including original equipment manufacturers and
-third-party suppliers from the auto industry in the U.S. and Europe, representatives
+third-party suppliers from the auto industry, representatives
 of government agencies, academics, and members of the open-source community.
-Here is a list of the primary contributors to date, in alphabetical order.
+Here is an alphabetical list of the primary contributors that have been 
+permitted to have their name listed.
 
 #### *Organizations*
 -------------
 * Advanced Telematic Systems
+* Airbiquity
 * Automative Grade Linux
 * HERE Technologies
+* High North Inc (Uptane Alliance Board Member)
 * IEEE/ISTO
+* Lear Corporation (Uptane Alliance Board Member)
 * The Linux Foundation
-* NYU Tandon School of Engineering
+* NYU Tandon School of Engineering (Uptane Alliance Board Member)
+* OTAInfo (Uptane Alliance Member)
 * Southwest Research Institute
 * University of Michigan Transportation Research Institute
 * U.S. Department of Homeland Security (sponsor)
@@ -66,10 +94,12 @@ Here is a list of the primary contributors to date, in alphabetical order.
 * Josiah Bruner
 * Justin Cappos
 * Vladimir Diaz
+* Chase Garwood
 * Kyusuk Han
 * Trishank Karthik Kuppusamy
 * Sam Lauzon
 * John Liming
+* Daniel Massey
 * Ira McDonald
 * Akshay Mehta
 * Damon McCoy

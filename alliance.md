@@ -16,11 +16,12 @@ c/o IEEE-ISTO
 445 Hoes Lane
 Piscataway, NJ  08854 USA
 
-Note that it is important to include "IEEE-ISTO" in the mailing address as
+Check the box marked "Contribuor Membership"  and make sure you include
+"IEEE-ISTO" in the mailing address, as
 IEEE supports another standards organization at the same address.
 
 You can learn more about the organization and governing structure of the Uptane Alliance
-by reviewing the [bylaws](papers_UA_bylaws_71618).
+by reviewing the [bylaws](papers/UA_bylaws_71618).
 
 individuals who wish to contribute to the standardization initiative can do so,
 regardless of whether or not their organization joins the Alliance. Contact

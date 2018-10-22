@@ -1,5 +1,5 @@
 # Uptane Governance
-This document covers the project's governance and committer process. It also
+This document covers Uptane's governance and committer process. It also
 lists the individuals who serve on its Industry Advisory Group, and as the
 governing body of the Uptane Alliance.
 
@@ -15,7 +15,7 @@ benefits, including non-profit status, and access to IEEE resources, such as con
 and publications.
 
 As an ISTO alliance, the Uptane Alliance has officially formed a Board of Directors and
-is governed by a set of bylines. The Board of Directors are:
+is governed by a set of bylaws. The Board of Directors are:
 
 * Justin Cappos of NYU Tandon School of Engineering
 * Ira McDonald of High North Inc.
@@ -29,7 +29,7 @@ The following industry representatives serve in an advisory capacity for Uptane.
 * Andre Weimerskirch of Lear Corporation and University of Michigan Transportation Research Institute
 * Arthur Taylor of HERE Technologies
 * Cameron Mott of Southwest Research Institute
-* Gloria Danna of General Telecom Systems
+* Gloria Danna of Ford
 * Ira McDonald of High North Inc
 * Philip Lapczynski of Renesas
 * Russ Bielawski of Secure Embedded Systems
@@ -39,12 +39,12 @@ The following industry representatives serve in an advisory capacity for Uptane.
 ### Standards documents
 
 The Uptane standards documents must be approved by a majority of the
-Board of Directors.  The Board of Directors may also be changed by
+Board of Directors. The Board of Directors may also be changed by
 action of a majority of board members.
 
 ### Maintainership and Consensus Builder (reference implementation)
 
-The reference implementation for the project is maintained by the people 
+The reference implementation for the project is maintained by the people
 indicated in
 [MAINTAINERS](MAINTAINERS.txt).  A maintainer is expected to (1) submit and
 review GitHub pull requests and (2) open issues or [submit vulnerability
@@ -62,4 +62,3 @@ implementation.
 ### Changes in governance (reference implementation)
 
 The CB supervises changes in governance for the reference implementation.
-

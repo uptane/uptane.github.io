@@ -72,7 +72,7 @@ permitted to have their name listed.
 #### *Organizations*
 -------------
 * Advanced Telematic Systems
-* Airbiquity
+* Airbiquity (Uptane Alliance Member)
 * Automative Grade Linux
 * HERE Technologies
 * High North Inc (Uptane Alliance Board Member)

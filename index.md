@@ -3,16 +3,11 @@ layout: default
 css_id: landing
 ---
 
-Uptane is the first software update system designed to protect
-software delivered over-the-air to the computerized units of automobiles.
+Uptane is the first software update system designed to protect software delivered over-the-air to the computerized units of automobiles.
 The framework can thwart attacks from malicious actors who can
-compromise servers and networks at the manufacturing level.  Hence, it is
-designed to be resilient even to the best efforts of nation state
-attackers. Uptane is integrated into
-[Automotive Grade Linux](https://www.automotivelinux.org/),
-an open source system currently used by many large OEMs, and has also been adopted
-by U.S. and international manufacturers. Within the next few years, more than
-one-third of new cars on US roads will include Uptane.
+compromise servers and networks at the manufacturing level.  Hence, it is designed to be resilient even to the best efforts of nation state
+attackers. Uptane is integrated into [Automotive Grade Linux](https://www.automotivelinux.org/),
+an open source system currently used by many large OEMs, and has also been adopted by a number of U.S. and international manufacturers. Within the next few years, more than one-third of new cars on U.S. roads will include Uptane.
 
 Currently considered the *de facto* secure standard for software updates on
 automobiles, in July 2018 the [IEEE/ISTO Federation](https://ieee-isto.org/) began

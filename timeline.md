@@ -21,8 +21,7 @@ to begin work on a project to secure software updates on vehicles.
 **2016**: Uptane is created when a consortium of researchers at
 the [University of Michigan Transportation Research Institute](http://www.umtri.umich.edu/)(UMTRI),
 [Southwest Research Institute](https://www.swri.org/)(SWRI), and
-[NYU Tandon](https://engineering.nyu.edu/)
-begin developing Uptane, using the basic TUF design as a starting point.
+[NYU Tandon](https://engineering.nyu.edu/) begin developing Uptane, using the basic TUF design as a starting point.
 
 **2016** The research team also begins a series of workshops (organized by
 Andre Weimerskirch at UMTRI) at which OEMs (original equipment manufacturers,

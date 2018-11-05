@@ -43,16 +43,11 @@ an OEM can provide both customizability and security for the
 control units on their vehicles.
 
 Another modification to the basic TUF design has to do with the way
-Uptane **verifies the  images**,  meaning the media used to supply the code
-and data that control the actions of the  ECUs. In the verification
+Uptane **verifies the  images**, meaning the media used to supply the code and data that control the actions of the  ECUs. In the verification
 step, the ECU determines if a file is safe to download by checking
 its accompanying metadata. Depending on the power of an ECU—with
-power defined here in terms of memory, storage space,
-and connection to the Internet—verification can be *full,* which
-requires checking that the hashes and sizes of images in the
-signed metadata match the hashes and sizes stored on the image
-repository, or *partial,* which
-requires only the signature on the targets metadata
+power defined here in terms of memory, storage space, and connection to the Internet—verification can be *full,* which requires checking that the hashes and sizes of images in the signed metadata match the hashes and sizes stored on the image
+repository, or *partial,* which requires only the signature on the targets metadata
 file from the director repository to be checked.
 
 Full verification provides better protection to those ECUs that

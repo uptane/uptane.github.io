@@ -9,28 +9,26 @@ css_id: timeline
 secures software updates on repositories, is introduced in an [academic research paper](papers/samuel_ccs_2010.pdf),
 coauthored by Justin Samuel and Justin Cappos.
 
-**2013**:  Cappos, along with Trishank Kuppusamy, and Vladimir Diaz begin 
+**2013**:  Cappos, along with Trishank Kuppusamy, and Vladimir Diaz begin
 adapting TUF for Python, Ruby, and environments used
 for cloud computing.  Kuppusamy, a Ph.D. student at the time, will later
 use this experience in his work as a lead developer on the Uptane project.
 
-**2015**: NYU Tandon receives a grant (with Cappos as PI) from the 
+**2015**: NYU Tandon receives a grant (with Cappos as PI) from the
 U.S. Department of Homeland Security
 to begin work on a project to secure software updates on vehicles.
 
-**2016**: Uptane is created when a consortium of researchers at 
-the [University of Michigan Transportation Research Institute](http://www.umtri.umich.edu/),
-[Southwest Research Institute](https://www.swri.org/) (SWRI), and 
-[NYU Tandon](https://engineering.nyu.edu/)
-begin developing Uptane, using the basic TUF design as a starting point. 
+**2016**: Uptane is created when a consortium of researchers at
+the [University of Michigan Transportation Research Institute](http://www.umtri.umich.edu/)(UMTRI),
+[Southwest Research Institute](https://www.swri.org/)(SWRI), and
+[NYU Tandon](https://engineering.nyu.edu/) begin developing Uptane, using the basic TUF design as a starting point.
 
-**2016** The research team also begins a series of workshops (organized by 
+**2016** The research team also begins a series of workshops (organized by
 Andre Weimerskirch at UMTRI) at which OEMs (original equipment manufacturers,
-ie. the auto companies), suppliers, and representatives of government agencies 
-meet to
-review and comment on the work in progress, and an online forum, where issues
-could be raised. Both of these steps ensure alignment with
-the intended market.
+ie. the auto companies), suppliers, and representatives of government agencies
+meet to review and comment on the work in progress, and an online forum,
+where issues could be raised and discussed. Both of these steps help to ensure
+alignment with the intended market.
 
 **2016**: [*Uptane: Securing Software Updates for Automobiles*](papers/kuppusamy_escar_16.pdf)
 is presented at [escar 16](https://www.escar.info/escar-europe/history.html) by
@@ -51,7 +49,7 @@ security by [*Popular Science*](https://www.popsci.com/top-security-innovations-
 Uptane-based OTAmatic over-the-air software and data management solution.
 
 **2018**: An open source, C++ implementation of Uptane called [aktualizr](https://github.com/advancedtelematic/aktualizr)
-is developed by Advanced Telematic Systems (since acquired by 
+is developed by Advanced Telematic Systems (since acquired by
 [HERE technologies](https://www.here.com/en)).  aktualizr
 is integrated into [Automotive Grade Linux](https://www.automotivelinux.org/) (AGL),
 a collaborative open source project in which

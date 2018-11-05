@@ -1,21 +1,17 @@
 # Uptane Governance
-This document covers the project's governance and committer process. It also
-lists the individuals who serve on its Industry Advisory Group, and as the
-governing body of the Uptane Alliance.
+This document covers Uptane's governance and committer process. It also lists the individuals who serve on its Industry Advisory Group, and as the governing body of the Uptane Alliance.
 
 ### Uptane Alliance
 
 In July of 2018, Uptane was officially adopted into IEEE's Industry Standards
 and Technology Organization (ISTO) as the Uptane Alliance. Under the ISTO umbrella,
-the Uptane Alliance will standardize the
-Uptane open-source software in order to ensure that manufacturers and suppliers
+the Uptane Alliance will standardize the Uptane open-source software in order to ensure that manufacturers and suppliers
 follow best practices for updates within the automotive industry. As an ISTO
 organization, the Uptane Alliance will also be able to draw on a number of other
 benefits, including non-profit status, and access to IEEE resources, such as conferences
 and publications.
 
-As an ISTO alliance, the Uptane Alliance has officially formed a Board of Directors and
-is governed by a set of bylines. The Board of Directors are:
+As an ISTO alliance, the Uptane Alliance has officially formed a Board of Directors and is governed by a set of bylaws. The Board of Directors are:
 
 * Justin Cappos of NYU Tandon School of Engineering
 * Ira McDonald of High North Inc.
@@ -38,16 +34,13 @@ The following industry representatives serve in an advisory capacity for Uptane.
 
 ### Standards documents
 
-The Uptane standards documents must be approved by a majority of the
-Board of Directors.  The Board of Directors may also be changed by
+The Uptane standards documents must be approved by a majority of the Board of Directors. The Board of Directors may also be changed by
 action of a majority of board members.
 
 ### Maintainership and Consensus Builder (reference implementation)
 
-The reference implementation for the project is maintained by the people 
-indicated in
-[MAINTAINERS](MAINTAINERS.txt).  A maintainer is expected to (1) submit and
-review GitHub pull requests and (2) open issues or [submit vulnerability
+The reference implementation for the project is maintained by the people indicated in
+[MAINTAINERS](MAINTAINERS.txt). A maintainer is expected to (1) submit and review GitHub pull requests and (2) open issues or [submit vulnerability
 reports](https://github.com/theupdateframework/tuf#security-issues-and-bugs).
 A maintainer has the authority to approve or reject pull requests submitted by
 contributors.  The project's Consensus Builder (CB) is
@@ -62,4 +55,3 @@ implementation.
 ### Changes in governance (reference implementation)
 
 The CB supervises changes in governance for the reference implementation.
-

@@ -2,30 +2,30 @@
 
 We welcome questions, feedback, and suggestions on any aspect of this project.
 Feel free to email feedback to [uptane@googlegroups.com](uptane@googlegroups.com).
-One may also propose design changes or inquire about deployment 
+One may also propose design changes or inquire about deployment
 challenges by emailing [the mailing list](uptane@googlegroups.com).
 
 Anyone in the automotive industry, open source community, or security community
-is welcome to join the 
+is welcome to join the
 [Uptane forum](https://groups.google.com/forum/#!forum/uptane-forum).
 This is a fairly low volume mailing list (a few messages a week) and is used
-to disseminate large news items or plan in person Uptane workshops.
+to disseminate large news items, or to plan in person Uptane workshops.
 
 
 ### Standards Development
 The Uptane standardization initiative is under the direction of the Uptane
-Alliance and is carried out on a 
+Alliance and is carried out on a
 [mailing list specifically for this purpose](https://groups.google.com/forum/#!forum/uptane-standards).
 This mailing list is higher volume (often multiple messages a day) and is
-mainly meant to coordinate standardization effort.
+mainly meant to coordinate the standardization effort.
 
 
 ### Uptane Alliance Membership Status
-We welcome anyone to participate in either mailing list independent of their 
-organization's status in the IEEE/ISTO Uptane Alliance.  (However, if your 
-organization does wish to join the Uptane Alliance, simply fill out 
-[this form](assets/UptaneAllianceMembershipAgreement.pdf) and check the 
-Contributor Membership box.  There is no fee.)
+We welcome all interested parties to join either mailing list, independent of  
+your organization's status in the IEEE/ISTO Uptane Alliance.  (However, if your
+organization does wish to join the Uptane Alliance, simply fill out
+[this form](assets/UptaneAllianceMembershipAgreement.pdf) and check the
+Contributor Membership box. There is no fee.)
 
 
 ### Code Contributions
@@ -47,7 +47,7 @@ If you wish to report a bug or a security issue, or introduce a new feature to
 either the reference implementation or demonstration code, please [open an issue](https://github.com/secure-systems-lab/lab-guidelines/issues/new)
 on this.
 
-While the main concern we have is the security of the specification, we are 
+While our main concern is the security of the specification, we are
 also interested in hearing about security problems in our Reference
 Implementation. While cars are unlikely to use the reference code directly,
 reporting any problems users identify in the code can help prevent their
@@ -69,4 +69,3 @@ fingerprint is also listed on the "People" page.
 
 Audits of TUF alone (which Uptane employs) should instead be submitted
 [per these instructions](https://github.com/theupdateframework/tuf/blob/develop/docs/GOVERNANCE.md#tuf-governance) to the TUF project team.
-

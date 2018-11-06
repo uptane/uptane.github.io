@@ -6,7 +6,7 @@ css_id: overview
 ## Project Overview ##
 
 Uptane is the first software update security system for the automotive
-industry capable of resisting even nation-state level actors.  It
+industry capable of resisting even attacks by nation-state level actors.  It
 is designed in such a manner that the security of software updates
 degrades gradually, only as attackers gain different levels of access to
 vehicles, or the automaker's infrastructure itself.  By building these

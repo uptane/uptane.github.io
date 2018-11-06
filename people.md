@@ -6,7 +6,7 @@ css_id: people
 ### Uptane Alliance Board Members
 
 As an ISTO alliance, the Uptane Alliance has officially formed a Board of Directors and
-is governed by a set of bylines. The Board of Directors are:
+is governed by a set of bylaws. The Board of Directors are:
 
 * Justin Cappos of NYU Tandon School of Engineering
 * Ira McDonald of High North Inc.

@@ -42,7 +42,7 @@
       url: /publications.html
 
 
-- text: Implementations and Deployments
+- text: Deployment
   sub:
     - text: Reference Implementation and Demonstration Code
       url: https://github.com/uptane/uptane

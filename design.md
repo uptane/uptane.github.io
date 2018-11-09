@@ -1,3 +1,8 @@
+---
+layout: default
+css_id: design
+---
+
 # Uptane Design
 
 To meet the types of threats enumerated, Uptane adapted the basic design of

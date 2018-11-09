@@ -38,10 +38,6 @@
       url: https://docs.google.com/document/d/17wOs-T7mugwte5_Dt-KLGMsp-3_yAARejpFmrAMefSE/edit#heading=h.6t6kk53v3scx
       external: true
 
-    - text: Conference and Journal Publications
-      url: /publications.html
-
-
 - text: Deployment
   sub:
     - text: Reference Implementation and Demonstration Code
@@ -60,7 +56,7 @@
       url: /publications.html
 
     - text: Audio-Visuals
-      url: /audio.html  
+      url: /audio.html
 
 - text: Press
   url: /press.html

@@ -3,7 +3,7 @@ layout: default
 css_id: adoptions
 ---
 
-### Adoptions
+# Adoptions
 -------------
 
 Uptane is already impacting the way car manufacturers protect motorists from remote attacks, as a number of original equipment manufacturers have adopted the framework. A number of these adoptions have come through the efforts of third-party suppliers.

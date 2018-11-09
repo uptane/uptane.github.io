@@ -4,7 +4,7 @@ css_id: alliance
 ---
 
 
-### The Uptane Alliance
+# The Uptane Alliance
 
 The Uptane Alliance was formally established in July of 2018 for the express
 purpose of standardizing the Uptane open-source software. Formed under the umbrella of
@@ -28,7 +28,7 @@ Check the box marked "Contributor Membership"  and make sure you include "IEEE-I
 
 You can learn more about the organization and governing structure of the Uptane Alliance by reviewing the [bylaws](papers/UA_bylaws_71618).
 
-Individuals who wish to contribute to the standardization initiative can do so, regardless of whether or not their organization joins the Alliance. Contact Lois Anne DeLong at lad278@nyu.edu to be put on the mailing list for the UptaneStandards committee. This will keep you apprised of how the work is progressing
+Individuals who wish to contribute to the standardization initiative can do so, regardless of whether or not their organization joins the Alliance. Contact Lois Anne DeLong at lad278@nyu.edu to be put on the mailing list for the Uptan Standards committee. This will keep you apprised of how the work is progressing
 and give you the opportunity to contribute to the process.
 
 The IEEE Industry Standards and Technology Organization (ISTO) was established in

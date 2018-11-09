@@ -3,7 +3,7 @@ layout: default
 css_id: overview
 ---
 
-## Project Overview ##
+# Project Overview
 
 Uptane is the first software update security system for the automotive
 industry capable of resisting even attacks by nation-state level actors.  It
@@ -48,7 +48,7 @@ Engineering became an [associate member](https://www.automotivelinux.org/announc
 and a member of the [Automotive Grade Linux](https://www.automotivelinux.org/) project,
 in part due to the Foundation's adoption of Uptane technology.
 
-On July 2018, the Uptane Alliance a non-profit under IEEE/ISTO was formed to
+On July 2018, the [Uptane Alliance](https://ieee-isto.org/member_programs/uptane-alliance/), a non-profit under IEEE/ISTO, was formed to
 lead the future direction of Uptane research, development, and deployment.
 The primary task of the Alliance is to be a neutral arbiter that oversees the
 formal standardization of Uptane and promotes security of software updates for

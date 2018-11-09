@@ -1,3 +1,11 @@
+---
+layout: default
+css_id: alliance
+---
+
+
+### The Uptane Alliance
+
 The Uptane Alliance was formally established in July of 2018 for the express
 purpose of standardizing the Uptane open-source software. Formed under the umbrella of
 IEEE's [International Standards and Technology Organization](https://ieee-isto.org/), the

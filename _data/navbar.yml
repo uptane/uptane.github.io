@@ -1,3 +1,6 @@
+- text: Home
+  url: /index.html
+
 - text: The Basics
   sub:
     - text: Project Overview
@@ -54,6 +57,18 @@
 
     - text: Security Audits
       url: /audits.html
+
+- text: Learn More
+  sub:
+    - text: Conference and Journal Publications
+      url: /publications.html
+
+    - text: Audio-Visuals
+      url: /audio.html
+
+    - text: Demo on YouTube
+      url: https://www.youtube.com/watch?v=Iz1l7IK_y2c&t=3s
+      external: true
 
 - text: Press
   url: /press.html

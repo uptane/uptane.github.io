@@ -4,10 +4,10 @@
 
 title: Uptane
 description:  Securing Software Updates for Automobiles
-logo_url: /assets/images/uptane-logo.jpg
+logo_url: /assets/images/uptane-logo-white.png
 google_analytics: false
 theme: jekyll-theme-cayman
 exclude: ["LICENSE", "README.md"]
 
-gems:
+plugins:
   - jekyll-mentions

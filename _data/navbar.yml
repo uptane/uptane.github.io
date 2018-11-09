@@ -1,3 +1,6 @@
+- text: Home
+  url: /index.html
+
 - text: The Basics
   sub:
     - text: Project Overview
@@ -39,7 +42,7 @@
       url: /publications.html
 
 
-- text: Implementations and Deployments
+- text: Deployment
   sub:
     - text: Reference Implementation and Demonstration Code
       url: https://github.com/uptane/uptane
@@ -48,12 +51,16 @@
     - text: Integrations and Adoptions
       url: /adoptions.html
 
-    - text: Demo on YouTube
-      url: https://www.youtube.com/watch?v=Iz1l7IK_y2c&t=3s
-      external: true
-
     - text: Security Audits
       url: /audits.html
+
+- text: Learn More
+  sub:
+    - text: Conference and Journal Publications
+      url: /publications.html
+
+    - text: Audio-Visuals
+      url: /audio.html  
 
 - text: Press
   url: /press.html

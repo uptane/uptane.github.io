@@ -3,7 +3,7 @@ layout: default
 css_id: publications
 ---
 
-## Conference and Journal Publications
+# Conference and Journal Publications
 
 * [Survivable Key Compromise in Software Update Systems](papers/samuel_ccs_2010.pdf):
   Presented at the 17th ACM Conference on Computer and Communications Security (CCS'10)
@@ -13,10 +13,6 @@ css_id: publications
 * [Uptane: Securing Software Updates for Automobiles](papers/kuppusamy_escar_16.pdf):
   Presented at the 14th Embedded Security in Cars conference in Munich, Germany, in 2016.
   The escar presentation was the first public acknowledgement of the Uptane framework.
-
-* [Video of Escar 16 presentation](https://www.youtube.com/watch?v=nDghHNxRGHA):
-  Video of Dr. Kuppusamy presenting at the 14th Embedded Security in
-  Cars conference in Munich.
 
 * [Securing Software Updates for Automotives Using Uptane](papers/kuppusamy_login_2017.pdf):
   Article that appeared in the Summer 2017 issue of **;login** magazine, a USENIX

@@ -3,7 +3,7 @@ layout: default
 css_id: timeline
 ---
 
-### Timeline
+# Timeline
 
 **2010**:  A predecessor technology of Uptane, The Update Framework (TUF), which
 secures software updates on repositories, is introduced in an [academic research paper](papers/samuel_ccs_2010.pdf),

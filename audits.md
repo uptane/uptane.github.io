@@ -3,7 +3,7 @@ layout: default
 css_id: audits
 ---
 
-#### Security Audits
+# Security Audits
 
 Both Uptane and TUF, the secure framework on which it was based, have undergone a number of security audits. Given the proprietary nature of the automotive industry, some links to these reports are not publicly listed. To request the full text of an omitted audit, please
 [reach out to us](https://awwad.github.io/participate.html).

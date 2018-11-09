@@ -3,7 +3,7 @@ layout: default
 css_id: participate
 ---
 
-### Participate
+# Participate
 
 We welcome questions, feedback, and suggestions on any aspect of this project.
 Feel free to email feedback to [jcappos@nyu.edu](jcappos@nyu.edu).
@@ -14,21 +14,21 @@ is welcome to join the
 This is a fairly low volume mailing list (a few messages a week) and is used
 to disseminate large news items, or to plan in person Uptane workshops.
 
-# Standards Development
+### Standards Development
 The Uptane standardization initiative is under the direction of the Uptane
 Alliance and is carried out on a
 [mailing list specifically for this purpose](https://groups.google.com/forum/#!forum/uptane-standards).
 This mailing list is higher volume (often multiple messages a day) and is
 mainly meant to coordinate the standardization effort. To be added to this list, send an email to [lad278@nyu.edu](lad278@nyu.edu).
 
-# Uptane Alliance Membership Status
+### Uptane Alliance Membership Status
 We welcome all interested parties to join either mailing list, independent of  
 your organization's status in the IEEE/ISTO Uptane Alliance.  (However, if your
 organization does wish to join the Uptane Alliance, simply fill out
 [this form](assets/UptaneAllianceMembershipAgreement.pdf) and check the
 Contributor Membership box. There is no fee.)
 
-# Code Contributions
+### Code Contributions
 To make contributions to the reference
 implementation or the demonstration code, please submit a GitHub
 pull request to this repository using
@@ -40,7 +40,7 @@ not limited to:
 * Unit and build testing via Travis CI
 * Review by one or more maintainers
 
-# Code Issues, Bugs, Feature Requests
+### Code Issues, Bugs, Feature Requests
 
 If you wish to report a bug or a security issue, or introduce a new feature to
 either the reference implementation or demonstration code, please [open an issue](https://github.com/secure-systems-lab/lab-guidelines/issues/new)
@@ -53,7 +53,7 @@ However, reporting any problems users identify in the code can help prevent thei
 duplications in production implementations. Please report such issues
 using our GitHub [issue tracker](https://github.com/uptane/uptane/issues).
 
-# Security Audits
+### Security Audits
 
 We welcome security audits of the Uptane design, or vulnerability reports of
 the design or the code in this repository. Please contact lab director

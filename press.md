@@ -3,7 +3,7 @@ layout: default
 css_id: press
 ---
 
-### Press
+# Press
 
 * [Auto Connected Car News—May 20, 2018: Airbiquity with Uptane](http://www.autoconnectedcar.com/2018/05/automotive-cybersecurity-blockchain-infographic-platform/)
 
@@ -17,7 +17,7 @@ css_id: press
 
 * [eWeek-April 2017: How The Update Framework Improves Security of Software Updates](http://www.eweek.com/security/how-the-update-framework-improves-security-of-software-updates)
 
-* [Forbes-January 2017: Uptane Will Protect your Connected Car from Hackers](https://www.forbes.com/sites/.../uptane-will-protect-your-connected-car-from-hackers)
+* [Forbes-January 2017: Uptane Will Protect your Connected Car from Hackers](https://www.forbes.com/sites/leemathews/2017/01/19/uptane-will-protect-your-connected-car-from-hackers/#22941cef19be)
 
 * [Christian Science Monitor-January 2017: Are Software Uodates Key to Stopping
 Criminal Car Hacks?](https://www.csmonitor.com/World/Passcode/2017/0118/Are-software-updates-key-to-stopping-criminal-car-hacks)

@@ -1,8 +1,10 @@
 
 // Background colors
 $green: #295862;
+$uptane-blue: #003297;
 $green-dark: #1e1b26;
-$blue: #86ccd6;
+//$blue: #86ccd6;
+$blue: rgb(0,31,132);
 
 $content-max-width: 800px;
 
@@ -23,7 +25,7 @@ table, td, img  {
   border: none;
 }
 body {
-  background: $green;
+  background: $blue;
 }
 .inner {
   max-width: $content-max-width;
@@ -31,14 +33,17 @@ body {
 
 // Header styles
 #header_wrap {
-  background: $green;
-  background: -moz-linear-gradient(top, $green-dark, $green, $green);
-  background: -webkit-linear-gradient(top, $green-dark, $green, $green);
-  background: -ms-linear-gradient(top, $green-dark, $green, $green);
-  background: -o-linear-gradient(top, $green-dark, $green, $green);
-  background: linear-gradient(top, $green-dark, $green, $green);
+  background: $blue;
+  background: -moz-linear-gradient(top, $uptane-blue, $uptane-blue, $blue);
+  background: -webkit-linear-gradient(top, $uptane-blue, $uptane-blue, $blue);
+  background: -ms-linear-gradient(top, $uptane-blue, $uptane-blue, $blue);
+  background: -o-linear-gradient(top, $uptane-blue, $uptane-blue, $blue);
+  background: linear-gradient(top, $uptane-blue, $uptane-blue, $blue);
   .inner {
     padding: 20px 10px 0px 10px;
+    label {
+      text-decoration: bold;
+    }
     a:hover, a:focus {
       text-decoration: none;
     }
@@ -48,8 +53,8 @@ body {
       }
       img {
         margin-right: 20px;
-        width: 80px;
         height: 80px;
+       // width: 80px;
       }
     }
   }
@@ -77,7 +82,7 @@ body {
 }
 
 #footer_wrap {
-  background: $green;
+  background: $blue;
   font-size: 0.8em;
 }
 

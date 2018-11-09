@@ -32,7 +32,7 @@ This group serves in an advisory capacity for  Uptane activities.
 # Reference Implementation Personnel
 
 The reference implementation for Uptane is currently managed by [Justin
-Cappos](https://ssl.engineering.nyu.edu/personalpages/jcappos/) at New York
+Cappos](https://ssl.engineering.nyu.edu/personalpages/jcappos/) and maintainer [Sebastien Awwad](sebastien.awwad@nyu.edu) at New York
 University's [Secure Systems
 Lab](https://ssl.engineering.nyu.edu/).
 

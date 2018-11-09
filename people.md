@@ -3,10 +3,13 @@ layout: default
 css_id: people
 ---
 
-### Uptane Alliance Board Members
+### Uptane People
+Uptane is served by a board, an advisory group, a few staff members, and a number of volunteers from the software security and automotive industries.
 
-As an ISTO alliance, the Uptane Alliance has officially formed a Board of Directors and
-is governed by a set of bylaws. The Board of Directors are:
+# Uptane Alliance Board Members
+
+As an ISTO alliance, the Uptane Alliance is overseen by a Board of Directors, and
+its activities are governed by a set of bylaws.  The Uptane Alliance Board members are:
 
 * Justin Cappos of NYU Tandon School of Engineering
 * Ira McDonald of High North Inc.
@@ -14,9 +17,9 @@ is governed by a set of bylaws. The Board of Directors are:
 Transportation Research Institute
 
 
-### Uptane Advisory Group
+# Uptane Advisory Group
 
-The following representatives serve in an advisory capacity for Uptane.
+This group serves in an advisory capacity for  Uptane activities.
 
 * Arthur Taylor of HERE Technologies
 * Cameron Mott of Southwest Research Institute
@@ -26,7 +29,7 @@ The following representatives serve in an advisory capacity for Uptane.
 * Tom Forest of General Motors
 * Trishank Karthik Kuppusamy of Datadog and New York University
 
-### Reference Implementation Personnel
+# Reference Implementation Personnel
 
 The reference implementation for Uptane is currently managed by [Justin
 Cappos](https://ssl.engineering.nyu.edu/personalpages/jcappos/) at New York
@@ -49,7 +52,7 @@ of the project roles used below.
 
     PGP fingerprint: E9C0 59EC 0D32 64FA B35F  94AD 465B F9F6 F8EB 475A
 
-**Maintainers**:
+**Maintainer**:
 
   *Sebastien Awwad*
 
@@ -60,16 +63,16 @@ of the project roles used below.
     PGP fingerprint: C2FB 9C91 0758 B682 7BC4  3233 BC0C 6DED D5E5 CC03
 
 
-### Project Contributors  
+## Project Contributors  
 
 Many people have contributed their expertise to this
 project since its inception, including original equipment manufacturers and
 third-party suppliers from the auto industry, representatives
 of government agencies, academics, and members of the open-source community.
-Here is an alphabetical list of the primary contributors that have been 
+Here is an alphabetical list of the primary contributors that have been
 permitted to have their name listed.
 
-#### *Organizations*
+# *Organizations*
 -------------
 * Advanced Telematic Systems
 * Airbiquity (Uptane Alliance Member)
@@ -85,7 +88,7 @@ permitted to have their name listed.
 * University of Michigan Transportation Research Institute
 * U.S. Department of Homeland Security (sponsor)
 
-#### *Individuals*
+# *Individuals*
 -------------
 * Sebastien Awwad
 * David Balenson

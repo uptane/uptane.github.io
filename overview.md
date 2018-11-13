@@ -39,7 +39,7 @@ Institute in Austin, TX. The three partner
 institutions worked in close collaboration with vehicle manufacturers and
 suppliers that are collectively responsible for [78% of the vehicles on U.S. roads.](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8278174&tag=1 )
 
-In 2017, **Popular Science** magazine named Uptane one of the
+In 2017, Popular Science named Uptane one of the
 [top security inventions of 2017,](https://www.popsci.com/top-security-innovations-2017 )
 and the OTAmatic program of Airbiquity, in which Uptane is a key security component,
 was awarded a [BIG Award for Business](https://www.bintelligence.com/big-awards-for-business/) in

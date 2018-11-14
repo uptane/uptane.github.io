@@ -5,7 +5,15 @@ css_id: design
 
 # Uptane Design
 
-To meet the types of threats enumerated, Uptane adapted the basic design of
+<img align="right" src="asset/images/Uptane_process.png" width="150" style="margin: 0px 20px"/>
+
+### How Uptane Works
+Uptane utilizes multiple servers, known as repositories, to provide security through the validation of images before downloading.  This diagram illustrates how the checks and balances of this system works. The connected components on the right hand side of the diagram are on the vehicle, while the components on the left hand-side represent the repositories. The Image Repository can be thought of as an unchanging  source of information about images. It is the keeper of  every image currently deployed by the OEM, along with the metadata files that prove their authenticity. The Director Repository knows what software should be distributed to each ECU, given the current state of the repository. Since many ECUs do not have clocks, the Time Server informs vehicles about the current time in cryptographically secure way, by receiving a list of tokens from vehicles, and returning a signed sequence that includes the token and the current time.
+
+In the first step in the update process, the ECU sends its vehicle version manifest to the Director repository. The manifest contains signed information about existing images. Using this input, the Director chooses which images should be installed next.  The metadata and images are then moved to the  ECU, which will run a verification process. The diagram shows a Primary ECU connected to a number of Secondary ECUs. ECUs  are generally classified in terms of access to storage space, memory, a power supply, and a direct internet connection. The form of verification that will be run—Full or Partial— is also based on the resources of the ECU, as well as how security critical it may be. If the verification indicates no issues, the images can be downloaded to the ECU, and  the vehicle version manifest will be updated.
+
+### The Evolution of Uptane
+To meet the types of threats enumerated, Uptane started with the basic design of
 [The Update Framework (TUF)](https://theupdateframework.github.io/overview.html ),
 a flexible framework and specification that has proven successful in securing
 software update systems on repositories.  The basic TUF design was first
@@ -31,27 +39,28 @@ metadata to authenticate malware.
 4. **Keeping the most vulnerable keys offline**: mandating that certain
 signing keys be kept offline, thus making them harder to steal or compromise.
 
-These four TUF principles form the core design of Uptane, but several new
-concepts were added to allow  for the auto industry’s decentralized approach to
-manufacturing and maintaining ECUs. One such concept is the **addition of a
+But very early on in its development, researchers realized that they could not just apply TUF directly to ECUs. One problem in securing ECUs on vehicles is that their capabilities are inconsistent. This issue is exacerbated by a number of other issues that distinguish ECUs from computers or other smart devices.
+
+* They are not single clients.
+* They are not particularly smart.
+* The individual components do not trust each other.
+
+With these issues in mind, as well as other concerns expressed by industry representatives, Uptane modified the basic TUF design in a few ways. The first is the **addition of a
 second repository**, which divides labor and responsibility for different
-aspects of the verification process. The *image* repository holds an
+aspects of the verification process. As mentioned in the brief description above, the *image* repository holds an
 accurate inventory of all the images currently on all ECUs on all vehicles
-maintained by an OEM. It also maintains the metadata that can verify the
-authenticity of these images. This repository uses offline keys to sign all
+maintained by an OEM, and the corresponding metadata. This repository uses offline keys to sign all
 metadata, making it much harder for attackers to substitute compromised images.
-The *director* repository instructs vehicles as to what updates should be
-installed next, given information about what is currently installed. This
-repository uses online keys to sign its metadata, allowing for easier
+The *director* repository, which instructs vehicles as to what updates should be
+installed next, uses online keys to sign its metadata, allowing for easier
 and faster turnarounds. By combining the two repositories,
 an OEM can provide both customizability and security for the
 control units on their vehicles.
 
-Another modification to the basic TUF design has to do with the way
+Another modification made to the basic TUF design has to do with the way
 Uptane **verifies the  images**, meaning the media used to supply the code and data that control the actions of the  ECUs. In the verification
 step, the ECU determines if a file is safe to download by checking
-its accompanying metadata. Depending on the power of an ECU—with
-power defined here in terms of memory, storage space, and connection to the Internet—verification can be *full,* which requires checking that the hashes and sizes of images in the signed metadata match the hashes and sizes stored on the image
+its accompanying metadata. As mentioned above, an ECU can use two different verification strategies, depending on its power. Verification can be *full,* which requires checking that the hashes and sizes of images in the signed metadata match the hashes and sizes stored on the image
 repository, or *partial,* which requires only the signature on the targets metadata
 file from the director repository to be checked.
 

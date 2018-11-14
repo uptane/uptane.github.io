@@ -12,16 +12,18 @@ coauthored by Justin Samuel and Justin Cappos.
 **2013**:  Cappos, along with Trishank Kuppusamy, and Vladimir Diaz begin
 adapting TUF for Python, Ruby, and environments used
 for cloud computing.  Kuppusamy, a Ph.D. student at the time, will later
-use this experience in his work as a lead developer on the Uptane project.
+use this experience on the Uptane project.
 
-**2015**: NYU Tandon receives a grant (with Cappos as PI) from the
-U.S. Department of Homeland Security
-to begin work on a project to secure software updates on vehicles.
+**2015**: [NYU Tandon](https://engineering.nyu.edu/) receives a grant (with 
+Cappos as PI) from the U.S. Department of Homeland Security to begin work on 
+a project to secure software updates on vehicles.  
+[University of Michigan Transportation Research Institute](http://www.umtri.umich.edu/)(UMTRI)
+and [Southwest Research Institute](https://www.swri.org/)(SWRI) receive a 
+similar grant to work on automotive security.
 
 **2016**: Uptane is created when a consortium of researchers at
-the [University of Michigan Transportation Research Institute](http://www.umtri.umich.edu/)(UMTRI),
-[Southwest Research Institute](https://www.swri.org/)(SWRI), and
-[NYU Tandon](https://engineering.nyu.edu/) begin developing Uptane, using the basic TUF design as a starting point.
+UMTRI, SWRI, and NYU Tandon begin developing Uptane, using the basic 
+TUF design as a starting point.
 
 **2016** The research team also begins a series of workshops (organized by
 Andre Weimerskirch at UMTRI) at which OEMs (original equipment manufacturers,
@@ -62,6 +64,6 @@ on the strength of the Foundation’s adoption of Uptane and TUF projects.
 
 **2018** The Uptane Alliance, a nonprofit entity organized under the umbrella of
 IEEE's [International Standards and Technology Organization](https://ieee-isto.org/) is formed.
-As an ISTO supported organization, the Alliance will oversee the setting of standards
-for the implementation/deployment of Uptane, as well as the advancement and
-improvement of the technology itself.
+As an ISTO supported organization, the Alliance will oversee the setting of 
+standards for the implementation/deployment of Uptane, as well as the 
+advancement and improvement of the technology itself.

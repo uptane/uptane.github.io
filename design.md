@@ -5,7 +5,7 @@ css_id: design
 
 # Uptane Design
 
-<img align="right" src="asset/images/Uptane_process.png" width="150" style="margin: 0px 20px"/>
+<img align="right" src="assets/images/Uptane_process.png" width="150" style="margin: 0px 20px"/>
 
 ### How Uptane Works
 Uptane utilizes multiple servers, known as repositories, to provide security through the validation of images before downloading.  This diagram illustrates how the checks and balances of this system works. The connected components on the right hand side of the diagram are on the vehicle, while the components on the left hand-side represent the repositories. The Image Repository can be thought of as an unchanging  source of information about images. It is the keeper of  every image currently deployed by the OEM, along with the metadata files that prove their authenticity. The Director Repository knows what software should be distributed to each ECU, given the current state of the repository. Since many ECUs do not have clocks, the Time Server informs vehicles about the current time in cryptographically secure way, by receiving a list of tokens from vehicles, and returning a signed sequence that includes the token and the current time.
@@ -20,7 +20,7 @@ software update systems on repositories.  The basic TUF design was first
 introduced in a [2010 paper](https://ssl.engineering.nyu.edu/papers/samuel_tuf_ccs_2010.pdf)
 by Justin Samuel, Nick Mathewson, Roger Dingledine, and Justin Cappos.
 Under the direction of Cappos at NYU Tandon School of Engineering since 2011,
-TUF has been [adapted](https://theupdateframework.github.io/papers/prevention-rollback-attacks-atc2017.pdf?raw=true) to [protect against threats](https://theupdateframework.github.io/papers/protect-community-repositories-nsdi2016.pdf?raw=true) 
+TUF has been [adapted](https://theupdateframework.github.io/papers/prevention-rollback-attacks-atc2017.pdf?raw=true) to [protect against threats](https://theupdateframework.github.io/papers/protect-community-repositories-nsdi2016.pdf?raw=true)
 to various types of [software applications](https://awwad.github.io/papers/kuppusamy_escar_16.pdf).
 
 A central tenet of TUF is **compromise-resilience**, or the ability to minimize the

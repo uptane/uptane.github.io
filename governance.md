@@ -33,11 +33,9 @@ action of a majority of board members.
 
 The following industry representatives serve in an advisory capacity for Uptane.
 
-* Andre Weimerskirch of Lear Corporation and University of Michigan Transportation Research Institute
 * Arthur Taylor of HERE Technologies
 * Cameron Mott of Southwest Research Institute
 * Gloria Danna of General Telecom Systems
-* Ira McDonald of High North Inc
 * Philip Lapczynski of Renesas
 * Russ Bielawski of Secure Embedded Systems
 * Tom Forest of General Motors

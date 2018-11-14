@@ -16,8 +16,7 @@ use this experience on the Uptane project.
 
 **2015**: [NYU Tandon](https://engineering.nyu.edu/) receives a grant (with 
 Cappos as PI) from the U.S. Department of Homeland Security to begin work on 
-a project to secure software updates on vehicles.  
-[University of Michigan Transportation Research Institute](http://www.umtri.umich.edu/)(UMTRI)
+a project to secure software updates on vehicles.  [University of Michigan Transportation Research Institute](http://www.umtri.umich.edu/)(UMTRI)
 and [Southwest Research Institute](https://www.swri.org/)(SWRI) receive a 
 similar grant to work on automotive security.
 

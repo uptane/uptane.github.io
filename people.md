@@ -81,6 +81,7 @@ permitted to have their name listed.
 * High North Inc (Uptane Alliance Board Member)
 * IEEE/ISTO
 * Lear Corporation (Uptane Alliance Board Member)
+* LG Electronics (Uptane Alliance Member)
 * The Linux Foundation
 * NYU Tandon School of Engineering (Uptane Alliance Board Member)
 * OTAInfo (Uptane Alliance Member)

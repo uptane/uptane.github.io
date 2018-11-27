@@ -4,12 +4,14 @@ css_id: people
 ---
 
 # Uptane People
-Uptane is served by a board, an advisory group, a few staff members, and a number of volunteers from both the software security and automotive industries.
+Uptane is served by a board, an advisory group, a few staff members, and a 
+number of volunteers from both the software security and automotive industries.
 
 ### Uptane Alliance Board Members
 
-As an ISTO alliance, the Uptane Alliance is overseen by a Board of Directors, and
-its activities are governed by a set of bylaws.  The Uptane Alliance Board members are:
+As an ISTO alliance, the Uptane Alliance is overseen by a Board of Directors, 
+and its activities are governed by a set of bylaws.  The Uptane Alliance Board 
+members are:
 
 * Justin Cappos of NYU Tandon School of Engineering
 * Ira McDonald of High North Inc.
@@ -70,19 +72,17 @@ project since its inception, including original equipment manufacturers and
 third-party suppliers from the auto industry, representatives
 of government agencies, academics, and members of the open-source community.
 Here is an alphabetical list of the primary contributors that have been
-permitted to have their name listed.
+asked to have their name listed.
 
 ## *Organizations*
 -------------
-* Advanced Telematic Systems
 * Airbiquity (Uptane Alliance Member)
-* Automative Grade Linux
-* HERE Technologies
+* Automative Grade Linux, part of the The Linux Foundation
+* HERE Technologies, formerly Advanced Telematic Systems
 * High North Inc (Uptane Alliance Board Member)
 * IEEE/ISTO
 * Lear Corporation (Uptane Alliance Board Member)
 * LG Electronics (Uptane Alliance Member)
-* The Linux Foundation
 * NYU Tandon School of Engineering (Uptane Alliance Board Member)
 * OTAInfo (Uptane Alliance Member)
 * Southwest Research Institute

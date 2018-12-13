@@ -17,7 +17,7 @@ through access to the resources of IEEE, including publications, meetings and co
 and administrative support.
 
 Interested organizations can become part of the Uptane Alliance by [completing a
-membership application](papers/UA_member_agreement_71618.pdf) and returning it to:
+membership application](assets/UptaneAllianceMembershipAgreement.pdf) and returning it to:
 
 The Uptane Alliance
 
@@ -27,14 +27,14 @@ c/o IEEE-ISTO
 
 Piscataway, NJ  08854 USA
 
-Check the box marked "Contributor Membership"  and make sure you include "IEEE-ISTO" in the mailing address, as IEEE supports another standards organization at the same address.
+Check the box marked "Contributor Membership" and make sure you include "IEEE-ISTO" in the mailing address, as IEEE supports another standards organization at the same address.
 
-You can learn more about the organization and governing structure of the Uptane Alliance by reviewing the [bylaws](papers/UA_bylaws_71618).
+You can learn more about the organization and governing structure of the Uptane Alliance by reviewing the [bylaws](papers/UA_bylaws_71618.pdf).
 
-Individuals who wish to contribute to the standardization initiative can do 
-so, regardless of whether or not their organization joins the Uptane Alliance. 
-Contact [Lois Anne DeLong](lad278@nyu.edu) to be put on the mailing list for 
-the Uptane Standards committee. This will keep you apprised of how the work is 
+Individuals who wish to contribute to the standardization initiative can do
+so, regardless of whether or not their organization joins the Uptane Alliance.
+Contact [Lois Anne DeLong](mailto:lad278@nyu.edu) to be put on the mailing list for
+the Uptane Standards committee. This will keep you apprised of how the work is
 progressing and give you the opportunity to contribute to the process.
 
 The IEEE Industry Standards and Technology Organization (ISTO) was established

@@ -45,11 +45,11 @@ The following industry representatives serve in an advisory capacity for Uptane.
 ### Maintainership and Consensus Builder (reference implementation)
 
 The reference implementation for the project is maintained by the people indicated in
-[MAINTAINERS](MAINTAINERS.txt). A maintainer is expected to (1) submit and review GitHub pull requests and (2) open issues or [submit vulnerability
+[MAINTAINERS](https://uptane.github.io/people.html). A maintainer is expected to (1) submit and review GitHub pull requests and (2) open issues or [submit vulnerability
 reports](https://github.com/theupdateframework/tuf#security-issues-and-bugs).
 A maintainer has the authority to approve or reject pull requests submitted by
 contributors.  The project's Consensus Builder (CB) is
-[Justin Cappos](jcappos@nyu.edu) (JustinCappos on github).
+[Justin Cappos](mailto:jcappos@nyu.edu) (JustinCappos on github).
 
 ### Changes in maintainership (reference implementation)
 

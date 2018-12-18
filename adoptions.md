@@ -33,4 +33,4 @@ adopt the Uptane framework.
 [OTAmatic](https://www.airbiquity.com/product-offerings/software-and-data-management)
 over-the-air software and data management solution. The product was honored in
 2017 with a
-[Business Intelligence Group](https://www.bintelligence.com/) Award in the [New Product of the Year Award category]((https://www.airbiquity.com/news/press-releases/airbiquity-otamatic-named-2017-new-product-year-business-intelligence-group).
+[Business Intelligence Group](https://www.bintelligence.com/) Award in the [New Product of the Year Award category](https://www.airbiquity.com/news/press-releases/airbiquity-otamatic-named-2017-new-product-year-business-intelligence-group).

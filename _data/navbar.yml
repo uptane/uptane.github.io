@@ -44,7 +44,7 @@
       url: https://github.com/uptane/uptane
       external: true
 
-    - text: Integrations and Adoptions
+    - text: Adoptions
       url: /adoptions.html
 
     - text: Security Audits

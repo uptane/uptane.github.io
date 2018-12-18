@@ -1,4 +1,4 @@
---
+---
 layout: default
 css_id: audits
 ---
@@ -9,7 +9,7 @@ Both Uptane and TUF, the secure framework on which it was based, have
 undergone a number of security audits. Given the proprietary nature of the
 automotive industry, some links to these reports are not publicly listed.
 To request the full text of an omitted audit, please
-[reach out to us](https://awwad.github.io/participate.html).
+[reach out to us](https://uptane.github.io/participate.html).
 
 * **Cure53:** A 2016-2017 audit of an Advanced Telematic
 Systems/HERE Inc. implementation of Uptane. No security issues were found
@@ -23,7 +23,7 @@ minor, relating to the particular implementation's
 default configuration and the way it stored backups.
 
 * **SWRI** Performed in 2018, this review by the Southwest Research
-Institute did find a bug in the 
+Institute did find a bug in the
 [Reference Implementation](https://github.com/uptane/uptane) that has since
-been addressed. However, it found no design issues that impacted the Uptane 
+been addressed. However, it found no design issues that impacted the Uptane
 specification or adopter code.

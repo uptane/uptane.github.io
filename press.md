@@ -5,6 +5,8 @@ css_id: press
 
 # Press
 
+* [Airbiquity.com-December 13, 2018: Airbiquity Bolsters OTAmatic™ Security And Data Analytic Features In Latest Over-The-Air (OTA) Software And Data Management offering For Automotive](https://www.airbiquity.com/news/press-releases/airbiquity-bolsters-otamatictm-security-and-data-analytic-features-latest-over-air-ota-software-and-data-management-offering-aut)
+
 * [Auto Connected Car News—May 20, 2018: Airbiquity with Uptane](http://www.autoconnectedcar.com/2018/05/automotive-cybersecurity-blockchain-infographic-platform/)
 
 * [PBS/WLIW Ch.21-March 26, 2018: SciTech Now, Episode 420](https://www.scitechnow.org/videos/scitech-now-episode-420/)

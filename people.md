@@ -78,6 +78,7 @@ asked to have their name listed.
 -------------
 * Airbiquity (Uptane Alliance Member)
 * Automotive Grade Linux, part of the The Linux Foundation
+* Directed Australia (Uptane Alliance Member)
 * HERE Technologies, formerly Advanced Telematic Systems
 * High North Inc (Uptane Alliance Board Member)
 * IEEE/ISTO

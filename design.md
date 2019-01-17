@@ -24,7 +24,7 @@ introduced in a [2010 paper](https://ssl.engineering.nyu.edu/papers/samuel_tuf_c
 by Justin Samuel, Nick Mathewson, Roger Dingledine, and Justin Cappos.
 Under the direction of Cappos at NYU Tandon School of Engineering since 2011,
 TUF has been [adapted](https://theupdateframework.github.io/papers/prevention-rollback-attacks-atc2017.pdf?raw=true) to [protect against threats](https://theupdateframework.github.io/papers/protect-community-repositories-nsdi2016.pdf?raw=true)
-to various types of [software applications](https://awwad.github.io/papers/kuppusamy_escar_16.pdf).
+to various types of [software applications](https://uptane.github.io/papers/kuppusamy_escar_16.pdf).
 
 A central tenet of TUF is **compromise-resilience**, or the ability to minimize the
 extent of the threat posed by any given attack. The building blocks for

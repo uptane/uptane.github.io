@@ -17,7 +17,7 @@ step will encourage adoption and ensure clear guidance for future
 users. The [design overview](https://docs.google.com/document/d/1pBK--40BCg_ofww4GES0weYFB6tZRedAjUy6PJ4Rgzk/edit#heading=h.ertrftdz3oms),
 [standards documents](https://docs.google.com/document/d/1wjg3hl0iDLNh7jIRaHl3IXhwm0ssOtDje5NemyTBcaw/edit#heading=h.l6lkvdudrui2),
 [deployment considerations](https://docs.google.com/document/d/17wOs-T7mugwte5_Dt-KLGMsp-3_yAARejpFmrAMefSE/edit#heading=h.6t6kk53v3scx),
-[technical papers](https://awwad.github.io/publications.html),
-[security audits](https://awwad.github.io/audits.html), and
+[technical papers](https://uptane.github.io/publications.html),
+[security audits](https://uptane.github.io/audits.html), and
 [a public reference implementation](https://github.com/uptane/uptane)
 are freely available for all to use.

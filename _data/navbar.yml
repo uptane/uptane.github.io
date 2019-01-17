@@ -40,15 +40,27 @@
 
 - text: Deployment
   sub:
+    - text: Introduction
+      url: /deployment/introduction.html
+    - text: Preparing ECUs
+      url: /deployment/ecus.html
+    - text: Preparing servers
+      url: /deployment/repositories.html
+    - text: Key management and metadata expiration
+      url: /deployment/key_management.html
+    - text: Normal operating guidelines
+      url: /deployment/normal_operation.html
+    - text: Exceptional operations
+      url: /deployment/exceptional_operations.html
+    - text: Customizing Uptane
+      url: /deployment/customizations.html
+    - text: Other security considerations
+      url: /deployment/security_considerations.html
+    - text: ASN.1 examples for metadata syntax
+      url: /deployment/asn1_examples.html
     - text: Reference Implementation and Demonstration Code
       url: https://github.com/uptane/uptane
       external: true
-
-    - text: Adoptions
-      url: /adoptions.html
-
-    - text: Security Audits
-      url: /audits.html
 
 - text: Learn More
   sub:
@@ -57,6 +69,12 @@
 
     - text: Audio-Visuals
       url: /audio.html
+    
+    - text: Adoptions
+      url: /adoptions.html
+
+    - text: Security Audits
+      url: /audits.html
 
 - text: Press
   url: /press.html

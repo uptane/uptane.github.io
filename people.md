@@ -84,6 +84,7 @@ asked to have their name listed.
 * IEEE/ISTO
 * Lear Corporation (Uptane Alliance Board Member)
 * LG Electronics (Uptane Alliance Member)
+* NXP (Uptane Alliance Member)
 * NYU Tandon School of Engineering (Uptane Alliance Board Member)
 * OTAInfo (Uptane Alliance Member)
 * Southwest Research Institute

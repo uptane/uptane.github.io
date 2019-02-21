@@ -14,10 +14,7 @@ automobiles, in July 2018 the [IEEE/ISTO Federation](https://ieee-isto.org/) beg
 formally standardizing Uptane under a non-profit consortium called the [Uptane
 Alliance](https://ieee-isto.org/member_programs/uptane-alliance/). This 
 step will encourage adoption and ensure clear guidance for future
-users. The [design overview](https://docs.google.com/document/d/1pBK--40BCg_ofww4GES0weYFB6tZRedAjUy6PJ4Rgzk/edit#heading=h.ertrftdz3oms),
-[standards documents](https://docs.google.com/document/d/1wjg3hl0iDLNh7jIRaHl3IXhwm0ssOtDje5NemyTBcaw/edit#heading=h.l6lkvdudrui2),
-[deployment considerations](https://docs.google.com/document/d/17wOs-T7mugwte5_Dt-KLGMsp-3_yAARejpFmrAMefSE/edit#heading=h.6t6kk53v3scx),
-[technical papers](https://uptane.github.io/publications.html),
+users. The initial version of the [Uptane Standard document](https://uptane.github.io/uptane-standard/uptane-standard.html), which presents procedures for the secure design and implementation of the framework, is now available and can be accessed free of charge. Recommended deployment strategies are also currently being prepared and will be posted on this web site upon completion. Other materials, including [technical papers](https://uptane.github.io/publications.html),
 [security audits](https://uptane.github.io/audits.html), and
 [a public reference implementation](https://github.com/uptane/uptane)
-are freely available for all to use.
+are also freely available for alll to use.

@@ -26,12 +26,8 @@
 
 - text: Design Documents
   sub:
-    - text: Design Overview
-      url: https://docs.google.com/document/d/1pBK--40BCg_ofww4GES0weYFB6tZRedAjUy6PJ4Rgzk/edit#heading=h.ertrftdz3oms
-      external: true
-
-    - text: Implementation Specification
-      url: https://docs.google.com/document/d/1wjg3hl0iDLNh7jIRaHl3IXhwm0ssOtDje5NemyTBcaw/edit
+    - text: Uptane Standards
+      url: https://uptane.github.io/uptane-standard/uptane-standard.html
       external: true
 
     - text: Deployment Consideration

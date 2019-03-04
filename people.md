@@ -78,12 +78,14 @@ asked to have their name listed.
 -------------
 * Airbiquity (Uptane Alliance Member)
 * Automotive Grade Linux, part of the The Linux Foundation
+* Carota (Uptane Alliance Member)
 * Directed Australia (Uptane Alliance Member)
 * HERE Technologies, formerly Advanced Telematic Systems
 * High North Inc (Uptane Alliance Board Member)
 * IEEE/ISTO
 * Lear Corporation (Uptane Alliance Board Member)
 * LG Electronics (Uptane Alliance Member)
+* NXP (Uptane Alliance Member)
 * NYU Tandon School of Engineering (Uptane Alliance Board Member)
 * OTAInfo (Uptane Alliance Member)
 * Southwest Research Institute

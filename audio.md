@@ -12,8 +12,11 @@ This section also includes links to a demo video explaining how Uptane works, an
 * [Demo on YouTube](https://www.youtube.com/watch?v=Iz1l7IK_y2c&t=3s)
 
 * [Video of Escar 16 presentation](https://www.youtube.com/watch?v=nDghHNxRGHA):
-  Video of Dr. Kuppusamy presenting at the 14th Embedded Security in
-  Cars conference in Munich.
+Video of Dr. Kuppusamy presenting at the 14th Embedded Security in
+Cars conference in Munich.
+  
+* [Uptane Talk-SAE 2018](https://docs.google.com/presentation/d/1DrEKgiy5ib8DUMnoGTvxNw5_-7mH2y3_a-8VKdAgFjQ/edit#slide=id.g2a354e93f1_0_0)
+An updated set of slides that provides an overview of the rational for and design of Uptane.
 
 * [Uptane Workshop Talk-Refresher, June 2018](https://docs.google.com/presentation/d/17ixIQfy3GSBbVr3bc4_1u003qe5oG2obUIy0XGsEzt8/edit#slide=id.g2a354e93f1_0_0)
 

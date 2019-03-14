@@ -34,3 +34,6 @@ adopt the Uptane framework.
 over-the-air software and data management solution. The product was honored in
 2017 with a
 [Business Intelligence Group](https://www.bintelligence.com/) Award in the [New Product of the Year Award category](https://www.airbiquity.com/news/press-releases/airbiquity-otamatic-named-2017-new-product-year-business-intelligence-group).
+
+* [Foundries.io](https://foundries.io/) integrates security aspects of TUF and Uptane into its
+[OTA Connect](https://foundries.io/insights/2018/07/12/ota-part-4/) open-source server software. The software supports devices that are compatible with Aktualizr.

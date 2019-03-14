@@ -80,6 +80,7 @@ asked to have their name listed.
 * Automotive Grade Linux, part of the The Linux Foundation
 * Carota (Uptane Alliance Member)
 * Directed Australia (Uptane Alliance Member)
+* Harman International (Uptane Alliance Member)
 * HERE Technologies, formerly Advanced Telematic Systems
 * High North Inc (Uptane Alliance Board Member)
 * IEEE/ISTO

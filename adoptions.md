@@ -15,18 +15,18 @@ First, Uptane is incorporated in
 [Automotive Grade Linux](https://www.automotivelinux.org/), which is
 supported by
 [major OEMs and suppliers](https://www.automotivelinux.org/about/members).
-This is via ATS's [aktualizr](https://github.com/advancedtelematic/aktualizr)
+This is via HERE's [aktualizr](https://github.com/advancedtelematic/aktualizr)
 implementation, which is also integrated in [GENIVI](https://www.genivi.org/).
 
 
 Interested parties that wish to purchase Uptane compatible components can
 speak with a number of suppliers, including:
 
-* Advanced Telematic Systems (ATS), now
+* Advanced Telematic Systems (ATS), now part of
 [HERE Technologies](https://www.here.com/en), integrated Uptane
-into two of its OTA solutions, [OTA Plus](https://www.here.com/en/products-services/here-automotive-suite/ota-software-management/here-ota-connect)
-and [ATS Garage](https://github.com/advancedtelematic/ats-garage-docs). ATS
-was the first European third-party supplier to publicly
+into its OTA solution, [HERE OTA Connect](https://docs.ota.here.com/index.html)
+(formerly known as ATS Garage).
+ATS/HERE was the first European third-party supplier to publicly
 adopt the Uptane framework.
 
 * [Airbiquity](https://www.airbiquity.com) incorporated Uptane into its

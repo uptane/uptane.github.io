@@ -81,7 +81,7 @@ asked to have their name listed.
 * Carota (Uptane Alliance Member)
 * Directed Australia (Uptane Alliance Member)
 * Harman International (Uptane Alliance Member)
-* HERE Technologies, formerly Advanced Telematic Systems
+* HERE Technologies, formerly Advanced Telematic Systems (Uptane Alliance Member)
 * High North Inc (Uptane Alliance Board Member)
 * IEEE/ISTO
 * Lear Corporation (Uptane Alliance Board Member)

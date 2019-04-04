@@ -80,7 +80,8 @@ asked to have their name listed.
 * Automotive Grade Linux, part of the The Linux Foundation
 * Carota (Uptane Alliance Member)
 * Directed Australia (Uptane Alliance Member)
-* HERE Technologies, formerly Advanced Telematic Systems
+* Harman International (Uptane Alliance Member)
+* HERE Technologies, formerly Advanced Telematic Systems (Uptane Alliance Member)
 * High North Inc (Uptane Alliance Board Member)
 * IEEE/ISTO
 * Lear Corporation (Uptane Alliance Board Member)
@@ -89,6 +90,7 @@ asked to have their name listed.
 * NYU Tandon School of Engineering (Uptane Alliance Board Member)
 * OTAInfo (Uptane Alliance Member)
 * Southwest Research Institute
+* Toyota (Uptane Alliance Member)
 * University of Michigan Transportation Research Institute
 * U.S. Department of Homeland Security (sponsor)
 

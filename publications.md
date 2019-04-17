@@ -15,7 +15,7 @@ Presented at the 13th USENIX Symposium on Networked Systems Design and Implement
 (NSDI '16) in Santa Clara, CA 2016. This paper describes security enhancements to TUF that enable it to work with community repositories like PyPI or RubyGems.
 
 * [Uptane: Securing Software Updates for Automobiles](papers/kuppusamy_escar_16.pdf):
-Presented at the 14th Embedded Security in Cars conference in Munich, Germany, in 2016.
+Presented at the 14th Embedded Security in Cars **(escar16)** conference in Munich, Germany, in 2016.
 This escar presentation was the first public acknowledgement of the Uptane framework.
 
 * [Mercury: Bandwidth-Effective Prevention of Rollback Attacks against Community Repositories](papers/prevention-rollback-attacks-atc2017.pdf):

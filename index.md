@@ -5,8 +5,7 @@ css_id: landing
 
 Uptane is a software update system design which 
 protects software delivered over-the-air to the computerized units of 
-automobiles.  
-The framework can thwart attacks from malicious actors who can
+automobiles.  The framework can thwart attacks from malicious actors who can
 compromise servers and networks used to sign and deliver updates.  Hence, it is designed to be resilient even to the best efforts of nation state
 attackers. There are multiple different free open source and closed source
 implementations available.  Uptane is integrated into [Automotive Grade Linux](https://www.automotivelinux.org/),

@@ -3,7 +3,7 @@ layout: default
 css_id: landing
 ---
 
-Uptane is a software update system design which 
+Uptane is a secure software update system design which 
 protects software delivered over-the-air to the computerized units of 
 automobiles.  The framework can thwart attacks from malicious actors who can
 compromise servers and networks used to sign and deliver updates.  Hence, it is designed to be resilient even to the best efforts of nation state

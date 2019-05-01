@@ -89,6 +89,7 @@ asked to have their name listed.
 * NXP (Uptane Alliance Member)
 * NYU Tandon School of Engineering (Uptane Alliance Board Member)
 * OTAInfo (Uptane Alliance Member)
+* Sibros (Uptane Alliance Member)
 * Southwest Research Institute
 * Toyota (Uptane Alliance Member)
 * University of Michigan Transportation Research Institute
@@ -115,6 +116,7 @@ asked to have their name listed.
 * Cameron Mott
 * Jon Oster
 * Christos Papadopoulos
+* Mayank Sikaria
 * Patrick Vacek
 * Sam Weber
 * André Weimerskirch

@@ -21,18 +21,6 @@ Since the root role has the highest impact when its keys are compromised, it SHO
 
 The timestamp, snapshot, and targets roles MAY each use a single key, because using more keys does not add to security, since these keys are online, and attackers who compromise the repository can always use these online keys.
 
-## ECU keys and the Inventory Database
-
-In order for the Director repository to perform its various functions, it MAY also contain an *inventory database* that allows it to read and write information about vehicles and ECUs, such as:
-
-1. Unique vehicle identifiers (e.g., VIN).
-2. Unique ECU identifiers (e.g., serial numbers).
-3. Which ECUs are primaries.
-4. The ECU keys used to verify vehicle version manifests, or encrypt images per ECU, as well as associated information, such as the cryptographic algorithm.
-5. Metadata about all available images for all ECUs on all vehicles, as well as dependencies and conflicts between images for different ECUs. This information will be used for dependency resolution.
-
-An OEM is free to implement the inventory database however it desires, similar to the storage mechanism for files.
-
 ## What to do in case of key compromise
 An OEM and its suppliers SHOULD be prepared to handle a key compromise. If the OEM and its suppliers use the recommended number and type of keys, then this should be a rare event. When it happens, however, OEM and suppliers could use the following recovery procedures.
 

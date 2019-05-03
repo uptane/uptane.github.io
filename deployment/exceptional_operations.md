@@ -5,13 +5,16 @@ css_id: exceptional_operations
 
 # Exceptional operations
 
-In this section, we discuss operations that generally are performed only in exceptional cases. These operations should be done carefully, as they may have security implications for software updates.
+On this page, we discuss operations that generally are performed only in exceptional cases. As they may have security implications for software updates, these operations should be done with great care.
 
 ## Rolling back software
 
 Sometimes, it may be necessary to roll back updates. This is because, for example, if the latest updates are less reliable than previous ones, then the OEM may wish to rollback to the previous updates.
 
-By default, Uptane does not allow updates to be rolled back. There are two mechanisms that are used to achieve this. First, Uptane will reject any new metadata file with a version number lower than what is contained in the previous metadata file. Second, Uptane will reject any new image associated with a release counter that is lower than the release counter of the previous image in the previous targets metadata file. The first mechanism prevents an attacker from replaying an old metadata file. The second mechanism prevents an attacker who compromises the director repository from being able to choose old versions of images, despite being able to sign new metadata. See Figure C.1a for an example.
+By default, Uptane does not allow updates to be rolled back. There are two mechanisms that are used to achieve this. First, Uptane will reject any new metadata file with a version number lower than what is contained in the previous metadata file. Second, Uptane will reject any new image associated with a release counter that is lower than the release counter of the previous image in the previous targets metadata file. The first mechanism prevents an attacker from replaying an old metadata file. The second mechanism prevents an attacker who compromises the director repository from being able to choose old versions of images, despite being able to sign new metadata. See Figure 1 for an example.
+
+### TODO
+Insert figure except_1_rollback_prev.jpg
 
 There are at least two ways to solve this problem, each with different advantages and disadvantages.
 

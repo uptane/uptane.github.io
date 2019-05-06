@@ -9,30 +9,42 @@ In this section, we discuss how OEMs and suppliers may customize Uptane to meet 
 
 ## Scope of an update
 
-(bootloader, system images, applications, data, etc.)
+An image need not necessarily update all code and data on an ECU. The OEM and its suppliers MAY use an image to arbitrarily update code and data on an ECU. For example, an image MAY be used to update only some code but no data, all code and no data, no code and some data, or no code and all data, or all code and data.
+
+Examples of code include the bootloader, shared libraries, and the application, which provides the actual functions of the ECU.
+
+Examples of data include setup or initialization data, such as engine parameters, application data, such as maps, and user data, such as an address book or system logs.
+
+### TODO Insert Figure 1 (custom_1_code_data_image.jpg)
 
 ## Delta update strategies
 
 In order to save bandwidth costs, Uptane allows an OEM to deliver updates as
-delta  images. A delta image update contains only the code and / or data that differs from the previous image installed by the ECU. In order to use delta images, the OEM SHOULD make the following changes.
+delta images. A delta image update contains only the code and / or data that differs from the previous image installed by the ECU. In order to use delta images, the OEM SHOULD make the following changes.
 
 The OEM SHOULD add two types of information to the custom targets metadata used by the director repository: (1) the algorithm used to apply a delta image, and (2) the targets metadata about the delta image. This is done so that ECUs know how to apply and verify the delta image. The director repository SHOULD also be modified to produce delta images, because Uptane does not require it to compute deltas by default. The director repository can use the vehicle version manifest and dependency resolution to determine the differences between the previous and latest images. If desired, then the director repository MAY encrypt the delta image.
 
 As these images are produced on demand by the director repository, primaries SHOULD download all delta and / or encrypted images only from that source. After full verification of metadata, primaries SHOULD also check whether delta images match the targets metadata from the director repository, just as they check whether encrypted images match the targets metadata from the director repository when using non-delta images.
 
-Finally, in order to install a delta image, an ECU SHOULD take one of the actions described in Table D.2a, depending on whether or not the delta image has been encrypted, and if the ECU has additional storage. Note that the OEM MAY use stream ciphers in order to enable on-the-fly decryption by ECUs that have no additional storage space. In this case, the ECU would decrypt the delta image as it is downloaded, then follow the remainder of the steps in the third box below.
+Finally, in order to install a delta image, an ECU SHOULD take one of the actions described in Table 1, depending on whether or not the delta image has been encrypted, and if the ECU has additional storage. Note that the OEM MAY use stream ciphers in order to enable on-the-fly decryption by ECUs that have no additional storage space. In this case, the ECU would decrypt the delta image as it is downloaded, then follow the remainder of the steps in the third box below.
+
+### TODO Recreate and insert Table D.2a from google doc and label it as Table 1.
+
 
 ### Dynamic delta updates vs. precomputed delta updates
 
-There are two options when computing delta updates. Delta updates can be computed dynamically for each ECU during the installation process (dynamic delta updates), or possible delta images can be precomputed before installation begins (precomputed delta updates).
+There are two options when computing delta updates. Delta updates can be computed dynamically for each ECU during the installation process (dynamic delta updates), or possible delta images can be precomputed before installation begins (precomputed delta updates). The process for describing both types of updates appears below in the subsection on custom installation instructions.
 
-Dynamic delta updates reduce the amount of data sent on each update, while allowing for fine grained control of what version is placed on each ECU.  By using the custom field of the targets metadata, as described in section D.9, the director can be configured to specify a particular version of software for every ECU. Dynamic delta updates allow the director to do  file granular resource tracking, which can save bandwidth by only transmitting the delta of the image.
+### TODO Insert link to the subsection Custom installation instructions below in the last sentence above.
+
+Dynamic delta updates reduce the amount of data sent on each update, while allowing for fine grained control of what version is placed on each ECU.  By using the custom field of the targets metadata, the director can be configured to specify a particular version of software for every ECU. Dynamic delta updates allow the director to do file granular resource tracking, which can save bandwidth by only transmitting the delta of the image.
 
 To send dynamic delta updates, the director would compute the delta as described
-earlier in this section. The computed images would be made available to the primary ECU using the non-standard direction process described in section D.9.
-One drawback of dynamic delta updates is that if many ECUs are updating from the same version, computing the delta of each would result in duplicate computation that could be time consuming or take a lot of memory. A possible solution to this is to use precomputed delta updates.
+earlier in this section. The computed images would be made available to the primary ECU.
 
-To send precomputed delta updates the director precomputes various probable diffs and makes these available as images. The director then specifies which precomputed delta image to send to each ECU by using the custom field of targets metadata, as described in section D.9. Precomputing the delta images has the added advantage of allowing these images to be stored on the image repository, which offers additional security against a director compromise.
+One drawback of dynamic delta updates is that if many ECUs are updating from the same version, computing the delta of each would result in duplicate computation that could be time consuming or use up a lot of memory. A possible solution to this is to use precomputed delta updates.
+
+To send precomputed delta updates the director precomputes various probable diffs and makes these available as images. The director then specifies which precomputed delta image to send to each ECU by using the custom field of targets metadata, as described below. Precomputing the delta images has the added advantage of allowing these images to be stored on the image repository, which offers additional security against a director compromise.
 
 ## Uptane in conjunction with other protocols
 Implementers MAY use Uptane in conjunction with other protocols already being used
@@ -48,7 +60,7 @@ For example, implementers MAY Unified Diagnostic Services (UDS) to transport Upt
 
 Any system being used to transport images to ECUs needs to modified only to also transport Uptane metadata, and other messages. Note that Uptane does not require network traffic between the director and image repositories and primaries, as well as between primaries and secondaries, to be authenticated.
 
-However, in order for an implementation to be Uptane-compliant, no ECU can cause another ECU to install an image without performing either full or partial verification of metadata. This is done in order to prevent attackers from being able to bypass Uptane, and thus execute arbitrary software attacks that way. Thus, in an Uptane-compliant implementation, an ECU performs either full or partial verification of metadata and images before installing any image (see Section 8 of the Implementation Specification), regardless of how the metadata and images were transmitted to the ECU.
+However, in order for an implementation to be Uptane-compliant, no ECU can cause another ECU to install an image without performing either full or partial verification of metadata. This is done in order to prevent attackers from being able to bypass Uptane, and thus execute arbitrary software attacks that way. Thus, in an Uptane-compliant implementation, an ECU performs either full or partial verification of metadata and images before installing any image, regardless of how the metadata and images were transmitted to the ECU.
 
 ## Multiple primaries
 
@@ -70,7 +82,8 @@ If all ECUs do have additional storage, and can perform a rollback, then the OEM
 
 ## 2nd-party Fleet management
 
-Some parties, such a vehicle rental company, or the military, may wish to exercise control on how their own fleet of vehicles are updated. We discuss two options for implementing fleet management using Uptane, illustrated by Figure D.6a. Both options use the map file (Section 2.5 of the Implementation Specification). Choosing between these options depends on whether the fleet manager wishes to have either complete control, or better compromise-resilience.
+### TODO insert Figure 2 (custom_2_fleet_management.jpg)
+Some parties, such a vehicle rental company, or the military, may wish to exercise control on how their own fleet of vehicles are updated. We discuss two options for implementing fleet management using Uptane, illustrated by Figure 2. Choosing between these options depends on whether the fleet manager wishes to have either complete control, or better compromise-resilience.
 
 In the first option, which we expect to be the common case, a fleet manager would configure the map file on ECUs, such that primaries and full verification secondaries would trust an image if and only if it has been signed by both the image repository managed by the OEM, and the director repository managed by the fleet instead of the OEM. Partial verification secondaries would trust an image if and only if it has been signed by this director repository. The upside of this option is that the fleet manager, instead of the OEM, has complete control over which updates are installed on its vehicles. The downside of this option is that if the directory repository controlled by the fleet manager is compromised, then attackers can execute mix-and-match attacks.
 
@@ -78,11 +91,11 @@ In the second option, a fleet manager would configure the map file on ECUs, such
 
 ## User-customized updates
 
+### TODO insert Figure 3 (custom_2_thirdparty_updates.jpg)
+
 In its default implementation, Uptane allows only the OEM to fully control which updates are installed on which ECUs on which vehicles. Thus, no third party, such as a dealership, mechanic, fleet manager, or the end-user, has an input as to which updates should be installed. There are very good reasons, such as legal considerations, for enforcing this constraint. However, this capability exists to the point that the OEM wishes to make it available. We discuss two options for doing so.
 
-In the first option, an OEM MAY elect to receive input from a third party as to which updates should be installed. A process for how this may be done is illustrated in Figure D.7a. In the first step, the vehicle would submit to the director repository controlled by the OEM its vehicle version manifest, which lists which updates are currently installed. In the second step, the director repository would perform dependency resolution using this manifest, and propose a set of updates. In the third step, the third party would either agree with the OEM, or propose a different set of updates. This step SHOULD be authenticated (e.g., using client certificates, or username and password encrypted over TLS), so that only authorized third parties are allowed to negotiate with the OEM. In fourth step, the OEM would either agree with the third party, or propose a different set of updates. The third and fourth steps MAY be repeated, for a maximum number of retries, until both the OEM and the third party agree as to which updates should be installed.
-
-In the first option, an OEM MAY elect to receive input from a third party as to which updates should be installed. A process for how this may be done is illustrated in Figure D.7a. In the first step, the vehicle would submit to the director repository controlled by the OEM its vehicle version manifest, which lists which updates are currently installed. In the second step, the director repository would perform dependency resolution using this manifest, and propose a set of updates. In the third step, the third party would either agree with the OEM, or propose a different set of updates. This step SHOULD be authenticated (e.g., using client certificates, or username and password encrypted over TLS), so that only authorized third parties are allowed to negotiate with the OEM. In fourth step, the OEM would either agree with the third party, or propose a different set of updates. The third and fourth steps MAY be repeated, for a maximum number of retries, until both the OEM and the third party agree as to which updates should be installed.
+In the first option, an OEM MAY elect to receive input from a third party as to which updates should be installed. The process is illustrated in Figure 3. In the first step, the vehicle would submit to the director repository controlled by the OEM its vehicle version manifest, which lists which updates are currently installed. In the second step, the director repository would perform dependency resolution using this manifest, and propose a set of updates. In the third step, the third party would either agree with the OEM, or propose a different set of updates. This step SHOULD be authenticated (e.g., using client certificates, or username and password encrypted over TLS), so that only authorized third parties are allowed to negotiate with the OEM. In fourth step, the OEM would either agree with the third party, or propose a different set of updates. The third and fourth steps MAY be repeated, for a maximum number of retries, until both the OEM and the third party agree as to which updates should be installed.
 
 In the second option, the third party MAY choose to override the root of trust for ECUs, provided that the OEM makes this possible. Specifically, the third party may overwrite the map and root metadata file on ECUs, so that updates are trusted and installed from repositories managed by the third party, instead of the OEM. The OEM may infer whether a vehicle has done so, by monitoring from its inventory database whether the vehicle has recently updated from its repositories. The OEM MAY choose not to make this option available to third parties by, for example, using a Hardware Security Module (HSM) to store Uptane code and data, so that third parties cannot override the root of trust.
 

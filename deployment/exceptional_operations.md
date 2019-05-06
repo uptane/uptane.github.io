@@ -9,22 +9,32 @@ On this page, we discuss operations that generally are performed only in excepti
 
 ## Rolling back software
 
-Sometimes, it may be necessary to roll back updates. This is because, for example, if the latest updates are less reliable than previous ones, then the OEM may wish to rollback to the previous updates.
+Sometimes it may be necessary to roll back updates.  If an OEM determines that the latest updates are less reliable than previous ones, then the OEM may wish to rollback to the previous updates.
 
-By default, Uptane does not allow updates to be rolled back. There are two mechanisms that are used to achieve this. First, Uptane will reject any new metadata file with a version number lower than what is contained in the previous metadata file. Second, Uptane will reject any new image associated with a release counter that is lower than the release counter of the previous image in the previous targets metadata file. The first mechanism prevents an attacker from replaying an old metadata file. The second mechanism prevents an attacker who compromises the director repository from being able to choose old versions of images, despite being able to sign new metadata. See Figure 1 for an example.
+By default, Uptane does not allow updates to be rolled back and enforces this action with two mechanisms. First, Uptane rejects any new metadata file with a version number lower than what is contained in the previous metadata file. Second, Uptane will reject any new image associated with a release counter that is lower than the release counter of the previous image in the previous targets metadata file. The first mechanism prevents an attacker from replaying an old metadata file. The second mechanism prevents an attacker who compromises the director repository from being able to choose old versions of images, despite being able to sign new metadata. See Figure 1 for an example.
 
 ### TODO
-Insert figure except_1_rollback_prev.jpg
+Insert figure except_1_rollback_prev.jpg and caption
 
-There are at least two ways to solve this problem, each with different advantages and disadvantages.
+There are at least two ways to allow rollbacks, each with different advantages and disadvantages.
 
-In the first option, an OEM MAY choose never to increment the release counters of images (see Figure C.1b). Uptane will accept any new image associated with a release counter that is equal to the release counter of the previous image in the previous targets metadata file. Therefore, if release counters are never incremented, then all images would have the same release counters. In this situation, an ECU would accept the installation of any compatible image referred in new targets metadata (see Section E.1).
+In the first option, an OEM MAY choose to never increment the release counters of images (see Figure 2). Uptane will accept any new image associated with a release counter that is equal to the release counter of the previous image in the previous targets metadata file. If release counters are never incremented, then all images would have the same release counters. In this situation, an ECU would accept the installation of any compatible image referred in the new targets metadata (see Security page on this website).
 
-The advantage to this method is that it is simple. It allows the OEM to easily install interchangeable versions of the same image. In the example in Figure C.1b, “foo.img” may simply be a version of “bar.img” containing diagnostic functions. Therefore, the OEM may install either “bar.img” or “foo.img’ on the same ECU. The disadvantage to this method is that it allows attackers who compromise the director repository to execute rollback attacks, because obsolete images may also be installed. Therefore, this method SHOULD NOT be used.
+### TODO
+Insert figure except_2_diffimage_samecounterprev.jpg and caption
 
-In the second option, an OEM MUST increment the release counter of an image whenever it is critical that an ECU not install images with lower release counters. In the example in Figure C.1c, if an ECU installs “foo.img”, then it cannot install “bar.img”. This is done to prevent the installation of compatible images with lower release counters that have known security vulnerabilities which have been fixed in newer images.
+The advantage to this method is that it is simple. It allows the OEM to easily install interchangeable versions of the same image. In the example in Figure 2, “foo.img” may simply be a version of “bar.img” containing diagnostic functions. Therefore, the OEM may install either “bar.img” or “foo.img’ on the same ECU. The disadvantage of this method is that it allows attackers who compromise the director repository may install obsolete images they can use to execute rollback attacks. Therefore, this method SHOULD NOT be used.
 
-The advantage to this method is that it prevents attackers who compromise only the director repository from being able to execute rollback attacks. However, there are two disadvantages. First, the release counters for images have to be maintained even if role B now signs for images previously signed by role A. This is because release counters are always compared to previous targets metadata files. Second, it is more cumbersome to roll back updates, or deliberately cause ECUs to install older images, because offline keys are used to increment the release counters of these older images in the new targets metadata for the image repository. However, this method SHOULD be preferred, because it is more secure. See Section E.2 for more techniques that can be used to limit rollback attacks when the director repository is compromised.
+In the second option, an OEM MUST increment the release counter of an image whenever it is critical that an ECU not install images with lower release counters. In the example in Figure C3, if an ECU installs “foo.img,” then it cannot install “bar.img.” This is done to prevent the installation of compatible images with lower release counters that have known security vulnerabilities, rather newer images in which these vulnerabilities have been fixed.
+
+### TODO
+Insert figure except_2_diffimage_samecounterprev2.jpg and caption
+
+The advantage to this method is that it prevents rollback attacks in a situation
+where attackers compromise only the director repository.  However, there are two disadvantages. First, the release counters for images have to be maintained, even if role B now signs for images previously signed by role A. This is because release counters are always compared to previous targets metadata files. Second, it is more cumbersome to roll back updates, or deliberately cause ECUs to install older images, because offline keys are used to increment the release counters of these older images in the new targets metadata for the image repository. However, this method SHOULD be preferred, because it is more secure. See the Security pages for more techniques that can be used to limit rollback attacks when the director repository is compromised.
+
+### TODO
+Insert link to subsection on the Security page dealing with rollback attacks.
 
 ## Adding, removing, or replacing ECUs
 
@@ -37,9 +47,12 @@ The OEM should then decide how to respond to the new information. The OEM can ve
 
 ## Adding or removing a supplier
 
-Due to changes in business relationships, it may be the case that the OEM may need to add or remove a tier-1 supplier on its repositories.
+Due to changes in business relationships, an OEM may need to add or remove a tier-1 supplier from its repositories.
 
-To add a tier-1 supplier, the OEM SHOULD use the following steps. First, if the supplier signs its own images, then the OEM SHALL add a delegation to the supplier on the image repository following the steps described in Section B.1. Second, the supplier SHALL deliver metadata and / or images to the OEM following the steps in Section A.1.1. Finally, the OEM SHALL add the metadata and images to its repositories, possibly test them, and then release them to affected vehicle following the steps in Section A.1.2.
+To add a tier-1 supplier, OEMs SHOULD use the following steps. First, if the supplier signs its own images, then the OEM SHALL add a delegation to the supplier on the image repository following the steps described on the Normal Operating Procedures page. Second, the supplier SHALL deliver metadata and / or images to the OEM. Finally, the OEM SHALL add the metadata and images to its repositories, possibly test them, and then release them to the affected vehicle following the steps. All the above should be done using the guidelines on the Normal Operating Procedures page.
+
+### TODO
+Insert link to relevant subsections on the Normal Operating Procedures page.
 
 To safely remove a tier-1 supplier, the OEM SHOULD use the following steps. First, it SHOULD delete the corresponding delegation from the targets role on the image repository, as well as all metadata and images belonging to that supplier, so that their metadata and images are no longer trusted. Second, it SHOULD also delete information about the supplier from the director repository, such as its images as well as its dependencies and conflicts, so that the director repository no longer chooses these images for installation. In order to continue to update vehicles with ECUs originally maintained by this supplier, the OEM SHOULD replace this supplier with another delegation, either maintained by itself or another tier-1 supplier.
 

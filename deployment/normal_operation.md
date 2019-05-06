@@ -4,6 +4,7 @@ css_id: normal_operation
 ---
 
 # Normal operating procedures
+In this section, we discuss how to perform regular maintenance operations, such as updating metadata and images, or preparing an ECU to run Uptane. Since these operations are performed on a regular basis, it is important to ensure they be performed  in a systematic manner so that software updates are delivered securely to ECUs.
 
 ## What can an Uptane-compliant system look like?
 

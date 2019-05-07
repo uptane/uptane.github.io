@@ -50,13 +50,13 @@ To send precomputed delta updates the director precomputes various probable diff
 Implementers MAY use Uptane in conjunction with other protocols already being used
 to send updates to the vehicle.
 
-For example, implementers MAY use SSL / TLS to encrypt the connection between
+For example, implementers MAY use [SSL / TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security) to encrypt the connection between
 primaries and the image and director repositories as well as the time server.
 
-For example, implementers MAY use OMA Device Management (OMA-DM) to send Uptane
+For example, implementers MAY use [OMA Device Management](https://en.wikipedia.org/wiki/OMA_Device_Management) (OMA-DM) to send Uptane
 metadata, images, and other messages to primaries.
 
-For example, implementers MAY Unified Diagnostic Services (UDS) to transport Uptane metadata, images, and other messages between primaries and secondaries.
+For example, implementers MAY use [Unified Diagnostic Services](https://en.wikipedia.org/wiki/Unified_Diagnostic_Services) (UDS) to transport Uptane metadata, images, and other messages between primaries and secondaries.
 
 Any system being used to transport images to ECUs needs to modified only to also transport Uptane metadata, and other messages. Note that Uptane does not require network traffic between the director and image repositories and primaries, as well as between primaries and secondaries, to be authenticated.
 
@@ -78,7 +78,7 @@ The simplest solution is to use the vehicle version manifest to report to the di
 
 Another simple solution is for the primary and / or director to retry a bundle installation until it succeeds (bounded by a maximum number of retries). This solution does not require ECUs to perform a rollback in case a bundle is not fully installed. This is an advantage, because ECUs without additional storage cannot perform a rollback to undo a partial bundle installation.
 
-If all ECUs do have additional storage, and can perform a rollback, then the OEM may use a two-phase commit protocol. We assume that a gateway ECU would act as the coordinator, which ensures that updates are installed atomically. This technique should ensure atomic installation as long as: (1) the gateway ECU behaves correctly and has not been compromised, and (2) the gateway ECU does not fail permanently. It is considerably less complicated than Byzantine-fault tolerant protocols, which may have a higher computation/communication overhead. Nevertheless, note that this technique does not provide other security guarantees: for example, the gateway ECU may show different bundles to different secondaries at the same time.
+If all ECUs do have additional storage, and can perform a rollback, then the OEM may use a [two-phase commit protocol](https://en.wikipedia.org/wiki/Two-phase_commit_protocol). We assume that a gateway ECU would act as the coordinator, which ensures that updates are installed atomically. This technique should ensure atomic installation as long as: (1) the gateway ECU behaves correctly and has not been compromised, and (2) the gateway ECU does not fail permanently. It is considerably less complicated than Byzantine-fault tolerant protocols, which may have a higher computation/communication overhead. Nevertheless, note that this technique does not provide other security guarantees: for example, the gateway ECU may show different bundles to different secondaries at the same time.
 
 ## 2nd-party Fleet management
 

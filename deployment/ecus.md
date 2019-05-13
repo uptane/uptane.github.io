@@ -29,6 +29,8 @@ Firstly, if the ECU is a primary ECU, partial isn't an option: it needs to perfo
 
 ### Symmetric vs. asymmetric ECU keys
 
+#### TODO Add Figure currently marked as A.2.1a
+
 ECUs are permitted to use either symmetric or asymmetric keys for their ECU key. This choice is effectively a performance vs. security trade-off: symmetric keys allow for faster cryptographic operations, but expose a larger attack surface because the director will need online access to the key. Asymmetric ECU keys aren't affected by this problem, because the director only needs access to the ECU's public key.
 
 Basically, choosing symmetric keys increases the performance of the common case (checking signatures and decrypting images), but makes disaster recovery harder, because a compromised key server could require updating ECU keys on every vehicle.

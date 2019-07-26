@@ -37,6 +37,9 @@
     - text: POUF Guidelines
       url: /pouf.html
 
+    - text: Reference Implementation POUF
+      url: /reference_pouf.html
+
 - text: Deployment
   sub:
     - text: Reference Implementation and Demonstration Code

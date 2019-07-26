@@ -23,7 +23,7 @@ mainly meant to coordinate the standardization effort. To be added to this list,
 
 ### Uptane Alliance Membership Status
 We welcome all interested parties to join either mailing list, independent of  
-your organization's status in the IEEE/ISTO Uptane Alliance.  (However, if your
+your organization's status in the Uptane Alliance.  (However, if your
 organization does wish to join the Uptane Alliance, simply fill out
 [this form](assets/UptaneAllianceMembershipAgreement.pdf) and check the
 Contributor Membership box. There is no fee.)

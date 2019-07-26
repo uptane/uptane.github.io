@@ -83,7 +83,6 @@ asked to have their name listed.
 * Harman International (Uptane Alliance Member)
 * HERE Technologies, formerly Advanced Telematic Systems (Uptane Alliance Member)
 * High North Inc (Uptane Alliance Board Member)
-* IEEE/ISTO
 * Lear Corporation (Uptane Alliance Board Member)
 * LG Electronics (Uptane Alliance Member)
 * NXP (Uptane Alliance Member)

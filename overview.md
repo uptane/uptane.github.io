@@ -51,6 +51,7 @@ in part due to the Foundation's adoption of Uptane technology.
 On July 2018, the [Uptane Alliance](https://ieee-isto.org/member_programs/uptane-alliance/), 
 a non-profit under [IEEE/ISTO](https://ieee-isto.org/), was formed to
 lead the future direction of Uptane research, development, and deployment.
+The Uptane Alliance is currently under the Linux Foundation's Joint Development Foundation.
 The primary task of the Alliance is to be a neutral arbiter that oversees the
 formal standardization of Uptane and promotes security of software updates for
 the automotive industry.

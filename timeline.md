@@ -66,3 +66,8 @@ IEEE's [International Standards and Technology Organization](https://ieee-isto.o
 As an ISTO supported organization, the Alliance will oversee the setting of 
 standards for the implementation/deployment of Uptane, as well as the 
 advancement and improvement of the technology itself.
+
+**2019** The IEEE/ISTO standardizes the version 1.0.0 of the Uptane specification.
+
+**2019** The Uptane Alliance joins the Linux Foundations Joint Development Foundation, giving
+a pathway for ISO standardization of future versions of the specification.

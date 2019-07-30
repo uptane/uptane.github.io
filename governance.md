@@ -10,14 +10,9 @@ This document covers Uptane's governance and committer process. It also lists th
 ### Uptane Alliance
 
 In July of 2018, Uptane was officially adopted into IEEE's Industry Standards
-and Technology Organization (ISTO) as the Uptane Alliance. Under the ISTO umbrella,
-the Uptane Alliance will standardize the Uptane open-source software in order to ensure that manufacturers and suppliers
-follow best practices for updates within the automotive industry. As an ISTO
-organization, the Uptane Alliance will also be able to draw on a number of other
-benefits, including non-profit status, and access to IEEE resources, such as conferences
-and publications.
+and Technology Organization (ISTO) as the Uptane Alliance. Uptane is currently a Linux Foundation Joint Development Foundation project.  The Uptane Alliance will standardize the Uptane open-source software in order to ensure that manufacturers and suppliers follow best practices for updates within the automotive industry.
 
-As an ISTO alliance, the Uptane Alliance has officially formed a Board of Directors and is governed by a set of bylaws. The Board of Directors are:
+As a Linux Foundation Joint Development Foundation project, the Uptane Alliance has officially formed a Board of Directors and is governed by a set of bylaws. The Board of Directors are:
 
 * Justin Cappos of NYU Tandon School of Engineering
 * Ira McDonald of High North Inc.
@@ -35,7 +30,7 @@ The following industry representatives serve in an advisory capacity for Uptane.
 
 * Arthur Taylor of HERE Technologies
 * Cameron Mott of Southwest Research Institute
-* Gloria Danna of General Telecom Systems
+* Gloria D'anna of General Telecom Systems
 * Philip Lapczynski of Renesas
 * Russ Bielawski of Secure Embedded Systems
 * Tom Forest of General Motors

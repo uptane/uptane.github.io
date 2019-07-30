@@ -14,7 +14,8 @@ an open source system currently used by many large OEMs, and has also been adopt
 Currently considered the *de facto* secure standard for software updates on
 automobiles, in July 2018 the [IEEE/ISTO Federation](https://ieee-isto.org/) began
 formally standardizing Uptane under a non-profit consortium called the [Uptane
-Alliance](https://ieee-isto.org/member_programs/uptane-alliance/). This 
+Alliance](https://ieee-isto.org/member_programs/uptane-alliance/). This effort is
+continuing under the Linux Foundation Joint Development Foundation project.  This 
 step will encourage adoption and ensure clear guidance for future
 users. The initial version of the [Uptane Standard document](https://uptane.github.io/uptane-standard/uptane-standard.html), which presents procedures for the secure design and implementation of the framework, is now available and can be accessed free of charge. Recommended deployment strategies are also currently being prepared and will be posted on this web site upon completion. All Uptane materials, including [technical papers](https://uptane.github.io/publications.html),
 [security audits](https://uptane.github.io/audits.html), and

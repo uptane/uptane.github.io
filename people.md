@@ -25,7 +25,7 @@ This group serves in an advisory capacity for Uptane activities.
 
 * Arthur Taylor of HERE Technologies
 * Cameron Mott of Southwest Research Institute
-* Gloria Danna of General Telecom Systems
+* Gloria D'anna of General Telecom Systems
 * Philip Lapczynski of Renesas
 * Russ Bielawski of Secure Embedded Systems
 * Tom Forest of General Motors
@@ -83,7 +83,6 @@ asked to have their name listed.
 * Harman International (Uptane Alliance Member)
 * HERE Technologies, formerly Advanced Telematic Systems (Uptane Alliance Member)
 * High North Inc (Uptane Alliance Board Member)
-* IEEE/ISTO
 * Lear Corporation (Uptane Alliance Board Member)
 * LG Electronics (Uptane Alliance Member)
 * NXP (Uptane Alliance Member)

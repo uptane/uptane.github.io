@@ -15,17 +15,15 @@ This is a fairly low volume mailing list (a few messages a week) and is used
 to disseminate large news items, or to plan in person Uptane workshops.
 
 ### Standards Development
-The Uptane standardization initiative is under the direction of the Uptane
-Alliance and is carried out on a
-[mailing list specifically for this purpose](https://groups.google.com/forum/#!forum/uptane-standards).
+Though initiated under the auspices of the IEEE/ISTO Federation, which released V.1.0 of the Standards on July 31, 2019, future Uptane standardization initiatives will be under the direction of the Joint Development Foundation Projects, LLC, Uptane Series, a project of the Linux Foundation. A separate
+[mailing list](https://groups.google.com/forum/#!forum/uptane-standards) is maintained specifically for this purpose.
 This mailing list is higher volume (often multiple messages a day) and is
 mainly meant to coordinate the standardization effort. To be added to this list, send an email to [lad278@nyu.edu](mailto:lad278@nyu.edu).
 
-### Uptane Alliance Membership Status
-We welcome all interested parties to join either mailing list, independent of  
-your organization's status in the Uptane Alliance.  (However, if your
-organization does wish to join the Uptane Alliance, please contact jcappos@nyu.edu
-for more information on how to do so.)
+### JDF Project Uptane Membership Status
+We welcome all interested parties to join either mailing list. However, if you wish to contribute to the text of any Uptane Standard document, you will need to join the project. Both individuals and companies can join as contributors. If multiple employees from the same company wish to participate, then one company registration would cover them all. If your
+organization wishes to join the Uptane Alliance, please contact jcappos@nyu.edu
+for more information on how to do so.
 
 ### Code Contributions
 To make contributions to the reference

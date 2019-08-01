@@ -10,9 +10,9 @@ This document covers Uptane's governance and committer process. It also lists th
 ### Uptane Alliance
 
 In July of 2018, Uptane was officially adopted into IEEE's Industry Standards
-and Technology Organization (ISTO) as the Uptane Alliance. Uptane is currently a Linux Foundation Joint Development Foundation project.  The Uptane Alliance will standardize the Uptane open-source software in order to ensure that manufacturers and suppliers follow best practices for updates within the automotive industry.
+and Technology Organization (ISTO) as the Uptane Alliance. Uptane is currently a Linux Foundation Joint Development Foundation (JDF)project.  The project will continue to oversee standardization of the Uptane open-source software in order to ensure that manufacturers and suppliers follow best practices for updates within the automotive industry.
 
-As a Linux Foundation Joint Development Foundation project, the Uptane Alliance has officially formed a Board of Directors and is governed by a set of bylaws. The Board of Directors are:
+As a Linux Foundation JDF project, Uptane has officially formed a Board of Directors and is governed by a set of bylaws. The Board of Directors may be changed by action of a majority of board members. The board members are:
 
 * Justin Cappos of NYU Tandon School of Engineering
 * Ira McDonald of High North Inc.
@@ -21,8 +21,7 @@ Transportation Research Institute
 
 ### Standards documents
 
-The Uptane standards documents must be approved by a majority of the Uptane Alliance Board of Directors. The Board of Directors may also be changed by
-action of a majority of board members.
+Uptane Standards documents must be approved by a majority of the project's Board of Directors. 
 
 ### Industry Advisory Group
 

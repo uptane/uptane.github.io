@@ -5,12 +5,12 @@ css_id: governance
 
 # Uptane Governance
 
-This document covers Uptane's governance and committer process. It also lists the individuals who serve on its Industry Advisory Group, and as the governing body of the Uptane Alliance.
+This document covers Uptane's governance and committer process. It also lists the individuals who serve on its Industry Advisory Group, and on the Board of JDF Project Uptane
 
-### Uptane Alliance
+### JDF Project Uptane
 
 In July of 2018, Uptane was officially adopted into IEEE's Industry Standards
-and Technology Organization (ISTO) as the Uptane Alliance. Uptane is currently a Linux Foundation Joint Development Foundation (JDF)project.  The project will continue to oversee standardization of the Uptane open-source software in order to ensure that manufacturers and suppliers follow best practices for updates within the automotive industry.
+and Technology Organization (ISTO) as the Uptane Alliance. Uptane is currently a Linux Foundation Joint Development Foundation (JDF) project.  The project will continue to oversee standardization of the Uptane open-source software in order to ensure that manufacturers and suppliers follow best practices for updates within the automotive industry.
 
 As a Linux Foundation JDF project, Uptane has officially formed a Board of Directors and is governed by a set of bylaws. The Board of Directors may be changed by action of a majority of board members. The board members are:
 

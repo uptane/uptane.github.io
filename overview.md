@@ -48,10 +48,9 @@ Engineering became an [associate member](https://www.automotivelinux.org/announc
 and a member of the [Automotive Grade Linux](https://www.automotivelinux.org/) project,
 in part due to the Foundation's adoption of Uptane technology.
 
-On July 2018, the [Uptane Alliance](https://ieee-isto.org/member_programs/uptane-alliance/), 
-a non-profit under [IEEE/ISTO](https://ieee-isto.org/), was formed to
+On July 2018, the [Uptane Alliance](https://ieee-isto.org/member_programs/uptane-alliance/)
+was formed as a non-profit under the umbrella of [IEEE/ISTO](https://ieee-isto.org/) to
 lead the future direction of Uptane research, development, and deployment.
-The Uptane Alliance is currently under the Linux Foundation's Joint Development Foundation.
-The primary task of the Alliance is to be a neutral arbiter that oversees the
+The Uptane Alliance completed its initial task with the release of Volume 1.0 of [Uptane Standard for Design and Implementation](https://uptane.github.io/uptane-standard/uptane-standard.html). The work of the Uptane project, however, continues with the initiation of Joint Development Foundation Projects, LLC, Uptane Series, under the auspices of the [Linux Foundation](https://www.linuxfoundation.org/). It's role, however, remains the same. It serves as a neutral arbiter that oversees the
 formal standardization of Uptane and promotes security of software updates for
 the automotive industry.

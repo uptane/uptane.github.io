@@ -26,10 +26,9 @@
 
 - text: Design Documents
   sub:
-    - text: Uptane Standards
-      url: https://uptane.github.io/uptane-standard/uptane-standard.html
-      external: true
-
+    - text: Uptane Standard
+      url: /cvstandard.html
+ 
     - text: Deployment Consideration
       url: https://docs.google.com/document/d/17wOs-T7mugwte5_Dt-KLGMsp-3_yAARejpFmrAMefSE/edit#heading=h.6t6kk53v3scx
       external: true

@@ -5,6 +5,10 @@ css_id: press
 
 # Press
 
+* [LWN.net-July 24,2019: Protecting update systems from nation-state attackers](https://lwn.net/Articles/794391/)
+
+* [The Drive.com-July 23,2019: Top OTA Expert Shows How State Actors Hack into Your Car and What Happens Next: ‘People Will Die’](https://www.thedrive.com/tech/29120/top-ota-expert-shows-how-state-actors-hack-into-your-car-and-what-happens-next-people-will-die?__s=fhb4zzuy2usv5bfnw9cb)
+
 * [TMCnet.com-May 28,2019: HERE Technologies joins the Uptane Alliance](https://www.tmcnet.com/usubmit/2019/05/28/8963021.htm)
 
 * [Airbiquity.com-December 13, 2018: Airbiquity Bolsters OTAmatic™ Security And Data Analytic Features In Latest Over-The-Air (OTA) Software And Data Management offering For Automotive](https://www.airbiquity.com/news/press-releases/airbiquity-bolsters-otamatictm-security-and-data-analytic-features-latest-over-air-ota-software-and-data-management-offering-aut)

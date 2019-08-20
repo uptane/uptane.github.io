@@ -5,9 +5,10 @@ This page will contain links to all versions of the Uptane Standard and its rela
 #### **Uptane Standard** 
 
 Latest draft version: IEEE-ISTO: 6100.1.0.0 Uptane Standard for Design and Implementation
+
 [HTML](https://github.com/uptane/uptane-standard/releases/download/1.0.0/ieee-isto-6100.1.0.0.uptane-standard.html)
 
-[PDF](/papers/ieee-isto-6100.1.0.0.uptanestandard.pdf)
+[PDF](papers/ieee-isto-6100.1.0.0.uptanestandard.pdf)
 
 #### **Uptane Deployment Best Practices**
 Latest draft version (HTML)

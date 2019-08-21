@@ -12,7 +12,7 @@
     - text: Uptane Design
       url: /design.html
 
-    - text: The Uptane Alliance
+    - text: Uptane:A JDF/Linux Foundation Project
       url: /alliance.html
 
     - text: Timeline
@@ -27,7 +27,7 @@
 - text: Design Documents
   sub:
     - text: Uptane Standards
-      url: https://uptane.github.io/uptane-standard/uptane-standard.html
+      url: https://github.com/uptane/uptane-standard/releases/download/1.0.0/ieee-isto-6100.1.0.0.uptane-standard.html
       external: true
 
     - text: Deployment Consideration (stable)
@@ -43,7 +43,10 @@
 
     - text: Reference Implementation POUF
       url: /reference_pouf.html
-
+   
+    - text: Uptane Standards Reference Center
+      url: /standardref.html
+      
 - text: Deployment
   sub:
     - text: Reference Implementation and Demonstration Code

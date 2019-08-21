@@ -27,7 +27,7 @@
 - text: Design Documents
   sub:
     - text: Uptane Standards
-      url: https://github.com/uptane/uptane-standard/releases/download/1.0.0/ieee-isto-6100.1.0.0.uptane-standard.html
+      url: /papers/ieee-isto-6100.1.0.0.uptane-standard.html
       external: true
 
     - text: Deployment Consideration (stable)

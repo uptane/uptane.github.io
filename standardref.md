@@ -11,7 +11,7 @@ IEEE-ISTO: 6100.1.0.0 Uptane Standard for Design and Implementation   [(HTML)](h
 *In Development*
 
 #### **Uptane Test Plan**
-[Uptane test plan: Latest draft version](NEED LINK)
+[Uptane test plan: Latest draft version](paper/penetration_test_report.pdf)
 *In Development*
 
 #### **Uptane POUF (Protocols, Operations, Usage, and Formats)**

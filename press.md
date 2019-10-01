@@ -11,6 +11,8 @@ css_id: press
 
 * [TMCnet.com-May 28, 2019: HERE Technologies joins the Uptane Alliance](https://www.tmcnet.com/usubmit/2019/05/28/8963021.htm)
 
+* [Marketplace.org-May 25, 2018: Now more than ever, cars are just rolling computers](https://www.marketplace.org/2018/05/25/tech/now-more-ever-cars-are-just-rolling-computers/)
+
 * [Airbiquity.com-December 13, 2018: Airbiquity Bolsters OTAmatic™ Security And Data Analytic Features In Latest Over-The-Air (OTA) Software And Data Management offering For Automotive](https://www.airbiquity.com/news/press-releases/airbiquity-bolsters-otamatictm-security-and-data-analytic-features-latest-over-air-ota-software-and-data-management-offering-aut)
 
 * [Auto Connected Car News—May 20, 2018: Airbiquity with Uptane](http://www.autoconnectedcar.com/2018/05/automotive-cybersecurity-blockchain-infographic-platform/)

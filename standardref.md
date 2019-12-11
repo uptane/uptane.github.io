@@ -7,15 +7,14 @@ This page contains links to all official versions of the Uptane Standard and rel
 IEEE-ISTO: 6100.1.0.0 Uptane Standard for Design and Implementation   [(HTML)](papers/ieee-isto-6100.1.0.0.uptane-standard.html)  [(PDF)](papers/ieee-isto-6100.1.0.0.uptane-standard.pdf)
 
 #### **Uptane Deployment Best Practices**
-[Deployment considerations](https://github.com/uptane/deployment-considerations)
-*In Development*
+See relevant pages under the Deployment Considerations tab
 
 #### **Uptane Test Plan**
 [Uptane test plan: Latest draft version](papers/Penetration_Test_Report.pdf)
 *In Development*
 
 #### **Uptane POUF (Protocols, Operations, Usage, and Formats)**
-[POUF Guidelines: Latest draft version](https://uptane.github.io/pouf.html)
+[POUF Guidelines: Latest version](https://uptane.github.io/pouf.html)
 
-[Example POUF: Latest draft version](https://uptane.github.io/reference_pouf.html)
+[Example POUF: Latest version](https://uptane.github.io/reference_pouf.html)
 *In Development*

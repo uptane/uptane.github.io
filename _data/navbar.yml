@@ -57,8 +57,6 @@
       url: /deployment-considerations/customizations.html
     - text: Other security considerations
       url: /deployment-considerations/security_considerations.html
-    - text: ASN.1 examples for metadata syntax
-      url: /deployment-considerations/asn1_examples.html
     - text: Reference Implementation and Demonstration Code
       url: https://github.com/uptane/uptane
       external: true

@@ -5,24 +5,23 @@ css_id: governance
 
 # Uptane Governance
 
-This document covers Uptane's governance and committer process. It also lists the individuals who serve on its Industry Advisory Group, and as the governing body of the Uptane Alliance.
+This document covers Uptane's governance and committer process. It also lists the individuals who serve on its Industry Advisory Group, and as the steering committee for Uptane within JDF/Linux Foundation.
 
-### Uptane Alliance
+### Uptane as a non-profit entity
 
 In July of 2018, Uptane was officially adopted into IEEE's Industry Standards
-and Technology Organization (ISTO) as the Uptane Alliance. Uptane is currently a Linux Foundation Joint Development Foundation project.  The Uptane Alliance will standardize the Uptane open-source software in order to ensure that manufacturers and suppliers follow best practices for updates within the automotive industry.
+and Technology Organization (ISTO) as the non-profit Uptane Alliance. The goal of the Alliance was to standardize the Uptane open-source software in order to ensure that manufacturers and suppliers follow best practices for updates within the automotive industry.
 
-As a Linux Foundation Joint Development Foundation project, the Uptane Alliance has officially formed a Board of Directors and is governed by a set of bylaws. The Board of Directors are:
+After releasing V. 1.0.0. of the Standard, Uptane formally affiliated with the Linux Foundation as a Joint Development Foundation project. As Joint Development Foundation Projects, LLC, Uptane Series, the project is overseen by a Steering Committee, and is governed by a set of bylaws. The Steering Committee members are:
 
 * Justin Cappos of NYU Tandon School of Engineering
 * Ira McDonald of High North Inc.
 * Andre Weimerskirch of Lear Corporation and University of Michigan
 Transportation Research Institute
 
-### Standards documents
+### Uptane Standard and related documents
 
-The Uptane standards documents must be approved by a majority of the Uptane Alliance Board of Directors. The Board of Directors may also be changed by
-action of a majority of board members.
+The Uptane Standard must be approved by a majority of the aforementioned Steering Committee. The Board of Directors may also be changed by action of a majority of committtee members.
 
 ### Industry Advisory Group
 

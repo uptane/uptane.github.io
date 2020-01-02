@@ -7,10 +7,10 @@ css_id: people
 Uptane is served by a board, an advisory group, a few staff members, and a
 number of volunteers from both the software security and automotive industries.
 
-### Uptane Alliance Board Members
+### Uptane Board Members
 
-As an ISTO alliance, the Uptane Alliance is overseen by a Board of Directors,
-and its activities are governed by a set of bylaws.  The Uptane Alliance Board
+Under JDF/Linux Foundation, Uptane is overseen by a Steering Committee,
+and its activities are governed by a set of bylaws.  The Steering Committee 
 members are:
 
 * Justin Cappos of NYU Tandon School of Engineering
@@ -76,21 +76,21 @@ asked to have their name listed.
 
 ### *Organizations*
 -------------
-* Airbiquity (Uptane Alliance Member)
+* Airbiquity 
 * Automotive Grade Linux, part of the The Linux Foundation
-* Carota (Uptane Alliance Member)
-* Directed Australia (Uptane Alliance Member)
-* Harman International (Uptane Alliance Member)
-* HERE Technologies, formerly Advanced Telematic Systems (Uptane Alliance Member)
-* High North Inc (Uptane Alliance Board Member)
-* Lear Corporation (Uptane Alliance Board Member)
-* LG Electronics (Uptane Alliance Member)
-* NXP (Uptane Alliance Member)
-* NYU Tandon School of Engineering (Uptane Alliance Board Member)
-* OTAInfo (Uptane Alliance Member)
-* Sibros (Uptane Alliance Member)
+* Carota 
+* Directed Australia 
+* Harman International 
+* HERE Technologies, formerly Advanced Telematic Systems 
+* High North Inc. 
+* Lear Corporation 
+* LG Electronics 
+* NXP 
+* NYU Tandon School of Engineering 
+* OTAInfo 
+* Sibros 
 * Southwest Research Institute
-* Toyota (Uptane Alliance Member)
+* Toyota 
 * University of Michigan Transportation Research Institute
 * U.S. Department of Homeland Security (sponsor)
 

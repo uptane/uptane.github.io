@@ -3,10 +3,9 @@ layout: default
 css_id: pouf
 ---
 * Title: POUF Purpose and Guidelines
-* Version: 1
+* Version: 1.0.0
 * Last-Modified: 17-06-2019
 * Author: Marina Moore
-* Status: Draft
 * Created: 14-03-2019
 
 # Uptane Implementation POUFs

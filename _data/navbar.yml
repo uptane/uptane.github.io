@@ -45,9 +45,9 @@
       url: /deployment-considerations/index.html
     - text: Preparing ECUs
       url: /deployment-considerations/ecus.html
-    - text: Preparing servers
+    - text: Setting up Uptane repositories
       url: /deployment-considerations/repositories.html
-    - text: Key management and metadata expiration
+    - text: Managing signing keys and metadata expiration
       url: /deployment-considerations/key_management.html
     - text: Normal operating guidelines
       url: /deployment-considerations/normal_operation.html
@@ -55,7 +55,7 @@
       url: /deployment-considerations/exceptional_operations.html
     - text: Customizing Uptane
       url: /deployment-considerations/customizations.html
-    - text: Other security considerations
+    - text: Additional security recommendations
       url: /deployment-considerations/security_considerations.html
     - text: Reference Implementation and Demonstration Code
       url: https://github.com/uptane/uptane

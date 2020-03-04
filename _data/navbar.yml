@@ -26,8 +26,11 @@
 
 - text: Design Documents
   sub:
-    - text: Uptane Standard
+    - text: Uptane Standard (IEEE-ISTO 6100.1.0.0)
       url: /papers/ieee-isto-6100.1.0.0.uptane-standard.html
+
+    - text: Uptane Standard (1.0.1)
+      url: /papers/uptane-standard.1.0.1.html
 
     - text: POUF Guidelines
       url: /pouf.html

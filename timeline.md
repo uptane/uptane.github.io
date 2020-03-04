@@ -69,5 +69,7 @@ advancement and improvement of the technology itself.
 
 **2019** The IEEE/ISTO standardizes the version 1.0.0 of the Uptane specification.
 
-**2019** The Uptane Alliance joins the Linux Foundations Joint Development Foundation, giving
+**2019** The Uptane Alliance joins the Linux Foundation's Joint Development Foundation, giving
 a pathway for ISO standardization of future versions of the specification.
+
+**2020** The Uptane standards working group releases version 1.0.1 of the Uptane standard with minor corrections. Because of the organizational move to the Linux Foundation's Joint Development Foundation, this cannot be formally released as an update to the IEEE-ISTO standard. However, it should be considered as an errata/patch release updating the content of that standard.

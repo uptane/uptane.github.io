@@ -5,6 +5,12 @@ css_id: press
 
 # Press
 
+* [Open Source Framework Helps Automakers Secure OTA Updates-April 2, 2020](https://www.d2pmagazine.com/2020/04/02/6099/)
+
+* [New Jersey 101.5-March 9, 2020: People are Pretty Reluctant to Embrace Self Driving Cars, Survey Says](https://nj1015.com/people-are-pretty-reluctant-to-embrace-self-driving-cars-survey-says/)
+
+* [S&P Global-January 9, 2020: Wireless Vehicle Updates Pose Big Cybersecurity Risk for Automakers, Consumers](https://www.spglobal.com/marketintelligence/en/news-insights/trending/Xp9n6TEIEmSe8ho9d0jX_Q2)
+
 * [LWN.net-July 24, 2019: Protecting update systems from nation-state attackers](https://lwn.net/Articles/794391/)
 
 * [The Drive.com-July 23, 2019: Top OTA Expert Shows How State Actors Hack into Your Car and What Happens Next: ‘People Will Die’](https://www.thedrive.com/tech/29120/top-ota-expert-shows-how-state-actors-hack-into-your-car-and-what-happens-next-people-will-die?__s=fhb4zzuy2usv5bfnw9cb)

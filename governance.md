@@ -27,9 +27,9 @@ The Uptane Standard must be approved by a majority of the aforementioned Steerin
 
 The following industry representatives serve in an advisory capacity for Uptane.
 
-* Arthur Taylor of HERE Technologies
 * Cameron Mott of Southwest Research Institute
 * Gloria D'anna of General Telecom Systems
+* Jon Oster of HERE Technologies
 * Philip Lapczynski of Renesas
 * Russ Bielawski of Secure Embedded Systems
 * Tom Forest of General Motors

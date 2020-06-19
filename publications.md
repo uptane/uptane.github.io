@@ -28,3 +28,6 @@ Santa Clara, CA. This paper describes enhancements to TUF that reduce the amount
 
 * [Uptane: Security and Customizability of Software Updates for Vehicles](papers/kuppusamy_IEEEVT_2018.pdf):
   Article that appeared in the March 2018 issue of **IEEE Vehicular Technology Magazine**.
+
+* [Using a Dual-Layer Specification to Offer Selective Interoperability for Uptane](papers/moore_escar_2020.pdf):
+  Appeared in the ESCAR USA 2020 Special Issue journal. This paper describes the way Uptane uses POUFs to allow for a flexible specification as well as interoperability when needed.

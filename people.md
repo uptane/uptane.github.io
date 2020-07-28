@@ -101,6 +101,7 @@ asked to have their name listed.
 * Russ Bielawski
 * Akan Brown
 * Josiah Bruner
+* Allen Cain
 * Justin Cappos
 * Vladimir Diaz
 * Chase Garwood

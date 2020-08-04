@@ -117,6 +117,7 @@ asked to have their name listed.
 * Jon Oster
 * Christos Papadopoulos
 * Mayank Sikaria
+* Max Suraev
 * Patrick Vacek
 * Sam Weber
 * André Weimerskirch

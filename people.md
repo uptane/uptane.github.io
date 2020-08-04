@@ -111,9 +111,10 @@ asked to have their name listed.
 * John Liming
 * Daniel Massey
 * Ira McDonald
-* Akshay Mehta
 * Damon McCoy
+* Akshay Mehta
 * Cameron Mott
+* Dave New
 * Jon Oster
 * Christos Papadopoulos
 * Mayank Sikaria

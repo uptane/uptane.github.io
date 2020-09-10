@@ -113,6 +113,7 @@ asked to have their name listed.
 * Ira McDonald
 * Damon McCoy
 * Akshay Mehta
+* Marina Moore
 * Cameron Mott
 * Dave New
 * Jon Oster

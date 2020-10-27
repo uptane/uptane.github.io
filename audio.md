@@ -5,7 +5,7 @@ css_id: audio
 
 # Audio-Visuals
 
-The basic principles of Uptane, and the framework's development over time, are addressed in some detail in a series of Powerpoint presentations originally put together for Uptane's industry workshops. Links to these slides appear below, including a recent "refresher" set that reviews the most salient points of Uptane's design, and guidelines for its implementation and deployment.
+The basic principles of Uptane, and the framework's development over time, are addressed in some detail in a series of Powerpoint presentations originally put together for Uptane's industry workshops. Links to these slides appear below, including a recent "refresher" set that reviews the most salient points of Uptane's design and guidelines for its implementation and deployment.
 
 This section also includes links to a demo video explaining how Uptane works, and to a video of Trishank Kuppusamy delivering the first academic talk on Uptane at escar 16.
 

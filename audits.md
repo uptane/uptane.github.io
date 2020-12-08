@@ -16,7 +16,7 @@ Systems/HERE Inc. implementation of Uptane. No security issues were found
 related to the design. However, based upon their recommendation, [a minor clarification](https://github.com/theupdateframework/taps/blob/master/tap9.md) was made in the upstream TUF specification.
 
 * **NCC Group:** A late 2017 assessment of Kolide's TUF implementation.
-[The study](https://www.nccgroup.trust/globalassets/our-research/us/public-reports/2017/ncc-group-kolide-the-update-framework-security-assessment.pdf)
+[The study](https://www.nccgroup.com/globalassets/our-research/us/public-reports/2017/ncc-group-kolide-the-update-framework-security-assessment.pdf)
 found 0 critical risk issues, 0 high risk issues, 0 medium risk issues, 1
 low risk issue, and 1 informational issue. The two issues identified were
 minor, relating to the particular implementation's

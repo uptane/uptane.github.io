@@ -120,7 +120,7 @@ asked to have their name listed.
 * Christos Papadopoulos
 * Mayank Sikaria
 * Max Suraev
-* Patrick Vacek
+* Patti Vacek
 * Sam Weber
 * André Weimerskirch
 * David Zage

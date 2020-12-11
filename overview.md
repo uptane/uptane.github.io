@@ -40,11 +40,11 @@ institutions worked in close collaboration with vehicle manufacturers and
 suppliers that are collectively responsible for [78% of the vehicles on U.S. roads.](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8278174&tag=1 )
 
 In 2017, Popular Science named Uptane one of the
-[top security inventions of 2017,](https://www.popsci.com/top-security-innovations-2017 )
+[top security inventions of 2017,](https://www.popsci.com/top-security-innovations-2017/)
 and the OTAmatic program of Airbiquity, in which Uptane is a key security component,
 was awarded a [BIG Award for Business](https://www.bintelligence.com/big-awards-for-business/) in
 the New Product Category. In 2018, NYU Tandon School of
-Engineering became an [associate member](https://www.automotivelinux.org/announcements/2018/08/16/automotive-grade-linux-extends-global-reach-with-six-new-members) of the [Linux Foundation,](https://www.linuxfoundation.org/)
+Engineering became an [associate member](https://www.automotivelinux.org/announcements/automotive-grade-linux-extends-global-reach-with-six-new-members/) of the [Linux Foundation,](https://www.linuxfoundation.org/)
 and a member of the [Automotive Grade Linux](https://www.automotivelinux.org/) project,
 in part due to the Foundation's adoption of Uptane technology.
 

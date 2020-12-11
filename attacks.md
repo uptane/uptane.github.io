@@ -15,7 +15,7 @@ Software updates are routinely performed on computing units for a [number of rea
 including the addition of new functionality, and upgrades to improve productivity.
 But, the primary reason for updating software is to address existing flaws
 in the code itself that potentially could be exploited, causing the chaos described above. Increasingly, these updates are done using
-[“software-over-the-air”](http://blog.ihs.com/remote-software-update%3A-future-growth-business)
+[“software-over-the-air”](https://ihsmarkit.com/research-analysis/remote-software-update-future-growth-business.html)
 or SOTA  strategies, in which revised versions of programs are sent directly
 to computing units through broadcasts over the Internet. The strategy is growing
 in popularity because it is a much quicker and more cost-effective delivery

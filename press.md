@@ -21,7 +21,7 @@ css_id: press
 
 * [Airbiquity.com-December 13, 2018: Airbiquity Bolsters OTAmatic™ Security And Data Analytic Features In Latest Over-The-Air (OTA) Software And Data Management offering For Automotive](https://www.airbiquity.com/news/press-releases/airbiquity-bolsters-otamatictm-security-and-data-analytic-features-latest-over-air-ota-software-and-data-management-offering-aut)
 
-* [Auto Connected Car News—May 20, 2018: Airbiquity with Uptane](http://www.autoconnectedcar.com/2018/05/automotive-cybersecurity-blockchain-infographic-platform/)
+* [Auto Connected Car News—May 20, 2018: Airbiquity with Uptane](https://www.autoconnectedcar.com/2018/05/automotive-cybersecurity-blockchain-infographic-platform/)
 
 * [PBS/WLIW Ch.21-March 26, 2018: SciTech Now, Episode 420](https://www.scitechnow.org/videos/scitech-now-episode-420/)
 
@@ -29,9 +29,9 @@ css_id: press
 
 * [Automotive World—November 28, 2017: HERE to Acquire ATS to Power Highly Secure Software Updates for Connected and Autonomous Cars](https://www.automotiveworld.com/news-releases/acquire-ats-power-highly-secure-software-updates-connected-autonomous-cars/)
 
-* [Popular Science-October 2017: The Year's Most Important Innovations in Security](https://www.popsci.com/top-security-innovations-2017)
+* [Popular Science-October 2017: The Year's Most Important Innovations in Security](https://www.popsci.com/top-security-innovations-2017/)
 
-* [eWeek-April 2017: How The Update Framework Improves Security of Software Updates](http://www.eweek.com/security/how-the-update-framework-improves-security-of-software-updates)
+* [eWeek-April 2017: How The Update Framework Improves Security of Software Updates](https://www.eweek.com/security/how-the-update-framework-improves-security-of-software-updates)
 
 * [Forbes-January 2017: Uptane Will Protect your Connected Car from Hackers](https://www.forbes.com/sites/leemathews/2017/01/19/uptane-will-protect-your-connected-car-from-hackers/#22941cef19be)
 

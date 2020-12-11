@@ -16,7 +16,7 @@ use this experience on the Uptane project.
 
 **2015**: [NYU Tandon](https://engineering.nyu.edu/) receives a grant (with 
 Cappos as PI) from the U.S. Department of Homeland Security to begin work on 
-a project to secure software updates on vehicles.  [University of Michigan Transportation Research Institute](http://www.umtri.umich.edu/)(UMTRI)
+a project to secure software updates on vehicles.  [University of Michigan Transportation Research Institute](https://umtri.umich.edu/)(UMTRI)
 and [Southwest Research Institute](https://www.swri.org/)(SWRI) receive a 
 similar grant to work on automotive security.
 
@@ -38,12 +38,12 @@ marked the first presentation of the project to an academic audience.
 
 **2017**: Uptane is officially introduced at [press events](https://www.forbes.com/sites/leemathews/2017/01/19/uptane-will-protect-your-connected-car-from-hackers/#233b99d019be) in Ann Arbor, MI, and Brooklyn, NY.
 
-**2017**: Advanced Telematic Systems (ATS), now [HERE Technologies](https://www.here.com/en),
-becomes one of the first suppliers to publicly [acknowledge adoption](http://www.autoconnectedcar.com/2017/06/connected-car-news-marvell-telit-att-ats-continental-toyota-marvel-safe-drive-systems-cast-car2go-trimble/) of Uptane when it integrates the framework
+**2017**: Advanced Telematic Systems (ATS), now [HERE Technologies](https://www.here.com/),
+becomes one of the first suppliers to publicly [acknowledge adoption](https://www.autoconnectedcar.com/2017/06/connected-car-news-marvell-telit-att-ats-continental-toyota-marvel-safe-drive-systems-cast-car2go-trimble/) of Uptane when it integrates the framework
 into two of its OTA solutions, OTA Plus and ATS Garage.
 
 **2017**: Uptane is named one of the year's most important innovations in
-security by [*Popular Science*](https://www.popsci.com/top-security-innovations-2017).
+security by [*Popular Science*](https://www.popsci.com/top-security-innovations-2017/).
 
 **2018**: [Airbiquity](https://www.airbiquity.com) receives a
 [BIG Award for Business](https://www.airbiquity.com/news/press-releases/airbiquity-otamatic-named-2017-new-product-year-business-intelligence-group) in the 2017 New Product of the Year Award category for its

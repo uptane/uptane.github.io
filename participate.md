@@ -57,7 +57,7 @@ using our GitHub [issue tracker](https://github.com/uptane/uptane/issues).
 We welcome security audits of the Uptane design, or vulnerability reports of
 the design or the code in this repository. Please contact lab director
 [Justin Cappos](mailto:jcappos@nyu.edu) or maintainer [Sebastien Awwad](mailto: sebastien.awwad@nyu.edu).
-Uptane design and implementation is defined in the [Uptane Standards document](https://uptane.github.io/uptane-standard/uptane-standard.html) and supplemented by the [Deployment Best Practices](https://uptane.github.io/deployment/introduction.html).
+Uptane design and implementation is defined in the [Uptane Standards document](https://uptane.github.io/uptane-standard/uptane-standard.html) and supplemented by the [Deployment Best Practices](https://uptane.github.io/deployment-considerations/index.html).
 
 Should the information be highly sensitive, auditors / reporters may employ
 PGP encryption in an email to Justin Cappos using the public key whose PGP

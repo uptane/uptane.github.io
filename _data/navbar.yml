@@ -42,7 +42,7 @@
       url: /standardref.html
 
 
-- text: Deployment Considerations
+- text: Deployment Best Practices
   sub:
     - text: Introduction
       url: /deployment-considerations/index.html

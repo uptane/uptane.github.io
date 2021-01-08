@@ -57,19 +57,21 @@ a collaborative open source project in which
 automakers, suppliers and technology companies work together to advance the
 development and adoption of a fully open software stack for the connected car.
 
-**2018** NYU Tandon School of Engineering becomes an associate member of the
+**2018**: NYU Tandon School of Engineering becomes an associate member of the
 [Linux Foundation](https://www.linuxfoundation.org/) and a Bronze member of AGL
 on the strength of the Foundation’s adoption of Uptane and TUF projects.
 
-**2018** The Uptane Alliance, a nonprofit entity organized under the umbrella of
+**2018**: The Uptane Alliance, a nonprofit entity organized under the umbrella of
 IEEE's [International Standards and Technology Organization](https://ieee-isto.org/) is formed.
 As an ISTO supported organization, the Alliance will oversee the setting of 
 standards for the implementation/deployment of Uptane, as well as the 
 advancement and improvement of the technology itself.
 
-**2019** The IEEE/ISTO standardizes the version 1.0.0 of the Uptane specification.
+**2019**: The IEEE/ISTO standardizes the version 1.0.0 of the Uptane specification.
 
-**2019** The Uptane Alliance joins the Linux Foundation's Joint Development Foundation, giving
+**2019**: The Uptane Alliance joins the Linux Foundation's Joint Development Foundation, giving
 a pathway for ISO standardization of future versions of the specification.
 
-**2020** The Uptane standards working group releases version 1.0.1 of the Uptane standard with minor corrections. Because of the organizational move to the Linux Foundation's Joint Development Foundation, this cannot be formally released as an update to the IEEE-ISTO standard. However, it should be considered as an errata/patch release updating the content of that standard.
+**2020**: The Uptane standard working group releases version 1.0.1 of the Uptane standard with minor corrections. Because of the organizational move to the Linux Foundation's Joint Development Foundation, this cannot be formally released as an update to the IEEE-ISTO standard. However, it should be considered as an errata/patch release updating the content of that standard.
+
+**2021**: The Uptane Standard working group releases version 1.1.0 of the Uptane standard.

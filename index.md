@@ -13,8 +13,8 @@ an open source system currently used by many large OEMs, and has also been adopt
 
 Currently considered the *de facto* secure standard for software updates on
 automobiles, in July 2018, formal standardization of Uptane began under a non-profit consortium called the [Uptane
-Alliance](https://ieee-isto.org/member_programs/uptane-alliance/). [Uptane Standard for Design and Implementation](https://github.com/uptane/uptane-standard/releases/download/1.0.0/ieee-isto-6100.1.0.0.uptane-standard.html) Volume 1.0, which presents procedures for secure design and implementation of the framework, was released on July 31, 2019, under the auspices of the [IEEE/ISTO Federation](https://ieee-isto.org/). The initiative now
-continues as a Linux Foundation Joint Development Foundation project.   Recommended deployment strategies are also currently being prepared and will be posted on this web site upon completion. All Uptane materials, including [technical papers](https://uptane.github.io/publications.html),
+Alliance](https://ieee-isto.org/member_programs/uptane-alliance/). [Uptane Standard for Design and Implementation](https://github.com/uptane/uptane-standard/releases/download/1.0.0/ieee-isto-6100.1.0.0.uptane-standard.html) version 1.0, which presents procedures for secure design and implementation of the framework, was released on July 31, 2019, under the auspices of the [IEEE/ISTO Federation](https://ieee-isto.org/). The initiative now
+continues as a Linux Foundation Joint Development Foundation project, and [version 1.1.0](/papers/uptane-standard.1.1.0.html) was released on January 8, 2021. Recommended deployment strategies are under active development, and are published and regularly updated [on this site](/deployment-considerations/index.html). All Uptane materials, including [technical papers](https://uptane.github.io/publications.html),
 [security audits](https://uptane.github.io/audits.html), and
 [a public reference implementation](https://github.com/uptane/uptane)
 are also freely available for all to use without a fee.

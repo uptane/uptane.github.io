@@ -34,7 +34,7 @@ This group serves in an advisory capacity for Uptane activities.
 ### Reference Implementation Personnel
 
 The reference implementation for Uptane is currently managed by [Justin
-Cappos](https://ssl.engineering.nyu.edu/personalpages/jcappos/) and maintainer [Sebastien Awwad](mailto:sebastien.awwad@nyu.edu) at New York
+Cappos](https://ssl.engineering.nyu.edu/personalpages/jcappos/) and maintainer [Lois Anne DeLong](mailto:lad278@nyu.edu) at New York
 University's [Secure Systems
 Lab](https://ssl.engineering.nyu.edu/).
 
@@ -56,13 +56,11 @@ of the project roles used below.
 
 **Maintainer**:
 
-  *Sebastien Awwad*
+  *Lois Anne DeLong*
 
-    Email: sebastien.awwad@nyu.edu
+    Email: lad278@nyu.edu
 
-    GitHub username: @awwad
-
-    PGP fingerprint: C2FB 9C91 0758 B682 7BC4  3233 BC0C 6DED D5E5 CC03
+    GitHub username: @jhdalek55
 
 
 ## Project Contributors  
@@ -79,7 +77,9 @@ asked to have their name listed.
 * Airbiquity 
 * Automotive Grade Linux, part of the The Linux Foundation
 * Carota 
+* CyberTogether (Israeli Cyber Security Association)
 * Directed Australia 
+* EnGIS Technologies
 * Harman International 
 * HERE Technologies, formerly Advanced Telematic Systems 
 * High North Inc. 

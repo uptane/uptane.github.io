@@ -4,7 +4,7 @@
 <p>Companion Document to Uptane Standard for Design and Implementation V.1.1.0</p>
 <h2 id="introduction"><a href="#introduction">Introduction</a></h2>
 <ol type="1">
-<li><a href="#changes-to-standard-since-V.1.0.0">Changes to Standard since V.1.0.0</a></li>
+<li><a href="#changelog">Changelog</a></li>
 </ol>
 <h2 id="a.-setting-up-uptane-repositories">A. <a href="#setting-up-uptane-repositories">Setting up Uptane repositories</a></h2>
 <ol type="1">
@@ -140,36 +140,45 @@
 <p>All of these guidelines should be viewed as complementary to the official Uptane Standard: they should be taken as advice, not gospel.</p>
 <p>In addition, these guidelines may be used in the creation of <a href="https://github.com/uptane/poufs">POUFs</a>. POUFs contain the Protocols, Operations, Usage, and Formats of an Uptane implementation. These details can be used to design interoperable Uptane implementations.</p>
 <p>Uptane is a Joint Development Foundation project of the Linux Foundation, operating under the formal title of Joint Development Foundation Projects, LLC, Uptane Series.</p>
-<h1 id="changes-to-the-uptane-standard-since-v.1.0.0">Changes to the Uptane Standard since V.1.0.0</h1>
+<h1 id="changelog">Changelog</h1>
+<p>All notable changes to this project will be documented in this file.</p>
+<p>The format is based on <a href="https://keepachangelog.com/en/1.0.0/">Keep a Changelog</a>, and this project adheres to <a href="https://semver.org/spec/v2.0.0.html">Semantic Versioning</a>.</p>
+<h2 id="unreleased">[Unreleased]</h2>
+<h2 id="section">[1.1.0] - 2021-01-08</h2>
 <p>The changes made to the Uptane Standard since its initial release on July 31, 2019, have principally addressed issues of style, clarity, and the resolution of inconsistencies. As a result, the majority of text edits and additions seek to correct wording in the original text that could potentially be misleading.</p>
-<p>The following is a brief summary of those edits:</p>
+<h3 id="added">Added</h3>
 <ul>
-<li><p>Established a style guide to impose consistency in spelling, capitalization of roles and repository names, and use of punctuation.</p></li>
-<li><p>Specified a policy for linking to the Standard or any specific portion of it. Any links to the Standard from other documents should point to the latest released version, and should link by section name, not number, as the numbers tend to change more than the names.</p></li>
-<li><p>Established a document archive policy to add a stable copy of each version of the Standard to the repository, starting with the initial IEEE/ISTO V.1.0.0 document.</p></li>
-<li><p>Added “Compromise of the packaged software, such as malware embedded in a trusted package” to the list of what is “Out of scope” for the Standard.</p></li>
-<li><p>Corrected/changed several numbering references in the full verification process and “Step 0” in the procedure for checking Root metadata.</p></li>
-<li><p>Presented the option to use a counter (instead of a nonce) in the ECU Version Report, and specified the purpose of the nonce in the step-by-step instructions for preparing this report.</p></li>
-<li><p>Specified that the Director SHOULD check that the nonce or counter in each ECU Version Report has not been used before to prevent a replay of the ECU Version Report. If the nonce or counter is reused the Director SHOULD drop the request.</p></li>
-<li><p>Changed the way steps were referenced in the ECU process for verifying the latest downloaded metadata.</p></li>
-<li><p>Clarified that there is no need to download all metadata from the Image repo if the Director indicates there are no new updates to install.</p></li>
-<li><p>Clarified that metadata is required at manufacturing time, and presented a rationale for why preinstalled metadata is needed. This step enables an ECU to authenticate that a remote repository is legitimate when it first downloads metadata in the field, which can serve as a defense against rollback attacks.</p></li>
+<li><p>A style guide to impose consistency in spelling, capitalization of roles and repository names, and use of punctuation.</p></li>
+<li><p>A policy for how to link to the Standard or any specific portion of it. Any links to the Standard from other documents should point to the latest released version, and should link by section name, not number, as the numbers tend to change more than the names.</p></li>
+<li><p>A document archive policy to add a stable copy of each version of the Standard to the repository, starting with the initial IEEE/ISTO V.1.0.0 document.</p></li>
+<li><p>A new entry to the list of what is “Out of scope” for the Standard: “Compromise of the packaged software, such as malware embedded in a trusted package.”</p></li>
+<li><p>The option to use a counter (instead of a nonce) in the ECU Version Report, and the purpose of the nonce in the step-by-step instructions for preparing this report.</p></li>
+<li><p>A clarification that metadata is required at manufacturing time, and a rationale for why preinstalled metadata is needed. This step enables an ECU to authenticate that a remote repository is legitimate when it first downloads metadata in the field, which can serve as a defense against rollback attacks.</p></li>
+<li><p>A clarification that there is no need to download all metadata from the Image repo if the Director indicates there are no new updates to install.</p></li>
+<li><p>A clarification about the manner in which we identify images by their hash. It specifies that if the Primary has received multiple hashes for a given image binary via the Targets role, then it SHALL verify every hash for this image. This step is to be performed even if the image is identified by a single hash as part of its filename.</p></li>
+<li><p>A clarification that full verification MUST be performed by Primary ECUs and MAY be performed by Secondary ECUs.</p></li>
+<li><p>A missing reference to the Standard pointing to the Time Server description in <em>Uptane Deployment Best Practices.</em></p></li>
+</ul>
+<h3 id="changed">Changed</h3>
+<ul>
+<li><p>The name of our deployment considerations document. It is now <em>Uptane Deployment Best Practices</em> to better reflect naming conventions within the community.</p></li>
+<li><p>The way steps are referenced in the ECU process for verifying the latest downloaded metadata.</p></li>
+<li><p>Several numbering references in the full verification process, and “Step 0” in the procedure for checking Root metadata.</p></li>
 <li><p>Moved a Targets metadata check for unrecognized ECU IDs to a more logical place in the series of checks.</p></li>
 <li><p>Resolved an inconsistency in how checking hashes of images is discussed.</p></li>
-<li><p>Clarified the manner in which we identify images by their hash to specify that if the Primary has received multiple hashes for a given image binary via the Targets role, then it SHALL verify every hash for this image. This step is to be performed even if the image is identified by a single hash as part of its filename.</p></li>
-<li><p>Improved naming of example hashes to align with NIST policy (https://csrc.nist.gov/projects/hash-functions/nist-policy-on-hash-functions) on hash functions. This change was also made to demonstrate that Uptane is not tied to any particular set of algorithms.</p></li>
-<li><p>Clarified that full verification MUST be performed by Primary ECUs and MAY be performed by Secondary ECUs.</p></li>
-<li><p>Specified in the procedure for checking hashes that the ECU SHOULD check that the length of the image matches the length listed in the metadata.</p></li>
-<li><p>Modified wording to make verifying a time message optional if the ECU does not have the capacity to verify a time message.</p></li>
-<li><p>Formally changed the name of our deployment considerations document to <em>Uptane Deployment Best Practices.</em> This was done to better reflect naming conventions within the community.</p></li>
+<li><p>Aligned naming of example hashes with <a href="https://csrc.nist.gov/projects/hash-functions/nist-policy-on-hash-functions">NIST policy</a> on hash functions. This change was also made to demonstrate that Uptane is not tied to any particular set of algorithms.</p></li>
+<li><p>Specified that the ECU SHOULD check that the length of the image matches the length listed in the metadata in the procedure for checking hashes.</p></li>
+<li><p>Modified wording to make verifying a time message optional if the ECU does not have the capacity to do so.</p></li>
+<li><p>Replaced phrases that were incorrect, or could be mistaken for another object or function. These included the phrases <em>target metadata,</em> <em>image metadata,</em> <em>ECU version manifest,</em> and <em>Uptane Standards</em> (plural, instead of singular).</p></li>
 <li><p>Corrected additional capitalization and punctuation usages for consistency, including imposing the consistent use of the Oxford comma in a series of items within a sentence, and placing a comma after e.g. and i.e.</p></li>
 <li><p>Corrected other stylistic/formatting issues that interfered with clarity, such as extraneous commas and use of whitespace.</p></li>
-<li><p>Removed the use of the phrase “best practices” when not referring to the <em>Uptane Deployment Best Practices.</em></p></li>
-<li><p>Added a missing reference to the Standard pointing to the Time Server description in <em>Uptane Deployment Best Practices.</em></p></li>
-<li><p>Changed a MAY to a SHOULD in the statement “Full verification MUST be performed by Primary ECUs and SHOULD be performed by Secondary ECUs” to be consistent with references elsewhere in the Standard.</p></li>
-<li><p>Removed or changed phrases that were incorrect or could be mistaken for another object or function. These included the phrases <em>target metadata,</em> <em>image metadata,</em> <em>ECU version manifest,</em> and <em>Uptane Standards</em> (plural instead of singular).</p></li>
+<li><p>Replaced phrases that were incorrect, or could be mistaken for another object or function. These included the phrases <em>target metadata,</em> <em>image metadata,</em> <em>ECU version manifest,</em> and <em>Uptane Standards</em> (plural, instead of singular).</p></li>
+<li><p>Switched a MAY to a SHOULD in the statement “Full verification MUST be performed by Primary ECUs and SHOULD be performed by Secondary ECUs,” to be consistent with references elsewhere in the Standard.</p></li>
+<li><p>Credited the document’s authorship to the Uptane Community, and changed the organization name from the Uptane Alliance to Joint Development Foundation Projects, LLC, Uptane Series.</p></li>
+</ul>
+<h3 id="removed">Removed</h3>
+<ul>
 <li><p>Removed words from the opening definition section that are not used in the Standard.</p></li>
-<li><p>Changed the document’s author credit from the Uptane Alliance Community to the Uptane Community, and the organization from the Uptane Alliance to Joint Development Foundation Projects, LLC, Uptane Series.</p></li>
 <li><p>Removed references to TAP 5 in three places in the Standard. TAP 5 has been more or less replaced by TAP 13, but the latter has not yet been approved.</p></li>
 </ul>
 <h1 id="setting-up-uptane-repositories">A. Setting up Uptane repositories</h1>

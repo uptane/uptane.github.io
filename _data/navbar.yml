@@ -52,6 +52,8 @@
   sub:
     - text: Introduction
       url: /deployment-considerations/index.html
+    - text: Glossary
+      url: /deployment-considerations/glossary.html
     - text: Preparing ECUs
       url: /deployment-considerations/ecus.html
     - text: Setting up Uptane repositories

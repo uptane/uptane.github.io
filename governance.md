@@ -29,7 +29,7 @@ The following industry representatives serve in an advisory capacity for Uptane.
 
 * Cameron Mott of Southwest Research Institute
 * Gloria D'anna of General Telecom Systems
-* Jon Oster of HERE Technologies
+* Jon Oster of Toradex
 * Philip Lapczynski of Renesas
 * Russ Bielawski of Secure Embedded Systems
 * Tom Forest of General Motors

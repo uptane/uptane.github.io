@@ -9,13 +9,13 @@ The basic principles of Uptane, and the framework's development over time, are a
 
 This section also includes links to a demo video explaining how Uptane works, and to a video of Trishank Kuppusamy delivering the first academic talk on Uptane at escar 16.
 
-* [Lightning Update of Uptane-May 2020](/paper/IW20_lightning_update.pdf) The most recent set of slides explaining the basics about what Uptane is and does, and what has changed over the past year.
+* [Lightning Update of Uptane-May 2020](/papers/IW20_lightning_update.pdf) The most recent set of slides explaining the basics about what Uptane is and does, and what has changed over the past year.
 
-* [Aftermarket Logistics-May 2020](/paper/IW20_aftermarket.pdf) This presents a short overview of the current status of the use of aftermarket ECUs and what issues it raises for Uptane adoptions, and for the auto industry in general in the years ahead.
+* [Aftermarket Logistics-May 2020](/papers/IW20_aftermarket.pdf) This presents a short overview of the current status of the use of aftermarket ECUs and what issues it raises for Uptane adoptions, and for the auto industry in general in the years ahead.
 
-* [Government Notifications/Updates for Road Vehicles for Emergencies, Road Work, and Traffic Conditions-May 2020](/paper/IW20_emergency_updates.pdf) Another brief overview of an emerging issue, this one dealing with how Uptane can allow secure access to governments and regulatory bodies that may require automakers to grant them full control over a vehicle in emergency situations. 
+* [Government Notifications/Updates for Road Vehicles for Emergencies, Road Work, and Traffic Conditions-May 2020](/papers/IW20_emergency_updates.pdf) Another brief overview of an emerging issue, this one dealing with how Uptane can allow secure access to governments and regulatory bodies that may require automakers to grant them full control over a vehicle in emergency situations. 
 
-* [POUFs-May 2020](/paper/IW20_poufs.pdf) Also from the May 2020 Virtual Industry Workshop, this presentation offers a brief outline of what POUFs are and what they do. 
+* [POUFs-May 2020](/papers/IW20_poufs.pdf) Also from the May 2020 Virtual Industry Workshop, this presentation offers a brief outline of what POUFs are and what they do. 
 
 * [Uptane Workshop Talk-Design Overview-2019](https://docs.google.com/presentation/d/1R3jSDcqbqUIwJgbOLOKwHReoy2wnj8GrXlKCdcLNXAA/edit#slide=id.g137a2ec6a5_0_49)
 

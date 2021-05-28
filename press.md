@@ -5,6 +5,14 @@ css_id: press
 
 # Press
 
+* [Now Your Car is a Cybersecurity Risk, Too-May 21, 2021](https://www.eetimes.com/now-your-car-is-a-cybersecurity-risk-too/)
+
+* [How Uptane Meets the Key WP.29 Cybersecurity Management System Requirements-May 18, 2021](https://www.sibros.tech/post/how-uptane-meets-the-key-wp-29-cybersecurity-management-system-requirements)
+
+* [How LF communities enable security measures required by the US Executive Order on Cybersecurity-May 14, 2021](https://www.linuxfoundation.org/en/blog/how-lf-communities-enable-security-measures-required-by-the-us-executive-order-on-cybersecurity)
+
+* [Delivering Secure Automotive OTA Updates with Uptane and OTAmatic-August 11, 2020](https://www.airbiquity.com/blog-events/blog-posts/delivering-secure-automotive-ota-updates-uptane-and-otamatic)
+
 * [Open Source Framework Helps Automakers Secure OTA Updates-April 2, 2020](https://www.d2pmagazine.com/2020/04/02/6099/)
 
 * [New Jersey 101.5-March 9, 2020: People are Pretty Reluctant to Embrace Self Driving Cars, Survey Says](https://nj1015.com/people-are-pretty-reluctant-to-embrace-self-driving-cars-survey-says/)

@@ -31,3 +31,9 @@ Santa Clara, CA. This paper describes enhancements to TUF that reduce the amount
 
 * [Using a Dual-Layer Specification to Offer Selective Interoperability for Uptane](papers/moore_escar_2020.pdf):
   Appeared in the ESCAR USA 2020 Special Issue journal. This paper describes the way Uptane uses POUFs to allow for a flexible specification as well as interoperability when needed.
+
+
+# Whitepapers
+
+* [Uptane: Securing delivery of software updates for ground vehicles](papers/Uptane_first_whitepaper.pdf): 
+The first in a series of whitepapers, this serves as an introduction to the Uptane framework and explain how it differs from other secure update systems in the  automotive sector.

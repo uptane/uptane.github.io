@@ -35,5 +35,5 @@ Santa Clara, CA. This paper describes enhancements to TUF that reduce the amount
 
 # Whitepapers
 
-* [Uptane: Securing delivery of software updates for ground vehicles](papers/Uptane_first_whitepaper.pdf): 
+* [Uptane: Securing delivery of software updates for ground vehicles](papers/uptane_first_whitepaper_7821.pdf): 
 The first in a series of whitepapers, this serves as an introduction to the Uptane framework and explain how it differs from other secure update systems in the  automotive sector.

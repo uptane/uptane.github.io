@@ -116,6 +116,7 @@ asked to have their name listed.
 * Marina Moore
 * Cameron Mott
 * Dave New
+* Dennis Kengo Oka
 * Jon Oster
 * Christos Papadopoulos
 * Mayank Sikaria

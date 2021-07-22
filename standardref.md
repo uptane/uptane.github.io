@@ -12,7 +12,7 @@ This page contains links to all official versions of the Uptane Standard and rel
 
 #### **Uptane Deployment Best Practices**
 
-* Latest release: Uptane Deployment Best Practices V.1.1.0 [(HTML)](papers/uptane-deployment-best-practices-1.1.0.html)  [(PDF)](papers/uptane-deployment-best-practices-1.1.0.pdf)
+* Latest release: Uptane Deployment Best Practices V.1.2.0 [(HTML)](papers/V1.2.0_uptane_deploy.html) [(PDF)](papers/V1.2.0_uptane_deploy.pdf)
 * The relevant pages under the Deployment Best Practices tab will be updated as changes occur, rather than waiting for the next versioned release.
 
 #### **Uptane Test Plan**

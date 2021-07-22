@@ -26,6 +26,9 @@
 
 - text: Design Documents
   sub:
+    - text: Uptane Standard (1.2.0)
+      url: /papers/uptane-standard.1.2.0.html
+
     - text: Uptane Standard (1.1.0)
       url: /papers/uptane-standard.1.1.0.html
 

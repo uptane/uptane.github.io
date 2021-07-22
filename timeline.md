@@ -74,7 +74,7 @@ a pathway for ISO standardization of future versions of the specification.
 
 **2020**: The Uptane standard working group releases version 1.0.1 of the Uptane standard with minor corrections. Because of the organizational move to the Linux Foundation's Joint Development Foundation, this cannot be formally released as an update to the IEEE-ISTO standard. However, it should be considered as an errata/patch release updating the content of that standard.
 
-**2021**: The Uptane Standard working group releases version 1.1.0 of the Uptane standard.
+**2021**: The Uptane Standard working group releases versions 1.1.0 and 1.2.0 of the Uptane standard.
 
 **2021**: Uptane releases its first whitepaper: [Uptane: Securing delivery of software updates for
 ground vehicles](https://uptane.github.io/papers/Uptane_first_whitepaper.pdf).

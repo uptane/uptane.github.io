@@ -90,6 +90,7 @@ asked to have their name listed.
 * OTAInfo 
 * Sibros 
 * Southwest Research Institute
+* Toradex
 * Toyota 
 * University of Michigan Transportation Research Institute
 * U.S. Department of Homeland Security (sponsor)

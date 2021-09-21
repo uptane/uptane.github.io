@@ -42,7 +42,7 @@ not limited to:
 ### Code Issues, Bugs, Feature Requests
 
 If you wish to report a bug or a security issue, or introduce a new feature to
-either the reference implementation or demonstration code, please [open an issue](https://github.com/secure-systems-lab/lab-guidelines/issues/new)
+the specification, please [open an issue](https://github.com/uptane/uptane-standard/issues/new)
 on this.
 
 While our main concern is the security of the specification, we are

@@ -12,7 +12,7 @@ This section also includes links to a demo video explaining how Uptane works, an
 * [Securing Over-the-Air Updates Against Nation State Actors-September 2021](/papers/IIW21_session1.pdf) These slides, created for our first international workshop held under the auspices of escar Europe, present an overview of the motivation behind Uptane, a basic description of how the technology works, and some thoughts on its future directions. Included are a number of slides that were not part of the formal presentation that offer valuable information on Uptane to those new to the framework.
 
 * [Uptane: Lessons Learned-September 2021](/papers/IIW21_session2.pdf) The second set of slides from the September 2021 international conference presents some examples where the Uptane technology responded to—or is currently responding to—specific stakeholder feedback. The examples include how to handle verification for secondary ECUs, and suggestion for Uptane implementations evolving from legacy systems.  
-* 
+
 * [Lightning Update of Uptane-May 2020](/papers/IW20_lightning_update.pdf) This set of slides explaining the basics about what Uptane is and does, and what has changed over the past year.
 
 * [Aftermarket Logistics-May 2020](/papers/IW20_aftermarket.pdf) This presents a short overview of the current status of the use of aftermarket ECUs and what issues it raises for Uptane adoptions, and for the auto industry in general in the years ahead.

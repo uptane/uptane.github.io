@@ -5,11 +5,15 @@ css_id: audio
 
 # Audio-Visuals
 
-The basic principles of Uptane, and the framework's development over time, are addressed in some detail in a series of Powerpoint presentations originally put together for Uptane's industry workshops. Links to these slides appear below, including those from the most recent Uptane Industry workshop, held virtually in May 2020. This includes a new overview presentation that reviews the most salient points of Uptane's design and guidelines for its implementation and deployment.
+The basic principles of Uptane, and the framework's development over time, are addressed in some detail in a series of Powerpoint presentations originally put together for Uptane industry workshops. Links to these slides appear below, including those from the most recent workshop, held in September 2021. Presented virtually in two back-to-back sessions, the presentation was the first ever targeted to an international audience. 
 
 This section also includes links to a demo video explaining how Uptane works, and to a video of Trishank Kuppusamy delivering the first academic talk on Uptane at escar 16.
 
-* [Lightning Update of Uptane-May 2020](/papers/IW20_lightning_update.pdf) The most recent set of slides explaining the basics about what Uptane is and does, and what has changed over the past year.
+* [Securing Over-the-Air Updates Against Nation State Actors-September 2021](/papers/IIW21_session1.pdf) These slides, created for our first international workshop held under the auspices of escar Europe, present an overview of the motivation behind Uptane, a basic description of how the technology works, and some thoughts on its future directions. Included are a number of slides that were not part of the formal presentation that offer valuable information on Uptane to those new to the framework.
+
+* [Uptane: Lessons Learned-September 2021](/papers/IIW21_session2.pdf) The second set of slides from the September 2021 international conference presents some examples where the Uptane technology responded to—or is currently responding to—specific stakeholder feedback. The examples include how to handle verification for secondary ECUs, and suggestion for Uptane implementations evolving from legacy systems.  
+* 
+* [Lightning Update of Uptane-May 2020](/papers/IW20_lightning_update.pdf) This set of slides explaining the basics about what Uptane is and does, and what has changed over the past year.
 
 * [Aftermarket Logistics-May 2020](/papers/IW20_aftermarket.pdf) This presents a short overview of the current status of the use of aftermarket ECUs and what issues it raises for Uptane adoptions, and for the auto industry in general in the years ahead.
 

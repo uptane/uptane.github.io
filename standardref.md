@@ -4,8 +4,8 @@ This page contains links to all official versions of the Uptane Standard and rel
 
 #### **Uptane Standard** 
 
-* Latest release: Uptane Standard for Design and Implementation v.2.0.0 [(HTML)](papers/uptane-standard.2.0.0.html)  [(PDF)](papers/uptane-standard.2.0.0pdf)
-* This release contain few design changes, but primarily add clarifications and wording improvements.
+* Latest release: Uptane Standard for Design and Implementation v.2.0.0 [(HTML)](papers/uptane-standard.2.0.0.html)  [(PDF)](papers/uptane-standard.2.0.0.pdf)
+* This release contain a few design changes, but primarily adds clarifications and wording improvements.
 * Uptane Standard for Design and Implementation v.1.2.0 [(HTML)](papers/uptane-standard.1.2.0.html)  [(PDF)](papers/uptane-standard.1.2.0.pdf)
 * Uptane Standard for Design and Implementation v.1.1.0 [(HTML)](papers/uptane-standard.1.1.0.html)  [(PDF)](papers/uptane-standard.1.1.0.pdf)
   * This is the first release under the auspices of the Linux Foundation's Joint Development Foundation

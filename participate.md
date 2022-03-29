@@ -45,13 +45,6 @@ If you wish to report a bug or a security issue, or introduce a new feature to
 the specification, please [open an issue](https://github.com/uptane/uptane-standard/issues/new)
 on this.
 
-While our main concern is the security of the specification, we are
-also interested in hearing about security problems in our Reference
-Implementation. It may be unlikely that cars will use the reference code directly.
-However, reporting any problems users identify in the code can help prevent their
-duplications in production implementations. Please report such issues
-using our GitHub [issue tracker](https://github.com/uptane/uptane/issues).
-
 ### Security Audits
 
 We welcome security audits of the Uptane design, or vulnerability reports of

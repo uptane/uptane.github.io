@@ -26,10 +26,10 @@
 
 - text: Design Documents
   sub:
-  
+
     - text: Uptane Standard (2.0.0)
       url: /papers/uptane-standard.2.0.0.html
-  
+
     - text: Uptane Standard (1.2.0)
       url: /papers/uptane-standard.1.2.0.html
 
@@ -50,7 +50,7 @@
 
     - text: Reference Implementation POUF
       url: /reference_pouf.html
-   
+
     - text: Uptane Standards Reference Center
       url: /standardref.html
 
@@ -75,9 +75,6 @@
       url: /deployment-considerations/customizations.html
     - text: Additional security recommendations
       url: /deployment-considerations/security_considerations.html
-    - text: Reference Implementation and Demonstration Code
-      url: https://github.com/uptane/uptane
-      external: true
 
 - text: Learn More
   sub:
@@ -98,4 +95,3 @@
 
 - text: Press
   url: /press.html
-

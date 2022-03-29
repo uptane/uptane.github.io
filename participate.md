@@ -10,21 +10,21 @@ Feel free to email feedback to [jcappos@nyu.edu](mailto:jcappos@nyu.edu).
 
 Anyone in the automotive industry, open source community, or security community
 is welcome to join the
-[Uptane forum](https://groups.google.com/forum/#!forum/uptane-forum).
+[Uptane Forum](https://groups.google.com/forum/#!forum/uptane-forum).
 This is a fairly low volume mailing list (a few messages a week) and is used
 to disseminate large news items, or to plan in person Uptane workshops.
 
 ### Standards Development
 The Uptane standardization initiative is under the direction of the Uptane
-Alliance and is carried out on a
-[mailing list specifically for this purpose](https://groups.google.com/forum/#!forum/uptane-standards).
+Steering Committee and is carried out on a
+[mailing list created specifically for this purpose](https://groups.google.com/forum/#!forum/uptane-standards).
 This mailing list is higher volume (often multiple messages a day) and is
 mainly meant to coordinate the standardization effort. To be added to this list, send an email to [lad278@nyu.edu](mailto:lad278@nyu.edu).
 
-### Uptane Alliance Membership Status
+### Membership Status in JDF/Uptane
 We welcome all interested parties to join either mailing list, independent of  
-your organization's status in the Uptane Alliance.  (However, if your
-organization does wish to join the Uptane Alliance, please contact jcappos@nyu.edu
+whether or not your organization joins the Joint Development Foundation Projects, LLC, Uptane Series.  (However, if your
+organization does wish to join this group, please contact jcappos@nyu.edu
 for more information on how to do so.)
 
 ### Code Contributions
@@ -57,7 +57,7 @@ using our GitHub [issue tracker](https://github.com/uptane/uptane/issues).
 We welcome security audits of the Uptane design, or vulnerability reports of
 the design or the code in this repository. Please contact lab director
 [Justin Cappos](mailto:jcappos@nyu.edu) or maintainer [Sebastien Awwad](mailto: sebastien.awwad@nyu.edu).
-Uptane design and implementation is defined in the [Uptane Standards document](https://uptane.github.io/uptane-standard/uptane-standard.html) and supplemented by the [Deployment Best Practices](https://uptane.github.io/deployment-considerations/index.html).
+Uptane design and implementation is defined in the [Uptane Standards document](https://uptane.github.io/uptane-standard/uptane-standard.html) and supplemented by the [Deployment Best Practices document](https://uptane.github.io/deployment-considerations/index.html).
 
 Should the information be highly sensitive, auditors / reporters may employ
 PGP encryption in an email to Justin Cappos using the public key whose PGP

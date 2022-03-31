@@ -23,7 +23,4 @@ minor, relating to the particular implementation's
 default configuration and the way it stored backups.
 
 * **SWRI** Performed in 2018, this review by the Southwest Research
-Institute did find a bug in the
-[Reference Implementation](https://github.com/uptane/uptane) that has since
-been addressed. However, it found no design issues that impacted the Uptane
-specification or adopter code.
+found no design issues that impacted the Uptane specification or adopter code.

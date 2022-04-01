@@ -5,7 +5,7 @@ css_id: design
 
 # Uptane Design
 
-<img align="left" src="assets/images/Uptane_process_331.png" width="500" style="margin: 0px 20px"/>
+<img align="left" src="assets/images/Uptane_process.png" width="500" style="margin: 0px 20px"/>
 
 
 

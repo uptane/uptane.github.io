@@ -40,3 +40,5 @@ The first in a series of whitepapers, this serves as an introduction to the Upta
 
 * [Uptane: 地上車両を対象とするソフトウェア アップデート配信のセキュリティ対策](papers/uptane_first_japanese_92121.pdf): 
 The first Uptane whitepaper translated into Japanese by Shotaro Tadehara, TMNA. 
+
+* [Scudo: A Proposal for Resolving Software Supply Chain Insecurities in Vehicles](papers/scudo-whitepaper.pdf): The second Uptane whitepaper, this discusses software supply chain attacks and their impact to automobiles. It also introduces Scudo, a framework that combines Uptane and in-toto, a software supply chain security framework, to achieve end-to-end guarantees, from the development of automobile code all the way to its delivery.

@@ -11,7 +11,7 @@ its implementation in millions of vehicles. While the automotive industry
 is legendarily secretive, we can acknowledge a few
 parties.
 
-First, Uptane is incorporated in [Automotive Grade Linux](https://www.automotivelinux.org/), which is supported by [major OEMs and suppliers](https://www.automotivelinux.org/about/members/). This is via [aktualizr](https://github.com/uptane/aktualizr), which is also integrated into the [OTA Community Edition](https://github.com/uptane/ota-community-edition/) and [GENIVI](https://www.genivi.org/).
+First, Uptane is incorporated in [Automotive Grade Linux](https://www.automotivelinux.org/), which is supported by [major OEMs and suppliers](https://www.automotivelinux.org/about/members/). Uptane's presence in AGL is via [aktualizr](https://github.com/uptane/aktualizr), which is also integrated into the [OTA Community Edition](https://github.com/uptane/ota-community-edition/) and [GENIVI](https://www.genivi.org/).
 
 Interested parties that wish to purchase Uptane compatible components can
 speak with a number of suppliers, including:

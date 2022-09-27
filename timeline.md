@@ -49,8 +49,8 @@ security by [*Popular Science*](https://www.popsci.com/top-security-innovations-
 [BIG Award for Business](https://www.airbiquity.com/news/press-releases/airbiquity-otamatic-named-2017-new-product-year-business-intelligence-group) in the 2017 New Product of the Year Award category for its
 Uptane-based OTAmatic over-the-air software and data management solution.
 
-**2018**: An open source, C++ implementation of Uptane called [aktualizr](https://github.com/advancedtelematic/aktualizr)
-is developed by Advanced Telematic Systems (since acquired by
+**2018**: An open source, C++ implementation of Uptane called [aktualizr](https://github.com/uptane/aktualizr)
+is developed by Advanced Telematic Systems (subsequently acquired by
 [HERE technologies](https://www.here.com/en)).  aktualizr
 is integrated into [Automotive Grade Linux](https://www.automotivelinux.org/) (AGL),
 a collaborative open source project in which

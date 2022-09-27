@@ -31,37 +31,6 @@ This group serves in an advisory capacity for Uptane activities.
 * Tom Forest of General Motors
 * Trishank Karthik Kuppusamy of Datadog and New York University
 
-### Reference Implementation Personnel
-
-The reference implementation for Uptane is currently managed by [Justin
-Cappos](https://ssl.engineering.nyu.edu/personalpages/jcappos/) and maintainer [Lois Anne DeLong](mailto:lad278@nyu.edu) at New York
-University's [Secure Systems
-Lab](https://ssl.engineering.nyu.edu/).
-
-Please visit the [governance
-page](https://uptane.github.io/governance.html)
-to learn how project decisions are made, and for a more detailed explanation
-of the project roles used below.
-
-
-**Consensus Builder**:
-
-  *Justin Cappos*
-
-    Email: jcappos@nyu.edu
-
-    GitHub username: @JustinCappos
-
-    PGP fingerprint: E9C0 59EC 0D32 64FA B35F  94AD 465B F9F6 F8EB 475A
-
-**Maintainer**:
-
-  *Lois Anne DeLong*
-
-    Email: lad278@nyu.edu
-
-    GitHub username: @jhdalek55
-
 
 ## Project Contributors  
 

@@ -28,14 +28,9 @@ organization does wish to join this group, please contact jcappos@nyu.edu
 for more information on how to do so.)
 
 ### Code Contributions
-To make contributions to the reference
-implementation or the demonstration code, please submit a GitHub
-pull request to this repository using
-[these development instructions](https://github.com/secure-systems-lab/lab-guidelines/blob/master/dev-workflow.md).
-If submitting any new software feature or change, please include unit tests.
+To make contributions to this or any other Uptane repository on GitHub, please submit a pull request to this repository using [these development instructions](https://github.com/secure-systems-lab/lab-guidelines/blob/master/dev-workflow.md). If submitting any new software feature or change, please include or update appropriate unit tests.
 
-All submitted pull requests undergo review and automated testing, including, but
-not limited to:
+All submitted pull requests undergo review and automated testing, including, but not limited to:
 * Unit and build testing via Travis CI
 * Review by one or more maintainers
 
@@ -47,9 +42,9 @@ on this.
 
 ### Security Audits
 
-We welcome security audits of the Uptane design, or vulnerability reports of
-the design or the code in this repository. Please contact lab director
-[Justin Cappos](mailto:jcappos@nyu.edu) or maintainer [Sebastien Awwad](mailto: sebastien.awwad@nyu.edu).
+We welcome security audits of the Uptane design and vulnerability reports of
+the design or any code in the [Uptane GitHub namespace](https://github.com/uptane). Please contact lab director
+[Justin Cappos](mailto:jcappos@nyu.edu) or maintainer [Lois Anne DeLong](mailto:lad278@nyu.edu).
 Uptane design and implementation is defined in the [Uptane Standards document](https://uptane.github.io/uptane-standard/uptane-standard.html) and supplemented by the [Deployment Best Practices document](https://uptane.github.io/deployment-considerations/index.html).
 
 Should the information be highly sensitive, auditors / reporters may employ

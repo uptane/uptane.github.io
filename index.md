@@ -3,6 +3,10 @@ layout: default
 css_id: landing
 ---
 
+----
+*Uptane is hosting a free Virtual Industry Conference on October 13, 2022 from 13:00 to 16:45 CEST* (7:00 to 10:45 a.m. EDT, 20:00 to 23:45 JST). Register [here](https://nyu.zoom.us/meeting/register/tJwsceuuqjItE9GNyaRCanWq7hNhGu96AXTh) or [click here](https://uptane.github.io/papers/22Uptane_conference_complete.pdf) for additional details.
+----
+
 Uptane is an open and secure software update framework design which protects software delivered over-the-air to
 automobile electronic control units (ECUs).  The framework protects against malicious actors who can
 compromise servers and networks used to sign and deliver updates.  Hence, it is designed to be resilient even to the best efforts of nation state
@@ -15,4 +19,3 @@ Alliance](https://ieee-isto.org/member_programs/uptane-alliance/). [Uptane Stand
 continues as a Linux Foundation Joint Development Foundation project, with versions [1.1.0](/papers/uptane-standard.1.1.0.html) and [1.2.0](/papers/uptane-standard.1.2.0.html) released in 2021. The most recent version, [2.0.0](/papers/uptane-standard.2.0.0.html) was released in March 2022. Recommended deployment strategies are under active development, and are published and regularly updated [on this site](/deployment-considerations/index.html). All Uptane materials, including [technical papers](https://uptane.github.io/publications.html), and
 [security audits](https://uptane.github.io/audits.html) are also freely available for all to use without a fee.
 
-**Uptane is hosting a free Virtual Industry Conference on October 13, 2022 from 13:00 TO 16:45 CEST** (7:00 to 10:45 a.m. EDT, 20:00 to 23:45 JST). Register [here](https://nyu.zoom.us/meeting/register/tJwsceuuqjItE9GNyaRCanWq7hNhGu96AXTh) or [click here](https://uptane.github.io/papers/22Uptane_conference_complete.pdf) for additional details.

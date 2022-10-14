@@ -4,7 +4,7 @@ css_id: landing
 ---
 
 ----
-## *Uptane is hosting a free Virtual Industry Conference on October 13, 2022 from 13:00 to 16:45 CEST* (7:00 to 10:45 a.m. EDT, 20:00 to 23:45 JST). Register [here](https://nyu.zoom.us/meeting/register/tJwsceuuqjItE9GNyaRCanWq7hNhGu96AXTh) or [click here](https://uptane.github.io/papers/22Uptane_conference_complete.pdf) for additional details.
+### *On October 13,Uptane hosted a free Virtual Industry Conference on October 13, 2022 in connection with escar Europe. You can find slide presentations  from the conference on our Audio-Visuals page [here](https://uptane.github.io/audio.html).
 ----
 
 Uptane is an open and secure software update framework design which protects software delivered over-the-air to

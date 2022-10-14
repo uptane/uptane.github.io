@@ -5,9 +5,17 @@ css_id: audio
 
 # Audio-Visuals
 
-The basic principles of Uptane, and the framework's development over time, are addressed in some detail in a series of Powerpoint presentations originally put together for Uptane industry workshops. Links to these slides appear below, including those from the most recent workshop, held in September 2021. Presented virtually in two back-to-back sessions, the presentation was the first ever targeted to an international audience. 
+The basic principles of Uptane, and the framework's development over time, are addressed in some detail in a series of Powerpoint presentations originally put together for Uptane industry workshops and conferences. Links to these slides appear below, including those from the most recent workshop, held in October 2022. That conference, presented virtually in two back-to-back sessions, was the second in a planned ongoing series of programs targeted to an international audience. 
 
 This section also includes links to a demo video explaining how Uptane works, and to a video of Trishank Kuppusamy delivering the first academic talk on Uptane at escar 16.
+
+* [Uptane Virtual Industry Conference: Securing Software Updates and Supply Chains on Connected Vehicles](/papers/22uptane_october_22_presentationmain.pdf) This set of slides collects the presentations of six of the speakers at the 2022 Uptane Virtual Conference, which featured an updated overview of the framework and its evolution, particularly over the past few years. The slides also describe how Uptane is approaching emerging needs in the automotive industry, such as software supply chain security and dealing with aftermarket ECUs.
+
+* [ISO 24089 (and a Little Bit of SAE/ISO 21434)](/papers/Lightman_ISO_24089.pdf) Presented by Suzanne Lightman, Senior Information Security Advisor at the National Institute for Standards and Technology this slide deck provides relevant information to the Uptane community about conformance with these important industry standards.
+
+* [UNECE WP.29 regulations](/papers/22uptane_russell_UNECEWP.29.pdf) Presented by Nick Russell, Director of Standards for Blackberry, offers a deep dive into the history, motivation, and application of two recent regulations from the United Nations UNECE Working Party 29-UN R 155 and R156.
+
+* [Over the Air Updates: PACCAR ITD](/papers/Over-the-Air-Updates-PACCAR.pdf) Presented by David Kruger, a domain architect in the PACCAR Information Technology Division, these slides share a case study of how his company—which designs, manufactures and provides customer support to premium light-, medium- and heavy-duty trucks under the Kenworth, Peterbilt and DAF nameplates—selected and implemented Uptane into its OTA system. 
 
 * [Securing Over-the-Air Updates Against Nation State Actors-September 2021](/papers/IIW21_session1.pdf) These slides, created for our first international workshop held under the auspices of escar Europe, present an overview of the motivation behind Uptane, a basic description of how the technology works, and some thoughts on its future directions. Included are a number of slides that were not part of the formal presentation that offer valuable information on Uptane to those new to the framework.
 

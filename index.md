@@ -4,7 +4,7 @@ css_id: landing
 ---
 
 ----
-### *On October 13,Uptane hosted a free Virtual Industry Conference on October 13, 2022 in connection with escar Europe. You can find slide presentations  from the conference on our Audio-Visuals page [here](https://uptane.github.io/audio.html).
+#### *On October 13, 2022, Uptane hosted a free Virtual Industry Conference in connection with escar Europe 2022. You can find slide presentations from the conference on our [Audio-Visuals](https://uptane.github.io/audio.html) page.
 ----
 
 Uptane is an open and secure software update framework design which protects software delivered over-the-air to

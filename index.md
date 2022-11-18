@@ -4,7 +4,7 @@ css_id: landing
 ---
 
 ----
-#### On December 7, Uptane will host an in-person workshop at the Linux Foundation Open Source Summit. For information on the workshop, go to https://events.linuxfoundation.org/open-source-summit-japan/features/co-located-events/#uptane-securing-software-updates-and-supply-chains-on-connected-vehicles-jp
+#### On December 7, Uptane will host an in-person workshop at the Linux Foundation Open Source Summit. Click [here](https://events.linuxfoundation.org/open-source-summit-japan/features/co-located-events/#uptane-securing-software-updates-and-supply-chains-on-connected-vehicles-jp) for more information.
 ----
 
 Uptane is an open and secure software update framework design which protects software delivered over-the-air to

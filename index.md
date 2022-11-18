@@ -4,7 +4,7 @@ css_id: landing
 ---
 
 ----
-#### *On October 13, 2022, Uptane hosted a free Virtual Industry Conference in connection with escar Europe 2022. You can find slide presentations from the conference on our [Audio-Visuals](https://uptane.github.io/audio.html) page.
+#### On December 7, Uptane will host an in-person workshop at the Linux Foundation Open Source Summit. For information on the workshop, go to https://events.linuxfoundation.org/open-source-summit-japan/features/co-located-events/#uptane-securing-software-updates-and-supply-chains-on-connected-vehicles-jp
 ----
 
 Uptane is an open and secure software update framework design which protects software delivered over-the-air to

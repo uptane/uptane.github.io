@@ -5,9 +5,11 @@ css_id: audio
 
 # Audio-Visuals
 
-The basic principles of Uptane, and the framework's development over time, are addressed in some detail in a series of Powerpoint presentations originally put together for Uptane industry workshops and conferences. Links to these slides appear below, including those from the most recent workshop, held in October 2022. That conference, presented virtually in two back-to-back sessions, was the second in a planned ongoing series of programs targeted to an international audience. 
+The basic principles of Uptane, and the framework's development over time, are addressed in some detail in a series of Powerpoint presentations originally put together for Uptane industry workshops and conferences. Links to these slides appear below, including two slide decks from its most recent programs targeted to international audiences. These include a virtual program held in October 2022, and an in-person program held in December 2022.  
 
 This section also includes links to a demo video explaining how Uptane works, and to a video of Trishank Kuppusamy delivering the first academic talk on Uptane at escar 16.
+
+* [Uptane: Open Source Summit Japan: Securing Software Updates and Supply Chains on Connected Vehicles](/papers/22uptane_yokohama_december_7.pdf) This slide set, created for presentation at the Linux Foundation's Open Source Summit in Japan, is a somewhat simplified version of the escar presentation from earlier in the year. It emphasizes the current status of the Uptane project and provides an excellent introduction to its basic design principles, its defensive strategies against specific threats, and how it continues to evolve to meet the needs of the industry. 
 
 * [Uptane Virtual Industry Conference: Securing Software Updates and Supply Chains on Connected Vehicles](/papers/22uptane_october_22_presentationmain.pdf) This set of slides collects the presentations of six of the speakers at the 2022 Uptane Virtual Conference, which featured an updated overview of the framework and its evolution, particularly over the past few years. The slides also describe how Uptane is approaching emerging needs in the automotive industry, such as software supply chain security and dealing with aftermarket ECUs. Three other slide decks, from featured presenters Suzanne Lightman, Nick Russell, and David Kruger are described below.
 

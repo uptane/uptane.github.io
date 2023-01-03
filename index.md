@@ -3,7 +3,6 @@ layout: default
 css_id: landing
 ---
 
-
 Uptane is an open and secure software update framework design which protects software delivered over-the-air to
 automobile electronic control units (ECUs).  The framework protects against malicious actors who can
 compromise servers and networks used to sign and deliver updates.  Hence, it is designed to be resilient even to the best efforts of nation state

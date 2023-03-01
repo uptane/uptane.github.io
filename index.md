@@ -3,7 +3,10 @@ layout: default
 css_id: landing
 ---
 
-#### Uptane is hosting a free online workshop on March 31 from 9 to 11 a.m. (EDT) entitled "A Conversation on End-to-End Secure Automotive Software Updates." The program will feature presentations from two industry professionals, as well as an opportunity to engage in an open discussion on the role of Uptane within this particular security landscape. To register, [click here](https://nyu.zoom.us/meeting/register/tJUkdeugqD8rGtxGjU3-nR1f71NW75eZAVFW.) For more information, including the agenda and brief biographies of the featured speakers, [click here](https://uptane.github.io/papers/Agenda_3:31_Uptane_Workshop.pdf).
+#### Uptane is hosting a free online workshop on March 31 from 9 to 11 a.m. (EDT) entitled "A Conversation on End-to-End Secure Automotive Software Updates." The program will feature presentations from two industry professionals, as well as an opportunity to engage in an open discussion on the role of Uptane within this particular security landscape. To register, [click here](https://nyu.zoom.us/meeting/register/tJUkdeugqD8rGtxGjU3-nR1f71NW75eZAVFW). For more information, including the agenda and brief biographies of the featured speakers, [click here](https://uptane.github.io/papers/Agenda_3:31_Uptane_Workshop.pdf).
+
+#### The Uptane Standard team has also prepared a survey to help us determine where to focus our outreach initiatives for 2023. Please [click here](https://forms.gle/nASmibdFY8B61RTT6) to complete the survey and be sure to share the link with your colleagues as well.
+=======================
 
 Uptane is an open and secure software update framework design which protects software delivered over-the-air to
 automobile electronic control units (ECUs).  The framework protects against malicious actors who can

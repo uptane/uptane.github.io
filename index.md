@@ -3,7 +3,7 @@ layout: default
 css_id: landing
 ---
 
-#### Uptane is hosting a free online workshop on March 31 from 9 to 11 a.m. (EDT) entitled "A Conversation on End-to-End Secure Automotive Software Updates." To register, [click here](https://nyu.zoom.us/meeting/register/tJUkdeugqD8rGtxGjU3-nR1f71NW75eZAVFW). For more information, including the agenda and brief biographies of the featured speakers, [click here](https://uptane.github.io/papers/Agenda_3:31_Uptane_Workshop.pdf). An initial slide deck is available [here](https://uptane.github.io/papers/Agenda_3:31_Uptane_Workshop.pdf).
+#### Uptane is hosting a free online workshop on March 31 from 9 to 11 a.m. (EDT) entitled "A Conversation on End-to-End Secure Automotive Software Updates." To register, [click here](https://nyu.zoom.us/meeting/register/tJUkdeugqD8rGtxGjU3-nR1f71NW75eZAVFW). For more information, including the agenda and brief biographies of the featured speakers, [click here](https://uptane.github.io/papers/Agenda_3:31_Uptane_Workshop.pdf). An initial slide deck is available [here](https://uptane.github.io/papers/23uptane331_ms.pdf).
 
 #### The Uptane Standard team has also prepared a survey to help us determine where to focus our outreach initiatives for 2023. Please [click here](https://forms.gle/nASmibdFY8B61RTT6) to complete the survey and be sure to share the link with your colleagues as well.
 =======================

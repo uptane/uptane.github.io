@@ -9,7 +9,7 @@ The basic principles of Uptane, and the framework's development over time, are a
 
 This section also includes links to a demo video explaining how Uptane works, and to a video of Trishank Kuppusamy delivering the first academic talk on Uptane at escar 16.
 
-* [A Conversation on End-to-End Secure Automotive Software Updates--Main slide set](/papers/23uptane_331_ms.pdf)This set offers a good general introduction to Uptane with an emphasis on its role in protection of the software supply chain. It was created for a virtual conference to be held March 31, 2023.
+* [A Conversation on End-to-End Secure Automotive Software Updates--Main slide set](/papers/23uptane_331_ms.pdf) This set offers a good general introduction to Uptane with an emphasis on its role in protection of the software supply chain. It was created for a virtual conference to be held March 31, 2023.
 
 * [Uptane: Open Source Summit Japan: Securing Software Updates and Supply Chains on Connected Vehicles](/papers/22uptane_yokohama_december_7.pdf) This slide set, created for presentation at the Linux Foundation's Open Source Summit in Japan, is a somewhat simplified version of the escar presentation from earlier in the year. It emphasizes the current status of the Uptane project and provides an excellent introduction to its basic design principles, its defensive strategies against specific threats, and how it continues to evolve to meet the needs of the industry. 
 

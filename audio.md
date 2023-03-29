@@ -9,6 +9,8 @@ The basic principles of Uptane, and the framework's development over time, are a
 
 This section also includes links to a demo video explaining how Uptane works, and to a video of Trishank Kuppusamy delivering the first academic talk on Uptane at escar 16.
 
+* [Software Bill of Materials Overview](papers/23uptane_331_hart.pdf) An overview slide presentation on SBOMs prepared by Charles Hart of Hitachi America R&D for the Uptane conference to be held March 31, 2023.
+
 * [Supply Chain Security—An Evolution](/papers/23uptane_331_mackay.pdf) A slide presentation on supply chain security prepared by Matthew Mackay of General Motors for the Uptane conference to be held March 31, 2023.
 
 * [A Conversation on End-to-End Secure Automotive Software Updates--Main slide set](/papers/23uptane_331_ms.pdf) This set offers a good general introduction to Uptane with an emphasis on its role in protection of the software supply chain. It was created for a virtual conference to be held March 31, 2023.

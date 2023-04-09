@@ -7,7 +7,117 @@ The site is available [here](https://uptane.github.io/).
 
 ## Maintenance and re-use
 
+# Contributing to Uptane
+
+If you would like to contribute content, read the following documentation for helpful information and guidelines.
+
+We appreciate and recognize all contributors.
+
+# Fork the Repository
+
+Fork this repository by clicking on the fork button on the top of this page. This will create a copy of this repository in your account.
+
+# Make Necessary Changes
+
+To make changes, clone the forked repository to your machine.
+
+## Clone the repository
+
+Go to your GitHub account, open the forked repository, click **Code**, and then **copy to clipboard**.
+
+Open a terminal and run the following git command:
+
+```bash
+git clone "url you just copied"
+```
+
+where "url you just copied" (without the quotation marks) is the url to this repository (your fork of this project).
+
+## Create a branch
+
+Change to the repository directory on your computer:
+
+```bash
+cd uptane.github.io
+```
+
+Now create a branch using the `git checkout` command:
+
+```bash
+git checkout -b <name-your-new-branch-name-after-your-issue>
+```
+
+For example:
+
+```bash
+git checkout -b issue-329
+```
+
+## Make necessary changes
+
+Now, you can suggest contributions, make necessary changes to existing files, or add new files.
+
+# Test in local and push changes to GitHub
+
+Before you push changes to GitHub, build this GitHub pages site locally to preview and test the changes.
+
+## Prerequisites
+
+This GitHub Pages site is built with Jekyll. Before you can use Jekyll to test a site, you must [install Jekyll](https://jekyllrb.com/docs/installation/).
+
+## Test your changes locally
+
+Change to the repository directory on your computer and execute the following command to run the Jekyll site locally.
+
+1. To install and update all dependencies.
+
+   ```bash
+   gem install "jekyll-mentions"     
+   ```
+
+   **Note**: Run the above command one time before using the tools each day.
+
+2. Start the local web server, do not build the site first
+
+   ```bash
+   jekyll serve
+   ```
+
+   To preview the site in your web browser navigate to [http://localhost:4000](http://localhost:4000).
+
+
+## Commit changes
+
+After you have a successful testing in local with your changes, you are ready to commit those changes.
+
+If you go to the project directory and execute the command `git status`, you'll see your changes.
+
+Add those changes to the branch you just created using the `git add` command:
+
+```bash
+git add <file>
+```
+
+All commits should be signed off (`-s` flag on `git commit`). To use the `-s` option, make sure you configure your git name (user.name) and email address (user.email).
+
+Now commit those changes using the git commit command:
+
+```bash
+git commit -s -m "Add README.md"
+```
+
+## Push changes to GitHub
+
+Push your changes using the command `git push`:
+
+```bash
+git push origin <add-your-branch-name>
+```
+
+replacing `<add-your-branch-name>` with the name of the branch you created earlier.
+
 ### Basic commands
+
 GitHub pages are served directly from the repository. No pre-building necessary.
 For development deployment, we recommend the following commands (requires
 `jekyll` to be installed and available on your path):

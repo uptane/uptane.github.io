@@ -22,5 +22,5 @@ low risk issue, and 1 informational issue. The two issues identified were
 minor, relating to the particular implementation's
 default configuration and the way it stored backups.
 
-* **SWRI** Performed in 2018, this review by the Southwest Research
+* **SWRI** Performed in 2018, this review by the Southwest Research Institute
 found no design issues that impacted the Uptane specification or adopter code.

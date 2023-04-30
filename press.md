@@ -43,7 +43,7 @@ css_id: press
 
 * [Forbes-January 2017: Uptane Will Protect your Connected Car from Hackers](https://www.forbes.com/sites/leemathews/2017/01/19/uptane-will-protect-your-connected-car-from-hackers/#22941cef19be)
 
-* [Christian Science Monitor-January 2017: Are Software Uodates Key to Stopping
+* [Christian Science Monitor-January 2017: Are Software Updates Key to Stopping
 Criminal Car Hacks?](https://www.csmonitor.com/World/Passcode/2017/0118/Are-software-updates-key-to-stopping-criminal-car-hacks)
 
 * [YouTube-October 2016: Justin Cappos presents TUF and ongoing work in securing software updates in automobiles and the software supply chain at Docker's Distributed Systems Summit 2016 ](https://www.youtube.com/watch?v=Aryr0O6H_2U&list=PLkA60AVN3hh8oPas3cq2VA9xB7WazcIgs&index=9)

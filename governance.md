@@ -21,7 +21,7 @@ Transportation Research Institute
 
 ### Uptane Standard and related documents
 
-The Uptane Standard must be approved by a majority of the aforementioned Steering Committee. The Board of Directors may also be changed by action of a majority of committtee members.
+The Uptane Standard must be approved by a majority of the aforementioned Steering Committee. The Board of Directors may also be changed by action of a majority of committee members.
 
 ### Industry Advisory Group
 

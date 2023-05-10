@@ -3,11 +3,9 @@ layout: default
 css_id: landing
 ---
 
-#### Uptane hosted a free online workshop on March 31 entitled "A Conversation on End-to-End Secure Automotive Software Updates." The slide decks for the conference can be accessed as follows: [Introductory/Uptane](https://uptane.github.io/papers/23uptane_331_ms.pdf), [Supply chain overview](https://uptane.github.io/papers/23uptane_331_mackay.pdf), and [SBOM overview](https://uptane.github.io/papers/23uptane_331_hart.pdf). 
+#### Uptane will be holding an online conference on June 23, 2023, from 10 am to 1:15 pm EDT. The free event will feature presentations on software supply chain security, cryptographic agility to support the long-life of vehicles, and examples of two different Uptane Integration Experiences that reflect the continuing evolution of the technology in both transportation and other applications. Please [click here](https://nyu.zoom.us/meeting/register/tJUvde2grDItGNVxxJPl11Rub_V2setyph-A) to register.
 
-#### Watch for more details on our next workshop, to be held June 23 in the Detroit area following the escar USA meeting.
-
-#### The Uptane Standard team has also prepared a survey to help us determine where to focus our outreach initiatives for 2023. Please [click here](https://forms.gle/nASmibdFY8B61RTT6) to complete the survey and be sure to share the link with your colleagues as well.
+#### The Uptane Standard team is also still looking for input on its survey. Responses will help us determine where to focus our outreach initiatives for the rest of 2023 and for the years ahead. Please [click here](https://forms.gle/nASmibdFY8B61RTT6) to complete the survey and be sure to share the link with your colleagues as well.
 =======================
 
 Uptane is an open and secure software update framework design which protects software delivered over-the-air to

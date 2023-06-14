@@ -3,9 +3,9 @@ layout: default
 css_id: landing
 ---
 
-#### Uptane will be holding an online conference on June 23, 2023, from 10 am to 1:15 pm EDT. The free event will feature presentations on software supply chain security, cryptographic agility to support the long-life of vehicles, and examples of two different Uptane Integration Experiences that reflect the continuing evolution of the technology in both transportation and other applications. Please [click here](https://nyu.zoom.us/meeting/register/tJUvde2grDItGNVxxJPl11Rub_V2setyph-A) to register.
+#### Uptane will be holding a hybrid online/in-person conference on June 23, 2023, from 10 am to 1:15 pm EDT. The free event will feature presentations on software supply chain security, automotive crypto agility, and examples of two different Uptane Integration Experiences that reflect the continuing evolution of the technology in both transportation and other applications. Please [click here](https://nyu.zoom.us/meeting/register/tJUvde2grDItGNVxxJPl11Rub_V2setyph-A) to register or [here] for an up-to-date agenda of the meeting program. Note that the agenda references a brief brainstorming session from 1:15 to 2:00 p.m. This discussion will be among those attending the in-person event. We do not have the technical capabilities to share this session with our online participants, however, we will share a summary of the ideas generated in this session in some form at a later date.
 
-#### The Uptane Standard team is also still looking for input on its survey. Responses will help us determine where to focus our outreach initiatives for the rest of 2023 and for the years ahead. Please [click here](https://forms.gle/nASmibdFY8B61RTT6) to complete the survey and be sure to share the link with your colleagues as well.
+####  If you act quickly, you still have the option of reserving a spot at our in-person event. To do, please [register here](https://forms.gle/yqdGRTD1Vo2j385B6).
 =======================
 
 Uptane is an open and secure software update framework design which protects software delivered over-the-air to

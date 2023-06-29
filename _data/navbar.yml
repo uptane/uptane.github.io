@@ -42,11 +42,11 @@
     - text: Uptane Standard (IEEE-ISTO 6100.1.0.0)
       url: /papers/ieee-isto-6100.1.0.0.uptane-standard.html
 
-    - text: Uptane Deployment Best Practices V.2.0.0
-      url: /papers/V2.0.0_uptane_deploy.html
+    - text: Uptane Deployment Best Practices V.2.1.0
+      url: /papers/V2.1.0_uptane_deploy.html
 
-    - text: Uptane Deployment Best Practices V.2.0.0 (pdf)
-      url: /papers/V2.0.0_uptane_deploy.pdf
+    - text: Uptane Deployment Best Practices V.2.1.0 (pdf)
+      url: /papers/V2.1.0_uptane_deploy.pdf
 
     - text: POUF Guidelines
       url: /pouf.html

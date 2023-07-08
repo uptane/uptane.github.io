@@ -3,6 +3,6 @@ layout: default
 css_id: faq
 ---
 
-### Frequently Asked Questions
+# Frequently Asked Questions
 
 TODO

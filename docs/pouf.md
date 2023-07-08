@@ -2,11 +2,12 @@
 layout: default
 css_id: pouf
 ---
-* Title: POUF Purpose and Guidelines
-* Version: 1.0.0
-* Last-Modified: 17-06-2019
-* Author: Marina Moore
-* Created: 14-03-2019
+
+- Title: POUF Purpose and Guidelines
+- Version: 1.0.0
+- Last-Modified: 17-06-2019
+- Author: Marina Moore
+- Created: 14-03-2019
 
 # Uptane Implementation POUFs
 
@@ -22,49 +23,59 @@ A POUF contains all the information needed for a third party to design a compati
 
 Each POUF is effectively under the control of its author, and its contents will not be subject to the level of scrutiny or analysis the community provides to the Uptane specification. Instead, the main role of the Uptane community in the POUF process will be to provide a common repository with links to external POUFs.
 
-The format of POUFs and this document are inspired by TAPs (https://github.com/theupdateframework/taps/blob/master/tap1.md).
+The format of POUFs and this document are inspired by TAPs (<https://github.com/theupdateframework/taps/blob/master/tap1.md>).
 
 ### POUF Contents
 
 A POUF should include the following sections:
 
 #### Preamble
+
 RFC 822 style headers containing metadata about the POUF, including the POUF number, a short descriptive title (limited to a maximum of 44 characters), optionally the names and contact info for each author, etc. The header should include:
-* POUF: POUF number
-* Title: Title of the POUF
-* Version: POUF Version (Note: It is recommended that the major POUF version matches the major version of the Uptane Standard, but any versioning scheme is permitted.)
-* Last-Modified: in dd-mmm-yyyy format
-* Author: optional list of authors' real names and email addresses
-* Status: Draft / Accepted / Obsolete
-* Uptane Version: The Uptane version(s) this POUF implements (for example 1.0.0 or 2.0.3-2.0.6)
-* Created: date created on, in dd-mmm-yyyy format
+
+- POUF: POUF number
+- Title: Title of the POUF
+- Version: POUF Version (Note: It is recommended that the major POUF version matches the major version of the Uptane Standard, but any versioning scheme is permitted.)
+- Last-Modified: in dd-mmm-yyyy format
+- Author: optional list of authors' real names and email addresses
+- Status: Draft / Accepted / Obsolete
+- Uptane Version: The Uptane version(s) this POUF implements (for example 1.0.0 or 2.0.3-2.0.6)
+- Created: date created on, in dd-mmm-yyyy format
 
 #### Abstract
+
 The abstract provides a short overview of what the POUF contains. This SHOULD include the overarching design philosophy. If the POUF has been updated, the abstract SHOULD explain what is changed in the new version.
 
 #### Protocols
+
 The protocols section will describe the communications over the network. This will include the protocols used to transmit data. If relevant, the version of the protocol and any customizations SHOULD be explained so that any implementer will have a bitwise-identical use of the protocol. In addition, all messages that will be transmitted MUST be explained using a Message Handler Table. This table will include all messages that will be transmitted by the implementation. Each entry SHALL include at least the sender, receiver, data (including signatures), and the expected response.
 
 #### Operations
+
 The operations section contains a description of any design elements that differ from the Uptane Standard. This section will not include the format of data, but will include all other elements of the POUF. Any MAYs and SHOULDs from the Uptane Standard SHALL be described here. In particular, any optional features (MAYs) or recommendations (SHOULDs) from the specification SHALL be mentioned with justification for why the feature was or was not used. In addition, any feature added to the specification that is needed for compatibility MUST be explained.
 
 #### Usage
+
 The usage section will contain a description of how the operators of the Uptane implementation manage keys and responsibilities of the system. This will include a description of how online and offline keys are managed and rotated, how the supply chain is managed, and how images are generated. In addition, it MUST include a Data Table that describes all data stored on each Uptane entity. This includes which keys are stored on each entity as well as any other required data. At a minimum, data stored on Primary ECUs, Secondary ECUs, the director repository, and the image repository MUST be described in the Data Table.
 
 #### Formats
+
 Data formats contain details about the encoding and format of Uptane data as it is stored. The encoding MUST describe how data is formatted when it is stored on repositories and ECUs. Data that is not transmitted does not need to be included in a POUF. Descriptions of formats SHALL include the order of fields to allow for bitwise identical implementations. Every bit of transmitted data MUST be accounted for in the POUF. This section MAY include common formatting used by all metadata files to avoid redundancy. At a minimum, this section will include the format for the following data, including all fields required by the Uptane specification:
-  * Root
-  * Snapshot
-  * Targets
-  * Delegated targets
-  * Timestamp
-  * Vehicle version manifest
+
+- Root
+- Snapshot
+- Targets
+- Delegated targets
+- Timestamp
+- Vehicle version manifest
 
 Each file that is transmitted should be described. In addition to the required files, the following MAY be included:
-  * Time server communication
-  * Repository mapping metadata
+
+- Time server communication
+- Repository mapping metadata
 
 #### Copyright
+
 Each POUF MAY either be explicitly labeled as placed in the public domain or licensed under the [Open Publication License](https://opencontent.org/openpub/).
 
 ### Workflow

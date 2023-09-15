@@ -31,3 +31,5 @@ over-the-air software and data management solution. The product was honored in
 
 * [Foundries.io](https://foundries.io/) integrates security aspects of TUF and Uptane into its
 [OTA Connect](https://foundries.io/insights/blog/2018/07/12/ota-part-4/) open-source server software. The software supports devices that are compatible with Aktualizr.
+
+* [Torizon](https://www.torizon.io/) is an Uptane-as-a-service implementation targeted at industrial Linux and IoT applications, and was the first implementation supporting [PURE-2](https://github.com/uptane/pures/blob/main/pure2.md) offline updates.

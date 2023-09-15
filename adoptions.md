@@ -29,7 +29,6 @@ over-the-air software and data management solution. The product was honored in
 2017 with a
 [Business Intelligence Group](https://www.bintelligence.com/) Award in the [New Product of the Year Award category](https://www.airbiquity.com/news/press-releases/airbiquity-otamatic-named-2017-new-product-year-business-intelligence-group).
 
-* [Foundries.io](https://foundries.io/) integrates security aspects of TUF and Uptane into its
-[OTA Connect](https://foundries.io/insights/blog/2018/07/12/ota-part-4/) open-source server software. The software supports devices that are compatible with Aktualizr.
+* [Foundries.io](https://foundries.io/) uses an Uptane-compatible client in their software update system, although their build variant of [Aktualizr](https://github.com/uptane/aktualizr/) removes Uptane checks, targeting users who wish to have the security aspects of TUF but do not want the complexity of Uptane.
 
 * [Torizon](https://www.torizon.io/) is an Uptane-as-a-service implementation targeted at industrial Linux and IoT applications, and was the first implementation supporting [PURE-2](https://github.com/uptane/pures/blob/main/pure2.md) offline updates.

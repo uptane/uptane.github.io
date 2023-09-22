@@ -62,10 +62,14 @@ asked to have their name listed.
 * Josiah Bruner
 * Allen Cain
 * Justin Cappos
+* Gloria D'anna
+* Lois Anne DeLong
 * Vladimir Diaz
+* Tom Forest
 * Chase Garwood
 * Kyusuk Han
 * Trishank Karthik Kuppusamy
+* Phillip Lapczynski
 * Sam Lauzon
 * John Liming
 * Daniel Massey
@@ -83,4 +87,5 @@ asked to have their name listed.
 * Patti Vacek
 * Sam Weber
 * André Weimerskirch
+* Phil Wise
 * David Zage

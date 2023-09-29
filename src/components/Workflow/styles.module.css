@@ -1,0 +1,78 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+.workflow {
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_padding {
+    padding: 4rem 6rem;
+}
+
+.how_uptane_works {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.how_uptane_works h1 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 55px;
+    color: var(--ifm-color-primary);
+}
+
+.how_uptane_works p {
+    font-size: 22px;
+    font-weight: 400;
+    text-align: justify;
+    padding: 15px;
+}
+
+.workflow_image {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 1050px) {
+    .how_uptane_works {
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .section_padding {
+        padding: 2rem;
+    }
+
+    .how_uptane_works h1 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .section_padding {
+        padding: 2rem;
+    }
+
+    .how_uptane_works h1 {
+        font-size: 35px;
+        line-height: 48px;
+    }
+
+    .how_uptane_works p {
+        font-size: 20px;
+    }
+}

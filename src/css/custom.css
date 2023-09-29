@@ -1,0 +1,139 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+@font-face {
+  font-family: 'Nunito';
+  src: url('../../static/fonts/Nunito-VariableFont_wght.ttf'); 
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../../static/fonts/OpenSans-VariableFont_wdth,wght.ttf');
+}
+
+:root {
+  --ifm-font-heading-family: 'Nunito', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+  --ifm-font-content-family: 'OpenSans', ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
+  transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+:root {
+  --ifm-color-primary: #0C64D6;
+  --ifm-color-primary-dark: #0A5ABF;
+  --ifm-color-primary-darker: #0951A9;
+  --ifm-color-primary-darkest: #08468F;
+  --ifm-color-primary-light: #1470E1;
+  --ifm-color-primary-lighter: #1879EC;
+  --ifm-color-primary-lightest: #1D88F3;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-navbar-link-color: #000000;
+  --ifm-navbar-link-hover-color: #0C64D6;
+  --ifm-navbar-background-light: #ffffff;
+  --gradient-blue: linear-gradient(130deg, #0C64D6 0%, rgba(12, 100, 214, 0.87) 0%, rgba(12, 100, 214, 0.78) 47.69%, rgba(12, 100, 214, 0.62) 99.61%, rgba(12, 100, 214, 0.00) 100%);
+  --theme-card: #f7fafc;
+}
+
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #0C64D6;
+  --ifm-color-primary-dark: #0953B7;
+  --ifm-color-primary-darker: #0849A1;
+  --ifm-color-primary-darkest: #063D81;
+  --ifm-color-primary-light: #1582F0;
+  --ifm-color-primary-lighter: #1B8DF5;
+  --ifm-color-primary-lightest: #36A8FF;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-navbar-link-color: #ffffff;
+  --ifm-navbar-background-dark: #31353A;
+  --theme-card: #31353A;
+}
+
+
+/*Algolia Search*/
+
+[data-theme='light'] .DocSearch {
+  /* --docsearch-primary-color: var(--ifm-color-primary); */
+  /* --docsearch-text-color: var(--ifm-font-color-base); */
+  --docsearch-muted-color: var(--ifm-color-secondary-darkest);
+  --docsearch-container-background: rgba(94, 100, 112, 0.7);
+  /* Modal */
+  --docsearch-modal-background: var(--ifm-color-secondary-lighter);
+  /* Search box */
+  --docsearch-searchbox-background: var(--ifm-color-secondary);
+  --docsearch-searchbox-focus-background: var(--ifm-color-white);
+  /* Hit */
+  --docsearch-hit-color: var(--ifm-font-color-base);
+  --docsearch-hit-active-color: var(--ifm-color-white);
+  --docsearch-hit-background: var(--ifm-color-white);
+  /* Footer */
+  --docsearch-footer-background: var(--ifm-color-white);
+}
+
+[data-theme='dark'] .DocSearch {
+  --docsearch-text-color: var(--ifm-font-color-base);
+  --docsearch-muted-color: var(--ifm-color-secondary-darkest);
+  --docsearch-container-background: rgba(47, 55, 69, 0.7);
+  /* Modal */
+  --docsearch-modal-background: var(--ifm-background-color);
+  /* Search box */
+  --docsearch-searchbox-background: var(--ifm-background-color);
+  --docsearch-searchbox-focus-background: var(--ifm-color-black);
+  /* Hit */
+  --docsearch-hit-color: var(--ifm-font-color-base);
+  --docsearch-hit-active-color: var(--ifm-color-white);
+  --docsearch-hit-background: var(--ifm-color-emphasis-100);
+  /* Footer */
+  --docsearch-footer-background: var(--ifm-background-surface-color);
+  --docsearch-key-gradient: linear-gradient(-26.5deg,
+      var(--ifm-color-emphasis-200) 0%,
+      var(--ifm-color-emphasis-100) 100%);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--ifm-font-heading-family);
+}
+
+p,
+a {
+  font-family: var(--ifm-font-content-family);
+}
+
+.button.button--secondary {
+  color: var(--ifm-color-primary);
+}
+
+/* Navbar Elements */
+.navbar,
+.navbar-sidebar__brand {
+  background: var(--ifm-navbar-background-light);
+}
+
+.navbar-sidebar__close svg g,
+.navbar__toggle svg path {
+  stroke: var(--ifm-navbar-link-color);
+}
+
+
+/* Dark mode */
+[data-theme='dark'] .navbar {
+  background-color: var(--ifm-navbar-background-dark);
+}
+
+.navbar-sidebar__brand {
+  background: var(--ifm-navbar-background-dark);
+}
+
+.navbar__toggle svg path {
+  stroke: var(--ifm-navbar-link-color);
+}

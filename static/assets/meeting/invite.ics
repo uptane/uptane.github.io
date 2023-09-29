@@ -1,0 +1,56 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VTIMEZONE
+TZID:America/New_York
+X-LIC-LOCATION:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20230815T100000
+DTEND;TZID=America/New_York:20230815T110000
+RRULE:FREQ=WEEKLY;WKST=MO;INTERVAL=2;BYDAY=TU
+DTSTAMP:20230718T153850Z
+ORGANIZER;CN=mnm678@gmail.com:mailto:mnm678@gmail.com
+UID:6qm74726n0qa6l1qi559u0hiqo_R20230815T140000@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=mnm678@gmail.com;X-NUM-GUESTS=0:mailto:mnm678@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=Uptane Standards;X-NUM-GUESTS=0:mailto:uptane-standards@googlegroup
+ s.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=TENTATIVE;RSVP=TRU
+ E;CN="Danna, Gloria (G.)";X-NUM-GUESTS=0:mailto:gdanna3@ford.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/dht-ggsd-pax
+X-MICROSOFT-CDO-OWNERAPPTID:521658536
+CREATED:20230718T150015Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/dh
+ t-ggsd-pax\n\nLearn more about Meet at: https://support.google.com/a/users/
+ answer/9282720\n\nPlease do not edit this section.\n-::~:~::~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20230718T153846Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Uptane Standards Meeting
+TRANSP:OPAQUE
+ATTACH;FILENAME=Uptane Meeting Notes;FMTTYPE=application/vnd.google-apps.do
+ cument:https://docs.google.com/document/u/0/d/13CgZgyJijkeduTtI8FLMa0Lf3afb
+ 6gOyUhfU2rfiTvU/edit
+END:VEVENT
+END:VCALENDAR

@@ -12,7 +12,7 @@ const projects = [
         link: "docs/standard/uptane-standard",
     },
     {
-        title: "Deployment Bestt Practices",
+        title: "Deployment Best Practices",
         icon: AiOutlineDeploymentUnit,
         description: "Short Description about Deployment Best Practices.",
         link: "docs/deployment/best-practices",

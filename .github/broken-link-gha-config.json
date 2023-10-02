@@ -1,0 +1,9 @@
+{
+    "OK": [
+        200,
+        999,
+        401,
+        308
+    ],
+    "exclude_scheme_prefixes": []
+}

@@ -1,0 +1,128 @@
+.Container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  background: var(--ifm-color-background-2);
+}
+
+.InnerContainer {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.ContentContainer {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: var(--ifm-container-width);
+  width: 100%;
+  padding: 2.5rem 0.5rem;
+  margin: 0 auto;
+}
+
+.FooterLeft {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: auto;
+  grid-gap: 25px;
+  margin-right: 2rem;
+}
+
+.FooterRight {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto;
+  grid-gap: 100px;
+  margin-right: 50px;
+}
+
+
+.Tagline {
+  max-width: 250px;
+  margin-bottom: 0;
+  font-size: var(--ifm-font-size-16);
+  color: var(--ifm-color-on-background-2);
+}
+
+.SectionContainer {
+  margin-bottom: 0.6rem;
+  flex: 1;
+  color: var(--ifm-color-on-background);
+  padding: 0;
+}
+
+.LinkItemTitle {
+  margin-bottom: 1.25rem;
+  font-weight: var(--ifm-font-weight-bold);
+  font-size: var(--ifm-font-size-18);
+  list-style: none;
+}
+
+.LinkItemContainer {
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.BottomContainer {
+  display: flex;
+  height: 4.75rem;
+  width: 100%;
+  justify-content: center;
+}
+
+.CopyrightText {
+  display: flex;
+  white-space: pre-wrap;
+  width: 100%;
+  margin: 0;
+  padding: 0 0.5rem;
+  background-color: var(--ifm-color-background-2);
+  max-width: var(--ifm-container-width);
+}
+
+@media screen and (max-width: 1050px) {
+  .ContentContainer {
+    flex-direction: column;
+  }
+
+  .Container {
+    padding: 2rem;
+  }
+
+  .FooterRight {
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+
+
+  .Container {
+    padding: 2rem;
+  }
+
+  .section_padding {
+    padding: 2rem;
+  }
+
+
+  .FooterRight {
+    grid-gap: 0;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .what_is_uptane_heading h1 {
+    font-size: 35px;
+    line-height: 48px;
+  }
+
+  .Container {
+    padding: 2rem;
+  }
+
+}

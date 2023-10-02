@@ -1,0 +1,108 @@
+.community {
+    display: flex;
+    flex-direction: column;
+}
+
+.section_padding {
+    padding: 4rem 6rem;
+}
+
+.join_community {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.join_community h1 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 55px;
+    color: var(--ifm-color-primary);
+}
+
+.join_community p {
+    font-size: 22px;
+    font-weight: 400;
+    text-align: justify;
+    padding: 15px;
+}
+
+.community_links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin: 1em;
+}
+
+.add_to_calendar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1em;
+    border-radius: 1.5em;
+    background: var(--gradient-blue);
+}
+
+.calendar_heading {
+    padding: 2em;
+}
+
+.calendar_heading h2 {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.calendar_heading h4 {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.calendar_link {
+    padding: 2em;
+}
+
+@media screen and (max-width: 650px) {
+    .join_community {
+        margin-bottom: 0rem;
+    }
+
+    .join_community h1 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    .section_padding {
+        padding: 3rem;
+    }
+
+    .community_links {
+        flex-direction: column;
+        margin: 1.5em;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .join_community h1 {
+        font-size: 35px;
+        line-height: 48px;
+    }
+
+    .section_padding {
+        padding: 2rem;
+    }
+}

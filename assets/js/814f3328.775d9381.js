@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkuptane=self.webpackChunkuptane||[]).push([[2535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"GSoC\'23 Journey: From Selection to Coding Phase","permalink":"/blog/blog Index 0"}]}')}}]);

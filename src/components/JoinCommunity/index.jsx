@@ -25,6 +25,7 @@ export default function Community() {
                 <div className={styles.links}>
                     {/* <LinkCard link="#" title="Slack" light="img/community_links/slack.svg" dark="img/community_links/slack.svg" /> */}
                     <LinkCard link="https://github.com/uptane" title="GitHub" light="img/community_links/github_light.svg" dark="img/community_links/github_dark.svg" />
+                    <LinkCard link="https://discord.gg/uWyT6gDCqx" title="Discord" light="img/community_links/discord.svg" dark="img/community_links/discord.svg" />
                     {/* <LinkCard link="#" title="Twitter" light="img/community_links/twitter.svg" dark="img/community_links/twitter.svg" /> */}
                 </div>
                 <div className={styles.add_to_calendar}>

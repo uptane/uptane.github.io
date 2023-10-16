@@ -1,5 +1,5 @@
 import React from 'react';
-import UptaneCubes from '@site/static/img/uptane_cubes.svg';
+import UptaneCubes from '@site/static/img/uptane_hero_img.svg';
 import styles from './styles.module.css';
 import Link from '@docusaurus/Link';
 

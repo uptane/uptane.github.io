@@ -96,7 +96,8 @@ const config = {
       navbar: {
         logo: {
           alt: 'Uptane Logo',
-          src: '/img/Uptane_logo.png',
+          src: '/img/uptane_logo_light.svg',
+          srcDark: '/img/uptane_logo_dark.svg'
         },
         items: [
 

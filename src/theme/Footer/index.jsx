@@ -3,7 +3,8 @@ import clsx from 'clsx';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './styles.module.css';
 import FooterLink from './FooterLink';
-import footerImage from "../../../static/img/uptane_logo.png"
+import useBaseUrl from '@docusaurus/useBaseUrl';
+import ThemedImage from '@theme/ThemedImage';
 
 const Footer = () => {
   const { siteConfig } = useDocusaurusContext();
@@ -21,11 +22,14 @@ const Footer = () => {
           {/*Footer Left */}
           <div className={styles.FooterLeft}>
             <div className={styles.BrandContainer}>
-              <img
+              <ThemedImage
                 className={styles.BrandImage}
                 alt="Uptane Logo"
                 width={200}
-                src={footerImage}
+                sources={{
+                  light: useBaseUrl('/img/uptane_logo_light.svg'),
+                  dark: useBaseUrl('/img/uptane_logo_dark.svg'),
+                }}
                 title={siteConfig.tagline}
               />
             </div>

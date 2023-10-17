@@ -1,5 +1,5 @@
 # Uptane
-Uptane is an open-source framework that ensures the security of software updates for vehicles. 
+Uptane is an open-source framework that ensures the security of software updates for vehicles, particularly those receiving software over the air. 
 Given the increasing complexity of modern vehicles, which often rely on numerous software components, 
 ensuring that these updates are secure and tamper-proof is crucial. 
 Uptane addresses potential vulnerabilities and threats that can arise during the software update process.

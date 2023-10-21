@@ -1,0 +1,38 @@
+name: Other Issues
+description: Other comments or suggestions for improvement
+title: "Other: "
+labels: [other]
+
+body:
+  - type: markdown
+    attributes:
+      value: Thank you for taking the time to file this report!
+  - type: textarea
+    attributes:
+      label: Issue Summary
+      description: "Add a brief description of the issue or request."
+  - type: textarea
+    attributes:
+      label: Details
+      description: "Provide additional details or context about the issue or request."
+  - type: dropdown
+    attributes:
+      label: Priority Level
+      description: "Indicate the priority level of the issue (e.g., low, medium, high)."
+      multiple: true
+      options:
+        - Low
+        - Medium
+        - High
+  - type: textarea
+    attributes:
+      label: Proposed Solution (if any)
+      description: "If you have a suggestion for how to resolve the issue or fulfill the request, please describe it here."
+  - type: textarea
+    attributes:
+      label: Related Information
+      description: "Include relevant links or references that can help understand or address the issue. Or attach any files or media that are relevant to this issue."
+  - type: textarea
+    attributes:
+      label: Additional Comments
+      description: "Add any extra comments or context for discussion."

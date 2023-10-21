@@ -1,0 +1,30 @@
+name: Documentation
+description: Suggest how we can improve our documentation
+title: "Documentation: "
+labels: [documentation]
+
+
+body:
+  - type: markdown
+    attributes:
+      value: Thank you for taking the time to file a report for our Documentation!
+  - type: textarea
+    attributes:
+      label: Issue Summary
+      description: "Add a brief description of the documentation issue."
+  - type: textarea
+    attributes:
+      label: Where is this stated?
+      description: "Provide additional information about the location where you found the issue. You can include any relevant links or files."
+  - type: textarea
+    attributes:
+      label: Why does this need improvement?
+      description: "Please include more detail about the issue, is the wording confusing, incorrect, does it have spelling/grammatical errors, etc."
+  - type: textarea
+    attributes:
+      label: Suggested Improvement
+      description: "If you have a suggestion for how to resolve the issue, please describe it here."
+  - type: textarea
+    attributes:
+      label: Additional context.
+      description: "Add any other context or useful information about the documentation issue here."

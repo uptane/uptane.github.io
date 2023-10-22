@@ -31,7 +31,7 @@ body:
   - type: textarea
     attributes:
       label: Related Information
-      description: "Include relevant links or references that can help understand or address the issue. Or attach any files or media that are relevant to this issue."
+      description: "Include relevant links or references that can help us understand or address the issue. Or attach any files or media that might be relevant to this issue."
   - type: textarea
     attributes:
       label: Additional Comments

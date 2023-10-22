@@ -19,7 +19,7 @@ body:
   - type: textarea
     attributes:
       label: Why does this need improvement?
-      description: "Please include more detail about the issue, is the wording confusing, incorrect, does it have spelling/grammatical errors, etc."
+      description: "Please include more detail about the issue. Is the wording confusing or incorrect? Does it have spelling/grammatical errors?, etc."
   - type: textarea
     attributes:
       label: Suggested Improvement

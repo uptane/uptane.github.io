@@ -16,7 +16,7 @@ body:
   - type: textarea
     attributes:
       label: Describe the steps to reproduce the behavior.
-      description: "Be clear and concise while describing the steps to ensure that it can be reproduced and potentially fixed."
+      description: "Clearly and concisely describe the steps to ensure that it can be reproduced and potentially fixed."
       placeholder: |
         1. Go to '...'
         2. Click on '....'

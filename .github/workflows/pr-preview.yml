@@ -1,0 +1,23 @@
+name: Deploy PR previews
+
+on:
+  pull_request:
+    types:
+      - opened
+      - synchronize
+
+jobs:
+  deploy-preview:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Deploy PR Preview
+        uses: rossjrw/pr-preview-action@v1.4.3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          preview-branch: main  # The branch where the deployment preview will be hosted
+          source-dir: .  # The source directory containing your project files
+          umbrella-dir: pr-preview  # The directory where the deployment preview will be built
+          action: auto

@@ -1,0 +1,30 @@
+name: Deploy PR Preview
+on:
+  pull_request:
+    types:
+      - opened
+      - synchronize
+
+jobs:
+  deploy-preview:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install dependencies and build 
+        run: |
+          yarn install
+          yarn build  # Modify this command based on your build setup
+
+      - name: Deploy PR Preview
+        run: |
+          mkdir pr-preview  # Create a directory to store the preview files
+          cp -r * pr-preview  # Copy the built files to the pr-preview directory
+        working-directory: ./path/to/your/built/files  # Specify the path to your built files
+
+      - name: Upload PR Preview
+        uses: actions/upload-artifact@v2
+        with:
+          name: pr-preview
+          path: pr-preview

@@ -12,7 +12,7 @@ Closes #<issue-number>
 - [ ] I have read and followed the [project's contribution guidelines](https://github.com/secure-systems-lab/lab-guidelines/blob/master/dev-workflow.md), including code style and commit message conventions.
 - [ ] My code is well-documented, and I've updated relevant documentation.
 - [ ] I have added or updated test cases to ensure the code's functionality.
-- [ ] I've tested these changes on my local environment.
+- [ ] I have tested these changes on my local environment.
 - [ ] All tests pass, and there are no new linting errors.
 - [ ] I've reviewed and proofread my code and the changes.
 - [ ] The branch is up-to-date with the base branch.

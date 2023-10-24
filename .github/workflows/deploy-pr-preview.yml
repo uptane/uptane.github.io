@@ -21,7 +21,7 @@ jobs:
         run: |
           mkdir pr-preview  # Create a directory to store the preview files
           cp -r * pr-preview  # Copy the built files to the pr-preview directory
-        working-directory: ./path/to/your/built/files  # Specify the path to your built files
+        working-directory: ./build  # Specify the path to your built files
 
       - name: Upload PR Preview
         uses: actions/upload-artifact@v2

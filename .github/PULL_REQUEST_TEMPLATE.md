@@ -14,7 +14,7 @@ Closes #<issue-number>
 - [ ] I have added or updated test cases to ensure the code's functionality.
 - [ ] I have tested these changes on my local environment.
 - [ ] All tests pass, and there are no new linting errors.
-- [ ] I've reviewed and proofread my code and the changes.
+- [ ] I have reviewed and proofread my code and the changes.
 - [ ] The branch is up-to-date with the base branch.
 
 ## Screenshots (if applicable)

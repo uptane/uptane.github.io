@@ -4,7 +4,7 @@ import { argosScreenshot } from '@argos-ci/playwright';
 import { extractSitemapPathnames, pathnameToArgosName } from './utils';
 
 // Constants
-const siteUrl = 'http://localhost:3000';
+const siteUrl = 'https://uptane.github.io/';
 const sitemapPath = './build/sitemap.xml';
 const stylesheetPath = './screenshot.css';
 const stylesheet = fs.readFileSync(stylesheetPath).toString();

@@ -1,12 +1,12 @@
-name: Bug Report
+name: 🐞 Bug Report
 description: Create a report to help us improve
-title: "[Bug Report] - <Short Description>"
-labels: [bug]
+title: "[Bug Report] - <title>"
+labels: ["bug","Needs Triage"]
 
 body:
   - type: markdown
     attributes:
-      value: Thank you for taking the time to file a Bug report!
+      value: Thank you for taking the time to file a Bug report! Please fill out the report and replace the '<title>' text in the title with a short description of the issue.
   - type: textarea
     attributes:
       label: Describe the bug.

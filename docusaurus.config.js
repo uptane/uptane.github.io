@@ -79,9 +79,9 @@ const config = {
         gtag: {
           trackingID: 'G-G856J3S8ZG',
           anonymizeIP: true,
-        }
+        },
       }),
-    ]
+    ],
   ],
 
   themeConfig:

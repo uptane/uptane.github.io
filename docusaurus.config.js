@@ -76,18 +76,12 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        gtag: {
+          trackingID: 'G-G856J3S8ZG',
+          anonymizeIP: true,
+        }
       }),
-    ],
-  ],
-
-  plugins: [
-    [
-      '@docusaurus/plugin-google-gtag',
-      {
-        trackingID: 'G-G856J3S8ZG',
-        anonymizeID: true,
-      },
-    ],
+    ]
   ],
 
   themeConfig:

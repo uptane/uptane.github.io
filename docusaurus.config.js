@@ -89,9 +89,10 @@ const config = {
         maxHeadingLevel: 5,
       },
       algolia: {
-        apiKey: "#",
-        appId: "#",
-        indexName: "#",
+        appId: "WZ6MBDOHOT",
+        apiKey: "426b6390ff8a971f493d017aef9d9e0a",
+        indexName: "uptaneio",
+        contextualSearch: true,
       },
       navbar: {
         logo: {

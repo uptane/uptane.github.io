@@ -4,8 +4,8 @@ authors:
   - Phil
 ---
 
-
-As the leaves change color 🍂 and the breeze carries a hint of chill, the open-source community gears up for a month of code, collaboration, and coffee-fueled late nights ☕. Hacktoberfest, the annual open-source celebration, is here again, and this year, Uptane is joining the fray!
+![](hf10_banner_1032x600.png)
+As the leaves change color 🍂 and the breeze carries a hint of chill, the open-source community gears up for a month of code, collaboration, and coffee-fueled late nights ☕. [Hacktoberfest](https://hacktoberfest.com/), the annual open-source celebration, is here again, and this year, Uptane is joining the fray!
 
 Uptane, a robust framework designed to secure software updates for automobiles 🚗, is participating in Hacktoberfest 2023 to foster community engagement and encourage contributions to its project. With cybersecurity becoming a paramount concern in the automotive industry, the initiative taken by Uptane is a timely and significant one.
 

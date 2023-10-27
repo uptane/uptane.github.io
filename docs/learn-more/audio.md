@@ -4,15 +4,18 @@ sidebar_position: 4
 
 # Audio-Visuals
 
-The basic principles of Uptane, and the framework's development over time, are addressed in some detail in a series of Powerpoint presentations originally put together for Uptane industry workshops and conferences. Links to these slides appear below, including two slide decks from its most recent programs targeted to international audiences. These include a virtual program held in October 2022, and an in-person program held in December 2022\.
+The basic principles of Uptane, and the framework's development over time, are addressed in some detail 
+in a series of Powerpoint presentations originally put together for Uptane industry workshops and conferences. 
+Links to these slides appear below, including two slide decks from its most recent programs targeted to international audiences. 
+These include virtual programs held in October 2022 and March 2023, an in-person program held in December 2022, and a hybrid program in June 2023.
 
 This section also includes links to a demo video explaining how Uptane works, and to a video of Trishank Kuppusamy delivering the first academic talk on Uptane at escar 16.
 
-- [Software Bill of Materials Overview](../../static/papers/23uptane_331_hart.pdf) An overview slide presentation on SBOMs prepared by Charles Hart of Hitachi America R&D for the Uptane conference to be held March 31, 2023.
+- [Software Bill of Materials Overview](../../static/papers/23uptane_331_hart.pdf) An overview slide presentation on SBOMs prepared by Charles Hart of Hitachi America R&D for the Uptane conference held March 31, 2023.
 
-- [Supply Chain Security--An Evolution](../../static/papers/23uptane_331_mackay.pdf) A slide presentation on supply chain security prepared by Matthew Mackay of General Motors for the Uptane conference to be held March 31, 2023.
+- [Supply Chain Security--An Evolution](../../static/papers/23uptane_331_mackay.pdf) A slide presentation on supply chain security prepared by Matthew Mackay of General Motors for the Uptane conference held March 31, 2023.
 
-- [A Conversation on End-to-End Secure Automotive Software Updates--Main slide set](../../static/papers/23uptane_331_ms.pdf) This set offers a good general introduction to Uptane with an emphasis on its role in protection of the software supply chain. It was created for a virtual conference to be held March 31, 2023.
+- [A Conversation on End-to-End Secure Automotive Software Updates--Main slide set](../../static/papers/23uptane_331_ms.pdf) This set offers a good general introduction to Uptane with an emphasis on its role in protection of the software supply chain. It was created for the Uptane conference held March 31, 2023.
 
 - [Uptane: Open Source Summit Japan: Securing Software Updates and Supply Chains on Connected Vehicles](../../static/papers/22uptane_yokohama_december_7.pdf) This slide set, created for presentation at the Linux Foundation's Open Source Summit in Japan, is a somewhat simplified version of the escar presentation from earlier in the year. It emphasizes the current status of the Uptane project and provides an excellent introduction to its basic design principles, its defensive strategies against specific threats, and how it continues to evolve to meet the needs of the industry.
 

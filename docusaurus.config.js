@@ -76,10 +76,13 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        gtag: {
+          trackingID: 'G-G856J3S8ZG',
+          anonymizeIP: true,
+        },
       }),
     ],
   ],
-
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -89,9 +92,10 @@ const config = {
         maxHeadingLevel: 5,
       },
       algolia: {
-        apiKey: "#",
-        appId: "#",
-        indexName: "#",
+        appId: "WZ6MBDOHOT",
+        apiKey: "426b6390ff8a971f493d017aef9d9e0a",
+        indexName: "uptaneio",
+        contextualSearch: true,
       },
       navbar: {
         logo: {

@@ -6,6 +6,10 @@ Uptane addresses potential vulnerabilities and threats that can arise during the
 Read more [here](https://uptane.github.io/docs/learn-more/getting-started)
 
 ## Uptane Website
+[![](https://github.com/uptane/uptane.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/uptane/uptane.github.io/actions/workflows/pages/pages-build-deployment)
+[![Deploy to GitHub Pages](https://github.com/uptane/uptane.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/uptane/uptane.github.io/actions/workflows/deploy.yml)
+[![](https://github.com/uptane/uptane.github.io/workflows/Check%20Broken%20Links/badge.svg)](https://github.com/uptane/uptane.github.io/actions?query=workflow%3ACheck%20Broken%20Links)
+
 Uptane's project website is created with [Docusaurus](https://docusaurus.io/). The site is available [here](https://uptane.github.io/).
 
 ### Setup Instructions

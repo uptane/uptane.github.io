@@ -41,7 +41,7 @@ jobs:
       - name: Creating issue
         uses: JasonEtco/create-an-issue@v2.4.0
         env:
-          GITHUB_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.DEPLOYMENT_TOKEN }}
           LOG_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}?check_suite_focus=true
         with:
           filename: ${{ env.ISSUE_TEMPLATE }}

@@ -32,7 +32,7 @@ export default function Community() {
                 <div className={styles.add_to_calendar}>
                     <div className={styles.calendar_heading}>
                         <h2>Uptane Community Call</h2>
-                        <h4>Biweekly Friday of every month | 5:30 PM EDT</h4>
+                        <h4>Biweekly Tuesdays | 10:00 AM ET</h4>
                     </div>
                     <div className={styles.calendar_link}>
                         <Link class="button button--secondary button--lg" onClick={handleAddToCalendarClick}>Add to Calendar</Link>

@@ -7,7 +7,7 @@ import Link from '@docusaurus/Link';
 export default function SupportedBySection() {
     return (
         <section className={[styles.supported_by_section, styles.section_padding].join(' ')}>
-            <h3 className={styles.Tagline}>We are a Linux Foundation <Link href="https://jointdevelopment.org/" target="_blank">Joint development foundation</Link> Project.</h3>
+            <h3 className={styles.Tagline}>We are a Linux Foundation <Link href="https://jointdevelopment.org/" target="_blank">Joint Development Foundation</Link> Project, LLC, Uptane Series.</h3>
 
             <ThemedImage
                 alt="Supported By Logo"

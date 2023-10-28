@@ -18,8 +18,8 @@ export default function Community() {
     return (
         <div className={[styles.community, styles.section_padding].join(' ')}>
             <div className={styles.join_community}>
-                <h1>Join the Uptane Community</h1>
-                <p>Join the ever-growing uptane community for updates, support, and collaboration.</p>
+                <h1>Join the Uptane community</h1>
+                <p>Join the ever-growing Uptane community for updates, support, and collaboration.</p>
             </div>
             <div className={styles.community_links}>
                 <div className={styles.links}>

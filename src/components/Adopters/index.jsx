@@ -20,7 +20,7 @@ export default function Adopters() {
         <main>
             <div>
                 <div className={[styles.projects_uptane, styles.section_padding].join(' ')}>
-                    <h1>Getting to Know Uptane</h1>
+                    <h1>Getting to know Uptane</h1>
                 </div>
                 <div className={styles.projectcards}>
                     {ProjectCards}

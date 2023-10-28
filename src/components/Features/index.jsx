@@ -26,7 +26,7 @@ export default function Features() {
     return (
         <div className={[styles.features, styles.section_padding].join(' ')}>
             <div className={styles.features_uptane}>
-                <h1>Why Uptane</h1>
+                <h1>Why Uptane?</h1>
             </div>
             {features.map(({ title, content }, index) => (
                 <div className={styles.feature_card} key={index}>

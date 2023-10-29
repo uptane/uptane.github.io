@@ -3,7 +3,7 @@ sidebar_position: 2
 title : Threat Model
 ---
 
-# Why Uptane is needed
+# Threat Model
 
 Electronic control units, or ECUs [first appeared](https://www.theglobeandmail.com/globe-drive/how-cars-have-become-rolling-computers/article29008154/) in mass-produced cars sometime in the early 1970s. Over the intervening decades, the number of these units has multiplied rapidly. A [USA Today article](https://www.usatoday.com/story/tech/columnist/2016/06/28/your-average-car-lot-more-code-driven-than-you-think/86437052/) from 2016 estimated that the average family vehicle may have up to 10 million lines of code (LOC). For high-end luxury sedans, the number comes closer to 100 million LOC, or "about 14 times more than even a Boeing 787 Dreamliner jet."
 

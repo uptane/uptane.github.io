@@ -19,7 +19,7 @@ Uptane is an open-source framework that ensures the security of software updates
 
 - **Community-Driven**: Being open-source, Uptane benefits from the collective expertise of the global developer community.
 
-Learn more in [Uptane Theat Model](/docs/learn-more/threat.md) section.
+Learn more in the [Threat Model](/docs/learn-more/threat.md) section.
 
 ## 3. Key Features of Uptane
 
@@ -45,7 +45,7 @@ Learn more in the [Uptane Design](/docs/learn-more/design.md) section.
 
 5. **Test**: Before deploying, rigorously test the system to ensure it works as expected.
 
-Learn more in the [Uptane Deployment Best Practices](/docs/deployment/best-practices.md) section.
+Learn more in the [Uptane Deployment Best Practices](/docs/deployment/best-practices.md) document.
 
 ## 5. Resources
 
@@ -61,7 +61,7 @@ Learn more in the [Uptane Deployment Best Practices](/docs/deployment/best-pract
 
 **Q: Is Uptane only for vehicles?**
 
-A: While Uptane was primarily designed for vehicles, its principles can be adapted for other IoT devices. The community is already aware of applications in robotics, industrial systems, medical and health care equipment, mart city devices, and aviation.
+A: While Uptane was primarily designed for vehicles, its principles can be adapted for other IoT devices. The community is already aware of applications in robotics, industrial systems, medical and health care equipment, smart city devices, and aviation.
 
 **Q: How does Uptane differ from other update security systems?**
 

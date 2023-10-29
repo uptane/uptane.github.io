@@ -27,8 +27,8 @@ Many people have contributed their expertise to this
 project since its inception, including original equipment manufacturers and
 third-party suppliers from the auto industry, representatives
 of government agencies, academics, and members of the open-source community.
-Here is an alphabetical list of the primary contributors that have been
-asked to have their name listed.
+Here is an alphabetical list of the primary contributors who have asked to 
+have their names, or the names of their organizations listed.
 
 ### _Organizations_
 
@@ -48,6 +48,7 @@ asked to have their name listed.
 - NXP
 - NYU Tandon School of Engineering
 - OTAInfo
+- Renesas Electronics
 - Sibros
 - Southwest Research Institute
 - Toradex
@@ -73,7 +74,7 @@ asked to have their name listed.
 - Chase Garwood
 - Kyusuk Han
 - Trishank Karthik Kuppusamy
-- Phillip Lapczynski
+- Philip Lapczynski
 - Sam Lauzon
 - John Liming
 - Daniel Massey
@@ -83,6 +84,7 @@ asked to have their name listed.
 - Marina Moore
 - Cameron Mott
 - Dave New
+- Phillip Nguyen
 - Dennis Kengo Oka
 - Jon Oster
 - Christos Papadopoulos

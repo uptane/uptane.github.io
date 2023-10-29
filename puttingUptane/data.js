@@ -8,25 +8,25 @@ const projects = [
     {
         title: "Uptane Standard",
         icon: GoVersions,
-        description: "Short Description about Uptane Standard",
+        description: "The set of requirements necessary for the secure implementation of the framework.",
         link: "docs/standard/uptane-standard",
     },
     {
         title: "Deployment Best Practices",
         icon: AiOutlineDeploymentUnit,
-        description: "Short Description about Deployment Best Practices.",
+        description: "Examples of best practices for setting up, operating, integrating, and adapting Uptane to work in a variety of situations.",
         link: "docs/deployment/best-practices",
     },
     {
         title: "POUFs",
         icon: FaStar,
-        description: "Open source standard for runtime security for hosts",
+        description: "A mechanism to describe the protocols, operations, usage, and formats of an Uptane implementation.",
         link: "docs/enhancements/pouf/pouf-main",
     },
     {
         title: "PUREs",
         icon: GrDocumentUpdate,
-        description: "Short Description about Deployment Best PUREs.",
+        description: "A vehicle for proposing an addition to or modification of the Uptane Standard.",
         link: "docs/enhancements/pures/pure1",
     },
 ];

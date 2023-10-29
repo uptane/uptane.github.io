@@ -27,7 +27,7 @@ const projects = [
     {
         title: "Publications",
         icon: MdOutlinePublish,
-        description: "Links to conference papers, journal articles and white papers.",
+        description: "Links to conference papers, journal articles and whitepapers.",
         link: "docs/learn-more/publications",
     },
     {
@@ -39,7 +39,7 @@ const projects = [
     {
         title: "Adoptions",
         icon: SiMercadopago,
-        description: "list of Uptane adopters.",
+        description: "A list of Uptane adopters.",
         link: "docs/learn-more/adoptions",
     },
 ];

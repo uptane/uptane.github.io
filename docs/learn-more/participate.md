@@ -22,7 +22,7 @@ both solicit input on issues specific to the Standard and/or Deployment Best Pra
 
 ## Code Contributions
 
-To make contributions to this or any other Uptane repository on GitHub, please submit a pull request to this repository using [these development instructions](https://github.com/uptane/uptane.github.io/blob/uptane_docusaurus/README.md). If submitting any new software feature or change, please include or update appropriate unit tests.
+To make contributions to this or any other Uptane repository on GitHub, please submit a pull request to this repository using [these development instructions](https://github.com/uptane/uptane.github.io/blob/main/README.md). If submitting any new software feature or change, please include or update appropriate unit tests.
 
 All submitted pull requests undergo review and automated testing, including, but not limited to:
 

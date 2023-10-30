@@ -4,10 +4,19 @@
         <title>Uptane Blog</title>
         <link>https://uptane.github.io/blog</link>
         <description>Uptane Blog</description>
-        <lastBuildDate>Sat, 26 Aug 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 28 Oct 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Uptane Joins the Open Source Celebration: Hacktoberfest 2023 🎉]]></title>
+            <link>https://uptane.github.io/blog/2023/10/28/hacktoberfest</link>
+            <guid>https://uptane.github.io/blog/2023/10/28/hacktoberfest</guid>
+            <pubDate>Sat, 28 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[As the leaves change color 🍂 and the breeze carries a hint of chill, the open-source community gears up for a month of code, collaboration, and coffee-fueled late nights ☕. Hacktoberfest, the annual open-source celebration, is here again, and this year, Uptane is joining the fray!]]></description>
+            <content:encoded><![CDATA[<p><img loading="lazy" src="/assets/images/hf10_banner_1032x600-326bf693bd048c6749e89fa40605e7ee.png" width="1033" height="600" class="img_ev3q">
+As the leaves change color 🍂 and the breeze carries a hint of chill, the open-source community gears up for a month of code, collaboration, and coffee-fueled late nights ☕. <a href="https://hacktoberfest.com/" target="_blank" rel="noopener noreferrer">Hacktoberfest</a>, the annual open-source celebration, is here again, and this year, Uptane is joining the fray!</p><p>Uptane, a robust framework designed to secure software updates for automobiles 🚗, is participating in Hacktoberfest 2023 to foster community engagement and encourage contributions to its project. With cybersecurity becoming a paramount concern in the automotive industry, the initiative taken by Uptane is a timely and significant one.</p><p>This Hacktoberfest, developers from around the globe 🌍 can contribute to Uptane's repository, helping to enhance the security framework and make vehicles more secure. Whether you're a seasoned developer or a newbie looking to make your first open-source contribution, Uptane welcomes you with open arms 🤗.</p><p>The Uptane community values collaboration and is excited to review and merge your pull requests. So, grab your favorite brew ☕, fork the Uptane repository, and let's secure the future of automotive software, one pull request at a time! 🛠️</p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[GSoC'23 Journey: From Selection to Coding Phase]]></title>
             <link>https://uptane.github.io/blog/blog Index 0</link>

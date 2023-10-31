@@ -195,7 +195,7 @@ const config = {
               {
                 label: 'Youtube',
                 href: 'https://www.youtube.com/@Uptane',
-              }
+              },
             ],
           },
           {

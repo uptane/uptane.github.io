@@ -218,7 +218,7 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
-
+      metadata: [{name: 'keywords', content: 'uptane, secure software update framework for automobiles'}],
     }),
 };
 

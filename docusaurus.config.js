@@ -192,6 +192,10 @@ const config = {
                 label: 'LinkedIn',
                 href: 'https://linkedin.com/company/uptane',
               },
+              {
+                label: 'Youtube',
+                href: 'https://www.youtube.com/@Uptane',
+              }
             ],
           },
           {

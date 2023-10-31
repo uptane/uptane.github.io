@@ -156,47 +156,63 @@ const config = {
       footer: {
         style: 'light',
         links: [
-          // {
-          //   title: 'Docs',
-          //   items: [
-          //     {
-          //       label: 'Docs',
-          //       to: '/docs/',
-          //     },
-          //   ],
-          // },
-          // {
-          //   title: 'Community',
-          //   items: [
-          //     {
-          //       label: 'Stack Overflow',
-          //       href: '#',
-          //     },
-          //     {
-          //       label: 'Discord',
-          //       href: '#',
-          //     },
-          //     {
-          //       label: 'Twitter',
-          //       href: '#',
-          //     },
-          //   ],
-          // },
-          // {
-          //   title: 'More',
-          //   items: [
-          //     {
-          //       label: 'Blog',
-          //       to: '/blog',
-          //     },
-          //     {
-          //       label: 'GitHub',
-          //       href: 'https://github.com/uptane',
-          //     },
-          //   ],
-          // },
+          {
+            title: 'Docs',
+            items: [
+              {
+                label: 'Getting Started',
+                to: '/docs/learn-more/getting-started',
+              },
+              {
+                label: "Contributor's Guide",
+                to: '/docs/learn-more/participate',
+              },
+              {
+                label: "About Us",
+                to: '/docs/learn-more/about',
+              },
+            ],
+          },
+          {
+            title: 'Community',
+            items: [
+              // {
+              //   label: 'Stack Overflow',
+              //   href: 'https://stackoverflow.com/questions/tagged/uptane',
+              // },
+              {
+                label: 'Discord',
+                href: 'https://discord.com/invite/uWyT6gDCqx',
+              },
+              // {
+              //   label: 'Twitter',
+              //   href: 'https://twitter.com/UptaneSecurity',
+              // },
+              {
+                label: 'LinkedIn',
+                href: 'https://linkedin.com/company/uptane',
+              },
+              {
+                label: 'Youtube',
+                href: 'https://www.youtube.com/@Uptane',
+              },
+            ],
+          },
+          {
+            title: 'More',
+            items: [
+              {
+                label: 'GitHub',
+                href: 'https://github.com/uptane',
+              },
+              {
+                label: "Blog",
+                to: '/blog',
+              }
+            ],
+          },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Uptane.`,
+        copyright: `© ${new Date().getFullYear()} Uptane | All Rights Reserved`,      
       },
       prism: {
         theme: lightCodeTheme,

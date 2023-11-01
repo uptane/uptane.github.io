@@ -37,7 +37,7 @@ body:
       placeholder: |
         Ubuntu 20.04.1 LTS
     validations:
-      required: true
+      required: false
   - type: dropdown
     attributes:
       label: What browsers are you seeing the problem on?

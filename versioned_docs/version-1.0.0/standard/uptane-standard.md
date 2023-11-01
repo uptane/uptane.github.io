@@ -678,7 +678,7 @@ Full verification of metadata means that the ECU checks that the Targets metadat
 
 Full verification MAY be performed by either Primary or Secondary ECUs. In the following instructions, whenever an ECU is directed to download metadata, it applies only to Primary ECUs.
 
-If [\[TAP-5\]](#tap-5) is supported and a Primary has an external connection to the Uptane repositories, a Primary ECU SHALL download metadata and images following the rules specified in that TAP. If [\[TAP-5\]](#tap-5) is not supported, or if the Primary does not have an external connection to the Uptane repositories, the download SHOULD follow the [\[TUF-spec\]](##tuf-spec) and the metadata file renaming rules specified in [Section 5.2.7](#527-rules-for-filenames-in-repositories-and-metadata).
+If [\[TAP-5\]](#tap-5) is supported and a Primary has an external connection to the Uptane repositories, a Primary ECU SHALL download metadata and images following the rules specified in that TAP. If [\[TAP-5\]](#tap-5) is not supported, or if the Primary does not have an external connection to the Uptane repositories, the download SHOULD follow the [\[TUF-spec\]](#tuf-spec) and the metadata file renaming rules specified in [Section 5.2.7](#527-rules-for-filenames-in-repositories-and-metadata).
 
 Before starting full verification, the repository mapping metadata MUST be consulted to determine where to download metadata from. This procedure assumes the basic Uptane case: there are only two repositories (Director and Image), and all image paths are required to be signed by both repositories. If a more complex repository layout is being used, refer to [\[DEPLOY\]](#deploy) for guidance on how to determine where metadata should be downloaded from.
 
@@ -823,7 +823,7 @@ Barry, K., "[Automakers Embrace Over-the-Air Updates, but Can We Trust Digital C
 
 ##### **\[DEPLOY\]**
 
-Members of the Uptane Alliance Community, ., "[Uptane Deployment Guidelines](https://uptane.github.io/deployment/introduction.html)", n.d..
+Members of the Uptane Alliance Community, ., "[Uptane Deployment Guidelines](https://uptane.github.io/docs/deployment/best-practices)", n.d..
 
 ##### **\[IN-TOTO\]**
 

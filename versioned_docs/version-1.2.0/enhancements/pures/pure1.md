@@ -2,7 +2,6 @@
 title: "PURE Purpose and Guidelines"
 ---
 
-- PURE: 1
 - Title: PURE Purpose and Guidelines
 - Version: 1
 - Last-Modified: 19-July-2021
@@ -101,20 +100,20 @@ In-line with the Standard, the keywords "MUST," "MUST NOT," "REQUIRED," "SHALL,"
 
 Each PURE MUST begin with an RFC 822 style header preamble. The headers MUST appear in the following order. Headers marked with "+" are OPTIONAL and are described below. All other headers are required.
 
-- PURE: <PURE number/>
-- Title: <PURE title/>
+- PURE: PURE number
+- Title: PURE title
 - Version: <version string/>
 - Last-Modified: <date string/>
-- Author: <list of authors' real names and optionally, email addresses/>
-- Status: <Draft | Accepted | Deferred | Rejected | Withdrawn | Final | Superseded/>
-- +Content-Type: <text/markdown>
-- +Requires: <pure numbers/>
-- Created: <date created on, in dd-mmm-yyyy format/>
+- Author: list of authors' real names and optionally, email addresses
+- Status: Draft | Accepted | Deferred | Rejected | Withdrawn | Final | Superseded
+- +Content-Type: text/markdown
+- +Requires: PURE numbers
+- Created: date created on, in dd-mmm-yyyy format
 - +Uptane-Version: <version number/>
-- +Replaces: <PURE number/>
-- +Superseded-By: <PURE number/>
+- +Replaces: PURE number
+- +Superseded-By: PURE number
 
-The Author header lists the names, and optionally the email addresses of all the authors/owners of the PURE. The format of the Author header value SHOULD be "Random J. User <address@dom.ain>".
+The Author header lists the names, and optionally the email addresses of all the authors/owners of the PURE. The format of the Author header value SHOULD be "Random J. User address@dom.ain".
 
 The format of a PURE is specified with a Content-Type header. The acceptable values are "text/markdown" for Markdown PUREs. Markdown ("text/markdown") is the default if no Content-Type header is present.
 

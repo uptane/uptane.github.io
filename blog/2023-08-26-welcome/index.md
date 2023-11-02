@@ -1,6 +1,6 @@
 ---
 slug: blog Index 0
-title: 'GSoC''23 Journey: From Selection to Coding Phase'
+title: "GSoC'23 Journey: From Selection to Coding Phase"
 authors:
   - Abhij
 ---
@@ -93,9 +93,9 @@ After a week of the community bonding period, the official coding phase began on
 
 During the first week of the coding phase, my primary task was to work on the demo version of the site. The goal was to determine if the existing Uptane docs are compatible with Docusaurus or if we should consider sticking with Jekyll, as discussed in our initial community call. I set up Docusaurus locally and migrated the Uptane docs to this new environment. The current state of the site is still quite basic, consisting of boilerplate code provided by Docusaurus along with the existing Uptane docs.
 
-For creating the demo version of the site, I referred to the official documentation of Docusaurus (refer: <https://docusaurus.io/docs>).
+For creating the demo version of the site, I referred to the official [documentation of Docusaurus](https://docusaurus.io/docs).
 
-To break down this task in simple words, I tested the existing markdown files present in the current repo <https://github.com/uptane/uptane.github.io> with the boilerplate code of Docusaurus and made sure if it is compatible or not.
+To break down this task in simple words, I tested the existing markdown files present in the [current repo](https://github.com/uptane/uptane.github.io) with the boilerplate code of Docusaurus and made sure if it is compatible or not.
 
 While most of the markdown files integrated smoothly with Docusaurus, requiring minimal adjustments, there is still work to be done to enhance the overall functionality and design of the site.
 
@@ -107,7 +107,7 @@ I shared the demo version of the site with my mentors, along with the code repos
 
 # What's Next?
 
-During our second community call, we discussed the tasks for the second week. In our call, we focused specifically on the design aspect of the site after the demo version. I suggested that all mentors visit the website <https://docusaurus.io/showcase> to gather inspiration from existing sites regarding navigation, hero sections, footers, and other content. By sharing your valuable suggestions, we can collectively create compelling designs. Our goal is to achieve an attractive landing page before the first evaluation to make our site more presentable and engaging.
+During our second community call, we discussed the tasks for the second week. In our call, we focused specifically on the design aspect of the site after the demo version. I suggested that all mentors visit the [Docusaurus Showcase website](https://docusaurus.io/showcase) to gather inspiration from existing sites regarding navigation, hero sections, footers, and other content. By sharing your valuable suggestions, we can collectively create compelling designs. Our goal is to achieve an attractive landing page before the first evaluation to make our site more presentable and engaging.
 
 One of the mentors, Jon, shared crucial points regarding getting Docusaurus working with a multi-instance build. He mentioned that the deployment considerations are present in a separate repository. It would be great if we could directly fetch the deployment considerations from that repository and set up CI/CD pipelines for both deployment and pull requests.
 
@@ -116,7 +116,7 @@ To summarize the tasks for the upcoming weeks:
 - Create a compelling design incorporating mentor feedback.
 - Find a way to make Docusaurus work with a multi-instance build and set up CI/CD pipelines accordingly.
 
-In addition to these tasks, we have an Uptane workshop scheduled for June 23\. As a GSoC contributor, I am grateful for the opportunity to present my GSoC project in front of the Uptane community. During this presentation, I will provide an overview of the project, discuss what we aim to achieve, and share the progress made up until the workshop.
+In addition to these tasks, we have an Uptane workshop scheduled for June 23. As a GSoC contributor, I am grateful for the opportunity to present my GSoC project in front of the Uptane community. During this presentation, I will provide an overview of the project, discuss what we aim to achieve, and share the progress made up until the workshop.
 
 # Conclusion
 

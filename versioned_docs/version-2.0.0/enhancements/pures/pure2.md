@@ -1,14 +1,13 @@
 ---
-title : "Offline Updates"
+title: "Offline Updates"
 ---
 
-- PURE: 2
 - Title: Offline Updates
 - Version: 1
 - Last-Modified: 2021-09-16
-- Authors: Jon Oster <jon.oster@toradex.com>, Phil Wise <phil@phil-wise.com>
+- Authors: Jon Oster jon.oster@toradex.com, Phil Wise phil@phil-wise.com
 - Status: Approved
-- Content-Type: <text/markdown>
+- Content-Type: text/markdown
 - Created: 2021-09-16
 
 # PURE-2: Offline Updates

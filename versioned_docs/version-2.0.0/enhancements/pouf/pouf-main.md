@@ -23,7 +23,7 @@ A POUF contains all the information needed for a third party to design a compati
 
 Each POUF is effectively under the control of its author, and its contents will not be subject to the level of scrutiny or analysis the community provides to the Uptane specification. Instead, the main role of the Uptane community in the POUF process will be to provide a common repository with links to external POUFs.
 
-The format of POUFs and this document are inspired by TAPs (<https://github.com/theupdateframework/taps/blob/master/tap1.md>).
+The format of POUFs and this document are inspired by [TAPs](https://github.com/theupdateframework/taps/blob/master/tap1.md).
 
 ### POUF Contents
 

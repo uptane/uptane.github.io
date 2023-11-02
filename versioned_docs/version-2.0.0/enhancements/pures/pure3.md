@@ -1,15 +1,13 @@
 ---
-title : "Scudo: Addressing Software Supply Chain Security in Uptane"
+title: "Scudo: Addressing Software Supply Chain Security in Uptane"
 ---
 
-
-- PURE: 3
 - Title: Scudo: Addressing Software Supply Chain Security in Uptane
 - Version: 1
 - Last-Modified: 2023-02-28
-- Authors: Marina Moore <marinamoore@nyu.edu>, Aditya Sirish <aditya.sirish@nyu.edu>, Lois Anne Delong <lad278@nyu.edu>
+- Authors: Marina Moore marinamoore@nyu.edu, Aditya Sirish aditya.sirish@nyu.edu, Lois Anne Delong lad278@nyu.edu
 - Status: Accepted
-- Content-Type: <text/markdown>
+- Content-Type: text/markdown
 - Created: 2022-03-30
 
 ## Abstract

@@ -5,7 +5,7 @@ title: Contributing
 
 # Contributing
 
-We welcome questions, feedback, and suggestions on any aspect of this project. Feel free to email feedback to <jcappos@nyu.edu>.
+We welcome questions, feedback, and suggestions on any aspect of this project. Feel free to email feedback to jcappos@nyu.edu.
 
 Anyone in the automotive industry, open source community, or security community can keep abreast of current and pending developments within the project by joining the [Uptane Forum](https://groups.google.com/forum/#!forum/uptane-forum). This mailing list is used primarily to promote workshops, to announce pending releases of the Standard and other publications, or to gain consensus around issues critical to the future development of the project. 
 

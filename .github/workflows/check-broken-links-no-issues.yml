@@ -1,0 +1,37 @@
+#--------------------------------------------------------------------
+# This action/workflow checks for broken link on every first of the month
+# and creates an issue for the same if found any.
+# It can also be manually run form Github acion center of the repository.
+# It uses markdown template to create the issue located here
+# .github/ISSUE_TEMPLATE/check-broken-links.md
+#
+# Sources Used
+# https://crontab.guru/#0_1_1_*_*
+# https://github.com/marketplace/actions/link-snitch
+# https://github.com/marketplace/actions/create-an-issue
+#----------------------------------------------------------------------
+
+
+name: Check Broken Links - No Issues
+
+on:
+  workflow_dispatch:
+
+env:
+  URL: https://uptane.github.io
+  ISSUE_TEMPLATE: ".github/ISSUE_TEMPLATE/check-broken-links.md"
+  CONFIG: ".github/broken-link-gha-config.json"
+
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out master
+        uses: actions/checkout@master
+        with:
+          fetch-depth: 1
+      
+      - name: Run check for Broken Link
+        uses: victoriadrake/link-snitch@master

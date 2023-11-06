@@ -17,7 +17,7 @@ In addition, these guidelines may be used in the creation of [POUFs](https://git
 
 ## 2 Preparing an ECU for Uptane
 
-At the highest level, the basic requirement for an ECU to be capable of supporting Uptane is that it be able to perform either full or partial verification, and access a secure source of time. (See the [Uptane Standard](https://uptane.github.io/uptane-standard/uptane-standard.html#build-time-prerequisite-requirements-for-ecus) for official requirements.)
+At the highest level, the basic requirement for an ECU to be capable of supporting Uptane is that it be able to perform either full or partial verification, and access a secure source of time. (See the [Uptane Standard](https://uptane.github.io/docs/standard/uptane-standard#541-build-time-prerequisite-requirements-for-ecus) for official requirements.)
 
 To bootstrap an Uptane-capable ECU, a few things need to be provisioned into the unit:
 

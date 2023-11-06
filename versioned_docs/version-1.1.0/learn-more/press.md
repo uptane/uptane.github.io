@@ -12,7 +12,7 @@ sidebar_position: 7
 
 - [Delivering Secure Automotive OTA Updates with Uptane and OTAmatic-August 11, 2020](https://www.airbiquity.com/blog-events/blog-posts/delivering-secure-automotive-ota-updates-uptane-and-otamatic)
 
-- [Open Source Framework Helps Automakers Secure OTA Updates-April 2, 2020](https://www.d2pmagazine.com/2020/04/02/6099/)
+- [Open Source Framework Helps Automakers Secure OTA Updates-April 2, 2020](https://web.archive.org/web/20230703104528/https://www.d2pmagazine.com/2020/04/02/6099/)
 
 - [New Jersey 101.5-March 9, 2020: People are Pretty Reluctant to Embrace Self Driving Cars, Survey Says](https://nj1015.com/people-are-pretty-reluctant-to-embrace-self-driving-cars-survey-says/)
 

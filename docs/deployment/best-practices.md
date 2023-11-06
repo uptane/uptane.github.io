@@ -17,7 +17,7 @@ In addition, these guidelines may be used in the creation of [POUFs](https://git
 
 ## 2 Preparing an ECU for Uptane
 
-At the highest level, the basic requirement for an ECU to be capable of supporting Uptane is that it be able to perform either full or partial verification, and access a secure source of time. (See the [Uptane Standard](https://uptane.github.io/uptane-standard/uptane-standard.html#build-time-prerequisite-requirements-for-ecus) for official requirements.)
+At the highest level, the basic requirement for an ECU to be capable of supporting Uptane is that it be able to perform either full or partial verification, and access a secure source of time. (See the [Uptane Standard](https://uptane.github.io/docs/standard/uptane-standard#541-build-time-prerequisite-requirements-for-ecus) for official requirements.)
 
 To bootstrap an Uptane-capable ECU, a few things need to be provisioned into the unit:
 
@@ -137,7 +137,7 @@ In the event of a key compromise for an external time source, an attacker would 
 - Make all metadata appear to be expired. If the returned time is far in the future, the vehicle would interpret all Uptane metadata as expired. The vehicle would be unable to verify the metadata, thus creating a denial of service.
 - Make expired metadata appear to be current. If the returned time is in the past, Uptane metadata that was valid at that point in the past will seem current to the vehicle, thus allowing for a freeze attack. This cannot be used for a rollback attack as the ECU will not accept a time earlier than the time of their previous update.
 
-All of these attacks can be mitigated by rotating any key associated with an external time in Root metadata, as described in [Managing signing keys and metadata expiration](https://uptane.github.io/deployment-considerations/key_management.html).
+All of these attacks can be mitigated by rotating any key associated with an external time in Root metadata, as described in [Managing signing keys and metadata expiration](https://uptane.github.io/docs/deployment/best-practices#4-managing-signing-keys-and-metadata-expiration).
 
 ## 3.2 What suppliers should do
 
@@ -145,7 +145,7 @@ All of these attacks can be mitigated by rotating any key associated with an ext
 
 **Figure 1.** _Diagram showing supplier signing arrangements. Suppliers are free to ask the OEM to sign images on its behalf (supplier A), or can sign them itself (supplier B). In the latter case, it MAY also delegate some or all of this responsibility to others (supplier C)._
 
-Either the OEM or a tier-1 supplier SHOULD sign for images for any ECUs produced by that supplier, so unsigned images are never installed. This provides security against arbitrary software attacks. An OEM will decide whether or not a tier-1 supplier SHOULD sign its own images. Otherwise, the OEM will sign images on behalf of the supplier, and the supplier SHOULD only deliver update images to the OEM as outlined under the \[Normal Operating Guidelines\] (https://uptane.github.io/deployment-considerations/normal_operation.html) section of this document. If the supplier signs its own images, it MUST first set up roles and metadata using the following steps:
+Either the OEM or a tier-1 supplier SHOULD sign for images for any ECUs produced by that supplier, so unsigned images are never installed. This provides security against arbitrary software attacks. An OEM will decide whether or not a tier-1 supplier SHOULD sign its own images. Otherwise, the OEM will sign images on behalf of the supplier, and the supplier SHOULD only deliver update images to the OEM as outlined under the \[Normal Operating Guidelines\] (https://uptane.github.io/docs/deployment/best-practices#5-normal-operating-procedures) section of this document. If the supplier signs its own images, it MUST first set up roles and metadata using the following steps:
 
 1.  Generate a number of offline keys used to sign its metadata. In order to provide compromise resilience, these keys SHOULD NOT be accessible from the Image repository. The supplier SHOULD take great care to secure these keys, so a compromise affects some, but not all, of its ECUs. The supplier SHOULD use the threshold number of keys chosen by the OEM.
 2.  Optionally, delegate images to members of its organization (such as its developers), or to tier-2 suppliers (who MAY further delegate to tier-3 suppliers). Delegatees SHOULD recursively follow these same steps.
@@ -162,7 +162,7 @@ The OEM sets up and configures the Director and Image repositories. To host thes
 
 ### 3.3.1 Director repository
 
-_Note that all information about setting up signing keys for this repository can be found in the [Managing signing keys and metadata expiration](https://uptane.github.io/deployment-considerations/key_management.html) section of this document._
+_Note that all information about setting up signing keys for this repository can be found in the [Managing signing keys and metadata expiration](https://uptane.github.io/docs/deployment/best-practices#4-managing-signing-keys-and-metadata-expiration) section of this document._
 
 In order to provide on-demand customization of vehicles, the OEM SHALL also set up the Director repository following the guidance in the [Uptane Standard](https://uptane.github.io/papers/uptane-standard.2.0.0.html#director_repository). In addition, an OEM must keep in mind the following factors. Unlike the Image repository, the Director repository:
 
@@ -232,7 +232,7 @@ Since the automated process is continually producing new metadata files (and, po
 
 ### 3.3.2 Image repository
 
-_Note that all information about setting up signing keys for this repository can be found in the [Managing signing keys and metadata expiration](https://uptane.github.io/deployment-considerations/key_management.html) section of this document._
+_Note that all information about setting up signing keys for this repository can be found in the [Managing signing keys and metadata expiration](https://uptane.github.io/docs/deployment/best-practices#4-managing-signing-keys-and-metadata-expiration) section of this document._
 
 Finally, in order to provide compromise resilience, the OEM MUST set up the [Image repository](https://uptane.github.io/papers/uptane-standard.2.0.0.html#image-repository) following the guidance in the Uptane Standard. The Image repository differs from the Director repository in a number of ways. First, it is managed by human administrators who use offline keys to sign Targets metadata. It also MAY delegate images to suppliers, and it provides the same metadata to all Primaries. Lastly, it does not encrypt images per ECU, and it updates its metadata and images relatively infrequently (e.g., every two weeks or monthly).
 
@@ -413,7 +413,7 @@ In order to prevent updates from being tampered with by man-in-the-middle attack
 
 An OEM and its suppliers MAY use any transport mechanism to deliver these files. For example, an OEM MAY maintain a private web portal where metadata and/or images from suppliers can be uploaded. This private server MAY be managed by either the OEM or the tier-1 supplier, and SHOULD require authentication to restrict which users are allowed to read and/or write certain files. Alternatively, the OEM and its suppliers MAY use email or courier mail.
 
-If the supplier signs its own images, then it delivers all of its metadata, including delegations, and associated images. Otherwise, if the OEM signs images on behalf of the supplier, then the supplier needs to update only images, leaving the OEM responsible for producing signed metadata. Regardless of which party produces signed metadata, the release counters associated with images SHOULD be incremented, so that attackers who may compromise the Director repository can not rollback to obsolete images (see the [Enhanced Security Practices](https://uptane.github.io/deployment-considerations/security_considerations.html) section of this document for more on this attack.)
+If the supplier signs its own images, then it delivers all of its metadata, including delegations, and associated images. Otherwise, if the OEM signs images on behalf of the supplier, then the supplier needs to update only images, leaving the OEM responsible for producing signed metadata. Regardless of which party produces signed metadata, the release counters associated with images SHOULD be incremented, so that attackers who may compromise the Director repository can not rollback to obsolete images (see the [Enhanced Security Practices](https://uptane.github.io/docs/deployment/best-practices#8-enhanced-security-practices) section of this document for more on this attack.)
 
 Regardless of the transport mechanism used to deliver them, the OEM needs to ensure that the images received are authentic and have not been altered. The OEM SHOULD double-check the authenticity and integrity of these images by using some out-of-band mechanism for verification. For example, to obtain a higher degree of assurance, and for additional validation, the OEM MAY also require the supplier’s update team to send a PGP/GPG signed email to the OEM’s security team listing the cryptographic hashes of the new files.
 
@@ -427,7 +427,7 @@ After the OEM has somehow verified the authenticity and integrity of new metadat
 
 First, the OEM SHOULD add these metadata and images to the Image repository. It SHOULD also add information about these images to the inventory database, including any dependencies and conflicts between images for different ECUs. Both of these steps are done to make the new metadata and images available to vehicles.
 
-Optionally, if images are encrypted on demand per ECU, then the OEM SHOULD ensure that the Director repository has access to the original, unencrypted images, so that automated processes running the Director repository are able to encrypt them in the first place. It does not matter how the original, unencrypted images are stored on the Director repository. For example, they MAY be stored unencrypted, or they MAY be encrypted using a master key that is known by the automated processes. See the [Preparing an ECU for Uptane](https://uptane.github.io/deployment-considerations/ecus.html) section of this document for more details.
+Optionally, if images are encrypted on demand per ECU, then the OEM SHOULD ensure that the Director repository has access to the original, unencrypted images, so that automated processes running the Director repository are able to encrypt them in the first place. It does not matter how the original, unencrypted images are stored on the Director repository. For example, they MAY be stored unencrypted, or they MAY be encrypted using a master key that is known by the automated processes. See the [Preparing an ECU for Uptane](https://uptane.github.io/docs/deployment/best-practices#2-preparing-an-ecu-for-uptane) section of this document for more details.
 
 Second, the OEM SHOULD test the updated metadata and images on reserved vehicles before releasing them to all vehicles in circulation. This step is done to verify whether these images work as intended. If testing is done, the OEM MAY instruct the Director repository to first install the updated images on these reserved vehicles.
 
@@ -439,7 +439,7 @@ The OEM SHOULD regularly perform backup and garbage collection of the metadata a
 
 First, an automated process SHOULD store every file on the Image repository, as well as its cryptographic hash on a separate, offline system. A copy of the inventory database from the Director repository SHOULD also be stored on this offline system. This allows administrators to detect and recover from a repository compromise.
 
-Second, the automated process SHOULD remove expired metadata from the Image repository to reclaim storage space. If the OEM is interested in supporting delta updates for vehicles that have not been updated for a long time, then the automated process SHOULD NOT remove images associated with expired metadata, because these images MAY be needed in order to compute delta images. (See the Delta update strategies subsection of the [Customizing Uptane](https://uptane.github.io/deployment-considerations/customizations.html#delta-update-strategies) section of this document).
+Second, the automated process SHOULD remove expired metadata from the Image repository to reclaim storage space. If the OEM is interested in supporting delta updates for vehicles that have not been updated for a long time, then the automated process SHOULD NOT remove images associated with expired metadata, because these images MAY be needed in order to compute delta images. (See the Delta update strategies subsection of the [Customizing Uptane](https://uptane.github.io/docs/deployment/best-practices#7-customizing-uptane) section of this document).
 
 ## 6 Exceptional operations
 
@@ -457,7 +457,7 @@ By default, Uptane does not allow updates to be rolled back and enforces this ac
 
 There are at least two ways to allow rollbacks, each with different advantages and disadvantages.
 
-In the first option, an OEM MAY choose to never increment the release counters of images (see Figure 2). Uptane will accept any new image associated with a release counter, as long as it is equal to the release counter of the previous image in the previous Targets metadata file. If release counters are never incremented, then all images would have the same release counters. In this situation, an ECU would accept the installation of any compatible image referred to in the new Targets metadata. (See the [Enhanced Security Practices](https://uptane.github.io/deployment-considerations/security_considerations.html) section of this document for more details.)
+In the first option, an OEM MAY choose to never increment the release counters of images (see Figure 2). Uptane will accept any new image associated with a release counter, as long as it is equal to the release counter of the previous image in the previous Targets metadata file. If release counters are never incremented, then all images would have the same release counters. In this situation, an ECU would accept the installation of any compatible image referred to in the new Targets metadata. (See the [Enhanced Security Practices](https://uptane.github.io/docs/deployment/best-practices#8-enhanced-security-practices) section of this document for more details.)
 
 ![counter_release_1](../../static/papers/assets/images/except_2_diffimage_samecounter.png)
 
@@ -471,7 +471,7 @@ In the second option, an OEM increments the release counter of an image whenever
 
 **Figure 3.** _Uptane forbids the installation of images with lower release counters than what is currently installed._
 
-The advantage to this method is that it prevents rollback attacks in a situation where attackers compromise only the Director repository. However, there are two disadvantages. First, the release counters for images have to be maintained, even if role B now signs for images previously signed by role A. This is because release counters are always compared to previous Targets metadata files. Second, it is more cumbersome to roll back updates, or deliberately cause ECUs to install older images, because offline keys are used to increment the release counters of these older images in the new Targets metadata for the Image repository. Yet, this method SHOULD be preferred, because it is more secure. See the [Enhanced Security Practices](https://uptane.github.io/deployment-considerations/security_considerations.html) section of this document for more techniques that can be used to limit rollback attacks when the Director repository is compromised.
+The advantage to this method is that it prevents rollback attacks in a situation where attackers compromise only the Director repository. However, there are two disadvantages. First, the release counters for images have to be maintained, even if role B now signs for images previously signed by role A. This is because release counters are always compared to previous Targets metadata files. Second, it is more cumbersome to roll back updates, or deliberately cause ECUs to install older images, because offline keys are used to increment the release counters of these older images in the new Targets metadata for the Image repository. Yet, this method SHOULD be preferred, because it is more secure. See the [Enhanced Security Practices](https://uptane.github.io/docs/deployment/best-practices#8-enhanced-security-practices) section of this document for more techniques that can be used to limit rollback attacks when the Director repository is compromised.
 
 ## 6.2 Adding, removing, or replacing ECUs
 
@@ -500,7 +500,7 @@ While at this point Uptane is not ready to include any specific guidance on afte
 
 Due to changes in business relationships, an OEM may need to add or remove a tier-1 supplier from its repositories.
 
-To add a tier-1 supplier, OEMs SHOULD use the following steps. All three steps should be performed using the guidelines in the [Normal Operating Procedures](https://uptane.github.io/deployment-considerations/normal_operation.html) section of this document. First, if the supplier signs its own images, then the OEM SHOULD add a delegation to the supplier on the Image repository. Second, the supplier SHOULD deliver metadata and/or images to the OEM. Finally, the OEM SHOULD add the metadata and images to its repositories, possibly test them, and then release them to the affected vehicles.
+To add a tier-1 supplier, OEMs SHOULD use the following steps. All three steps should be performed using the guidelines in the [Normal Operating Procedures](https://uptane.github.io/docs/deployment/best-practices#5-normal-operating-procedures) section of this document. First, if the supplier signs its own images, then the OEM SHOULD add a delegation to the supplier on the Image repository. Second, the supplier SHOULD deliver metadata and/or images to the OEM. Finally, the OEM SHOULD add the metadata and images to its repositories, possibly test them, and then release them to the affected vehicles.
 
 To safely remove a tier-1 supplier, the OEM SHOULD use the following steps. First, it SHOULD delete the corresponding delegation from the Targets role on the Image repository, as well as all metadata and images belonging to that supplier, so that their metadata and images are no longer trusted. Second, it SHOULD also delete information about the supplier from the Director repository, such as its images, as well as its dependencies and conflicts, so that the Director repository no longer chooses these images for installation. In order to continue to update vehicles with ECUs originally maintained by this supplier, the OEM SHOULD replace this supplier with another delegation, either one maintained by the OEM, or by another tier-1 supplier.
 
@@ -510,7 +510,7 @@ Tier-1 suppliers are free to manage delegations to members within its own organi
 
 ## 6.4 Key compromise
 
-See [Key Management](https://uptane.github.io/deployment-considerations/key_management.html).
+See [Key Management](https://uptane.github.io/docs/deployment/best-practices#4-managing-signing-keys-and-metadata-expiration).
 
 ## 7 Customizing Uptane
 
@@ -696,7 +696,7 @@ At this point, Uptane is not planning any imminent change in its Standard to man
 
 ### 8.0.4 Preventing rollback attacks in case of Director compromise
 
-In the [Exceptional Operations](https://uptane.github.io/deployment-considerations/exceptional_operations.html#rolling-back-software) section of this document, we discuss how an OEM and/or its suppliers SHOULD use release counters in order to prevent rollback attacks in case of a Director repository compromise. To further limit the impact of such an attack scenario, the OEM and/or its suppliers SHOULD also use the following recommendations.
+In the [Exceptional Operations](https://uptane.github.io/docs/deployment/best-practices#6-exceptional-operations) section of this document, we discuss how an OEM and/or its suppliers SHOULD use release counters in order to prevent rollback attacks in case of a Director repository compromise. To further limit the impact of such an attack scenario, the OEM and/or its suppliers SHOULD also use the following recommendations.
 
 First, they SHOULD diligently remove obsolete images from new versions of Targets metadata files uploaded to the Image repository. This can prevent attackers who compromise the Director repository from being able to choose these obsolete images for installation. This method has a downside in that it complicates the update process for vehicles that require an intermediate update step. For example, an ECU has previously installed image A, and C is the latest image it should install. However, the ECU should install image B before it installs C, and B has already been removed from the Targets metadata on the Image repository in order to prevent or limit rollback attacks. Thus, the OEM and/or its suppliers needs to carefully balance these requirements in making the decision to remove obsolete images from the Targets metadata.
 
@@ -811,15 +811,15 @@ No other automotive-grade update system has been designed to work in such rigoro
 
 ### 9.0.2 **How does Uptane work with other systems and protocols?**
 
-Other mechanisms for performing updates, such as those offered by Red Bend, Movimento, and Tesla, are compatible with Uptane solely for handling data transport. Uptane can use any transport mechanism, and still provide strong security guarantees, even if the underlying network or transport mechanism is compromised. If a manufacturer wants to move to a secure update system, keeping their existing system as a transport mechanism for Uptane is an effective way to do so. See the [Customizing Uptane](https://uptane.github.io/deployment-considerations/customizations.html) section of this document.
+Other mechanisms for performing updates, such as those offered by Red Bend, Movimento, and Tesla, are compatible with Uptane solely for handling data transport. Uptane can use any transport mechanism, and still provide strong security guarantees, even if the underlying network or transport mechanism is compromised. If a manufacturer wants to move to a secure update system, keeping their existing system as a transport mechanism for Uptane is an effective way to do so. See the [Customizing Uptane](https://uptane.github.io/docs/deployment/best-practices#7-customizing-uptane) section of this document.
 
 ### 9.0.3 **What are the cost implications of integrating Uptane?**
 
-A number of factors can influence the costs involved with implementing Uptane. If a project is starting from scratch, the cost would be minimal and any money spent would be just one component of the initial design. For existing OTA systems, the choice will be to either buy an off-the-shelf solution and do an integration, or to build a custom solution, with some greater or smaller degree of reliance on available open-source client and server components. There are pros and cons to both options, but ultimately, the issue of cost cannot be determined without also considering the value received for the expense. Value in this case is enhanced security, so when discussing costs, the trade-off between taking shortcuts and sacrificing security, or doing it right and spending more time/money, must be considered. A more detailed discussion on this issue can be found in the [Setting up Uptane repositories](https://uptane.github.io/deployment-considerations/repositories.html) section.
+A number of factors can influence the costs involved with implementing Uptane. If a project is starting from scratch, the cost would be minimal and any money spent would be just one component of the initial design. For existing OTA systems, the choice will be to either buy an off-the-shelf solution and do an integration, or to build a custom solution, with some greater or smaller degree of reliance on available open-source client and server components. There are pros and cons to both options, but ultimately, the issue of cost cannot be determined without also considering the value received for the expense. Value in this case is enhanced security, so when discussing costs, the trade-off between taking shortcuts and sacrificing security, or doing it right and spending more time/money, must be considered. A more detailed discussion on this issue can be found in the [Setting up Uptane repositories](https://uptane.github.io/docs/deployment/best-practices#3-setting-up-uptane-repositories) section.
 
 ### 9.0.4 **Must all signatures be valid for a threshold of signatures to be valid?**
 
-The threshold requirement of Uptane, mentioned in [Section 5.4.4.3](https://uptane.github.io/uptane-standard/uptane-standard.html#check_root) and in descriptions of other roles, stipulates that a set number of keys are required to sign a metadata file. This is designed to prevent attacks by requiring would-be hackers to compromise multiple keys in order to install malware. However, what happens if this threshold is met, but one or more of the keys is not valid?
+The threshold requirement of Uptane, mentioned in [Section 5.4.4.3](https://uptane.github.io/docs/standard/uptane-standard#5443-how-to-check-root-metadata) and in descriptions of other roles, stipulates that a set number of keys are required to sign a metadata file. This is designed to prevent attacks by requiring would-be hackers to compromise multiple keys in order to install malware. However, what happens if this threshold is met, but one or more of the keys is not valid?
 
 The Uptane Standard allows each implementer to decide whether these keys would be accepted. Take the following example:
 
@@ -886,7 +886,7 @@ As the first major release since 1.0.0 was issued on July 31, 2019, the new vers
 
 ### 10.3.3 Removed
 
-- All references to the Uptane Time Server. While having a secure source of time is still mandated as a requirement for compliance, we are no longer recommending the Uptane Time Server as that source. Several other time source options are discussed in the [“Setting up Uptane Repositories” section of Deployment Best Practices](https://uptane.github.io/deployment-considerations/repositories.html).
+- All references to the Uptane Time Server. While having a secure source of time is still mandated as a requirement for compliance, we are no longer recommending the Uptane Time Server as that source. Several other time source options are discussed in the [“Setting up Uptane Repositories” section of Deployment Best Practices](https://uptane.github.io/docs/deployment/best-practices#3-setting-up-uptane-repositories).
 
 ## 10.4 \[1.2.0\] - 2021-07-16
 

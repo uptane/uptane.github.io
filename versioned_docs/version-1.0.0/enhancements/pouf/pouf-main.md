@@ -9,7 +9,7 @@ title: "POUF Purpose and Guidelines"
 - Author: Marina Moore
 - Created: 14-03-2019
 
-# Uptane Implementation POUFs
+## Uptane Implementation POUFs
 
 This repository will contain links to Uptane POUFs.
 

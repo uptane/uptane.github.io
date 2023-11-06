@@ -10,8 +10,6 @@ title: "Offline Updates"
 - Content-Type: text/markdown
 - Created: 2021-09-16
 
-# PURE-2: Offline Updates
-
 ## Abstract
 
 Firmware often needs to be updated offline, in situations where the full Uptane interactive flow is not possible for some reason--usually because internet connectivity is not available, or the device to be updated has not yet registered ECU keys with the Uptane backend. In those scenarios, it is still desirable to have some degree of validation and protection of the update process, and in particular to ensure that these offline updates can be directed.

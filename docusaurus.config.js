@@ -105,16 +105,20 @@ const config = {
           srcDark: '/img/uptane_logo_dark.svg'
         },
         items: [
-
           {
-            to: '/docs/learn-more/about', label: 'About Us', position: 'left',
+            type: 'doc',
+            position: 'left',
+            docId: 'learn-more/about',
+            label: 'About Us',
           },
           {
-            to: '/docs/standard/uptane-standard', label: 'Standard', position: 'left',
+            type: 'doc',
+            docId: 'standard/uptane-standard', label: 'Standard', position: 'left',
           },
           {
+            type: 'doc',
             label: 'Best Practices',
-            to: '/docs/deployment/best-practices',
+            docId: 'deployment/best-practices',
             position: 'left'
           },
           {
@@ -132,7 +136,7 @@ const config = {
               },
             ],
           },
-          { to: '/docs/learn-more/getting-started', label: 'Learn More', position: 'left' },
+          { type: 'doc', docId: 'learn-more/getting-started', label: 'Learn More', position: 'left' },
           { to: '/blog', label: 'Blog', position: 'left' },
           {
             to: 'https://github.com/uptane/uptane.github.io',

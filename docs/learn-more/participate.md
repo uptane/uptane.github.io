@@ -35,7 +35,7 @@ If you wish to report a bug or a security issue, or introduce a new feature to t
 
 ## Security Audits
 
-We welcome security audits of the Uptane design and vulnerability reports of the design or any code in the [Uptane GitHub namespace](https://github.com/uptane). Please contact lab director [Justin Cappos](mailto:jcappos@nyu.edu). Uptane design and implementation is defined in the [Uptane Standards document](https://uptane.github.io/uptane-standard/uptane-standard.html) and supplemented by the [Deployment Best Practices document](https://uptane.github.io/deployment-considerations/index.html).
+We welcome security audits of the Uptane design and vulnerability reports of the design or any code in the [Uptane GitHub namespace](https://github.com/uptane). Please contact lab director [Justin Cappos](mailto:jcappos@nyu.edu). Uptane design and implementation is defined in the [Uptane Standards document](https://uptane.github.io/docs/standard/uptane-standard) and supplemented by the [Deployment Best Practices document](https://uptane.github.io/deployment-considerations/index.html).
 
 Should the information be highly sensitive, auditors / reporters may employ PGP encryption in an email to Justin Cappos using the public key whose PGP fingerprint is: E9C0 59EC 0D32 64FA B35F 94AD 465B F9F6 F8EB 475A.
 

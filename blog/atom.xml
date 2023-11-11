@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://uptane.github.io/blog</id>
+    <id>https://uptane.org/blog</id>
     <title>Uptane Blog</title>
     <updated>2023-10-28T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://uptane.github.io/blog"/>
+    <link rel="alternate" href="https://uptane.org/blog"/>
     <subtitle>Uptane Blog</subtitle>
-    <icon>https://uptane.github.io/img/favicon.ico</icon>
+    <icon>https://uptane.org/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Uptane Joins the Open Source Celebration: Hacktoberfest 2023 🎉]]></title>
-        <id>https://uptane.github.io/blog/2023/10/28/hacktoberfest</id>
-        <link href="https://uptane.github.io/blog/2023/10/28/hacktoberfest"/>
+        <id>https://uptane.org/blog/2023/10/28/hacktoberfest</id>
+        <link href="https://uptane.org/blog/2023/10/28/hacktoberfest"/>
         <updated>2023-10-28T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[As the leaves change color 🍂 and the breeze carries a hint of chill, the open-source community gears up for a month of code, collaboration, and coffee-fueled late nights ☕. Hacktoberfest, the annual open-source celebration, is here again, and this year, Uptane is joining the fray!]]></summary>
-        <content type="html"><![CDATA[<p><img loading="lazy" src="https://uptane.github.io/assets/images/hf10_banner_1032x600-326bf693bd048c6749e89fa40605e7ee.png" width="1033" height="600" class="img_ev3q">
+        <content type="html"><![CDATA[<p><img loading="lazy" src="https://uptane.org/assets/images/hf10_banner_1032x600-326bf693bd048c6749e89fa40605e7ee.png" width="1033" height="600" class="img_ev3q">
 As the leaves change color 🍂 and the breeze carries a hint of chill, the open-source community gears up for a month of code, collaboration, and coffee-fueled late nights ☕. <a href="https://hacktoberfest.com/" target="_blank" rel="noopener noreferrer">Hacktoberfest</a>, the annual open-source celebration, is here again, and this year, Uptane is joining the fray!</p>
 <p>Uptane, a robust framework designed to secure software updates for automobiles 🚗, is participating in Hacktoberfest 2023 to foster community engagement and encourage contributions to its project. With cybersecurity becoming a paramount concern in the automotive industry, the initiative taken by Uptane is a timely and significant one.</p>
 <p>This Hacktoberfest, developers from around the globe 🌍 can contribute to Uptane's repository, helping to enhance the security framework and make vehicles more secure. Whether you're a seasoned developer or a newbie looking to make your first open-source contribution, Uptane welcomes you with open arms 🤗.</p>
@@ -25,19 +25,19 @@ As the leaves change color 🍂 and the breeze carries a hint of chill, the open
     </entry>
     <entry>
         <title type="html"><![CDATA[GSoC'23 Journey: From Selection to Coding Phase]]></title>
-        <id>https://uptane.github.io/blog/blog Index 0</id>
-        <link href="https://uptane.github.io/blog/blog Index 0"/>
+        <id>https://uptane.org/blog/blog Index 0</id>
+        <link href="https://uptane.org/blog/blog Index 0"/>
         <updated>2023-08-26T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[- Introduction]]></summary>
         <content type="html"><![CDATA[<ul>
-<li><a href="https://uptane.github.io/blog/blog%20Index%200#Introduction">Introduction</a></li>
-<li><a href="https://uptane.github.io/blog/blog%20Index%200#selection-process">Selection Process</a></li>
-<li><a href="https://uptane.github.io/blog/blog%20Index%200#about-uptane">About Uptane</a></li>
-<li><a href="https://uptane.github.io/blog/blog%20Index%200#brief-intro-to-my-project">Brief Intro to My Project</a></li>
-<li><a href="https://uptane.github.io/blog/blog%20Index%200#community-bonding-period">Community Bonding Period</a></li>
-<li><a href="https://uptane.github.io/blog/blog%20Index%200#week-1-task-coding-phase">Week 1 Task: Coding Phase</a></li>
-<li><a href="https://uptane.github.io/blog/blog%20Index%200#whats-next">What's Next?</a></li>
-<li><a href="https://uptane.github.io/blog/blog%20Index%200#Conclusion">Conclusion</a></li>
+<li><a href="https://uptane.org/blog/blog%20Index%200#Introduction">Introduction</a></li>
+<li><a href="https://uptane.org/blog/blog%20Index%200#selection-process">Selection Process</a></li>
+<li><a href="https://uptane.org/blog/blog%20Index%200#about-uptane">About Uptane</a></li>
+<li><a href="https://uptane.org/blog/blog%20Index%200#brief-intro-to-my-project">Brief Intro to My Project</a></li>
+<li><a href="https://uptane.org/blog/blog%20Index%200#community-bonding-period">Community Bonding Period</a></li>
+<li><a href="https://uptane.org/blog/blog%20Index%200#week-1-task-coding-phase">Week 1 Task: Coding Phase</a></li>
+<li><a href="https://uptane.org/blog/blog%20Index%200#whats-next">What's Next?</a></li>
+<li><a href="https://uptane.org/blog/blog%20Index%200#Conclusion">Conclusion</a></li>
 </ul>
 <h1>Introduction</h1>
 <p>Hi Everyone 👋</p>
@@ -47,7 +47,7 @@ As the leaves change color 🍂 and the breeze carries a hint of chill, the open
 <p>But why am I documenting this journey?</p>
 <p>Good documentation is the key to effective collaboration. It provides a solid foundation for fostering innovation and driving progress. Not only does it serve as a valuable resource for reflection and learning, but it also helps us navigate through past experiences with clarity and relevance.</p>
 <p>So let's talk about the selection progress and know little bit about GSoC as program as well.</p>
-<p><img loading="lazy" alt="intial image" src="https://uptane.github.io/assets/images/image1-5f9fa197cf1614f19266103634c98bfe.png" width="1200" height="630" class="img_ev3q"></p>
+<p><img loading="lazy" alt="intial image" src="https://uptane.org/assets/images/image1-5f9fa197cf1614f19266103634c98bfe.png" width="1200" height="630" class="img_ev3q"></p>
 <h1>Selection Process: How I got selected</h1>
 <p>In March, GSoC announced the open-source organizations participating in the program on their website. These organizations are seeking developer and provide project details. Interested individuals then submit detailed proposals outlining their project plans before the April deadline. Mentors from participating organizations evaluate the proposals, and the selected contributors are announced in May. After the selection process, the official coding period begins.</p>
 <p>Most of you are quite familiar with or heard about the overall selection process for Google Summer of Code. If you aren't, then don't worry, I will write a detailed post about the selection process in an upcoming blog.</p>
@@ -55,7 +55,7 @@ As the leaves change color 🍂 and the breeze carries a hint of chill, the open
 <p>I applied to this project as I have previous experience with a similar tech stack and worked on documentation during my time in Open Horizon as an LFX mentee. I believe that this project could be impactful and provides an opportunity to create something that can be used as a resource by developers. If you want to read about the idealist in detail, you can refer to <a href="https://wiki.linuxfoundation.org/gsoc/2023-gsoc-uptane" target="_blank" rel="noopener noreferrer">here</a>.</p>
 <p>Although I applied a little late, my mentor <a href="https://www.linkedin.com/in/lois-anne-delong-0706a128/" target="_blank" rel="noopener noreferrer">Lois Anne DeLong</a> was incredibly supportive and helped me review my proposal. Despite the timing, I was fortunate enough to be selected for GSoC 2023 based on the quality of my proposal.</p>
 <p>But before we delve into the details of my project, let's talk about the Uptane organization itself.</p>
-<p><img loading="lazy" alt="mid image" src="https://uptane.github.io/assets/images/image2-6eb1eee2ee4001d96fc06f8a421c7206.png" width="1200" height="630" class="img_ev3q"></p>
+<p><img loading="lazy" alt="mid image" src="https://uptane.org/assets/images/image2-6eb1eee2ee4001d96fc06f8a421c7206.png" width="1200" height="630" class="img_ev3q"></p>
 <h1>About Uptane: A short brief</h1>
 <p>Uptane is an open and secure software update framework designed to protect software delivered over-the-air to automobile electronic control units (ECUs). This framework provides protection against malicious actors who can compromise servers and networks used to sign and deliver updates. Uptane is integrated into Automotive Grade Linux, an open-source system used by many large OEMs, and has been adopted by several U.S. and international manufacturers.</p>
 <p>Uptane was created in 2016 through a collaboration between NYU, UMTRI, SwRI, and automotive industry experts. It uses the basic design principles of TUF, which is used in many production software update systems.</p>
@@ -78,7 +78,7 @@ As the leaves change color 🍂 and the breeze carries a hint of chill, the open
 <p>One of the significant outcomes of our meeting was the decision to evaluate the use of Jekyll versus Docusaurus for revamping the site. After considering various factors and insights from mentors like Philip, Ira, Justin, and Andre, we concluded that Docusaurus would be the ideal choice. However, before fully committing to Docusaurus, we needed to ensure its compatibility with the existing Uptane documentation and address web accessibility concerns.</p>
 <p>With our tasks and objectives defined, my mentor assigned me the initial task of creating a demo version of the site using Docusaurus. This basic version aimed to test the compatibility of the existing Uptane documentation with Docusaurus. I set up Docusaurus locally and migrated the Uptane docs to the new environment. Most of the markdown files seamlessly integrated with Docusaurus, requiring minimal adjustments. The demo version serves as a starting point for further enhancements.</p>
 <p>After a week of the community bonding period, the official coding phase began on May 29th.</p>
-<p><img loading="lazy" alt="last image" src="https://uptane.github.io/assets/images/image3-2fa79b5fdfea0dc2f8a0c444c6230f6b.png" width="1920" height="1080" class="img_ev3q"></p>
+<p><img loading="lazy" alt="last image" src="https://uptane.org/assets/images/image3-2fa79b5fdfea0dc2f8a0c444c6230f6b.png" width="1920" height="1080" class="img_ev3q"></p>
 <h1>Week 1 Task: Coding Phase (from May 29th onwards) | Initializing the project</h1>
 <p>During the first week of the coding phase, my primary task was to work on the demo version of the site. The goal was to determine if the existing Uptane docs are compatible with Docusaurus or if we should consider sticking with Jekyll, as discussed in our initial community call. I set up Docusaurus locally and migrated the Uptane docs to this new environment. The current state of the site is still quite basic, consisting of boilerplate code provided by Docusaurus along with the existing Uptane docs.</p>
 <p>For creating the demo version of the site, I referred to the official <a href="https://docusaurus.io/docs" target="_blank" rel="noopener noreferrer">documentation of Docusaurus</a>.</p>

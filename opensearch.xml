@@ -4,8 +4,8 @@
   <ShortName>Uptane</ShortName>
   <Description>Search Uptane</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://uptane.github.io/img/favicon.ico</Image>
-  <Url type="text/html" method="get" template="https://uptane.github.io/search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://uptane.github.io/opensearch.xml" />
-  <moz:SearchForm>https://uptane.github.io/</moz:SearchForm>
+  <Image width="16" height="16" type="image/x-icon">https://uptane.org/img/favicon.ico</Image>
+  <Url type="text/html" method="get" template="https://uptane.org/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://uptane.org/opensearch.xml" />
+  <moz:SearchForm>https://uptane.org/</moz:SearchForm>
 </OpenSearchDescription>

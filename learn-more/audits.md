@@ -4,7 +4,7 @@ sidebar_position: 7
 
 # Security Audits
 
-Both Uptane and TUF, the secure framework on which it was based, have undergone a number of security audits. Given the proprietary nature of the automotive industry, some links to these reports are not publicly listed. To request the full text of an omitted audit, please [reach out to us](https://uptane.github.io/docs/learn-more/participate).
+Both Uptane and TUF, the secure framework on which it was based, have undergone a number of security audits. Given the proprietary nature of the automotive industry, some links to these reports are not publicly listed. To request the full text of an omitted audit, please [reach out to us](https://uptane.github.io/learn-more/participate).
 
 - **Cure53:** A 2016-2017 audit of an Advanced Telematic Systems/HERE Inc. implementation of Uptane. No security issues were found related to the design. However, based upon their recommendation, [a minor clarification](https://github.com/theupdateframework/taps/blob/master/tap9.md) was made in the upstream TUF specification.
 

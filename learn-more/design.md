@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Uptane Design
 
-<!-- ![](../assets/images/Uptane_process.png) -->
+![](../static/assets/images/Uptane_process.png)
 
 Uptane utilizes multiple servers, known as repositories, to provide security through the validation of images before downloading. This diagram illustrates how the checks and balances of this system works. The connected components on the right hand side of the diagram are on the vehicle, while the components on the left hand-side represent the repositories. The Image repository can be thought of as an unchanging source of information about images. It is the keeper of every image currently deployed by the OEM, along with the metadata files that prove their authenticity. The Director repository knows what software should be distributed to each ECU, given the current state of the repository. Many ECUs do not have clocks, and so may use an external source to provide a secure source of time.
 

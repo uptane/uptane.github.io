@@ -6,7 +6,7 @@ title: History
 # History
 
 **2010**: A predecessor technology of Uptane, The Update Framework (TUF), which
-secures software updates on repositories, is introduced in an [academic research paper](../../../static/papers/samuel_ccs_2010.pdf),
+secures software updates on repositories, is introduced in an [academic research paper](../static/papers/samuel_ccs_2010.pdf),
 coauthored by Justin Samuel and Justin Cappos.
 
 **2013**: Cappos, along with Trishank Kuppusamy, and Vladimir Diaz begin
@@ -30,8 +30,8 @@ meet to review and comment on the work in progress. The team also establishes an
 where issues could be raised and discussed. Both of these steps help to ensure
 alignment with the intended market.
 
-**2016**: [_Uptane: Securing Software Updates for Automobiles_](../../../static/papers/kuppusamy_escar_16.pdf)
-is presented at [escar 16](https://www.escar.info/escar-europe/history.html) by
+**2016**: [_Uptane: Securing Software Updates for Automobiles_](../static/papers/kuppusamy_escar_16.pdf)
+is presented at [escar Europe](https://www.escar.info/escar-europe/history.html) by
 lead author Kuppusamy. This
 marked the first presentation of the project to an academic audience.
 
@@ -68,8 +68,8 @@ advancement and improvement of the technology itself.
 
 **2019**: IEEE/ISTO releases version 1.0.0 of the Uptane specification.
 
-**2019**: The Uptane Alliance joins the Linux Foundation's Joint Development Foundation, giving the project
-a pathway for ISO standardization of future versions of the Standard.
+**2019**: The Uptane project joins the Linux Foundation's Joint Development Foundation,
+providing a pathway for ISO standardization of future versions of the Standard.
 
 **2021**: The Uptane working group releases versions 1.1.0 and 1.2.0 of the Uptane Standard.
 

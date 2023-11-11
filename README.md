@@ -3,7 +3,7 @@ Uptane is an open-source framework that ensures the security of software updates
 Given the increasing complexity of modern vehicles, which often rely on numerous software components, 
 ensuring that these updates are secure and tamper-proof is crucial. 
 Uptane addresses potential vulnerabilities and threats that can arise during the software update process.
-Read more [here](https://uptane.github.io/docs/learn-more/getting-started)
+Read more [here](https://uptane.github.io/learn-more/getting-started)
 
 ## Uptane Website
 [![](https://github.com/uptane/uptane.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/uptane/uptane.github.io/actions/workflows/pages/pages-build-deployment)

@@ -84,6 +84,17 @@ const config = {
       }),
     ],
   ],
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'learn-more',
+        path: 'learn-more',
+        routeBasePath: 'learn-more',
+        sidebarPath: './sidebarLearnMore.js',
+      },
+    ],
+  ],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -106,9 +117,8 @@ const config = {
         },
         items: [
           {
-            type: 'doc',
             position: 'left',
-            docId: 'learn-more/about',
+            to: 'learn-more/about',
             label: 'About Us',
           },
           {
@@ -136,7 +146,7 @@ const config = {
               },
             ],
           },
-          { type: 'doc', docId: 'learn-more/getting-started', label: 'Learn More', position: 'left' },
+          { to: 'learn-more/getting-started', label: 'Learn More', position: 'left', activeBaseRegex: `/learn-more/`, },
           { to: '/blog', label: 'Blog', position: 'left' },
           {
             to: 'https://github.com/uptane/uptane.github.io',
@@ -166,15 +176,15 @@ const config = {
             items: [
               {
                 label: 'Getting Started',
-                to: '/docs/learn-more/getting-started',
+                to: '/learn-more/getting-started',
               },
               {
                 label: "Contributor's Guide",
-                to: '/docs/learn-more/participate',
+                to: '/learn-more/participate',
               },
               {
                 label: "About Us",
-                to: '/docs/learn-more/about',
+                to: '/learn-more/about',
               },
             ],
           },

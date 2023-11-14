@@ -1,6 +1,7 @@
 <!-- markdownlint-disable MD033 -->
-
+<!-- markdownlint-disable MD041 -->
 <div  align="center">
+<!-- markdownlint-enable MD041 -->
 
 <h1  align="center">
 
@@ -46,7 +47,7 @@
 
 <p  align="center">
 
-This is the repo for the <a  href="https://github.com/uptane/uptane.github.io">Uptane Website</a>, an open-source framework that ensures the security of software updates for vehicles, particularly those receiving software over the air.
+This is the repo for the <a  href="https://uptane.org/">Uptane Website</a>, an open-source framework that ensures the security of software updates for vehicles, particularly those receiving software over the air.
 
 </p>
 
@@ -72,19 +73,18 @@ Uptane addresses potential vulnerabilities and threats that can arise during the
 1. Fork the Repository:
 
 - Go to the [Uptane repository](https://github.com/uptane/uptane.github.io) on Github.
-
 - Click on the "Fork" button at the top right corner of the page. Wait for a copy of the repository to appear under your account.
-
+<!-- markdownlint-disable MD029 -->
 2. Clone the uptane.github.io repository:
 
 ```sh
-git  clone  https://github.com/uptane/uptane.github.io
+git  clone  https://github.com/uptane/uptane.github.io 
 ```
 
 3. Change to the project directory:
 
 ```sh
-cd  uptane.github.io
+cd  uptane.github.io 
 ```
 
 4. Install the dependencies:
@@ -92,7 +92,7 @@ cd  uptane.github.io
 ```sh
 yarn  install
 ```
-
+<!-- markdownlint-enable MD029 -->
 If you do not have Yarn installed, please refer to the [Yarn documentation](https://classic.yarnpkg.com/en/docs) for installation instructions.
 
 ### 🤖 Running uptane.github.io
@@ -100,7 +100,7 @@ If you do not have Yarn installed, please refer to the [Yarn documentation](http
 - Once the installation is complete, you can start the development server using either Yarn or npm.
 
 - To start with Yarn, run:
-
+<!-- markdownlint-disable MD040 -->
 ```
 yarn start
 ```
@@ -110,8 +110,8 @@ yarn start
 ```
 npm start
 ```
-
-- If the installation went well, the development server will run locally, at ```http://localhost:3000```.
+<!-- markdownlint-enable MD040 -->
+- If the installation went well, the development server will run locally, at `http://localhost:3000`.
 
 - You should see your application running locally with any changes you apply.
 
@@ -156,7 +156,7 @@ npm start
 
 - Use version control (e.g., Git) for tracking changes.
 
-Always refer to Docusaurus documentation and community resources for specific guidance, and test changes in a staging environment before applying them to production.
+Always refer to [Docusaurus documentation](https://docusaurus.io/docs) and community resources for specific guidance, and test changes in a staging environment before applying them to production.
 
 ---
 
@@ -164,11 +164,9 @@ Always refer to Docusaurus documentation and community resources for specific gu
 
 Contributions are welcome! Here are several ways you can contribute:
 
-- **[Submit Pull Requests](https://github.com/uptane/uptane.github.io/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
-
-- **[Join the Discussions](https://github.com/uptane/uptane.github.io/discussions)**: Share your insights, provide feedback, or ask questions.
-
-- **[Report Issues](https://github.com/uptane/uptane.github.io/issues)**: Submit bugs found or log feature requests for UPTANE.
+- **[Report Issues](https://github.com/uptane/uptane.github.io/issues)**: 🐛 Submit any bugs found or log feature requests for UPTANE. Please await assignment for your submitted issues.
+- **[Submit Pull Requests](https://github.com/uptane/uptane.github.io/blob/main/CONTRIBUTING.md)**: 🛠️  submit your PRs addressing the assigned issues.
+- **[Join the Discussions](https://github.com/uptane/uptane.github.io/discussions)**: 💬 Engage in discussions by sharing your insights, providing feedback, or asking any relevant questions.
 
 For more info please refer to Uptane [Contribution guidelines](https://github.com/uptane/uptane-standard/blob/master/CONTRIBUTING.md)
 
@@ -195,3 +193,5 @@ Uptane was initiated with support from the U.S. Department of Homeland Security 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/company/uptane/)
 [![Discord](https://img.shields.io/discord/uWyT6gDCqx?label=Discord&logo=discord)](https://discord.gg/uWyT6gDCqx)
 [![YouTube](https://img.shields.io/youtube/channel/subscribers/UCWuMq2kQMlM_12FkCnRzOhg?label=YouTube&logo=youtube)](https://www.youtube.com/channel/UCWuMq2kQMlM_12FkCnRzOhg)
+
+---

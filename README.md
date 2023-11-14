@@ -10,7 +10,9 @@
 
 <p  align="center">
 
-Built with <img  src="https://img.shields.io/badge/docusaurus-231F20.svg?style=flat-square&logo=docusaurus&logoColor=Green"  alt="docusaurus"  width="120"/>
+<a href="https://docusaurus.io/">
+  Built With <img src="https://img.shields.io/badge/docusaurus-231F20.svg?style=flat-square&logo=docusaurus&logoColor=Green" alt="docusaurus" width="120"/>
+</a>
 
 </p>
 
@@ -187,3 +189,9 @@ This project is managed by Prof. Justin Cappos and other members of the [Secure 
 Uptane was initiated with support from the U.S. Department of Homeland Security grants D15PC00239 and D15PC00302. The views and conclusions contained herein are the authors’ and should not be interpreted as necessarily representing the official policies or endorsements, either expressed or implied, of the U.S. Department of Homeland Security (DHS) or the U.S. government.
 
 ---
+
+## Connect With Us
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/company/uptane/)
+[![Discord](https://img.shields.io/discord/uWyT6gDCqx?label=Discord&logo=discord)](https://discord.gg/uWyT6gDCqx)
+[![YouTube](https://img.shields.io/youtube/channel/subscribers/UCWuMq2kQMlM_12FkCnRzOhg?label=YouTube&logo=youtube)](https://www.youtube.com/channel/UCWuMq2kQMlM_12FkCnRzOhg)

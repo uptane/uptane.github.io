@@ -168,7 +168,7 @@ Contributions are welcome! Here are several ways you can contribute:
 - **[Submit Pull Requests](https://github.com/uptane/uptane.github.io/blob/main/CONTRIBUTING.md)**: 🛠️  submit your PRs addressing the assigned issues.
 - **[Join the Discussions](https://github.com/uptane/uptane.github.io/discussions)**: 💬 Engage in discussions by sharing your insights, providing feedback, or asking any relevant questions.
 
-For more info please refer to Uptane [Contribution guidelines](https://github.com/uptane/uptane-standard/blob/master/CONTRIBUTING.md)
+For more information, please refer to Uptane [Contribution guidelines](https://github.com/uptane/uptane-standard/blob/master/CONTRIBUTING.md)
 
 ---
 

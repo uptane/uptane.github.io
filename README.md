@@ -191,7 +191,7 @@ Uptane was initiated with support from the U.S. Department of Homeland Security 
 ## Connect With Us
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/company/uptane/)
-[![Discord](https://img.shields.io/discord/uWyT6gDCqx?label=Discord&logo=discord)](https://discord.gg/uWyT6gDCqx)
+[![Discord](https://img.shields.io/discord/1157306344097988640?label=Discord&logo=discord)](https://discord.gg/uWyT6gDCqx)
 [![YouTube](https://img.shields.io/youtube/channel/subscribers/UCWuMq2kQMlM_12FkCnRzOhg?label=YouTube&logo=youtube)](https://www.youtube.com/channel/UCWuMq2kQMlM_12FkCnRzOhg)
 
 ---

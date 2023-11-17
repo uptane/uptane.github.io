@@ -5,7 +5,7 @@
 
 <h1  align="center">
 
-<img  src="https://github.com/uptane/uptane.github.io/blob/main/static/img/uptane-logo.svg"  width="500" />
+<img  src="https://github.com/uptane/uptane.github.io/blob/main/static/img/uptane_logo_light.svg"  width="500" />
 
 </h1>
 

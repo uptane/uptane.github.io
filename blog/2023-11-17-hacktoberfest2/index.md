@@ -1,4 +1,8 @@
-# Uptane's Successful Venture in Hacktoberfest: Building Community and Polishing Our New Website
+---
+title: "Uptane's Successful Venture in Hacktoberfest: Building Community and Polishing Our New Website 🎃"
+authors:
+  - Phil
+--- 
 
 ## Introduction
 Uptane, the pioneering software update security system for the automotive industry, recently took a significant leap in its community engagement efforts. Following the launch of our revamped website, a project that was part of the Google Summer of Code, we decided to participate in Hacktoberfest. This decision, suggested by one of our core website contributors, [Abhijay Jain](https://github.com/Abhijay007), marked a strategic step to leverage our recent advancements and to further solidify our presence in the open-source community. Our initial announcement about participating in Hacktoberfest can be found in our [previous blog post](https://uptane.org/blog/2023/10/28/hacktoberfest).

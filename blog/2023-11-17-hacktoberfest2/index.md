@@ -1,5 +1,5 @@
 ---
-title: "Uptane's Successful Venture in Hacktoberfest: Building Community and Polishing Our New Website 🎃"
+title: "Uptane's Successful Venture with Hacktoberfest: Building Community and Polishing Our New Website 🎃"
 authors:
   - Phil
 --- 

@@ -12,7 +12,7 @@
 <p  align="center">
 
 <a href="https://docusaurus.io/">
-  Built With <img src="https://img.shields.io/badge/docusaurus-231F20.svg?style=flat-square&logo=docusaurus&logoColor=Green" alt="docusaurus" width="120"/>
+    <img src="https://img.shields.io/badge/Built%20By-Docusaurus-333333.svg?style=flat-square&logo=docusaurus&logoColor=green" alt="Built By Docusaurus" width="180" style="margin-right: 20px;"/>
 </a>
 
 </p>

@@ -37,7 +37,7 @@ Learn more in the [Uptane Design](/learn-more/design.md) section.
 
 1. **Understand the Uptane Standard**: Familiarize yourself with the [Uptane Standard](/docs/standard/uptane-standard) to understand its specifications and guidelines.
 
-2. **Define Implementation Requirements**: [Protocols, Operations, Usage, and Formats (POUFs)](/docs/enhancements/pouf/pouf-main) precisely specifies the wireline format and operations that any implementation using it must obey. Hence, implementations that use the same POUF are able to interoperate. An automotive OEM would establish a POUF definition for their particular Uptane update strategy.
+2. **Define Implementation Requirements**: [Protocols, Operations, Usage, and Formats (POUFs)](/enhancements/pouf/pouf-main) precisely specifies the wireline format and operations that any implementation using it must obey. Hence, implementations that use the same POUF are able to interoperate. An automotive OEM would establish a POUF definition for their particular Uptane update strategy.
 
 3. **Set Up Repositories**: Establish the Director and Image repositories.
 

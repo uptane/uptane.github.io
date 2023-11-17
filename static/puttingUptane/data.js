@@ -21,13 +21,13 @@ const projects = [
         title: "POUFs",
         icon: FaStar,
         description: "A mechanism to describe the protocols, operations, usage, and formats of an Uptane implementation.",
-        link: "docs/enhancements/pouf/pouf-main",
+        link: "/enhancements/pouf/pouf-main",
     },
     {
         title: "PUREs",
         icon: GrDocumentUpdate,
         description: "A vehicle for proposing an addition to or modification of the Uptane Standard.",
-        link: "docs/enhancements/pures/pure1",
+        link: "/enhancements/pures/pure1",
     },
 ];
 

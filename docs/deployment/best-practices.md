@@ -279,7 +279,7 @@ In setting up an Uptane system, an implementer will need to specify how informat
 
 To facilitate coordination between implementations, an Uptane adopter can choose to write a POUF, an added layer to the Standard in which an implementer can specify choices of Protocols, Operations, Usage and Formats. A POUF provides an easy way for an implementer to specify the elements that can ensure interoperability. It can also be customized for the special needs of fleet owners in a particular industry, such as taxis, car sharing networks, police forces, or the military.
 
-Information on writing a POUF can be found on the [POUF Purpose and Guidelines](https://uptane.github.io/docs/enhancements/pouf/pouf-main) page of the Uptane website. A sample POUF, written for the [Uptane Reference Implementation](https://uptane.github.io/docs/enhancements/pouf/pouf1), offers sample metadata written in [ASN.1/DER](https://uptane.github.io/docs/enhancements/pouf/pouf1#file-formats).
+Information on writing a POUF can be found on the [POUF Purpose and Guidelines](https://uptane.github.io/enhancements/pouf/pouf-main) page of the Uptane website. A sample POUF, written for the [Uptane Reference Implementation](https://uptane.github.io/enhancements/pouf/pouf1), offers sample metadata written in [ASN.1/DER](https://uptane.github.io/enhancements/pouf/pouf1#file-formats).
 
 ## 3.5 Cost considerations
 

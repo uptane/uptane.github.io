@@ -94,6 +94,15 @@ const config = {
         sidebarPath: './sidebarLearnMore.js',
       },
     ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'enhancements',
+        path: 'enhancements',
+        routeBasePath: 'enhancements',
+        sidebarPath: './sidebarEnhancements.js',
+      },
+    ],
   ],
 
   themeConfig:
@@ -138,11 +147,11 @@ const config = {
             items: [
               {
                 label: 'POUF',
-                to: 'docs/enhancements/pouf/pouf-main',
+                to: '/enhancements/pouf/pouf-main',
               },
               {
                 label: 'PUREs',
-                to: 'docs/enhancements/pures/pure1',
+                to: '/enhancements/pures/pure1',
               },
             ],
           },

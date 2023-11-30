@@ -18,7 +18,7 @@ on:
   workflow_dispatch:
 
 env:
-  URL: https://uptane.github.io
+  URL: https://uptane.org
   ISSUE_TEMPLATE: ".github/ISSUE_TEMPLATE/check-broken-links.md"
   CONFIG: ".github/broken-link-gha-config.json"
 

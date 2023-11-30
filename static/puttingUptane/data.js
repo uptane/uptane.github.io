@@ -9,13 +9,13 @@ const projects = [
         title: "Uptane Standard",
         icon: GoVersions,
         description: "The set of requirements necessary for the secure implementation of the framework.",
-        link: "docs/standard/uptane-standard",
+        link: "docs/latest/standard/uptane-standard",
     },
     {
         title: "Deployment Best Practices",
         icon: AiOutlineDeploymentUnit,
         description: "Examples of best practices for setting up, operating, integrating, and adapting Uptane to work in a variety of situations.",
-        link: "docs/deployment/best-practices",
+        link: "docs/latest/deployment/best-practices",
     },
     {
         title: "POUFs",

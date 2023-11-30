@@ -50,13 +50,16 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          lastVersion: "current",
+          lastVersion: "2.1.0",
           versions: {
             current: {
-              label: 'Latest',
+              label: 'Latest (2.1.0)',
+              path: "latest",
+              banner: "none",
             },
             "2.1.0": {
               label: "2.1.0",
+              path: "2.1.0",
             },
             "2.0.0": {
               label: "2.0.0",

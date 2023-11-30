@@ -176,7 +176,7 @@ const config = {
             dropdownActiveClassDisabled: true,
             dropdownItemsAfter: [
               {
-                to: "/docs/all-versions",
+                to: "/docs/latest/all-versions",
                 label: "All versions",
               },
             ],

@@ -10,7 +10,7 @@ As winter approaches, [Uptane](https://uptane.org/) is thrilled to announce its 
 
 ## 🤝 About Uptane:
 
-Uptane stands as a robust framework designed to fortify the security of software updates within the automotive industry. Uptane addresses the need for a reliable solution, ensuring the safety and integrity of software updates for vehicles.
+Uptane is a robust framework designed to fortify the security of software updates within the automotive industry. It  addresses the growing need for a reliable solution that can ensure the safety and integrity of software updates for vehicles.
 
 ## 🎁 24 Pull Requests:
 

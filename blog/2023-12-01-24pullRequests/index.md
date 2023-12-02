@@ -5,7 +5,8 @@ authors:
 ---
 
 ![](bannerImage.png)
-As the winter season approaches, [Uptane](https://uptane.org/) is thrilled to announce its participation in the annual 24 Pull Requests event! This initiative is a testament to our commitment to collaboration and community building.
+As winter approaches, [Uptane](https://uptane.org/) is thrilled to announce its participation in the annual 24 Pull Requests event! This initiative is a testament to our  project's continuing commitment to collaboration and community building.
+
 
 ## 🤝 About Uptane:
 

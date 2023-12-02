@@ -14,7 +14,7 @@ Uptane is a robust framework designed to fortify the security of software update
 
 ## 🎁 24 Pull Requests:
 
-The [24 Pull Requests](https://24pullrequests.com/) event is an annual community-organized celebration, inviting developers to contribute to open source projects during the holiday season. Join us in spreading the joy of collaboration by submitting 24 pull requests between December 1 and December 24.
+The [24 Pull Requests](https://24pullrequests.com/) event is an annual community-organized celebration in which developers are invited to contribute to open source projects over the holiday season. Join us in spreading the joy of collaboration by submitting 24 pull requests between December 1 and December 24.
 
 ## 🚀 How You Can Contribute:
 

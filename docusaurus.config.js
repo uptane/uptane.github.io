@@ -15,7 +15,7 @@ const config = {
   url: 'https://uptane.org',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: process.env.PULL_REQUEST ? `/pr-${process.env.PULL_REQUEST_NUMBER}/` : '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.

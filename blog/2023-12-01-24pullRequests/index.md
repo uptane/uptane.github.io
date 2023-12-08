@@ -18,7 +18,7 @@ The [24 Pull Requests](https://24pullrequests.com/) event is an annual community
 
 ## 🚀 How You Can Contribute:
 
-Uptane welcomes developers from around the globe 🌍 to be a part of this exciting opportunity. Whether you're a seasoned contributor or someone eager to make their first open-source contribution, there's a place for you in the Uptane community. The emphasis on collaboration is at the core of Uptane's values, and we can't wait to review and merge your pull requests!
+Uptane welcomes developers from around the globe 🌍 to be a part of this exciting opportunity. Whether you're a seasoned contributor or someone eager to make their first open-source contribution, there's a place for you in the Uptane community.  Collaboration is at the core of Uptane's values, and we can't wait to review and merge your pull requests!
 
 ## 📆 Mark Your Calendar:
 

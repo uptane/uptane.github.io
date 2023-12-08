@@ -1,5 +1,4 @@
 ---
-slug: blog Index 0
 title: "GSoC'23 Journey: From Selection to Coding Phase"
 authors:
   - Abhij

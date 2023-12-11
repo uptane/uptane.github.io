@@ -4,10 +4,29 @@
         <title>Uptane Blog</title>
         <link>https://uptane.org/blog</link>
         <description>Uptane Blog</description>
-        <lastBuildDate>Thu, 30 Nov 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 01 Dec 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Uptane Joins 24 Pull Requests for a Season of Open Source Giving ❄️]]></title>
+            <link>https://uptane.org/blog/2023/12/01/24pullRequests</link>
+            <guid>https://uptane.org/blog/2023/12/01/24pullRequests</guid>
+            <pubDate>Fri, 01 Dec 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[As winter approaches, Uptane is thrilled to announce its participation in the annual 24 Pull Requests event! Joining this initiative is a testament to our  project's continuing commitment to collaboration and community building.]]></description>
+            <content:encoded><![CDATA[<p><img loading="lazy" src="https://uptane.org/assets/images/bannerImage-b740c3a4d4c7aca63b59648725886c34.png" width="1920" height="1080" class="img_ev3q">
+As winter approaches, <a href="https://uptane.org/" target="_blank" rel="noopener noreferrer">Uptane</a> is thrilled to announce its participation in the annual 24 Pull Requests event! Joining this initiative is a testament to our  project's continuing commitment to collaboration and community building.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-about-uptane">🤝 About Uptane:<a href="https://uptane.org/blog/2023/12/01/24pullRequests#-about-uptane" class="hash-link" aria-label="Direct link to 🤝 About Uptane:" title="Direct link to 🤝 About Uptane:">​</a></h2>
+<p>Uptane is a robust framework designed to fortify the security of software updates within the automotive industry. It  addresses the growing need for a reliable solution that can ensure the safety and integrity of software updates for vehicles.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-24-pull-requests">🎁 24 Pull Requests:<a href="https://uptane.org/blog/2023/12/01/24pullRequests#-24-pull-requests" class="hash-link" aria-label="Direct link to 🎁 24 Pull Requests:" title="Direct link to 🎁 24 Pull Requests:">​</a></h2>
+<p>The <a href="https://24pullrequests.com/" target="_blank" rel="noopener noreferrer">24 Pull Requests</a> event is an annual community-organized celebration in which developers are invited to contribute to open source projects over the holiday season. Join us in spreading the joy of collaboration by submitting 24 pull requests between December 1 and December 24.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-how-you-can-contribute">🚀 How You Can Contribute:<a href="https://uptane.org/blog/2023/12/01/24pullRequests#-how-you-can-contribute" class="hash-link" aria-label="Direct link to 🚀 How You Can Contribute:" title="Direct link to 🚀 How You Can Contribute:">​</a></h2>
+<p>Uptane welcomes developers from around the globe 🌍 to be a part of this exciting opportunity. Whether you're a seasoned contributor or someone eager to make their first open-source contribution, there's a place for you in the Uptane community.  Collaboration is at the core of Uptane's values, and we can't wait to review and merge your pull requests!</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-mark-your-calendar">📆 Mark Your Calendar:<a href="https://uptane.org/blog/2023/12/01/24pullRequests#-mark-your-calendar" class="hash-link" aria-label="Direct link to 📆 Mark Your Calendar:" title="Direct link to 📆 Mark Your Calendar:">​</a></h2>
+<p>Save the dates between December 1 and December 24 for 24 Pull Requests. The <a href="https://24pullrequests.com/" target="_blank" rel="noopener noreferrer">24 Pull Requests web-app/website</a> offers information about the event, project details, and a calendar to visualize your contributions.</p>
+<p>Let's come together, share our knowledge, and make a positive impact on the future of automotive software. Fork the Uptane repository, submit your pull requests, and let's make this holiday season a season of giving in the open-source spirit! 🎄🛠️</p>
+<p>Cheers to secure software updates, collaborative coding, and a festive season of open source! 🎉☕</p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Uptane's Successful Venture with Hacktoberfest: Building Community and Polishing Our New Website 🎃]]></title>
             <link>https://uptane.org/blog/2023/11/30/hacktoberfest2</link>
@@ -43,19 +62,19 @@ As the leaves change color 🍂 and the breeze carries a hint of chill, the open
         </item>
         <item>
             <title><![CDATA[GSoC'23 Journey: From Selection to Coding Phase]]></title>
-            <link>https://uptane.org/blog/blog Index 0</link>
-            <guid>https://uptane.org/blog/blog Index 0</guid>
+            <link>https://uptane.org/blog/2023/08/26/welcome</link>
+            <guid>https://uptane.org/blog/2023/08/26/welcome</guid>
             <pubDate>Sat, 26 Aug 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[- Introduction]]></description>
             <content:encoded><![CDATA[<ul>
-<li><a href="https://uptane.org/blog/blog%20Index%200#Introduction">Introduction</a></li>
-<li><a href="https://uptane.org/blog/blog%20Index%200#selection-process">Selection Process</a></li>
-<li><a href="https://uptane.org/blog/blog%20Index%200#about-uptane">About Uptane</a></li>
-<li><a href="https://uptane.org/blog/blog%20Index%200#brief-intro-to-my-project">Brief Intro to My Project</a></li>
-<li><a href="https://uptane.org/blog/blog%20Index%200#community-bonding-period">Community Bonding Period</a></li>
-<li><a href="https://uptane.org/blog/blog%20Index%200#week-1-task-coding-phase">Week 1 Task: Coding Phase</a></li>
-<li><a href="https://uptane.org/blog/blog%20Index%200#whats-next">What's Next?</a></li>
-<li><a href="https://uptane.org/blog/blog%20Index%200#Conclusion">Conclusion</a></li>
+<li><a href="https://uptane.org/blog/2023/08/26/welcome#Introduction">Introduction</a></li>
+<li><a href="https://uptane.org/blog/2023/08/26/welcome#selection-process">Selection Process</a></li>
+<li><a href="https://uptane.org/blog/2023/08/26/welcome#about-uptane">About Uptane</a></li>
+<li><a href="https://uptane.org/blog/2023/08/26/welcome#brief-intro-to-my-project">Brief Intro to My Project</a></li>
+<li><a href="https://uptane.org/blog/2023/08/26/welcome#community-bonding-period">Community Bonding Period</a></li>
+<li><a href="https://uptane.org/blog/2023/08/26/welcome#week-1-task-coding-phase">Week 1 Task: Coding Phase</a></li>
+<li><a href="https://uptane.org/blog/2023/08/26/welcome#whats-next">What's Next?</a></li>
+<li><a href="https://uptane.org/blog/2023/08/26/welcome#Conclusion">Conclusion</a></li>
 </ul>
 <h1>Introduction</h1>
 <p>Hi Everyone 👋</p>

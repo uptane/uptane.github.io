@@ -7,6 +7,11 @@ on:
       - main
     # Review gh actions docs if you want to further define triggers, paths, etc
     # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#on
+  pull_request:
+    types:
+      - opened
+      - synchronize
+  
 
 jobs:
   deploy:
@@ -22,7 +27,12 @@ jobs:
       - name: Install dependencies
         run: yarn install --frozen-lockfile
       - name: Build website
-        run: yarn build
+        run: |
+          if [ "${{ github.event_name }}" == "pull_request" ]; then
+            PULL_REQUEST=true PULL_REQUEST_NUMBER="${{ github.event.number }}" yarn build
+          else
+            yarn build
+          fi
 
       # Popular action to deploy to GitHub Pages:
       # Docs: https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-docusaurus

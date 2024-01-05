@@ -1,39 +1,18 @@
-## Uptane GSoC'23 Report 🚀
+---
+title: "Uptane GSoC'23: A Journey of Revamping and Enhancing User Experience 🚀"
+authors:
+  - Abhij
+---
 
-## Table of Contents
+![](uptaneGsocBanner.png)
 
-1. [📝General Information](#general-information-)
-2. [🧑‍🎓Student Info](#student-info-)
-3. [📙 Abstract](#-abstract)
-4. [📧 Communication during the development period](#email-communication-during-the-development-period)
-5. [🖥️ About the project](#-about-the-project)
-   - [Initialization 🚀](#initialization-)
-   - [Site New Layout 📐](#site-new-layout-)
-   - [Coding the Site 💻](#coding-the-site-)
-   - [Content Improvements 📄](#content-improvements-)
-6. [💬 Pull Request and Commit Statistics](#computer-pull-request-and-commit-statistics-)
-7. [🔗 Important Links](#important-links-)
-8. [🤝 Interactions with the Uptane Community](#interactions-with-the-uptane-community-)
-9. [🙏 Acknowledgements](#star-acknowledgements-)
-10. [✔️ What Was Covered](#what-was-covered-%EF%B8%8F)
-11. [🚀 What work remains](#what-work-remains-)
-12. [📚 Reference](#reference-)
-13. [🛤️ My journey](#my-journey-%EF%B8%8F)
-14. [😄 Overall Experience](#overall-experience-)
-15. [🔄 Would like to sync?](#-would-like-to-sync-)
+## Introduction
 
-
-
-## General Information 📝
-
-**Organization:** [Uptane](https://uptane.io)
-**Project:** Overhauling Uptane.io: Creating a Better User Experience for the Uptane Project Website
-**GSoC Project Page:** [Click here](https://summerofcode.withgoogle.com/programs/2023/projects/QDCxHcPz) 
-**GSoC Mentors:** [Lois DeLong](https://github.com/jhdalek55) , [Phil Lapczynski](https://github.com/hexsecs) , & [Ira McDonald](https://github.com/iramcdonald)
-**Community Mentors:** [Jon Oster](https://github.com/tkfu) , [Justin Cappos](https://github.com/JustinCappos) , [Weimerskirch, Andre](https://github.com/aweimerskirch) & [Marina Moore](https://github.com/mnm678) 
-**My proposal:** [Click here](https://drive.google.com/file/d/1lTvrFoS7VzOsNRWsmoHVOnTd0ui9BZ3g/view?usp=sharing)
+Greetings, fellow developers and enthusiasts! I'm Abhijay Jain, and I'm thrilled to share the incredible journey of my Google Summer of Code (GSoC) project with Uptane. In this blog, I'll walk you through the key aspects of my project, the challenges faced, the milestones achieved, and the exciting future prospects.
 
 ## Student Info 🧑‍🎓
+
+Before we dive into the details, let me reintroduce myself:
 
 - **Name:** Abhijay Jain
 - **Email:** Abhijay007j@gmail.com
@@ -45,7 +24,7 @@
 
 Uptane is an important project that provides secure software updates for connected vehicles, and it needs to offer a better experience to its users to encourage the adoption of the technology. The project's website is the primary source of information for users and developers, and it's essential that the information is easy to access and understand. The current website has a lot of information; however, it's not well-organized. It's difficult for new users to find the essential information they need. The navigation through the site is also challenging. All of these factors could discourage new users from learning more about the project. The goal of this project is to overhaul the Uptane.io website to create a better user experience through more logical organization and easier navigation.
 
-## :email: Communication during the development period 
+## :email: Communication during the development period
 
 Before GSoC, contributors communicated with each other either through GitHub discussions or asynchronously via email. Since GSoC needed more regular discussion (more on a personal level), we decided to have bi-weekly meetings to have seamless communication and better understanding. For text conversations, we stuck to email as it is a feasible option for text-based communication. After every meeting, I used to write a follow-up email to the mentors so that we could have a backup or a routine outline of things we have discussed in those bi-weekly meetings.
 
@@ -53,7 +32,7 @@ Before GSoC, contributors communicated with each other either through GitHub dis
 
 <p align="center">One of our very first follow-up emails.</p>
 
-## 📝 About the project 
+## 📝 About the project
 
 The objective of this project is to deconstruct the current website layout and design and create a more logical arrangement of information. We aim to achieve this by:
 
@@ -68,23 +47,21 @@ The objective of this project is to deconstruct the current website layout and d
 
 During our first meeting, we needed to make an important decision: whether to stick with the existing technology, which is Jekyll, or migrate the site to a new framework, Docusaurus. After a discussion, we decided to go with Docusaurus as it is quite easy to maintain and comparatively better than Jekyll. The mentors assigned me the task of testing the existing content of the site with Docusaurus so that we can determine if using this program would be feasible. So, I created a demo version of the site and shared it with the mentors. After review, both the mentors and other community members reviewed our decision to go with Docusaurus as our main framework to build the site. The mentors then suggested that I move forward and prepare a new design layout for the site.
 
-
 ### Site New Layout 📐
 
 I initiated the design of the new site by adopting a collaborative approach to receive continuous feedback. For efficient communication and design collaboration, I opted to use Figma, a tool with which I had prior experience. Figma served its purpose effectively. Lois shared a rough design doc [linked here](https://docs.google.com/document/d/1v4-tHH6dUWi-32H2qkBufHrZTsxzjHWGVHJGO9p0i34/edit?usp=sharing) explaining what we need on the new site, following which I started gathering design inspiration and shared a preliminary rough layout on Figma. I explored various platforms such as Dribbble and Behance. After conducting research, I stumbled upon a valuable resource: the Docusaurus showcase, which contained a collection of open-source sites built with Docusaurus. Drawing inspiration from these sites, I began working on the site's layout. I created a preliminary design that can be viewed below
 
 - Link to the Figma Design File : [Figma Design](https://www.figma.com/file/drCXCmIbIiTq9yaSgQJQtF/uptane-New?type=design&node-id=0%3A1&mode=design&t=3oGmlYrO4UafXxjz-1).
 
-|Figma Desing Preview|
-|------|
-|<img src="https://github.com/Abhijay007/Uptane-GSoC-Report/assets/64387054/dd785ad9-f432-4a61-b0c8-0ba3d617a17d" />|
+| Figma Desing Preview                                                                                                |
+| ------------------------------------------------------------------------------------------------------------------- |
+| <img src="https://github.com/Abhijay007/Uptane-GSoC-Report/assets/64387054/dd785ad9-f432-4a61-b0c8-0ba3d617a17d" /> |
 
+- Here is a video overview of the site, where I explained all the sections
 
-- Here is a video overview of the site, where I explained all the sections 
-
-
-https://github.com/Abhijay007/Uptane-GSoC-Report/assets/64387054/0deb8aec-1c25-44e3-bf00-897f78c2a9f3
-
+<video controls width="100%">
+  <source src= "https://github.com/Abhijay007/Uptane-GSoC-Report/assets/64387054/0deb8aec-1c25-44e3-bf00-897f78c2a9f3" />
+</video>
 
 ### Coding the Site 💻
 
@@ -100,39 +77,18 @@ Some content on the site is fetched from different repositories. Initially, we c
 
 For details on the specific commits related to these content improvements, please refer to [this link](https://github.com/Abhijay007/uptane-demo/commits/master).
 
-## :computer: Pull Request and Commit Statistics 💬
-
-Here is a list of all the pull requests I created during the GSoC coding period:
-
-1. **Initialization for Docusaurus**:
-   - Pull Request: [Link to PR](https://github.com/Abhijay007/Abhijay007.github.io/pull/1)
-   - Commits: [Link to Commits](https://github.com/Abhijay007/Abhijay007.github.io/pull/1/commits)
-
-2. **Demo Repository for Project Progress**:
-   - Due to the dynamic nature of the project and its many changes, my mentor recommended creating a demo repository to track and showcase the progress. Here's the demo repository with all the commits:
-   - Demo Repository: [Link to Demo Repository](https://github.com/Abhijay007/uptane-demo)
-   - Commits: [Link to Commits](https://github.com/Abhijay007/uptane-demo/commits/master)
-
-These pull requests and commits represent the milestones and progress made during the GSoC coding period.
-
 ## Important Links 🔗
 
+For those curious minds, here are essential links to explore:
+
 - [GSoC Project Page](https://summerofcode.withgoogle.com/programs/2023/projects/QDCxHcPz)
-
 - [GSoC Project Proposal](https://drive.google.com/file/d/1lTvrFoS7VzOsNRWsmoHVOnTd0ui9BZ3g/view?usp=sharing)
-
 - [GitHub Organization Repo](https://github.com/uptane/uptane.github.io)
-
 - [GitHub Personal Repo](https://github.com/Abhijay007/Abhijay007.github.io)
-
-- [Github Project Demo Repo](https://github.com/Abhijay007/uptane-demo)
-
-- [Commits during GSoC 2023](https://github.com/Abhijay007/uptane-demo/commits/master)  in Demo Repo
-
+- [GitHub Project Demo Repo](https://github.com/Abhijay007/uptane-demo)
+- [Commits during GSoC 2023](https://github.com/Abhijay007/uptane-demo/commits/master) in Demo Repo
 - [Commits during GSoC 2023](https://github.com/uptane/uptane.github.io/commits?author=Abhijay007) in Main Repo - UptaneDocusaurus Branch
-
 - [Website DEMO Deployed Version](https://abhijay007.github.io/uptane-demo/)
-
 - [Website Live Deployed Version](https://uptane.github.io/)
 
 ## Interactions with the Uptane Community 🤝
@@ -155,65 +111,21 @@ To the reader who has made it this far, I want to express my gratitude. Your int
 
 ## What Was Covered ✔️
 
-During the course of the project, we successfully addressed and accomplished a wide range of tasks and objectives, including:
-
-1. **Migration to Docusaurus**:
-   - Migrated the old Jekyll-based site to Docusaurus, providing a more modern and maintainable platform for the Uptane website.
-
-2. **Documentation Revision and Update**:
-   - Revised and updated Uptane documentation across various items, ensuring accuracy and relevance.
-
-3. **Redesigned Website Layout**:
-   - Revamped the site's design and layout to make it more user-friendly, modern, and aesthetically pleasing.
-
-4. **Enhanced Design Elements**:
-   - Improved the overall design of the website by selecting appropriate typefaces and color schemes, resulting in a cleaner and more contemporary appearance.
-
-5. **Identified Missing Information**:
-   - Identified crucial pieces of information that were missing from the website and incorporated them to provide a more comprehensive resource for users.
-
-6. **Added Dynamic Elements**:
-   - Integrated dynamic elements into the website to enhance interactivity and engagement for users, ensuring a more immersive experience.
-
-This is a short summary of what aspects of the site have been covered; you can read more about the future aspects below.
+The project successfully achieved milestones, including migration to Docusaurus, documentation revision, redesigned website layout, enhanced design elements, addition of missing information, and integration of dynamic elements.
 
 ## What Work Remains 🚀
 
-We have successfully accomplished most of the project milestones outlined in the proposal. However, there are several exciting improvements that coulf enhance the Uptane project's website even further:
-
-1. **Site Analytics Integration**:
-   - Consider incorporating analytics tools like Google Analytics or Microsoft Clarity to gain valuable insights into user behavior and site performance. This data can help in making informed decisions for site enhancements.
-
-2. **Enhanced Search Functionality**:
-   - Implement advanced search functionality using Algolia or a similar search engine. This will make it easier for users to find specific content quickly, thus improving their overall experience.
-
-3. **New Components**:
-   - Introduce new components for various sections such as blogs, contributors, community, and news. These components, initially proposed in the design phase, can provide richer and more engaging content to visitors.
-
-4. **Code and Image Optimization**:
-   - Optimize code and images to ensure faster page loading times and an improved user experience. This can involve techniques like minification, lazy loading, and image compression.
-
-5. **Workflow for Auto-updating Content**:
-   - Establish workflows for automatically updating site content to reflect new versions of the Standards and Deployment Best Practices. This ensures that the site remains up-to-date.
-
-6. **Workflow for Generating Deployed Previews for PRs**:
-   - Create a workflow that generates deployed previews for new pull requests. This feature facilitates easier testing and review of proposed changes before they are merged into the main site.
-
-.... and more 
-
-These enhancements are capable of contributing to a more dynamic, informative, and user-friendly Uptane project website. By implementing these improvements, we can further elevate the user experience and support the Uptane community's evolving needs.
+While most project milestones were met, exciting improvements lie ahead. Integration of site analytics, enhanced search functionality, introduction of new components, code and image optimization, and workflows for auto-updating content and PR previews are among the future prospects.
 
 ## Reference 📚
+
+For those interested in diving deeper, here are references to explore:
 
 - [Docusaurus Documentation](https://docusaurus.io/)
 - [Docusaurus Showcase](https://docusaurus.io/showcase)
 - [Figma](https://www.figma.com/files/recents-and-sharing?fuid=820735499407925327)
 - [Uptane Site](https://uptane.github.io/)
 - [React Documentation](https://reactjs.org/)
-
-## My journey 🛤️
-
-I have written blogs about my GSoC work - [GSoC Uptane blogs](https://abhijay007.github.io/uptane-demo/blog)
 
 ## Overall Experience 😄
 

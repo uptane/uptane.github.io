@@ -24,7 +24,6 @@ export default function Home() {
         <Adopters/>
         <PuttingUptane/>
         {/* <Workflow /> */}
-        <Contributors />
         <Community />
         <SupportedBySection/>
       </main>

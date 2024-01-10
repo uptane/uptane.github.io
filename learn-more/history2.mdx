@@ -1,199 +1,489 @@
 ---
 sidebar_position: 10
-title: History
+title: History2
 ---
+import 'History/styles.modules.css';
+
 # History
 
----
-import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
-import 'react-vertical-timeline-component/style.min.css';
+<div>
+  <svg display="none">
 
-...
+    <symbol id="arrow">
 
-<VerticalTimeline>
-  <VerticalTimelineElement
-    className="vertical-timeline-element--work"
-    contentStyle={{ background:'rgb(33, 150, 243)', color: '#fff' }}
-    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-    date="2010"
+      <polyline
+        fill="none"
+        points="7 10,12 15,17 10"
+        stroke="currentcolor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+      />
+
+    </symbol>
+  </svg>
+
+  <div
+    className="timeline"
+    id="timeline"
   >
-    <h3 className="vertical-timeline-element-title">2010</h3>
-    <p>
-      A predecessor technology of Uptane, The Update Framework (TUF), which
-      secures software updates on repositories, is introduced in an
-      [academic research paper](../static/papers/samuel_ccs_2010.pdf),
-      coauthored by Justin Samuel and Justin Cappos.
-    </p>
-  </VerticalTimelineElement>
-  <VerticalTimelineElement
-    className="vertical-timeline-element--work"
-    date="2013"
-  >
-    <h3 className="vertical-timeline-element-title">2013</h3>
-    <p>
-    Cappos, along with Trishank Kuppusamy, and Vladimir Diaz begin
-    adapting TUF for Python, Ruby, and environments used for cloud
-    computing. Kuppusamy, a Ph.D. student at the time, will later use
-    this experience on the Uptane project.
-    </p>
-  </VerticalTimelineElement>
-  <VerticalTimelineElement
-    className="vertical-timeline-element--work"
-    date="2015"
-  >
-    <h3 className="vertical-timeline-element-title">2015</h3>
-    <p>
-      NYU Tandon receives a grant (with Cappos as PI) from the U.S.
-      Department of Homeland Security to begin work on a project to
-      secure software updates on vehicles. University of Michigan
-      Transportation Research Institute(UMTRI) and Southwest Research
-      Institute(SWRI) receive a similar grant to work on automotive
-      security.
-    </p>
-  </VerticalTimelineElement>
-  <VerticalTimelineElement
-    className="vertical-timeline-element--work"
-    date="2016"
-  >
-    <h3 className="vertical-timeline-element-title">2016</h3>
-    <p>
-          A consortium of researchers at UMTRI, SWRI, and NYU Tandon
-          begin developing Uptane, using the basic TUF design as a
-          starting point.
-    </p>
-    <p>
-        The research team also begins holding a series of workshops
-        (organized by Andre Weimerskirch at UMTRI) at which auto companies,
-         suppliers, and representatives of government agencies meet to
-         review and comment on the work in progress. The team also
-         establishes an online forum, where issues could be raised and
-         discussed. Both of these steps help to ensure
-         alignment with the intended market.
-    </p>
-    <p>
-        [_Uptane: Securing Software Updates for Automobiles_](../static/papers/kuppusamy_escar_16.pdf)
-        is presented at [escar Europe](https://www.escar.info/escar-europe/history.html)
-        by lead author Kuppusamy. This marked the first presentation of the
-        project to an academic audience.
-    </p>
-  </VerticalTimelineElement>
-  <VerticalTimelineElement
-    className="vertical-timeline-element--work"
-    date="2017"
-  >
-    <h3 className="vertical-timeline-element-title">2017</h3>
-    <p>
-       Uptane is officially introduced at [press events](https://www.forbes.com/sites/leemathews/2017/01/19/uptane-will-protect-your-connected-car-from-hackers/#233b99d019be)
-       in Ann Arbor, MI, and Brooklyn, NY.
-    </p>
-    <p>
-        Advanced Telematic Systems (ATS), now [HERE Technologies](https://www.here.com/),
-        becomes one of the first suppliers to publicly [acknowledge adoption](https://www.autoconnectedcar.com/2017/06/connected-car-news-marvell-telit-att-ats-continental-toyota-marvel-safe-drive-systems-cast-car2go-trimble/)
-        of Uptane when it integrates the framework into two of its OTA
-        solutions, OTA Plus and ATS Garage.
-    </p>
-    <p>
-        Uptane is named one of the year's most important security innovations
-        by [_Popular Science_](https://www.popsci.com/top-security-innovations-2017/).
-    </p>
-  </VerticalTimelineElement>
-  <VerticalTimelineElement
-    className="vertical-timeline-element--work"
-    date="2018"
-  >
-    <h3 className="vertical-timeline-element-title">2018</h3>
-    <p>
-        [Airbiquity](https://www.airbiquity.com) receives a
-        [BIG Award for Business](https://www.airbiquity.com/news/press-releases/airbiquity-otamatic-named-2017-new-product-year-business-intelligence-group)
-        in the 2017 New Product of the Year Award category for its
-        Uptane-based OTAmatic over-the-air software and data management
-        solution.
-    </p>
-    <p>
-        An open source, C++ implementation of Uptane called [aktualizr](https://github.com/uptane/aktualizr)
-        is developed by Advanced Telematic Systems (subsequently acquired by
-        [HERE technologies](https://www.here.com/en)). aktualizr
-        is integrated into [Automotive Grade Linux](https://www.automotivelinux.org/) (AGL),
-        a collaborative open source project in which
-        automakers, suppliers and technology companies work together to
-        advance the development and adoption of a fully open software stack
-        for the connected car.
-    </p>
-    <p>
-        NYU Tandon School of Engineering becomes an associate member
-        of the [Linux Foundation](https://www.linuxfoundation.org/)
-        and a Bronze member of AGL on the strength of the Foundation’s
-        adoption of Uptane and TUF projects.
-    </p>
-    <p>
-        The Uptane Alliance, a nonprofit entity organized under the umbrella of
-        IEEE's [International Standards and Technology Organization](https://ieee-isto.org/)
-        is formed. As an ISTO supported organization, the Alliance will
-        oversee the development of a Standard for the implementation/deployment
-        of Uptane, as well as the advancement and improvement of the
-        technology itself.
-    </p>
-    <p></p>
-  </VerticalTimelineElement>
-  <VerticalTimelineElement
-    className="vertical-timeline-element--work"
-    date="2019"
-  >
-    <h3 className="vertical-timeline-element-title">2019</h3>
-    <p>
-      IEEE/ISTO releases version 1.0.0 of the Uptane specification.
-    </p>
-    <p>
-        The Uptane project joins the Linux Foundation's Joint Development Foundation,
-        providing a pathway for ISO standardization of future versions of the Standard.
-    </p>
-  </VerticalTimelineElement>
-  <VerticalTimelineElement
-    className="vertical-timeline-element--work"
-    date="2021"
-  >
-    <h3 className="vertical-timeline-element-title">2021</h3>
-    <p>
-        The Uptane working group releases versions 1.1.0 and 1.2.0 of the
-         Uptane Standard.
-    </p>
-    <p>
-        Uptane releases its first whitepaper [Uptane: Securing delivery of software updates for
-        ground vehicles](https://uptane.github.io/papers/Uptane_first_whitepaper.pdf).
-        A [Japanese language version](https://uptane.github.io/papers/uptane_first_japanese_92121.pdf)
-        is released later in the year.
-    </p>
-    <p>
-        A formal method for members of the community to propose the addition
-        or modification of the Uptane specification, known as Proposed Uptane
-        Revision and Enhancement or PUREs, is established. To date, PUREs
-        have introduced to Uptane a secure method for handling offline updates,
-        and a strategy to addressing software supply chain security in Uptane.
-    </p>
-    <p>
-        In conjunction with escar Europe, Uptane holds its first virtual
-        International Conference, drawing attendees from Europe and Asia.
-    </p>
-  </VerticalTimelineElement>
-  <VerticalTimelineElement
-    className="vertical-timeline-element--work"
-    date="2022"
-  >
-    <h3 className="vertical-timeline-element-title">2022</h3>
-    <p>
-      Version 2.0.0 of the Uptane Standard is released. The most
-      significant change in this version is the removal of references
-      to the Uptane Time Server to clarify that users can make their
-      own decisions about secure sources of time.
-    </p>
-  </VerticalTimelineElement>
-  <VerticalTimelineElement
-    className="vertical-timeline-element--work"
-    date="2023"
-  >
-    <h3 className="vertical-timeline-element-title">2023</h3>
-    <p>
-        Version 2.1.0 of the Uptane Standard is released.
-    </p>
-  </VerticalTimelineElement>
-</VerticalTimeline>
+
+    <div className="btn-group">
+
+      <button
+        className="btn"
+        data-action="expand"
+        type="button"
+      >
+        Expand All
+      </button>
+
+      <button
+        className="btn"
+        data-action="collapse"
+        type="button"
+      >
+        Collapse All
+      </button>
+
+    </div>
+
+    <div className="timeline__item">
+
+      <div className="timeline__item-header">
+
+        <button
+          aria-controls="item1-ctrld"
+          aria-expanded="false"
+          aria-haspopup="true"
+          aria-labelledby="item1-name"
+          className="timeline__arrow"
+          data-item="1"
+          id="item1"
+          type="button"
+        >
+
+          <svg
+            className="timeline__arrow-icon"
+            height="24px"
+            viewBox="0 0 24 24"
+            width="24px"
+          >
+
+            <use href="#arrow" />
+
+          </svg>
+
+        </button>
+
+        <span className="timeline__dot" />
+
+        <span
+          className="timeline__meta"
+          id="item1-name"
+        >
+
+          <time
+            className="timeline__date"
+            dateTime="1970-01-01"
+          >
+            January 1, 1970
+          </time>
+          <br />
+
+          <strong className="timeline__title">
+            Unix Epoch
+          </strong>
+
+        </span>
+
+      </div>
+
+      <div
+        aria-hidden="true"
+        aria-labelledby="item1"
+        className="timeline__item-body"
+        id="item1-ctrld"
+        role="region"
+      >
+
+        <div className="timeline__item-body-content">
+
+          <p className="timeline__item-p">
+            This is the day the Unix clock began (or{' '}
+            <time dateTime="1969-12-31">
+              December 31, 1969
+            </time>
+            {' '}if you live behind UTC).
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div className="timeline__item">
+
+      <div className="timeline__item-header">
+
+        <button
+          aria-controls="item2-ctrld"
+          aria-expanded="false"
+          aria-haspopup="true"
+          aria-labelledby="item2-name"
+          className="timeline__arrow"
+          data-item="2"
+          id="item2"
+          type="button"
+        >
+
+          <svg
+            className="timeline__arrow-icon"
+            height="24px"
+            viewBox="0 0 24 24"
+            width="24px"
+          >
+
+            <use href="#arrow" />
+
+          </svg>
+
+        </button>
+
+        <span className="timeline__dot" />
+
+        <span
+          className="timeline__meta"
+          id="item2-name"
+        >
+
+          <time
+            className="timeline__date"
+            dateTime="1973-10-17"
+          >
+            October 17, 1973
+          </time>
+          <br />
+
+          <strong className="timeline__title">
+            Digits Within ISO 8601 Format
+          </strong>
+
+        </span>
+
+      </div>
+
+      <div
+        aria-hidden="true"
+        aria-labelledby="item2"
+        className="timeline__item-body"
+        id="item2-ctrld"
+        role="region"
+      >
+
+        <div className="timeline__item-body-content">
+
+          <p className="timeline__item-p">
+            At 6:36:57 PM UTC, the date in ISO 8601 format (1973-10-17) within the time digits (119731017) appeared for the first time.
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div className="timeline__item">
+
+      <div className="timeline__item-header">
+
+        <button
+          aria-controls="item3-ctrld"
+          aria-expanded="false"
+          aria-haspopup="true"
+          aria-labelledby="item3-name"
+          className="timeline__arrow"
+          data-item="3"
+          id="item3"
+          type="button"
+        >
+
+          <svg
+            className="timeline__arrow-icon"
+            height="24px"
+            viewBox="0 0 24 24"
+            width="24px"
+          >
+
+            <use href="#arrow" />
+
+          </svg>
+
+        </button>
+
+        <span className="timeline__dot" />
+
+        <span
+          className="timeline__meta"
+          id="item3-name"
+        >
+
+          <time
+            className="timeline__date"
+            dateTime="2001-09-09"
+          >
+            September 9, 2001
+          </time>
+          <br />
+
+          <strong className="timeline__title">
+            1 Billion Seconds
+          </strong>
+
+        </span>
+
+      </div>
+
+      <div
+        aria-hidden="true"
+        aria-labelledby="item3"
+        className="timeline__item-body"
+        id="item3-ctrld"
+        role="region"
+      >
+
+        <div className="timeline__item-body-content">
+
+          <p className="timeline__item-p">
+            Unix time reached 1,000,000,000 seconds at 1:46:40 AM UTC. The Danish UNIX User Group celebrated this in Copenhagen, Denmark.
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div className="timeline__item">
+
+      <div className="timeline__item-header">
+
+        <button
+          aria-controls="item4-ctrld"
+          aria-expanded="false"
+          aria-haspopup="true"
+          aria-labelledby="item4-name"
+          className="timeline__arrow"
+          data-item="4"
+          id="item4"
+          type="button"
+        >
+
+          <svg
+            className="timeline__arrow-icon"
+            height="24px"
+            viewBox="0 0 24 24"
+            width="24px"
+          >
+
+            <use href="#arrow" />
+
+          </svg>
+
+        </button>
+
+        <span className="timeline__dot" />
+
+        <span
+          className="timeline__meta"
+          id="item4-name"
+        >
+
+          <time
+            className="timeline__date"
+            dateTime="2009-02-13"
+          >
+            February 13, 2009
+          </time>
+          <br />
+
+          <strong className="timeline__title">
+            1,234,567,890 Seconds
+          </strong>
+
+        </span>
+
+      </div>
+
+      <div
+        aria-hidden="true"
+        aria-labelledby="item4"
+        className="timeline__item-body"
+        id="item4-ctrld"
+        role="region"
+      >
+
+        <div className="timeline__item-body-content">
+
+          <p className="timeline__item-p">
+            At 11:31:30 PM UTC, the digits of the time were 1234567890. This was celebrated worldwide, and even Google had a{' '}
+            <a
+              href="https://www.google.com/logos/unix1234567890.gif"
+              rel="noopener"
+              target="_blank"
+            >
+              doodle
+            </a>
+            {' '}for it.
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div className="timeline__item">
+
+      <div className="timeline__item-header">
+
+        <button
+          aria-controls="item5-ctrld"
+          aria-expanded="false"
+          aria-haspopup="true"
+          aria-labelledby="item5-name"
+          className="timeline__arrow"
+          data-item="5"
+          id="item5"
+          type="button"
+        >
+
+          <svg
+            className="timeline__arrow-icon"
+            height="24px"
+            viewBox="0 0 24 24"
+            width="24px"
+          >
+
+            <use href="#arrow" />
+
+          </svg>
+
+        </button>
+
+        <span className="timeline__dot" />
+
+        <span
+          className="timeline__meta"
+          id="item5-name"
+        >
+
+          <time
+            className="timeline__date"
+            dateTime="2033-05-18"
+          >
+            May 18, 2033
+          </time>
+          <br />
+
+          <strong className="timeline__title">
+            2 Billion Seconds
+          </strong>
+
+        </span>
+
+      </div>
+
+      <div
+        aria-hidden="true"
+        aria-labelledby="item5"
+        className="timeline__item-body"
+        id="item5-ctrld"
+        role="region"
+      >
+
+        <div className="timeline__item-body-content">
+
+          <p className="timeline__item-p">
+            Unix time will reach 2,000,000,000 seconds at 3:33:20 AM UTC.
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div className="timeline__item">
+
+      <div className="timeline__item-header">
+
+        <button
+          aria-controls="item6-ctrld"
+          aria-expanded="false"
+          aria-haspopup="true"
+          aria-labelledby="item6-name"
+          className="timeline__arrow"
+          data-item="6"
+          id="item6"
+          type="button"
+        >
+
+          <svg
+            className="timeline__arrow-icon"
+            height="24px"
+            viewBox="0 0 24 24"
+            width="24px"
+          >
+
+            <use href="#arrow" />
+
+          </svg>
+
+        </button>
+
+        <span className="timeline__dot" />
+
+        <span
+          className="timeline__meta"
+          id="item6-name"
+        >
+
+          <time
+            className="timeline__date"
+            dateTime="2038-01-19"
+          >
+            January 19, 2038
+          </time>
+          <br />
+
+          <strong className="timeline__title">
+            Unix Epochalypse
+          </strong>
+
+        </span>
+
+      </div>
+
+      <div
+        aria-hidden="true"
+        aria-labelledby="item6"
+        className="timeline__item-body"
+        id="item6-ctrld"
+        role="region"
+      >
+
+        <div className="timeline__item-body-content">
+
+          <p className="timeline__item-p">
+            Also known as the year 2038 problem, clocks running on a 32-bit signed integer will flip from 3:14:08 AM UTC on this day to 8:45:52 PM UTC on December 13, 1901. Therefore, values only from -2,147,483,648 to 2,147,483,647 for the second are supported.
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</div>

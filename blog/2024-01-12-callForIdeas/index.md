@@ -10,7 +10,7 @@ authors:
 
 Greetings, Uptane community 👋!
 
-As the dawn of Google Summer of Code (GSoC) 2024 ☀️ approaches, we're thrilled to announce a call for idea list submissions. Jon Oster has already put forth two compelling proposals, and we're eager to expand this list with your innovative ideas. Before diving into the details of Jon's proposals, let's encourage everyone to participate in the discussion and contribute fresh perspectives on our [GitHub discussion board](https://github.com/uptane/uptane.github.io/discussions/166).
+As Google Summer of Code (GSoC) 2024 ☀️ approaches, we're thrilled to announce an open call for possible Uptane projects. One of our community members, Jon Oster, has already put forth two compelling proposals, and we're eager to expand this list with your innovative ideas. Before diving into the details of Jon's proposals, let's encourage everyone to participate in the discussion and contribute fresh perspectives on our [GitHub discussion board](https://github.com/uptane/uptane.github.io/discussions/166).
 
 Now, let's explore the exciting projects proposed by Jon Oster:
 

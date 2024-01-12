@@ -8,7 +8,7 @@ authors:
 
 ## Introduction
 
-Greetings, fellow developers and enthusiasts! I'm Abhijay Jain, and I'm thrilled to share the incredible journey of my Google Summer of Code (GSoC) project with Uptane. In this blog, I'll walk you through the key aspects of my project, the challenges faced, the milestones achieved, and the exciting future prospects.
+Greetings, fellow developers and enthusiasts! I'm Abhijay Jain, and I'm thrilled to share the incredible journey of my Google Summer of Code (GSoC) project with Uptane. In this blog, I'll walk you through the key aspects of my project, the challenges faced, the milestones achieved, and the exciting future prospects for serving its community.
 
 ## Student Info 🧑‍🎓
 
@@ -37,7 +37,7 @@ Before GSoC, contributors communicated with each other either through GitHub dis
 The objective of this project is to deconstruct the current website layout and design and create a more logical arrangement of information. We aim to achieve this by:
 
 - Improving the existing platform and overall design of the website, including typeface and color choices, to create a cleaner, more contemporary look.
-- Reorganizing the content to make it easier for users to find the information they need to consider adopting or integrating the Uptane project.
+- Reorganizing the content to make it easier for users to find the information they need to consider before adopting or integrating the Uptane project.
 - Identifying key information that may be missing and adding it to the website.
 - Adding dynamic elements to the website to support more interactivity between users and the site.
 
@@ -47,13 +47,13 @@ The objective of this project is to deconstruct the current website layout and d
 
 During our first meeting, we needed to make an important decision: whether to stick with the existing technology, which is Jekyll, or migrate the site to a new framework, Docusaurus. After a discussion, we decided to go with Docusaurus as it is quite easy to maintain and comparatively better than Jekyll. The mentors assigned me the task of testing the existing content of the site with Docusaurus so that we can determine if using this program would be feasible. So, I created a demo version of the site and shared it with the mentors. After review, both the mentors and other community members reviewed our decision to go with Docusaurus as our main framework to build the site. The mentors then suggested that I move forward and prepare a new design layout for the site.
 
-### Site New Layout 📐
+### New Site Layou 📐
 
 I initiated the design of the new site by adopting a collaborative approach to receive continuous feedback. For efficient communication and design collaboration, I opted to use Figma, a tool with which I had prior experience. Figma served its purpose effectively. Lois shared a rough design doc [linked here](https://docs.google.com/document/d/1v4-tHH6dUWi-32H2qkBufHrZTsxzjHWGVHJGO9p0i34/edit?usp=sharing) explaining what we need on the new site, following which I started gathering design inspiration and shared a preliminary rough layout on Figma. I explored various platforms such as Dribbble and Behance. After conducting research, I stumbled upon a valuable resource: the Docusaurus showcase, which contained a collection of open-source sites built with Docusaurus. Drawing inspiration from these sites, I began working on the site's layout. I created a preliminary design that can be viewed below
 
 - Link to the Figma Design File : [Figma Design](https://www.figma.com/file/drCXCmIbIiTq9yaSgQJQtF/uptane-New?type=design&node-id=0%3A1&mode=design&t=3oGmlYrO4UafXxjz-1).
 
-| Figma Desing Preview                                                                                                |
+| Figma Design Preview                                                                                                |
 | ------------------------------------------------------------------------------------------------------------------- |
 | <img src="https://github.com/Abhijay007/Uptane-GSoC-Report/assets/64387054/dd785ad9-f432-4a61-b0c8-0ba3d617a17d" /> |
 
@@ -107,7 +107,7 @@ I extend my heartfelt gratitude to all the mentors who have been an incredible s
 
 I want to express my appreciation to all the mentors, including Lois, Philip, Ira, Jon, Justin, and the dedicated members of the community. Your unwavering support and willingness to assist have been invaluable. The regular check-in meetings, understanding of contributors' needs, and effective program structuring were all testaments to your dedication. You maintained open lines of communication through emails, which facilitated the sharing of progress and concerns. I couldn't have asked for better mentors; you have truly made my GSoC journey special and enriched my experience.
 
-To the reader who has made it this far, I want to express my gratitude. Your interest in my journey and work, whether it's a small website or a significant library design, means a great deal to me. It's the support and recognition of fellow developers like you that make our efforts all the more rewarding. Thank you for being a part of this journey with me.
+To the reader who has made it this far, I want to express my gratitude. It's the support and recognition of fellow developers like you that make our efforts all the more rewarding. Thank you for being a part of this journey with me.
 
 ## What Was Covered ✔️
 

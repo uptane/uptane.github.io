@@ -18,7 +18,7 @@ Here are the current projects proposed by Jon Oster:
 
 Aktualizr, a Uptane client written in C++, focuses on embedded Linux systems. Uptane's core functionality is vital for securing and validating software updates in highly security-sensitive and safety-critical systems. However, aktualizr currently supports only OSTree as a method for installing updates.
 
-This GSoC project aims to enhance aktualizr by implementing support for an A/B partition-based update method. Swupdate or RAUC, two popular open-source software updaters, are the targeted integration points. While libaktualizr already supports additional package managers, collaboration with the maintainers of Swupdate or RAUC would be ideal.
+This GSoC project aims to enhance aktualizr by implementing support for an A/B partition-based update method. Swupdate or RAUC, two popular open-source software updaters, are the targeted integration points. While libaktualizr already supports additional package managers, our ideal solution would be a collaboration with the maintainers of Swupdate or RAUC.
 
 **Key skills required:** Systems-level programming in C++
 

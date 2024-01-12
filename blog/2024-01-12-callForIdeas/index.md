@@ -26,7 +26,7 @@ This GSoC project aims to enhance aktualizr by implementing support for an A/B p
 
 ## Proposal 2: Creating an Open-Source Web UI for OTA Community Edition  🌐
 
-Uptane's project already boasts open-source implementations of core back-end services. However, setting up and using these services can be challenging. OTA Community Edition provides a simplified, docker-based deployment method, but lacks a crucial component - a user-friendly UI.
+Uptane's project already boasts open-source implementations of core back-end services. However, setting up and using these services can be challenging. OTA Community Edition provides a simplified, Docker-based deployment method, but lacks a crucial component - a user-friendly UI.
 
 This GSoC project seeks to develop a new, simplified UI from scratch and integrate it into OTA Community Edition. The goal is to enable ordinary users to interact with the system seamlessly. Additionally, the project should include a robust test suite to ensure the UI remains functional with any upstream changes in the core services.
 

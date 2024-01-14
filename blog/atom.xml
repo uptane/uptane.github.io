@@ -2,11 +2,39 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://uptane.org/blog</id>
     <title>Uptane Blog</title>
-    <updated>2024-01-10T00:00:00.000Z</updated>
+    <updated>2024-01-12T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://uptane.org/blog"/>
     <subtitle>Uptane Blog</subtitle>
     <icon>https://uptane.org/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Exciting Opportunities Await: Uptane Calls for GSoC 2024 Idea List Submissions! ☀️🚀]]></title>
+        <id>https://uptane.org/blog/2024/01/12/callForIdeas</id>
+        <link href="https://uptane.org/blog/2024/01/12/callForIdeas"/>
+        <updated>2024-01-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Greetings, Uptane community 👋!]]></summary>
+        <content type="html"><![CDATA[<p><img loading="lazy" src="https://uptane.org/assets/images/callForIdeasBanner-6e9ca5b85ce48022d00dbeb5b9a4b105.png" width="1800" height="1200" class="img_ev3q"></p>
+<p>Greetings, Uptane community 👋!</p>
+<p>As Google Summer of Code (GSoC) 2024 ☀️ approaches, we're thrilled to announce an open call for possible Uptane projects. One of our community members, Jon Oster, has already put forth two compelling proposals, and we're eager to expand this list with your innovative ideas. Before diving into the details of Jon's proposals, let's encourage everyone to participate in the discussion and contribute fresh perspectives on our <a href="https://github.com/uptane/uptane.github.io/discussions/166" target="_blank" rel="noopener noreferrer">GitHub discussion board</a>.</p>
+<p>Here are the current projects proposed by Jon Oster:</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="proposal-1-integrating-aktualizr-with-popular-embedded-software-updaters-">Proposal 1: Integrating aktualizr with Popular Embedded Software Updaters 🔄<a href="https://uptane.org/blog/2024/01/12/callForIdeas#proposal-1-integrating-aktualizr-with-popular-embedded-software-updaters-" class="hash-link" aria-label="Direct link to Proposal 1: Integrating aktualizr with Popular Embedded Software Updaters 🔄" title="Direct link to Proposal 1: Integrating aktualizr with Popular Embedded Software Updaters 🔄">​</a></h2>
+<p>Aktualizr, a Uptane client written in C++, focuses on embedded Linux systems. Uptane's core functionality is vital for securing and validating software updates in highly security-sensitive and safety-critical systems. However, aktualizr currently supports only OSTree as a method for installing updates.</p>
+<p>This GSoC project aims to enhance aktualizr by implementing support for an A/B partition-based update method. Swupdate or RAUC, two popular open-source software updaters, are the targeted integration points. While libaktualizr already supports additional package managers, our ideal solution would be a collaboration with the maintainers of Swupdate or RAUC.</p>
+<p><strong>Key skills required:</strong> Systems-level programming in C++</p>
+<p><strong>Potential mentors:</strong> Jon Oster, Patti Vacek, Phil Wise, Rogerio Borin, Phil Lapczynski, Person-to-be-named-later from SWUpdate or RAUC project.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="proposal-2-creating-an-open-source-web-ui-for-ota-community-edition--">Proposal 2: Creating an Open-Source Web UI for OTA Community Edition  🌐<a href="https://uptane.org/blog/2024/01/12/callForIdeas#proposal-2-creating-an-open-source-web-ui-for-ota-community-edition--" class="hash-link" aria-label="Direct link to Proposal 2: Creating an Open-Source Web UI for OTA Community Edition  🌐" title="Direct link to Proposal 2: Creating an Open-Source Web UI for OTA Community Edition  🌐">​</a></h2>
+<p>Uptane's project already boasts open-source implementations of core back-end services. However, setting up and using these services can be challenging. OTA Community Edition provides a simplified, Docker-based deployment method, but lacks a crucial component - a user-friendly UI.</p>
+<p>This GSoC project seeks to develop a new, simplified UI from scratch and integrate it into OTA Community Edition. The goal is to enable ordinary users to interact with the system seamlessly. Additionally, the project should include a robust test suite to ensure the UI remains functional with any upstream changes in the core services.</p>
+<p><strong>Key skills required:</strong> Front-end/UI development, automated testing, CI/CD</p>
+<p><strong>Potential mentors:</strong> Jon Oster, Temi Adeyeri, [Mentor to be named]</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="join-the-discussion-and-share-your-ideas-️">Join the Discussion and Share Your Ideas 🗣️<a href="https://uptane.org/blog/2024/01/12/callForIdeas#join-the-discussion-and-share-your-ideas-%EF%B8%8F" class="hash-link" aria-label="Direct link to Join the Discussion and Share Your Ideas 🗣️" title="Direct link to Join the Discussion and Share Your Ideas 🗣️">​</a></h2>
+<p>If you have any other amazing ideas to contribute, feel free to join the discussion on our <a href="https://github.com/uptane/uptane.github.io/discussions/166" target="_blank" rel="noopener noreferrer">GitHub board</a>. Remember, the deadline for submitting your ideas is January 22. We encourage your participation in shaping the official project list for GSoC registrations.</p>
+<p>Let's make Uptane GSoC 2024 ☀️ a collaborative success 🚀!</p>]]></content>
+        <author>
+            <name>Abhijay</name>
+            <uri>https://www.linkedin.com/in/abhijay-jain-551b01193/</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Uptane GSoC'23: A Journey of Revamping and Enhancing User Experience 🚀]]></title>
         <id>https://uptane.org/blog/2024/01/10/GSoC-blog</id>
@@ -15,7 +43,7 @@
         <summary type="html"><![CDATA[Introduction]]></summary>
         <content type="html"><![CDATA[<p><img loading="lazy" src="https://uptane.org/assets/images/uptaneGsocBanner-6eb1eee2ee4001d96fc06f8a421c7206.png" width="1200" height="630" class="img_ev3q"></p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="introduction">Introduction<a href="https://uptane.org/blog/2024/01/10/GSoC-blog#introduction" class="hash-link" aria-label="Direct link to Introduction" title="Direct link to Introduction">​</a></h2>
-<p>Greetings, fellow developers and enthusiasts! I'm Abhijay Jain, and I'm thrilled to share the incredible journey of my Google Summer of Code (GSoC) project with Uptane. In this blog, I'll walk you through the key aspects of my project, the challenges faced, the milestones achieved, and the exciting future prospects.</p>
+<p>Greetings, fellow developers and enthusiasts! I'm Abhijay Jain, and I'm thrilled to share the incredible journey of my Google Summer of Code (GSoC) project with Uptane. In this blog, I'll walk you through the key aspects of my project, the challenges faced, the milestones achieved, and the exciting future prospects for serving its community.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="student-info-">Student Info 🧑‍🎓<a href="https://uptane.org/blog/2024/01/10/GSoC-blog#student-info-" class="hash-link" aria-label="Direct link to Student Info 🧑‍🎓" title="Direct link to Student Info 🧑‍🎓">​</a></h2>
 <p>Before we dive into the details, let me reintroduce myself:</p>
 <ul>
@@ -35,19 +63,19 @@
 <p>The objective of this project is to deconstruct the current website layout and design and create a more logical arrangement of information. We aim to achieve this by:</p>
 <ul>
 <li>Improving the existing platform and overall design of the website, including typeface and color choices, to create a cleaner, more contemporary look.</li>
-<li>Reorganizing the content to make it easier for users to find the information they need to consider adopting or integrating the Uptane project.</li>
+<li>Reorganizing the content to make it easier for users to find the information they need to consider before adopting or integrating the Uptane project.</li>
 <li>Identifying key information that may be missing and adding it to the website.</li>
 <li>Adding dynamic elements to the website to support more interactivity between users and the site.</li>
 </ul>
 <p>(PS: Here’s <a href="https://drive.google.com/file/d/1lTvrFoS7VzOsNRWsmoHVOnTd0ui9BZ3g/view?usp=sharing" target="_blank" rel="noopener noreferrer">the link</a> to my GSoC proposal if you’re interested!)</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="initialization-">Initialization 🚀<a href="https://uptane.org/blog/2024/01/10/GSoC-blog#initialization-" class="hash-link" aria-label="Direct link to Initialization 🚀" title="Direct link to Initialization 🚀">​</a></h3>
 <p>During our first meeting, we needed to make an important decision: whether to stick with the existing technology, which is Jekyll, or migrate the site to a new framework, Docusaurus. After a discussion, we decided to go with Docusaurus as it is quite easy to maintain and comparatively better than Jekyll. The mentors assigned me the task of testing the existing content of the site with Docusaurus so that we can determine if using this program would be feasible. So, I created a demo version of the site and shared it with the mentors. After review, both the mentors and other community members reviewed our decision to go with Docusaurus as our main framework to build the site. The mentors then suggested that I move forward and prepare a new design layout for the site.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="site-new-layout-">Site New Layout 📐<a href="https://uptane.org/blog/2024/01/10/GSoC-blog#site-new-layout-" class="hash-link" aria-label="Direct link to Site New Layout 📐" title="Direct link to Site New Layout 📐">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="new-site-layout">New Site Layout📐<a href="https://uptane.org/blog/2024/01/10/GSoC-blog#new-site-layout" class="hash-link" aria-label="Direct link to New Site Layout📐" title="Direct link to New Site Layout📐">​</a></h3>
 <p>I initiated the design of the new site by adopting a collaborative approach to receive continuous feedback. For efficient communication and design collaboration, I opted to use Figma, a tool with which I had prior experience. Figma served its purpose effectively. Lois shared a rough design doc <a href="https://docs.google.com/document/d/1v4-tHH6dUWi-32H2qkBufHrZTsxzjHWGVHJGO9p0i34/edit?usp=sharing" target="_blank" rel="noopener noreferrer">linked here</a> explaining what we need on the new site, following which I started gathering design inspiration and shared a preliminary rough layout on Figma. I explored various platforms such as Dribbble and Behance. After conducting research, I stumbled upon a valuable resource: the Docusaurus showcase, which contained a collection of open-source sites built with Docusaurus. Drawing inspiration from these sites, I began working on the site's layout. I created a preliminary design that can be viewed below</p>
 <ul>
 <li>Link to the Figma Design File : <a href="https://www.figma.com/file/drCXCmIbIiTq9yaSgQJQtF/uptane-New?type=design&amp;node-id=0%3A1&amp;mode=design&amp;t=3oGmlYrO4UafXxjz-1" target="_blank" rel="noopener noreferrer">Figma Design</a>.</li>
 </ul>
-<table><thead><tr><th>Figma Desing Preview</th></tr></thead><tbody><tr><td><img src="https://github.com/Abhijay007/Uptane-GSoC-Report/assets/64387054/dd785ad9-f432-4a61-b0c8-0ba3d617a17d"></td></tr></tbody></table>
+<table><thead><tr><th>Figma Design Preview</th></tr></thead><tbody><tr><td><img src="https://github.com/Abhijay007/Uptane-GSoC-Report/assets/64387054/dd785ad9-f432-4a61-b0c8-0ba3d617a17d"></td></tr></tbody></table>
 <ul>
 <li>Here is a video overview of the site, where I explained all the sections</li>
 </ul>
@@ -80,7 +108,7 @@
 <p>My journey through Google Summer of Code has been a remarkable experience as it represented a transition from personal projects to contributing to real-world website applications. The opportunity to learn by doing has been invaluable, and I am deeply grateful to have been part of this extraordinary program ❤️.</p>
 <p>I extend my heartfelt gratitude to all the mentors who have been an incredible source of guidance and support throughout my GSoC journey. Your mentorship has been instrumental in my growth as a developer, and I am fortunate to have had you by my side every step of the way.</p>
 <p>I want to express my appreciation to all the mentors, including Lois, Philip, Ira, Jon, Justin, and the dedicated members of the community. Your unwavering support and willingness to assist have been invaluable. The regular check-in meetings, understanding of contributors' needs, and effective program structuring were all testaments to your dedication. You maintained open lines of communication through emails, which facilitated the sharing of progress and concerns. I couldn't have asked for better mentors; you have truly made my GSoC journey special and enriched my experience.</p>
-<p>To the reader who has made it this far, I want to express my gratitude. Your interest in my journey and work, whether it's a small website or a significant library design, means a great deal to me. It's the support and recognition of fellow developers like you that make our efforts all the more rewarding. Thank you for being a part of this journey with me.</p>
+<p>To the reader who has made it this far, I want to express my gratitude. It's the support and recognition of fellow developers like you that make our efforts all the more rewarding. Thank you for being a part of this journey with me.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-was-covered-️">What Was Covered ✔️<a href="https://uptane.org/blog/2024/01/10/GSoC-blog#what-was-covered-%EF%B8%8F" class="hash-link" aria-label="Direct link to What Was Covered ✔️" title="Direct link to What Was Covered ✔️">​</a></h2>
 <p>The project successfully achieved milestones, including migration to Docusaurus, documentation revision, redesigned website layout, enhanced design elements, addition of missing information, and integration of dynamic elements.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-work-remains-">What Work Remains 🚀<a href="https://uptane.org/blog/2024/01/10/GSoC-blog#what-work-remains-" class="hash-link" aria-label="Direct link to What Work Remains 🚀" title="Direct link to What Work Remains 🚀">​</a></h2>

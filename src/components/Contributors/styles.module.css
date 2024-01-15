@@ -40,7 +40,7 @@
     height: 70px;
     width: 70px;
     border-radius: 50%;
-    border: 2px solid #81dc7b;
+    border: 2px solid var(--ifm-color-primary);
     display: flex;
     justify-content: center;
     align-items: center;

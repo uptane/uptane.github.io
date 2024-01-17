@@ -20,7 +20,7 @@ const Contributors = () => {
     setAllContributors(uniqueContributorsArray);
   }, []);
 
-  return <div className={[styles.contributors, styles.section_padding].join(' ')}>
+  return <div className={[styles.contributors].join(' ')}>
     <div className={styles.uptane_contributors}>
       <h1>Uptane Contributors</h1>
     </div>

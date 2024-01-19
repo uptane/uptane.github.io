@@ -4,6 +4,7 @@ import Layout from '@theme/Layout';
 import Header from '@site/src/components/Header';
 import WhatIsUptane from '@site/src/components/WhatIsUptane';
 // import Workflow from '@site/src/components/Workflow';
+import Contributors from '../components/Contributors';
 import Community from '../components/JoinCommunity';
 import Adopters from '../components/Adopters';
 import PuttingUptane from '../components/PuttingUptane';

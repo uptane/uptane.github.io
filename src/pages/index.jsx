@@ -3,7 +3,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import Header from '@site/src/components/Header';
 import WhatIsUptane from '@site/src/components/WhatIsUptane';
-// import Workflow from '@site/src/components/Workflow';
+import CardGrid from '../components/BlogsLatest';
 import Community from '../components/JoinCommunity';
 import Adopters from '../components/Adopters';
 import PuttingUptane from '../components/PuttingUptane';
@@ -22,7 +22,7 @@ export default function Home() {
         <Features/>
         <Adopters/>
         <PuttingUptane/>
-        {/* <Workflow /> */}
+        <CardGrid/>
         <Community />
         <SupportedBySection/>
       </main>

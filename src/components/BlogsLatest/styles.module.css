@@ -1,0 +1,92 @@
+.blog_img {
+    width: 400px;
+    height: 230px;
+    margin: auto;
+    border-radius: 10px;
+    vertical-align: middle;
+}
+
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.cards_item {
+    display: flex;
+    padding: 1rem;
+}
+
+@media (min-width: 40rem) {
+    .cards_item {
+        width: 50%;
+    }
+}
+
+@media (min-width: 56rem) {
+    .cards_item {
+        width: 33.3333%;
+    }
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+
+.card_title {
+    font-size: 1.3rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 5px;
+    padding-top: 20px;
+    text-transform: capitalize;
+    margin: 0px;
+}
+
+.card_text {
+    font-size: 1.1rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    padding: 4px;
+    cursor: pointer;
+    padding-top: 10px;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: center;
+}
+
+.features h1 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 55px;
+    color: var(--ifm-color-primary);
+}
+
+.section_padding {
+    padding: 4rem 6rem;
+}
+
+
+@media screen and (max-width: 650px) {
+    .section_padding {
+        padding: 4rem;
+    }
+
+}
+
+@media screen and (max-width: 490px) {
+    .section_padding {
+        padding: 3rem;
+    }
+}

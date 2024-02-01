@@ -1,5 +1,5 @@
 import React from 'react';
-import data from '@site/static/adopters/data.js';
+import data from '@site/static/data/adopters/data.js';
 import ProjectCard from './project_card';
 import styles from './styles.module.css';
 

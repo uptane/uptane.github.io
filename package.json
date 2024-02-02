@@ -31,7 +31,10 @@
     "@docusaurus/module-type-aliases": "^3.1.0",
     "@docusaurus/types": "^3.1.0",
     "@playwright/test": "^1.39.0",
-    "cheerio": "^1.0.0-rc.12"
+    "autoprefixer": "^10.4.17",
+    "cheerio": "^1.0.0-rc.12",
+    "postcss": "^8.4.33",
+    "tailwindcss": "^3.4.1"
   },
   "browserslist": {
     "production": [

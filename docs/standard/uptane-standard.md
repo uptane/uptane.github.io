@@ -17,7 +17,7 @@ These instructions delineate the set of requirements necessary for specific ECU 
 
 ## 2. Terminology
 
-With the exception of the Conformance terminology and Uptane role terminology presented below, please refer to the [glossary](https://uptane.github.io/deployment-considerations/glossary.html) in the Deployment Best Practices volume for definitions of all terms used in this Standard.
+With the exception of the Conformance terminology and Uptane role terminology presented below, please refer to the [glossary](https://uptane.org/docs/latest/deployment/best-practices#11-glossary) in the Deployment Best Practices volume for definitions of all terms used in this Standard.
 
 ## 2.1. Conformance terminology
 
@@ -804,7 +804,7 @@ Barry, K., "[Automakers Embrace Over-the-Air Updates, but Can We Trust Digital C
 
 ##### **\[DEPLOY\]**
 
-Members of the Uptane Community, "[Uptane Deployment Best Practices](https://uptane.github.io/deployment-considerations/index.html)", n.d..
+Members of the Uptane Community, "[Uptane Deployment Best Practices](https://uptane.github.io/docs/deployment/best-practices)", n.d..
 
 ##### **\[IN-TOTO\]**
 

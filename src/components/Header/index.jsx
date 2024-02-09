@@ -10,7 +10,7 @@ export default function Header() {
     const customButtonClasses = `button button--lg ${styles.customButtonStyle}`;
 
     return (
-        <div className={headerBackClasses}>
+        <div className={`bg-gradient-blue flex flex-col lg:flex-row hero-clip p-12 pr-28 pb-24 pl-28 md:p-16 lg:p-12`}>
             <div className={styles.header_content}>
             <ThemedImage
                 alt="Supported By Logo"

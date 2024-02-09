@@ -13,8 +13,10 @@ module.exports = {
         'max-sm': {'max': '489px'},
         'max-md': {'max': '649px'},
       },
+      backgroundImage: {
+        'gradient-blue': 'linear-gradient(130deg, #0C64D6 0%, rgba(12, 100, 214, 0.87) 0%, rgba(12, 100, 214, 0.78) 47.69%, rgba(12, 100, 214, 0.62) 99.61%, rgba(12, 100, 214, 0.00) 100%)',
+      },
     },
   },
   plugins: [],
 }
-

@@ -137,6 +137,12 @@ a {
   @apply font-content;
 }
 
+@layer utilities {
+  .hero-clip {
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 75px), 0 100%);
+  }
+}
+
 .button.button--secondary {
   color: var(--ifm-color-primary);
 }

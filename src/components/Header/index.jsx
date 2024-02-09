@@ -6,11 +6,11 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 import Link from '@docusaurus/Link';
 
 export default function Header() {
-    const tagLine = `${styles.section_padding}`;
+    const headerBackClasses = `${styles.header_back} ${styles.section_padding}`;
     const customButtonClasses = `button button--lg ${styles.customButtonStyle}`;
 
     return (
-        <div className={`bg-gradient-blue flex flex-col lg:flex-row hero-clip p-12 pr-28 pb-24 pl-28 md:p-16 lg:p-12`}>
+        <div className={headerBackClasses}>
             <div className={styles.header_content}>
             <ThemedImage
                 alt="Supported By Logo"

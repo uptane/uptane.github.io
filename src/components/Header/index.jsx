@@ -6,12 +6,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 import Link from '@docusaurus/Link';
 
 export default function Header() {
-    const headerBackClasses = `${styles.header_back} ${styles.section_padding}`;
-    const customButtonClasses = `button button--lg ${styles.customButtonStyle}`;
-
     return (
         <div className={`bg-gradient-blue flex flex-col lg:flex-row hero-clip p-12 pr-28 pb-24 pl-28 md:p-16 lg:p-12`}>
-            <div className={styles.header_content}>
+            <div className={`lg:ml-10 flex flex-col items-start justify-center flex-1`}>
             <ThemedImage
                 alt="Supported By Logo"
                 width="300px"
@@ -20,13 +17,13 @@ export default function Header() {
                     dark: useBaseUrl('/img/uptaneLogoHero.svg'),
                 }}
             />
-                <h3>A Secure Software Update Framework for Automobiles</h3>
-                <div className={styles.header_content_buttons}>
-                    <Link to="/learn-more/getting-started" className={customButtonClasses}>Learn More</Link>
+                <h1 className="mt-6 mb-6">A Secure Software Update Framework for Automobiles</h1>
+                <div className="flex items-start justify-start gap-8 mt-8">
+                    <Link to="/learn-more/getting-started" className="border-2 border-white bg-transparent text-white font-bold text-lg pt-2 pb-2 pr-8 pl-8 rounded-md">Learn More</Link>
                 </div>
             </div>
-            <div className={styles.header_image}>
-                <UptaneCubes title="uptane Cubes" width="100%" />
+            <div className="hidden lg:flex flex-1 lg:items-center lg:justify-center">
+                <UptaneCubes title="uptane Cubes" width="65%" />
             </div>
         </div>
     );

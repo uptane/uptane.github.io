@@ -17,7 +17,7 @@ export default function Header() {
                     dark: useBaseUrl('/img/uptaneLogoHero.svg'),
                 }}
             />
-                <h1 className="mt-6 mb-6">A Secure Software Update Framework for Automobiles</h1>
+                <h1 className="mt-6 mb-6 text-white font-semibold">A Secure Software Update Framework for Automobiles</h1>
                 <div className="flex items-start justify-start gap-8 mt-8">
                     <Link to="/learn-more/getting-started" className="border-2 border-white bg-transparent text-white font-bold text-lg pt-2 pb-2 pr-8 pl-8 rounded-md">Learn More</Link>
                 </div>

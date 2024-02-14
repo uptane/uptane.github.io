@@ -7,8 +7,8 @@ import Link from '@docusaurus/Link';
 
 export default function Header() {
     return (
-        <div className={`bg-gradient-blue flex flex-col lg:flex-row hero-clip p-12 pr-28 pb-24 pl-28 md:p-16 lg:p-12`}>
-            <div className={`lg:ml-10 flex flex-col items-start justify-center flex-1`}>
+        <div className={`bg-gradient-blue flex flex-col lg:flex-row hero-clip p-16 sm:p-12 sm:pr-28 pb-24 sm:pl-28 md:p-16 lg:p-12`}>
+            <div className={`md:ml-16 flex flex-col items-start justify-center flex-1`}>
             <ThemedImage
                 alt="Supported By Logo"
                 width="300px"
@@ -17,12 +17,12 @@ export default function Header() {
                     dark: useBaseUrl('/img/uptaneLogoHero.svg'),
                 }}
             />
-                <h1 className="mt-6 mb-6">A Secure Software Update Framework for Automobiles</h1>
-                <div className="flex items-start justify-start gap-8 mt-8">
+                <p className="text-2xl sm:text-5xl leading-tight font-heading font-semibold mt-6 mb-2 sm:mt-10 sm:mb-6">A Secure Software Update Framework for Automobiles</p>
+                <div className="flex items-start justify-start gap-8 mt-8 mb-8 sm:mb-20 lg:mb-14">
                     <Link to="/learn-more/getting-started" className="border-2 border-white bg-transparent text-white font-bold text-lg pt-2 pb-2 pr-8 pl-8 rounded-md">Learn More</Link>
                 </div>
             </div>
-            <div className="hidden lg:flex flex-1 lg:items-center lg:justify-center">
+            <div className="hidden lg:flex flex-1 lg:items-center lg:justify-center mb-12">
                 <UptaneCubes title="uptane Cubes" width="65%" />
             </div>
         </div>

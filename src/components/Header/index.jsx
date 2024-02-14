@@ -18,7 +18,7 @@ export default function Header() {
                     }}
                 />
                 <p className="text-2xl sm:text-5xl leading-tight font-heading font-semibold mt-6 mb-2 sm:mt-10 sm:mb-6">A Secure Software Update Framework for Automobiles</p>
-                <div className="flex items-start justify-start gap-8 mt-8 mb-8 sm:mb-20 lg:mb-12">
+                <div className="flex items-start justify-start gap-8 mt-8 sm:mb-20 lg:mb-12">
                     <Link to="/learn-more/getting-started" className="border-2 border-white bg-transparent text-white font-bold text-lg pt-2 pb-2 pr-8 pl-8 rounded-md">Learn More</Link>
                 </div>
             </div>

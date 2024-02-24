@@ -49,6 +49,6 @@ If you have any doubts and want to discuss something or want resources, don't fo
 
 Let's make Uptane GSoC 2024 ☀️ a collaborative success 🚀!
 
-We are incredibly excited to embark on this journey with the GSoC community, fostering collaboration, innovation, and growth within the Uptane ecosystem. Together, let's make GSoC 2024 a resounding success! 🌱
+We are incredibly excited to embark on this GSoC journey with all potential contributors, and look forward to fostering collaboration, innovation, and growth within the Uptane ecosystem. Together, let's make GSoC 2024 a resounding success! 🌱
 
 Stay tuned for more updates and exciting developments. 📣

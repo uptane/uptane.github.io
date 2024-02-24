@@ -2,11 +2,53 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://uptane.org/blog</id>
     <title>Uptane Blog</title>
-    <updated>2024-01-12T00:00:00.000Z</updated>
+    <updated>2024-01-23T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://uptane.org/blog"/>
     <subtitle>Uptane Blog</subtitle>
     <icon>https://uptane.org/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Uptane Signs on for GSoC 2024: Join our Journey of Collaboration and Growth! ☀️🚀]]></title>
+        <id>https://uptane.org/blog/2024/01/23/GSoC-Annoucement</id>
+        <link href="https://uptane.org/blog/2024/01/23/GSoC-Annoucement"/>
+        <updated>2024-01-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Greetings, Uptane community! 👋]]></summary>
+        <content type="html"><![CDATA[<p><img loading="lazy" src="https://uptane.org/assets/images/GSoC-Annoucement-83cc60fa745418f690f38a68c058dfb4.png" width="1800" height="1200" class="img_ev3q"></p>
+<p>Greetings, Uptane community! 👋</p>
+<p>We are thrilled to announce that Uptane's sponsoring organization, the Linux Foundation,  has officially become a part of the 2024 edition of Google Summer of Code (GSoC). This will mark Uptane's third year of mentoring GSoC projects under the Linux Foundation umbrella and we couldn't be more excited about the opportunities it presents. 🎉</p>
+<p>At its core, GSoC represents more than just a mentoring program; it's a gateway to welcome and engage new contributors to the realm of open source software. It embodies the spirit of giving back, of investing a small portion of time to make a monumental difference, not only in the future endeavors of the GSoC contributors, but also for the broader Uptane community that will reap the benefits of these collaborations. 🌟</p>
+<p>We extend a warm welcome to all new GSoC contributors considering becoming mentees within the Uptane community. We believe that this experience will not only enhance your technical skills, but also provide valuable insights into the workings of our community. Applying to work on one of our projects presents an opportunity to learn from individuals who are not only passionate about the Uptane ecosystem, but also deeply committed to making a positive impact on others' lives, be it GSoC contributors or those who utilize the project itself. 🤝</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-road-to-gsoc-2024-whats-next-">The Road to GSoC 2024: What’s Next? 🚀<a href="https://uptane.org/blog/2024/01/23/GSoC-Annoucement#the-road-to-gsoc-2024-whats-next-" class="hash-link" aria-label="Direct link to The Road to GSoC 2024: What’s Next? 🚀" title="Direct link to The Road to GSoC 2024: What’s Next? 🚀">​</a></h2>
+<p>With GSoC now officially announced, we anticipate a surge in potential contributors reaching out about our projects through our <a href="https://discord.gg/SUNJ3gjm9j" target="_blank" rel="noopener noreferrer">Discord</a> channel. In the coming weeks, our focus will be on assisting these participants in finding projects that align with their interests, exploring relevant domains, and refining their project proposals before the April 2nd deadline (UTC). Subsequently, we will meticulously review applications, select projects, and assemble mentor teams to facilitate the process. 🔍</p>
+<p>For detailed information about available project ideas, please refer to our <a href="https://uptane.org/blog/2024/01/12/callForIdeas" target="_blank" rel="noopener noreferrer">blog</a>.</p>
+<p><strong>How Do I Apply?</strong> 📝</p>
+<p>We urge interested participants to engage with the Uptane community early on. Try to join our weekly project meeting and/or bi-weekly Uptane Standard meetings, and become active members of our Discord server to stay informed about upcoming events and discussions. Doing this will help you get a better understanding of the projects and the Uptane community, which will be very beneficial while choosing projects and preparing your proposals.</p>
+<p>Although the application period officially commences on March 18th (UTC), we advise candidates to commence preparations without delay. Utilize this time to refine project proposals, familiarize yourselves with Uptane, and delve deeper into your proposed areas of study. Detailed project descriptions are available here on The Linux Foundation's official <a href="https://wiki.linuxfoundation.org/gsoc/2024-gsoc-uptane" target="_blank" rel="noopener noreferrer">wiki page</a>, and our mentors are preparing resources to aid contributors in their initial exploration.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="important-dates-for-gsoc-2024-">Important Dates for GSoC 2024 📅<a href="https://uptane.org/blog/2024/01/23/GSoC-Annoucement#important-dates-for-gsoc-2024-" class="hash-link" aria-label="Direct link to Important Dates for GSoC 2024 📅" title="Direct link to Important Dates for GSoC 2024 📅">​</a></h2>
+<ul>
+<li>February 22 - March 17: Potential GSoC contributors discuss application ideas with mentoring organizations.</li>
+<li>March 18: GSoC contributor application period begins.</li>
+<li>April 2: GSoC contributor application deadline.</li>
+<li>May 1: Accepted GSoC contributor projects announced.</li>
+<li>May 1 - 26: Community Bonding Period.</li>
+<li>May 27: Coding officially begins!</li>
+<li>July 8: Midterm evaluation.</li>
+<li>August 26 - September 2: Mentors submit final GSoC contributor evaluations (standard coding period).</li>
+<li>September 3: Initial results of Google Summer of Code 2024 announced.</li>
+<li>September 3 - November 4: GSoC contributors with extended timelines continue coding.</li>
+<li>November 4: Final date for all GSoC contributors to submit their work product and final evaluation.</li>
+<li>November 11: Final date for mentors to submit evaluations for GSoC contributor projects with extended deadlines.</li>
+</ul>
+<p>For further details, please refer to the <a href="https://developers.google.com/open-source/gsoc/timeline" target="_blank" rel="noopener noreferrer">GSoC Timeline</a>.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="join-the-discussion-️">Join the Discussion 🗣️<a href="https://uptane.org/blog/2024/01/23/GSoC-Annoucement#join-the-discussion-%EF%B8%8F" class="hash-link" aria-label="Direct link to Join the Discussion 🗣️" title="Direct link to Join the Discussion 🗣️">​</a></h2>
+<p>If you have any doubts and want to discuss something or want resources, don't forget to join our <a href="https://discord.gg/SUNJ3gjm9j" target="_blank" rel="noopener noreferrer">Discord server</a>. We have a dedicated channel for GSoC named <a href="https://discord.gg/jJrCAzTxtp" target="_blank" rel="noopener noreferrer">#gsoc</a> to answer any questions.</p>
+<p>We are incredibly excited to embark on this GSoC journey with all potential contributors, and look forward to fostering collaboration, innovation, and growth within the Uptane ecosystem. Together, let's make GSoC 2024 a resounding success! 🌱</p>
+<p>Stay tuned for more updates and exciting developments. 📣</p>]]></content>
+        <author>
+            <name>Abhijay</name>
+            <uri>https://www.linkedin.com/in/abhijay-jain-551b01193/</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Exciting Opportunities Await: Uptane Calls for GSoC 2024 Idea List Submissions! ☀️🚀]]></title>
         <id>https://uptane.org/blog/2024/01/12/callForIdeas</id>

@@ -24,7 +24,7 @@ For detailed information about available project ideas, please refer to our [blo
 
 We urge interested participants to engage with the Uptane community early on. Try to join our weekly project meeting and/or bi-weekly Uptane Standard meetings, and become active members of our Discord server to stay informed about upcoming events and discussions. Doing this will help you get a better understanding of the projects and the Uptane community, which will be very beneficial while choosing projects and preparing your proposals.
 
-Although the application period officially commences on March 18th (UTC), we advise candidates to commence preparations without delay. Utilize this time to refine project proposals, familiarize yourselves with Uptane, and delve deeper into your proposed areas of study. Detailed project descriptions are available here on The Linux Foundation's official [idealist](https://wiki.linuxfoundation.org/gsoc/2024-gsoc-uptane), and our mentors are preparing resources to aid contributors in their initial exploration.
+Although the application period officially commences on March 18th (UTC), we advise candidates to commence preparations without delay. Utilize this time to refine project proposals, familiarize yourselves with Uptane, and delve deeper into your proposed areas of study. Detailed project descriptions are available here on The Linux Foundation's official [wiki page](https://wiki.linuxfoundation.org/gsoc/2024-gsoc-uptane), and our mentors are preparing resources to aid contributors in their initial exploration.
 
 ## Important Dates for GSoC 2024 📅
 
@@ -46,8 +46,6 @@ For further details, please refer to the [GSoC Timeline](https://developers.goog
 ## Join the Discussion 🗣️
 
 If you have any doubts and want to discuss something or want resources, don't forget to join our [Discord server](https://discord.gg/SUNJ3gjm9j). We have a dedicated channel for GSoC named [#gsoc](https://discord.gg/jJrCAzTxtp) to answer any questions.
-
-Let's make Uptane GSoC 2024 ☀️ a collaborative success 🚀!
 
 We are incredibly excited to embark on this GSoC journey with all potential contributors, and look forward to fostering collaboration, innovation, and growth within the Uptane ecosystem. Together, let's make GSoC 2024 a resounding success! 🌱
 

@@ -1,5 +1,5 @@
 ---
-title: "Uptane Joins GSoC 2024: A Journey of Collaboration and Growth! ☀️🚀"
+title: "Uptane Signs on for GSoC 2024: Join our Journey of Collaboration and Growth! ☀️🚀"
 authors:
   - Abhij
 ---

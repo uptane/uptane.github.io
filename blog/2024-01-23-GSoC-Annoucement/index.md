@@ -12,7 +12,7 @@ We are thrilled to announce that Uptane's sponsoring organization, the Linux Fou
 
 At its core, GSoC represents more than just a mentoring program; it's a gateway to welcome and engage new contributors to the realm of open source software. It embodies the spirit of giving back, of investing a small portion of time to make a monumental difference, not only in the future endeavors of the GSoC contributors, but also for the broader Uptane community that will reap benefits of these collaborations. 🌟
 
-We extend a warm welcome to all new GSoC contributors willing to join the Uptane community as mentees. We believe that this experience will not only enhance your technical skills but also provide valuable insights into the workings of our community. The highlight lies in the opportunity to learn from individuals who are not only passionate about the Uptane ecosystem but also deeply committed to making a positive impact on others' lives, be it GSoC contributors or the project at large. 🤝
+We extend a warm welcome to all new GSoC contributors considering becoming mentees within the Uptane community. We believe that this experience will not only enhance your technical skills, but also provide valuable insights into the workings of our community. Applying to work on one of our projects presents an opportunity to learn from individuals who are not only passionate about the Uptane ecosystem, but also deeply committed to making a positive impact on others' lives, be it GSoC contributors or those who utilize the project itself. 🤝
 
 ## Here We Come: What’s Next? 🚀
 

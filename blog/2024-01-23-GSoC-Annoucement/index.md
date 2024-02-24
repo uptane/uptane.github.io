@@ -22,7 +22,7 @@ For detailed information about available project ideas, please refer to our [blo
 
 **How Do I Apply?** 📝
 
-We urge interested participants to engage with the Uptane community early on, try to join our weekly and bi-weekly Uptane standard meetings, and become active members of our Discord server to stay informed about upcoming events and discussions. Doing this will help you to get a better understanding of the projects and the Uptane community, which will be very beneficial while choosing projects and preparing your proposals.
+We urge interested participants to engage with the Uptane community early on. Try to join our weekly project meeting and/or bi-weekly Uptane Standard meetings, and become active members of our Discord server to stay informed about upcoming events and discussions. Doing this will help you get a better understanding of the projects and the Uptane community, which will be very beneficial while choosing projects and preparing your proposals.
 
 Although the application period officially commences on March 18th (UTC), we advise candidates to commence preparations without delay. Utilize this time to refine project proposals, familiarize yourselves with Uptane, and delve deeper into your proposed areas of study. Detailed project descriptions are available here on The Linux Foundation's official [idealist](https://wiki.linuxfoundation.org/gsoc/2024-gsoc-uptane), and our mentors are preparing resources to aid contributors in their initial exploration.
 

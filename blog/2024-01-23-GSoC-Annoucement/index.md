@@ -45,7 +45,7 @@ For further details, please refer to the [GSoC Timeline](https://developers.goog
 
 ## Join the Discussion 🗣️
 
-If you have any doubts and want to discuss something or want resources, don't forget to join our [Discord server](https://discord.gg/SUNJ3gjm9j). We have a dedicated channel for GSoC named [#gsoc](https://discord.gg/jJrCAzTxtp) to answer your doubts.
+If you have any doubts and want to discuss something or want resources, don't forget to join our [Discord server](https://discord.gg/SUNJ3gjm9j). We have a dedicated channel for GSoC named [#gsoc](https://discord.gg/jJrCAzTxtp) to answer any questions.
 
 Let's make Uptane GSoC 2024 ☀️ a collaborative success 🚀!
 

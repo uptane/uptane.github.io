@@ -14,7 +14,7 @@ At its core, GSoC represents more than just a mentoring program; it's a gateway 
 
 We extend a warm welcome to all new GSoC contributors considering becoming mentees within the Uptane community. We believe that this experience will not only enhance your technical skills, but also provide valuable insights into the workings of our community. Applying to work on one of our projects presents an opportunity to learn from individuals who are not only passionate about the Uptane ecosystem, but also deeply committed to making a positive impact on others' lives, be it GSoC contributors or those who utilize the project itself. 🤝
 
-## Here We Come: What’s Next? 🚀
+## The Road to GSoC 2024: What’s Next? 🚀
 
 With GSoC now officially announced, we anticipate a surge in potential contributors reaching out to projects through our [Discord](https://discord.gg/SUNJ3gjm9j) channel. In the coming weeks, our focus will be on assisting these participants in finding projects that align with their interests, exploring relevant domains, and refining their project proposals before the April 2nd deadline (UTC). Subsequently, we will meticulously review applications, select projects, and assemble mentor teams to facilitate the process. 🔍
 

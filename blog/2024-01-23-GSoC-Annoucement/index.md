@@ -4,7 +4,7 @@ authors:
   - Abhij
 ---
 
-![](callForIdeasBanner.png)
+![](GSoC-Annoucement.png)
 
 Greetings, Uptane community! 👋
 
@@ -14,11 +14,11 @@ At its core, GSoC represents more than just a mentoring program; it's a gateway 
 
 We extend a warm welcome to all new GSoC contributors willing to join the Uptane community as mentees. We believe that this experience will not only enhance your technical skills but also provide valuable insights into the workings of our community. The highlight lies in the opportunity to learn from individuals who are not only passionate about the Uptane ecosystem but also deeply committed to making a positive impact on others' lives, be it GSoC contributors or the project at large. 🤝
 
-**Here We Come: What’s Next?** 🚀
+## Here We Come: What’s Next? 🚀
 
 With GSoC now officially announced, we anticipate a surge in potential contributors reaching out to projects through our [Discord](https://discord.gg/SUNJ3gjm9j) channel. In the coming weeks, our focus will be on assisting these participants in finding projects that align with their interests, exploring relevant domains, and refining their project proposals before the April 2nd deadline (UTC). Subsequently, we will meticulously review applications, select projects, and assemble mentor teams to facilitate the process. 🔍
 
-For detailed information about available project ideas, please refer to our blog [https://uptane.org/blog/2024/01/12/callForIdeas].
+For detailed information about available project ideas, please refer to our [blog](https://uptane.org/blog/2024/01/12/callForIdeas).
 
 **How Do I Apply?** 📝
 
@@ -26,7 +26,7 @@ We urge interested participants to engage with the Uptane community early on, tr
 
 Although the application period officially commences on March 18th (UTC), we advise candidates to commence preparations without delay. Utilize this time to refine project proposals, familiarize yourselves with Uptane, and delve deeper into your proposed areas of study. Detailed project descriptions are available here on The Linux Foundation's official [idealist](https://wiki.linuxfoundation.org/gsoc/2024-gsoc-uptane), and our mentors are preparing resources to aid contributors in their initial exploration.
 
-**Important Dates for GSoC 2024** 📅
+## Important Dates for GSoC 2024 📅
 
 - February 22 - March 17: Potential GSoC contributors discuss application ideas with mentoring organizations.
 - March 18: GSoC contributor application period begins.
@@ -41,7 +41,7 @@ Although the application period officially commences on March 18th (UTC), we adv
 - November 4: Final date for all GSoC contributors to submit their work product and final evaluation.
 - November 11: Final date for mentors to submit evaluations for GSoC contributor projects with extended deadlines.
 
-For further details, please refer to the GSoC Timeline [https://developers.google.com/open-source/gsoc/timeline].
+For further details, please refer to the [GSoC Timeline](https://developers.google.com/open-source/gsoc/timeline).
 
 ## Join the Discussion 🗣️
 

@@ -10,7 +10,7 @@ Greetings, Uptane community! 👋
 
 We are thrilled to announce that Uptane's sponsoring organization, the Linux Foundation,  has officially become a part of the 2024 edition of Google Summer of Code (GSoC). This will mark Uptane's third year of mentoring GSoC projects under the Linux Foundation umbrella and we couldn't be more excited about the opportunities it presents. 🎉
 
-At its core, GSoC represents more than just a mentoring program; it's a gateway to welcoming and engaging with new contributors in the realm of open source. It embodies the spirit of giving back, of investing a small portion of time to make a monumental difference, not only for the GSoC contributors themselves but also for the broader Uptane community who will reap the benefits of these collaborations. 🌟
+At its core, GSoC represents more than just a mentoring program; it's a gateway to welcome and engage new contributors to the realm of open source software. It embodies the spirit of giving back, of investing a small portion of time to make a monumental difference, not only in the future endeavors of the GSoC contributors, but also for the broader Uptane community that will reap benefits of these collaborations. 🌟
 
 We extend a warm welcome to all new GSoC contributors willing to join the Uptane community as mentees. We believe that this experience will not only enhance your technical skills but also provide valuable insights into the workings of our community. The highlight lies in the opportunity to learn from individuals who are not only passionate about the Uptane ecosystem but also deeply committed to making a positive impact on others' lives, be it GSoC contributors or the project at large. 🤝
 

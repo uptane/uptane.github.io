@@ -16,7 +16,7 @@ We extend a warm welcome to all new GSoC contributors considering becoming mente
 
 ## The Road to GSoC 2024: What’s Next? 🚀
 
-With GSoC now officially announced, we anticipate a surge in potential contributors reaching out to projects through our [Discord](https://discord.gg/SUNJ3gjm9j) channel. In the coming weeks, our focus will be on assisting these participants in finding projects that align with their interests, exploring relevant domains, and refining their project proposals before the April 2nd deadline (UTC). Subsequently, we will meticulously review applications, select projects, and assemble mentor teams to facilitate the process. 🔍
+With GSoC now officially announced, we anticipate a surge in potential contributors reaching out about our projects through our [Discord](https://discord.gg/SUNJ3gjm9j) channel. In the coming weeks, our focus will be on assisting these participants in finding projects that align with their interests, exploring relevant domains, and refining their project proposals before the April 2nd deadline (UTC). Subsequently, we will meticulously review applications, select projects, and assemble mentor teams to facilitate the process. 🔍
 
 For detailed information about available project ideas, please refer to our [blog](https://uptane.org/blog/2024/01/12/callForIdeas).
 

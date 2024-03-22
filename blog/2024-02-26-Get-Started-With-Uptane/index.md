@@ -4,9 +4,9 @@ authors:
   - Jon
 ---
 
-Let me get this out of the way right at the start: Uptane can be an intimidating project to take on. Why is that? Well, first of all, Uptane is a standard, not a specific piece of software. That in itself is always difficult because it's harder to engage with an abstract set of rules and concepts than with a real piece of software. But even beyond that, Uptane is different from other standards you might read. because It doesn't specify an exact wireline formats and metadata schema that must be implemented. Furthermore, Uptane kind of sits "in the middle" on a software update architecture diagram.
+Let me get this out of the way right at the start: Uptane can be an intimidating project to take on. Why is that? Well, first of all, Uptane is a standard, not a specific piece of software. That in itself is always difficult because it's harder to engage with an abstract set of rules and concepts than with a real piece of software. But even beyond that, Uptane is different from other standards you might read. It doesn't specify an exact wireline formats and metadata schema that must be implemented. Furthermore, Uptane kind of sits "in the middle" on a software update architecture diagram.
 
-In this post, I want to do three things. First, I'm going to answer the question, "Why should I want to use Uptane, and where?" Second, I'm going to give a really high-level overview of what Uptane is. I'm not going to get into specifics of _how_ Uptane works, I just want to describe what it is, and what it does. And finally, I want to show the easiest way to start using a system that delivers software updates through Uptane bu making use of open-source implementations of various parts of an Uptane system.
+In this post, I want to do three things. First, I'm going to answer the question, "Why should I want to use Uptane, and where?" Second, I'm going to give a really high-level overview of what Uptane is. I'm not going to get into specifics of _how_ Uptane works, I just want to describe what it is, and what it does. And finally, I want to show the easiest way to start using a system that delivers software updates through Uptane by making use of open-source implementations of various parts of an Uptane system.
 
 ## Why should I use Uptane?
 
@@ -24,7 +24,7 @@ This is a software repository, and a device that connects to it and installs an 
 
 ![](simple-repository.png)
 
-Let's say the repository is just an FTP server. It has some firmware images in it, in some kind of predictable directory structure. To make the repository more secure, you can follow the TUF standard. TUF describes how to add some signed metadata to a "standard" software repository like this, to make it possible for anyone who connects to the repository to verify a number of important properties related to timeliness, authenticity, and consistency. A TUF-compliant client can verify that:
+Let's say the repository is just an FTP server. It has some firmware images in it, in some kind of predictable directory structure. To make the repository more secure, you can follow the TUF standard. TUF describes how to add some signed metadata to a "normal" software repository like this, to make it possible for anyone who connects to the repository to verify a number of important properties related to timeliness, authenticity, and consistency. A TUF-compliant client can verify that:
 
 * The owner of the repository decided which packages to let in
 * The publisher of each package signed their own software and uploaded it
@@ -97,7 +97,7 @@ There are other commercial providers of Uptane services, including Airbiquity's 
 
 * Build your own using [libaktualizr](https://github.com/uptane/aktualizr/)
 
-The main way to get an Uptane client is to build one using [libaktualizr](https://github.com/uptane/aktualizr/). The aktualizr repository does include reference clients that can talk to OTA Community Edition servers. However, to really make use of Uptane and aktualizr, you'll want it to be integrated in your embedded linux build.
+The main way to get an Uptane client is to build one using [libaktualizr](https://github.com/uptane/aktualizr/). The aktualizr repository does include reference clients that can talk to OTA Community Edition servers. However, to really make use of Uptane and aktualizr, you'll want it to be integrated in your embedded Linux build.
 
 * Add aktualizr to your existing embedded Linux using [meta-updater](https://github.com/uptane/meta-updater/)
 

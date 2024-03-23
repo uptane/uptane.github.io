@@ -1,5 +1,6 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
+import tailwindPlugin from "./plugins/tailwind-config.cjs";
 
 const { themes } = require('prism-react-renderer');
 const lightTheme = themes.github;
@@ -81,7 +82,7 @@ const config = {
           routeBasePath: 'blog', // The base path for the blog pages
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: ['./src/css/custom_tailwind.css'],
         },
         gtag: {
           trackingID: 'G-G856J3S8ZG',
@@ -109,6 +110,7 @@ const config = {
         sidebarPath: './sidebarEnhancements.js',
       },
     ],
+    tailwindPlugin,
   ],
 
   themeConfig:

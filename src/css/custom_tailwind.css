@@ -105,12 +105,42 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--ifm-font-heading-family);
+  @apply font-heading font-bold;
+}
+
+h1 {
+  @apply text-5xl leading-tight;
+}
+
+h2 {
+  @apply text-4xl leading-tight;
+}
+
+h3 {
+  @apply text-2xl leading-tight;
+}
+
+h4 {
+  @apply text-xl leading-tight;
+}
+
+h5 {
+  @apply text-lg leading-tight;
+}
+
+h3 {
+  @apply text-base leading-tight;
 }
 
 p,
 a {
-  font-family: var(--ifm-font-content-family);
+  @apply font-content;
+}
+
+@layer utilities {
+  .hero-clip {
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 75px), 0 100%);
+  }
 }
 
 .button.button--secondary {

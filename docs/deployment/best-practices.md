@@ -17,7 +17,7 @@ In addition, these guidelines may be used in the creation of [POUFs](/enhancemen
 
 ## 2 Preparing an ECU for Uptane
 
-At the highest level, the basic requirement for an ECU to be capable of supporting Uptane is that it be able to perform either full or partial verification, and access a secure source of time. (See the [Uptane Standard](../standard/uptane-standard#541-build-time-prerequisite-requirements-for-ecus) for official requirements.)
+At the highest level, an ECU capable of supporting Uptane SHOULD be able to perform either full or partial verification, and access a secure source of time. (See the [Uptane Standard](../standard/uptane-standard#541-build-time-prerequisite-requirements-for-ecus) for official requirements.)
 
 To bootstrap an Uptane-capable ECU, a few things need to be provisioned into the unit:
 
@@ -54,7 +54,7 @@ Basically, choosing symmetric keys increases the performance of the common case 
 
 #### 2.1.2.1 Symmetric key server
 
-If you choose to use symmetric ECU keys, it would be a good idea to store the keys on an isolated, separate key server, rather than in the inventory database. This separate key server can then expose only two very simple operations to the Director:
+If you choose to use symmetric ECU keys, the keys SHOULD be stored on an isolated, separate key server, rather than in the inventory database. This separate key server can then expose only two very simple operations to the Director:
 
 1.  Check the signature on an ECU version report.
 2.  Given an ECU identifier and an image identifier, encrypt the image for that ECU.
@@ -69,7 +69,7 @@ The Director repository may encrypt images if required (see [Section 5.3.2](../s
 
 Currently, implementation instructions are written with the implicit assumptions that: (1) ECUs are able to parse the string filenames of metadata and images, and that (2) ECUs may have filesystems to read and write these files. However, not all ECUs, especially partial verification Secondaries, may fit these assumptions. There are two important observations:
 
-First, filenames need not be strings. Even if there is no explicit notion of “files” on an ECU, it is important for distinct pieces of metadata and images to have distinct names. This is needed for Primaries to perform full verification on behalf of Secondaries, which entails comparing the metadata for different images for different Secondaries. Either strings or numbers may be used to refer to distinct metadata and images, as long as different _files_ have different _file_ names or numbers. The Image and Director repositories can continue to use filesystems, and may also use either strings or numbers to represent _file_ names.
+First, filenames need not be strings. Even if there is no explicit notion of “files” on an ECU, distinct pieces of metadata and images SHOULD have distinct names. This is needed for Primaries to perform full verification on behalf of Secondaries, which entails comparing the metadata for different images for different Secondaries. Either strings or numbers may be used to refer to distinct metadata and images, as long as different _files_ have different _file_ names or numbers. The Image and Director repositories can continue to use filesystems, and may also use either strings or numbers to represent _file_ names.
 
 Second, ECUs need not have a filesystem in order to use Uptane. It is only important that ECUs are able to recognize distinct metadata and images by using either strings or numbers as _file_ names or numbers, and that they can allocate different parts of storage to different _files_.
 
@@ -270,7 +270,7 @@ This Public API SHOULD require authentication before Primaries are allowed to do
 
 Uptane implementations may sometimes need to accommodate update systems where existing software comes from several different locations. Implementers may assume that this would mandate the use of multiple different Image repositories in any equivalent Uptane implementation. However, this is rarely necessary, and using multiple Image repositories (implemented via [repository mapping metadata as described in TAP-4](https://github.com/theupdateframework/taps/blob/master/tap4.md)) would require a significantly larger effort.
 
-In almost all cases, it is preferable to have a single Image repository containing all of the Uptane metadata, and redirect clients to download the actual images from other locations. This can be implemented via an API on the Image repository, or via a custom field in the Targets metadata directing the clients to one or more alternate URL where the images are available.
+In almost all cases, it is preferable to have a single Image repository containing all of the Uptane metadata, and redirect clients to download the actual images from other locations. This SHOULD be implemented via an API on the Image repository, or via a custom field in the Targets metadata directing the clients to one or more alternate URL(s) where the images are available.
 
 An API solution could be as simple as an HTTP 3xx redirect to the appropriate download location. More complex schemes, e.g., cases where existing legacy repositories have a custom authentication scheme, can usually be implemented by adding custom metadata. See the [relevant section of the Standard](../standard/uptane-standard#52311-custom-metadata-about-images) for more information on how custom metadata can be added.
 
@@ -312,7 +312,7 @@ On the Image repository, there are two options for signing the Timestamp and Sna
 
 In the second option, the OEM uses offline keys to sign Timestamp and Snapshot metadata, which reduces the risk of attackers immediately publishing malicious images. Here again, though, there is a trade-off, in this case related to the metadata expiration dates. If the Timestamp and Snapshot metadata expire relatively quickly, then it may be cumbersome to use offline keys to renew their signatures. Yet, if a longer expiration time is used, it would give a man-in-the-middle attacker more time to execute freeze attacks, hence defeating the purpose of the Timestamp role.
 
-For most use cases, the online option may be best, but if stronger security guarantees are desired, consider using the offline option instead for the Timestamp and Snapshot roles.
+For most use cases, the online option may be best. For scenarios where stronger security guarantees are desired, using the offline option may be considered for the Timestamp and Snapshot roles.
 
 The keys to all other roles (Root, Targets, and all delegations, which includes suppliers’ keys) on the Image repository SHOULD be kept offline to prevent a repository compromise from immediately affecting full verification ECUs. It is also a practical decision as these metadata are infrequently updated. It does not matter where an offline key is stored (e.g., in a Hardware Security Module, YubiKey, or a USB stick in a safe deposit box), as long as the key is not accessible from the repository. Each key SHOULD be kept separate from the others, so that a compromise of one does not affect them all.
 
@@ -414,7 +414,7 @@ In order to prevent updates from being tampered with by man-in-the-middle attack
 
 An OEM and its suppliers MAY use any transport mechanism to deliver these files. For example, an OEM MAY maintain a private web portal where metadata and/or images from suppliers can be uploaded. This private server MAY be managed by either the OEM or the tier-1 supplier, and SHOULD require authentication to restrict which users are allowed to read and/or write certain files. Alternatively, the OEM and its suppliers MAY use email or courier mail.
 
-If the supplier signs its own images, then it delivers all of its metadata, including delegations, and associated images. Otherwise, if the OEM signs images on behalf of the supplier, then the supplier needs to update only images, leaving the OEM responsible for producing signed metadata. Regardless of which party produces signed metadata, the release counters associated with images SHOULD be incremented, so that attackers who may compromise the Director repository can not rollback to obsolete images (see the [Enhanced Security Practices](#8-enhanced-security-practices) section of this document for more on this attack.)
+If the supplier signs its own images, then it SHALL deliver all of its metadata, including delegations, and associated images. Otherwise, if the OEM signs images on behalf of the supplier, then the supplier MAY update only images, leaving the OEM responsible for producing signed metadata. Regardless of which party produces signed metadata, the release counters associated with images SHOULD be incremented, so that attackers who may compromise the Director repository can not rollback to obsolete images (see the [Enhanced Security Practices](#8-enhanced-security-practices) section of this document for more on this attack.)
 
 Regardless of the transport mechanism used to deliver them, the OEM needs to ensure that the images received are authentic and have not been altered. The OEM SHOULD double-check the authenticity and integrity of these images by using some out-of-band mechanism for verification. For example, to obtain a higher degree of assurance, and for additional validation, the OEM MAY also require the supplier’s update team to send a PGP/GPG signed email to the OEM’s security team listing the cryptographic hashes of the new files.
 
@@ -424,7 +424,7 @@ An OEM SHOULD perform this verification even if a trusted transport mechanism is
 
 ### 5.1.2 Testing metadata and images
 
-After the OEM has somehow verified the authenticity and integrity of new metadata and images received from the tier-1 supplier, the OEM SHOULD test both before releasing them to ensure that the images work as intended on end-user vehicles. To do so, It SHOULD use the following steps.
+After the OEM has verified the authenticity and integrity of new metadata and images received from the tier-1 supplier, the OEM SHOULD test both before releasing them to ensure that the images work as intended on end-user vehicles. To do so, It SHOULD use the following steps.
 
 First, the OEM SHOULD add these metadata and images to the Image repository. It SHOULD also add information about these images to the inventory database, including any dependencies and conflicts between images for different ECUs. Both of these steps are done to make the new metadata and images available to vehicles.
 
@@ -478,7 +478,7 @@ The advantage to this method is that it prevents rollback attacks in a situation
 
 Sometimes it may be necessary for a dealership or mechanic to replace a particular ECU in a vehicle, or even add or remove one. This will mean that the vehicle version manifest will change – even if the replacement ECU is an identical model, it will have a different ECU key. The Director may detect this as an attack, as an ECU suddenly using a new signing key could indicate a compromise.
 
-We recommend dealing with this use case by establishing an out-of-band process that allows authorized mechanics to report a change to the OEM. By doing so, the change in ECU configuration will be recorded in the inventory database. Exactly what that process will look like depends on the size of the manufacturer, and the relative frequency of ECU replacements.
+To deal with this use case, an out-of-band process SHOULD be established that allows authorized mechanics to report a change to the OEM. The change in ECU configuration SHOULD be recorded in the inventory database. By doing so, the change in ECU configuration will be recorded in the inventory database. Exactly what that process will look like depends on the size of the manufacturer, and the relative frequency of ECU replacements.
 
 - A small luxury automaker might simply choose to allow authorized mechanics to send an email or make a phone call to an aftersales support person with the details of the new ECU, and have that person manually enter the details.
 - A larger automaker might choose to deploy a dealer portal (i.e., a private, authenticated website) to allow authorized service centers to enter the details of the new ECU configuration themselves.
@@ -489,7 +489,10 @@ Note, however, that these are only recommendations. Uptane does not prescribe a 
 
 ### 6.2.1 Aftermarket ECUs
 
-A slightly more difficult use case to deal with concerns the use of aftermarket ECUs – for example, 3rd-party replacement parts, or add-on ECUs that add functionality for commercial fleet management. Though from a technical perspective adding an aftermarket ECU can be managed in one of the ways recommended in the previous subsection, there is no doubt that these components bring with them a set of unique logistical and security concerns. For starters, because aftermarket suppliers may not have access to the original design, these ECUs are often products of reverse engineering. As such, suppliers may not be able to glean all relevant design information about the ECU, including the rationale behind certain choices. Furthermore, the use of these components raises a number of fundamental questions, such as: - If an aftermarket ECU does not have its own primary, will it still be able to get updates through an existing OEM primary ECU, as long as the OEMs Director repository permits it? - If an aftermarket ECU does have its own Primary, is each capable of controlling a mutually exclusive set of Secondaries? - Could owners (or third parties) direct updates for their own vehicles from both an OEM and an aftermarket source?
+A slightly more difficult use case to deal with concerns the use of aftermarket ECUs – for example, 3rd-party replacement parts, or add-on ECUs that add functionality for commercial fleet management. Though from a technical perspective adding an aftermarket ECU can be managed in one of the ways recommended in the previous subsection, there is no doubt that these components bring with them a set of unique logistical and security concerns. For starters, because aftermarket suppliers may not have access to the original design, these ECUs are often products of reverse engineering. As such, suppliers may not be able to glean all relevant design information about the ECU, including the rationale behind certain choices. Furthermore, the use of these components raises a number of fundamental questions, such as: 
+- If an aftermarket ECU does not have its own primary, will it still be able to get updates through an existing OEM primary ECU, as long as the OEMs Director repository permits it?
+- If an aftermarket ECU does have its own Primary, is each capable of controlling a mutually exclusive set of Secondaries?
+- Could owners (or third parties) direct updates for their own vehicles from both an OEM and an aftermarket source?
 
 While at this point the easiest alternative might be to simply exclude aftermarket ECUs from receiving OTA updates, this might not be feasible. For starters, older vehicles depend heavily on aftermarket parts. Garages (including OEM dealers) regularly install aftermarket ECUs when an OEM stops producing them. Furthermore, the newly strengthened [Massachusetts Right-to-Repair law](https://en.wikipedia.org/wiki/2020_Massachusetts_Question_1) complicates both the distribution of ECU firmware updates and the attendant functional safety and cybersecurity issues. Among other provisions, the law mandates a platform to permit vehicle owners and independent mechanics to access telematics. Hence, OEMs may not have a say anymore on whether or not these units receive OTA updates.
 
@@ -563,7 +566,7 @@ Implementers MAY use [Unified Diagnostic Services](https://en.wikipedia.org/wiki
 
 Any system being used to transport images to ECUs will need to be modified only to permit transport of Uptane metadata and other messages. Note that Uptane does not require authentication of network traffic between the Director and Image repositories and Primaries, or between Primaries and Secondaries.
 
-However, in order for an implementation to be Uptane-compliant, no ECU can cause another to install an image without performing either full or partial verification of metadata. This is done in order to prevent attackers from being able to bypass Uptane and execute arbitrary software attacks. Thus, in an Uptane-compliant implementation, an ECU performs either full or partial verification of metadata and images before installing any image, regardless of how the metadata and images were transmitted to the ECU.
+However, in order for an implementation to be Uptane-compliant, an ECU SHOULD NOT cause another to install an image without performing either full or partial verification of metadata. This is done in order to prevent attackers from being able to bypass Uptane and execute arbitrary software attacks. Thus, in an Uptane-compliant implementation, an ECU performs either full or partial verification of metadata and images before installing any image, regardless of how the metadata and images were transmitted to the ECU.
 
 ## 7.4 Using Uptane with transport security
 
@@ -651,7 +654,7 @@ It is important to consider this tradeoff when deciding how to send dynamic dire
 
 Certain types of updates, like maps, rules-of-the-road, or traffic notifications, are only relevant to vehicles within a specific location. These location-based updates require that a device be able to report its location in some way. For example, the device could obtain its location by using a GPS sensor and report it as custom metadata in the vehicle version manifest using the “geo:” URI scheme defined in [RFC 5870](https://tools.ietf.org/html/rfc5870).
 
-Such a system would require a way to reference location for all applicable targets in the custom section of the Targets metadata for the Image repository. The Director would then be responsible for identifying which device locations match those of targets on the Image repository. If a match is found, the Director SHOULD update its Targets metadata to instruct the relevant devices to install the location-based updates appropriate for their positions.
+Such a system SHOULD have a way to reference location for all applicable targets in the custom section of the Targets metadata for the Image repository. The Director would then be responsible for identifying which device locations match those of targets on the Image repository. If a match is found, the Director SHOULD update its Targets metadata to instruct the relevant devices to install the location-based updates appropriate for their positions.
 
 It is possible that the vehicle’s position may have changed by the time the vehicle receives a location-based update. The device MAY check that its current position matches that of the target before installation, and the implementer MAY decide to abort the update if the location no longer matches.
 

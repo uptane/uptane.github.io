@@ -2,11 +2,37 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://uptane.org/blog</id>
     <title>Uptane Blog</title>
-    <updated>2024-02-26T00:00:00.000Z</updated>
+    <updated>2024-05-09T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://uptane.org/blog"/>
     <subtitle>Uptane Blog</subtitle>
     <icon>https://uptane.org/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Join Us at the Uptane Industry Workshop – June 7, 2024]]></title>
+        <id>https://uptane.org/blog/2024/05/09/June-Workshop</id>
+        <link href="https://uptane.org/blog/2024/05/09/June-Workshop"/>
+        <updated>2024-05-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[When30 p.m.\]]></summary>
+        <content type="html"><![CDATA[<p><strong>When:</strong> June 7, 2024, 10 a.m. to 3:30 p.m.<br>
+<strong>Format:</strong> Online via Zoom and in-person<br>
+<strong>Location</strong>: Renesas Electronics America, Inc<br>
+<!-- -->34705 W 12 Mile Rd #300, Farmington Hills, MI 48331<br>
+<strong>Registration:</strong> <a href="https://register.gotowebinar.com/register/168559968939730262" target="_blank" rel="noopener noreferrer">Uptane Workshop Registration</a></p>
+<p>Just a day after the escar USA automotive security conference, the Uptane Community invites you to explore the critical role of secure software update technology in the automotive sector and beyond. This hybrid event will feature:</p>
+<ul>
+<li><strong>Updates</strong> on the Uptane Standard and community initiatives</li>
+<li><strong>Introduction of Google Summer of Code</strong> Uptane contributors and the 2024 projects</li>
+<li><strong>Discussion:</strong> Harmonization with industry standards and regulations</li>
+<li><strong>Adopter Talks:</strong> Insights into Uptane's real-world applications</li>
+<li><strong>Expert Panel:</strong> Crypto agility and preparing for quantum-resistant technologies</li>
+</ul>
+<p>Registration is free, however in-person space is on a limited first-come, first-served basis.</p>
+<p>Don't miss this opportunity to engage with experts and peers on the future of secure update technology! Register today to secure your place!</p>]]></content>
+        <author>
+            <name>Phil Lapczynski</name>
+            <uri>https://www.linkedin.com/in/philip-lapczynski/</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Getting Started With Uptane]]></title>
         <id>https://uptane.org/blog/2024/02/26/Get-Started-With-Uptane</id>

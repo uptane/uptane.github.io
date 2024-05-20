@@ -216,7 +216,7 @@ Either way, the OEM can control how often updates are released to vehicles. In t
 
 There is also no significant difference between these methods when it comes to resistance to denial-of-service (DoS) attacks or flash crowds. In the push model, a vehicle can control how often updates are pushed to it, so that vehicles can withstand DoS attacks, even if the repository has been compromised. In the pull model, the repository can similarly stipulate when vehicles SHOULD download updates, and how often.
 
-Regardless of what model is used to send updates, as illustrated in Figure 4, the API SHOULD allow a Primary to: \* send a vehicle version manifest (step 1) \* download associated metadata and image files (step 4).
+Regardless of what model is used to send updates, as illustrated in Figure 4, the API SHOULD allow a Primary to: * send a vehicle version manifest (step 1) * download associated metadata and image files (step 4).
 
 The API MAY require authentication, depending on the OEM’s requirements.
 
@@ -312,7 +312,7 @@ On the Image repository, there are two options for signing the Timestamp and Sna
 
 In the second option, the OEM uses offline keys to sign Timestamp and Snapshot metadata, which reduces the risk of attackers immediately publishing malicious images. Here again, though, there is a trade-off, in this case related to the metadata expiration dates. If the Timestamp and Snapshot metadata expire relatively quickly, then it may be cumbersome to use offline keys to renew their signatures. Yet, if a longer expiration time is used, it would give a man-in-the-middle attacker more time to execute freeze attacks, hence defeating the purpose of the Timestamp role.
 
-For most use cases, the online option may be best. For scenarios where stronger security guarantees are desired, using the offline option may be considered for the Timestamp and Snapshot roles.
+For most use cases, the online option SHOULD be used. For use cases where stronger security guarantees are critical, using the offline option SHOULD be used for the Timestamp and Snapshot roles.
 
 The keys to all other roles (Root, Targets, and all delegations, which includes suppliers’ keys) on the Image repository SHOULD be kept offline to prevent a repository compromise from immediately affecting full verification ECUs. It is also a practical decision as these metadata are infrequently updated. It does not matter where an offline key is stored (e.g., in a Hardware Security Module, YubiKey, or a USB stick in a safe deposit box), as long as the key is not accessible from the repository. Each key SHOULD be kept separate from the others, so that a compromise of one does not affect them all.
 
@@ -414,7 +414,7 @@ In order to prevent updates from being tampered with by man-in-the-middle attack
 
 An OEM and its suppliers MAY use any transport mechanism to deliver these files. For example, an OEM MAY maintain a private web portal where metadata and/or images from suppliers can be uploaded. This private server MAY be managed by either the OEM or the tier-1 supplier, and SHOULD require authentication to restrict which users are allowed to read and/or write certain files. Alternatively, the OEM and its suppliers MAY use email or courier mail.
 
-If the supplier signs its own images, then it SHALL deliver all of its metadata, including delegations, and associated images. Otherwise, if the OEM signs images on behalf of the supplier, then the supplier MAY update only images, leaving the OEM responsible for producing signed metadata. Regardless of which party produces signed metadata, the release counters associated with images SHOULD be incremented, so that attackers who may compromise the Director repository can not rollback to obsolete images (see the [Enhanced Security Practices](#8-enhanced-security-practices) section of this document for more on this attack.)
+If the supplier signs its own images, then it SHALL deliver all of its metadata, including delegations, and associated images. Otherwise, if the OEM signs images on behalf of the supplier,  then the supplier SHOULD update only images, while the OEM SHOULD produce all of the signed metadata. Regardless of which party produces signed metadata, the release counters associated with images SHOULD be incremented, so that attackers who may compromise the Director repository can not rollback to obsolete images (see the [Enhanced Security Practices](#8-enhanced-security-practices) section of this document for more on this attack.)
 
 Regardless of the transport mechanism used to deliver them, the OEM needs to ensure that the images received are authentic and have not been altered. The OEM SHOULD double-check the authenticity and integrity of these images by using some out-of-band mechanism for verification. For example, to obtain a higher degree of assurance, and for additional validation, the OEM MAY also require the supplier’s update team to send a PGP/GPG signed email to the OEM’s security team listing the cryptographic hashes of the new files.
 
@@ -478,7 +478,7 @@ The advantage to this method is that it prevents rollback attacks in a situation
 
 Sometimes it may be necessary for a dealership or mechanic to replace a particular ECU in a vehicle, or even add or remove one. This will mean that the vehicle version manifest will change – even if the replacement ECU is an identical model, it will have a different ECU key. The Director may detect this as an attack, as an ECU suddenly using a new signing key could indicate a compromise.
 
-To deal with this use case, an out-of-band process SHOULD be established that allows authorized mechanics to report a change to the OEM. The change in ECU configuration SHOULD be recorded in the inventory database. By doing so, the change in ECU configuration will be recorded in the inventory database. Exactly what that process will look like depends on the size of the manufacturer, and the relative frequency of ECU replacements.
+To deal with this use case, an out-of-band process SHOULD be established that allows authorized mechanics to report a change to the OEM. Any reported change in ECU configuration SHALL be recorded in the inventory database. By doing so, the change in ECU configuration will be recorded in the inventory database. Exactly what that process will look like depends on the size of the manufacturer, and the relative frequency of ECU replacements.
 
 - A small luxury automaker might simply choose to allow authorized mechanics to send an email or make a phone call to an aftersales support person with the details of the new ECU, and have that person manually enter the details.
 - A larger automaker might choose to deploy a dealer portal (i.e., a private, authenticated website) to allow authorized service centers to enter the details of the new ECU configuration themselves.
@@ -566,7 +566,7 @@ Implementers MAY use [Unified Diagnostic Services](https://en.wikipedia.org/wiki
 
 Any system being used to transport images to ECUs will need to be modified only to permit transport of Uptane metadata and other messages. Note that Uptane does not require authentication of network traffic between the Director and Image repositories and Primaries, or between Primaries and Secondaries.
 
-However, in order for an implementation to be Uptane-compliant, an ECU SHOULD NOT cause another to install an image without performing either full or partial verification of metadata. This is done in order to prevent attackers from being able to bypass Uptane and execute arbitrary software attacks. Thus, in an Uptane-compliant implementation, an ECU performs either full or partial verification of metadata and images before installing any image, regardless of how the metadata and images were transmitted to the ECU.
+However, in order for an implementation to be Uptane-compliant, any ECU SHALL NOT cause another ECU to install an image without performing either full or partial verification of metadata. This is done in order to prevent attackers from being able to bypass Uptane and execute arbitrary software attacks. Thus, in an Uptane-compliant implementation, an ECU performs either full or partial verification of metadata and images before installing any image, regardless of how the metadata and images were transmitted to the ECU.
 
 ## 7.4 Using Uptane with transport security
 

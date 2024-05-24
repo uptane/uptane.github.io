@@ -17,7 +17,26 @@ Just a day after the escar USA automotive security conference, the Uptane Commun
 * **Adopter Talks:** Insights into Uptane's real-world applications
 * **Expert Panel:** Crypto agility and preparing for quantum-resistant technologies
 
-Registration is free, however in-person space is on a limited first-come, first-served basis.
+## Event Agenda
+|Time (EDT)  | Speaker | Topic|
+|:---  |:--- |:-------------------------------------------------|
+|10:00 | Jon Oster | Welcome and introduction|
+|10:15 | Philip Lapczynski | Uptane 101 and Uptane Updates|
+|10:45 || Break|
+|11:00 | Ira McDonald | OTA Standards Harmonization|
+|11:15 | Leo Cui| Google Summer of Code (GSoC) Projects Update|
+|11:30 | Jon Oster | Uptane Adoption| 
+|12:00 || Lunch|
+|13:00 | Dr. Bob Kaster | Optimizing Secure Boot|
+|13:30 | Mark Johnson | Uptane++ and Uptane Certification |
+|14:00 || Break|
+|14:15 | Winnie Aideyan | Standardized Modular Secure Firmware Update Framework For Military Vehicles|
+|14:45 | (Moderator) <br/>Andre Weimerskirch <br/>(Panelists) <br/> Rita Barrios <br/> Bill Mazzara <br/> Phil Lapczynski | Crypto Agility Panel|
+|15:25 | |Wrap Up|
+
+
+:::tip
+Registration is **free**, however in-person space is on a limited first-come, first-served basis.
 
 Don't miss this opportunity to engage with experts and peers on the future of secure update technology! Register today to secure your place!
 

@@ -1,8 +1,11 @@
 name: Fetch Contributors
 
 on:
-  schedule:
-    - cron: "0 0 * * *" # Run every day at midnight
+  workflow_dispatch:
+#  schedule:
+#    - cron: "0 0 * * *" # Run every day at midnight
+  
+
 
 jobs:
   fetch-contributors:

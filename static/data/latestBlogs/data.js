@@ -1,5 +1,10 @@
 const blogs = [
     {
+        title: "Join Us at the Uptane Industry Workshop – June 7, 2024",
+        img: "/assets/images/20240607_workshop_banner-380d855b3250e9ec0da4e2982234b272.jpg",
+        link: "/blog/2024/05/09/June-Workshop",
+    },
+    {
         title: "Exciting Opportunities Await: Uptane Calls for GSoC 2024 Idea List Submissions!",
         img: "/assets/images/callForIdeasBanner-6e9ca5b85ce48022d00dbeb5b9a4b105.png",
         link: "/blog/2024/01/12/callForIdeas",

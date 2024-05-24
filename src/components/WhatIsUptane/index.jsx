@@ -12,7 +12,7 @@ export default function WhatIsUptane() {
                 </p>
             </div>
             <div className={styles.what_is_uptane_video}>
-                <iframe  src="https://www.youtube.com/embed/KTg7fBWYHms" title="OTAmatic Software and Data Management - Uptane Security Implementation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe  src="https://www.youtube.com/embed/nDghHNxRGHA?si=3L377CcrnkuQ4SV7" title="Uptane - Securing Software Updates for Automobiles" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             
             </div>
         </div>

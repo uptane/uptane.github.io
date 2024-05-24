@@ -3,7 +3,7 @@ title: "Join Us at the Uptane Industry Workshop – June 7, 2024"
 authors:
   - Phil
 ---
-
+![](20240607_workshop_banner.jpg)
 **When:** June 7, 2024, 10 a.m. to 3:30 p.m.\
 **Format:** Online via Zoom and in-person\
 **Location**: Renesas Electronics America, Inc\

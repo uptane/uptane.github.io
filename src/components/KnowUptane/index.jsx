@@ -1,9 +1,9 @@
 import React from 'react';
-import data from '@site/static/data/adopters/data.js';
+import data from '@site/static/data/KnowUptane/data.js';
 import ProjectCard from './project_card';
 import styles from './styles.module.css';
 
-export default function Adopters() {
+export default function KnowUptane() {
     const ProjectCards = data.projects.map((item, index) => {
         return (
             <ProjectCard

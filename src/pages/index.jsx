@@ -5,7 +5,7 @@ import Header from '@site/src/components/Header';
 import WhatIsUptane from '@site/src/components/WhatIsUptane';
 import BlogGrid from '../components/BlogsLatest';
 import Community from '../components/JoinCommunity';
-import Adopters from '../components/Adopters';
+import KnowUptane from '../components/KnowUptane';
 import PuttingUptane from '../components/PuttingUptane';
 import Features from '../components/Features';
 import SupportedBySection from '../components/Support';
@@ -20,7 +20,7 @@ export default function Home() {
         <Header />
         <WhatIsUptane />
         <Features/>
-        <Adopters/>
+        <KnowUptane/>
         <PuttingUptane/>
         <BlogGrid/>
         <Community />

@@ -1,5 +1,5 @@
 import React from 'react';
-import data from '@site/static/data/KnowUptane/data.js';
+import data from '@site/static/data/knowUptane/data.js';
 import ProjectCard from './project_card';
 import styles from './styles.module.css';
 

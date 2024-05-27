@@ -1,1 +1,65 @@
+name: Deploy Preview
 
+on:
+  pull_request:
+    branches:
+      - main
+      - dev
+    types: [opened, synchronize, reopened, closed]
+
+jobs:
+  build:
+    if: github.event.action != 'closed'
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '16'
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Build project
+      run: npm run build
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./build
+        destination_dir: preview/${{ github.event.pull_request.number }}
+
+    - name: Post preview link as a comment
+      uses: actions/github-script@v6
+      with:
+        script: |
+          const prNumber = context.issue.number;
+          const comment = `Preview your changes [here](https://<username>.github.io/<repository>/preview/${prNumber})`;
+          github.rest.issues.createComment({
+            ...context.repo,
+            issue_number: prNumber,
+            body: comment
+          });
+
+  cleanup:
+    if: github.event.action == 'closed'
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Delete preview directory
+      run: |
+        git fetch
+        git checkout gh-pages
+        git rm -rf preview/${{ github.event.pull_request.number }}
+        git commit -m "Delete preview for PR #${{ github.event.pull_request.number }}"
+        git push origin gh-pages
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -79,6 +79,8 @@ const config = {
           showReadingTime: true,
           path: 'blog', // The directory containing your blog posts
           routeBasePath: 'blog', // The base path for the blog pages
+          blogSidebarTitle: 'All posts',
+          blogSidebarCount: 'ALL',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

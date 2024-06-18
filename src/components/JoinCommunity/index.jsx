@@ -4,7 +4,7 @@ import LinkCard from './community_links';
 import Link from '@docusaurus/Link';
 
 export default function Community() {
-    const icsFilePath = 'assets/meeting/invite.ics';
+    const icsFilePath = 'assets/meeting/community_days_invite.ics';
     const handleAddToCalendarClick = () => {
         // Create an anchor element to trigger the download
         const a = document.createElement('a');
@@ -31,8 +31,9 @@ export default function Community() {
                 </div>
                 <div className={styles.add_to_calendar}>
                     <div className={styles.calendar_heading}>
-                        <h2>Uptane Standards Committee Meeting</h2>
-                        <h4>Biweekly Tuesdays | 10:00 AM ET</h4>
+                        <h2>Uptane Community Days</h2>
+                        <h4>Every Friday | 9:00 AM ET</h4>
+                        <p>Bring your questions about Uptane implementation, libaktualizr, or any of Uptane's open source projects, and we'll do our best to answer.</p>
                     </div>
                     <div className={styles.calendar_link}>
                         <Link class="button button--secondary button--lg" onClick={handleAddToCalendarClick}>Add to Calendar</Link>

@@ -1,0 +1,79 @@
+name: Deploy Preview
+
+on:
+  pull_request:
+    branches:
+      - main
+      - uptane_docusaurus
+    types: [opened, synchronize, reopened, closed]
+
+jobs:
+  build:
+    if: github.event.action != 'closed'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '20'
+
+    - name: Install dependencies
+      run: yarn install
+
+    - name: Build project
+      run: yarn build
+
+    - name: Checkout gh-pages branch
+      run: |
+        git fetch
+        git checkout gh-pages
+
+    - name: Ensure preview directory exists
+      run: mkdir -p preview/${{ github.event.pull_request.number }}
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./build
+        destination_dir: preview/${{ github.event.pull_request.number }}
+
+    - name: Post preview link as a comment
+      uses: actions/github-script@v6
+      with:
+        script: |
+          const prNumber = context.issue.number;
+          const previewUrl = `https://${{ github.repository_owner }}.github.io/${{ github.repository }}/preview/${prNumber}`;
+          github.rest.issues.createComment({
+            ...context.repo,
+            issue_number: prNumber,
+            body: `Preview your changes [here](${previewUrl})`
+          });
+
+  cleanup:
+    if: github.event.action == 'closed'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Delete preview directory
+      run: |
+        git fetch
+        git checkout gh-pages
+        if [ -d "preview/${{ github.event.pull_request.number }}" ]; then
+          git rm -rf preview/${{ github.event.pull_request.number }}
+          git commit -m "Delete preview for PR #${{ github.event.pull_request.number }}"
+          git push origin gh-pages
+        fi
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

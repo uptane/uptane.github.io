@@ -262,6 +262,7 @@ However, string comparison is required as part of metadata verification. To ensu
 
 The _Deployment Best Practices_ ([\[DEPLOY\]](#deploy)), Joint Development Foundation Projects, LLC, Uptane Series provides some examples of metadata structures in ASN.1 and JSON that conform to the Standard.
 
+## 5.2.1 Common metadata structures
 
 Every public key SHALL be represented using a public key identifier. A public key identifier is EITHER all of the following:
 

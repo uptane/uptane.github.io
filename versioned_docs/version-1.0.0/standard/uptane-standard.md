@@ -823,7 +823,7 @@ Barry, K., "[Automakers Embrace Over-the-Air Updates, but Can We Trust Digital C
 
 ##### **\[DEPLOY\]**
 
-Members of the Uptane Alliance Community, ., "[Uptane Deployment Guidelines](https://uptane.github.io/docs/deployment/best-practices)", n.d..
+Members of the Uptane Alliance Community, ., "[Uptane Deployment Guidelines](https://uptane.github.io/docs/1.0.0/deployment/best-practices)", n.d..
 
 ##### **\[IN-TOTO\]**
 

@@ -128,7 +128,7 @@ There are a number of factors that could impede the completion of the above scen
 * Vehicles can be offline for extended periods of time, thus missing required updates (e.g., key rotations).
 * OEMs can be unwilling to implement costly security or hardware requirements.
 
-## 3.4 Out of scope
+## 3.4. Out of scope
 
 The following topics will not be addressed in this document, as they represent threats outside the scope of Uptane:
 
@@ -262,7 +262,7 @@ However, string comparison is required as part of metadata verification. To ensu
 
 The _Deployment Best Practices_ ([\[DEPLOY\]](#deploy)), Joint Development Foundation Projects, LLC, Uptane Series provides some examples of metadata structures in ASN.1 and JSON that conform to the Standard.
 
-## 5.2.1 Common metadata structures
+## 5.2.1. Common metadata structures
 
 Every public key SHALL be represented using a public key identifier. A public key identifier is EITHER all of the following:
 
